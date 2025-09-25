@@ -1,4 +1,5 @@
 from Functionalities.DataGenerator import DataGenerator
+from Functionalities.KMeansClustering import KMeansClustering
 from flask import Flask, jsonify
 from flask_cors import CORS
 import psycopg2 
@@ -15,6 +16,7 @@ def get_customers():
     DataGenerator.executeDataGeneration()  
     try:
         customers = DataGenerator.generateRandomString()
+        KMeansClustering.performClustering()
         return jsonify(customers)
     except Exception as e:
         return jsonify(error=str(e)), 500
