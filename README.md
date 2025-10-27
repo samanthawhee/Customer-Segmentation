@@ -1,4 +1,4 @@
-### Project Management
+## Project Management
 🔗📝 https://trello.com/b/KH0q9L63/customer-sementation
 
 ### Work Flow & Wireframe
@@ -28,9 +28,13 @@
 </table>
 
 ### Prototype
-[🔗Click to watch the prototype✏️](https://youtu.be/o2jAlhO1h2w)
+![Prototype.gif](readme/Prototype.gif)
 
-<a href="https://youtu.be/o2jAlhO1h2w">
-  <img src="https://github.com/samanthawhee/Customer-Segmentation/blob/master/readme/Intro.png" width="100%" alt="Home Page">
-</a>
+## Project Development
+### Dataset Generation
+![Dataset_Generation.gif](readme/Dataset_Generation.gif)
+### K-Means Clustering
+![K_Means_Clustering.jpg](readme/K_Means_Clustering.jpg)
+### Home Page Demo
+![Home_Page_Demo.gif](readme/Home_Page_Demo.gif)
 
