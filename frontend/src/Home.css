@@ -1,0 +1,71 @@
+
+.Home {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./assets/Background.png');
+  background-size: cover;
+  background-position: center;
+
+  grid-template-rows: repeat(20, 1fr);
+  justify-items: center;
+  align-items: center; 
+}
+
+.Home .Title {
+  grid-row: 10; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  color: white;
+}
+
+.Home .BottomButton {
+  grid-row: 13; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home .Intro {
+  grid-row: 16; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+}
+
+.Home p {
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0; 
+}
+
+.Home .Copyright {
+  grid-row: 20; 
+  display: flex;
+  flex-direction: column;   
+  justify-content: flex-start; 
+  align-items: center;       
+}
+
+.Home button {
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15); 
+  border: none;               
+  border-radius: 1em;       
+  padding: 0.5em 1.5em;      
+  cursor: pointer;           
+  transition: all 0.2s ease;  
+}
+
+.Home button:hover {
+  color: #db6ca9;
+  background-color: rgba(255, 255, 255, 0.4); 
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+  transform: scale(1.02);
+  
+}
