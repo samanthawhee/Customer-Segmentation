@@ -1,0 +1,18 @@
+.Home button {
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15); 
+  border: none;               
+  border-radius: 1em;       
+  padding: 0.5em 1.5em;      
+  cursor: pointer;           
+  transition: all 0.2s ease;  
+}
+
+.Home button:hover {
+  color: #db6ca9;
+  background-color: rgba(255, 255, 255, 0.4); 
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+  transform: scale(1.02);
+  
+}
