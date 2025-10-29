@@ -1,7 +1,7 @@
 import './Home.css';
 import Title from '../Components/Title';
 import Start from '../Components/Start';
-import Intro from '../Components/Intro';
+import HomeIntro from '../Components/HomeIntro';
 import Copyright from '../Components/Copyright';
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
     <div className="Home">
       <Title />
       <Start />
-      <Intro />
+      <HomeIntro />
       <Copyright />
     </div>
   );

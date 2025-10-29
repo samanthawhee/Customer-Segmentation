@@ -1,6 +1,6 @@
-import './Copyright.css';
+import './HomeIntro.css';
 
-function Intro() {
+function HomeIntro() {
   return (
 
     <div className="Intro">
@@ -20,4 +20,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default HomeIntro;

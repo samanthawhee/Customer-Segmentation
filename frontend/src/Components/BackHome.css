@@ -1,0 +1,15 @@
+.BackHome button {
+    font-size: 1.3em;
+    color: #0046F3FF;
+    background-color: #f9FBFE;
+    border: none;
+    padding: 0.5em 0.5em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.BackHome button:hover {
+    color: #db6ca9;
+    transform: scale(1.02);
+
+}

@@ -1,6 +1,8 @@
 export const getCustomers = async () => {
     try {
-        await fetch("http://localhost:5000/getCustomers", { method: "GET" });
+        const res = await fetch("http://localhost:5000/getCustomers", { method: "GET" });
+        const data = await res.json();
+        return data;
     } catch (err) {
         throw err;
     }
