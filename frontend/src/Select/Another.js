@@ -2,7 +2,7 @@ import './Another.css';
 function Another() {
     return (
     <div className="Another">
-      <h1>This is another page!</h1>
+      <h1>The dataset is generating...</h1>
     </div>
   );
 }
