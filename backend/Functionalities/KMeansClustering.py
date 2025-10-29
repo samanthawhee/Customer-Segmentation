@@ -14,7 +14,7 @@ class KMeansClustering:
         dataframe = KMeansClustering.getDataSet()
         dataSet = KMeansClustering.get2DDataSet(dataframe)
         standardizedData = KMeansClustering.standardliseData(dataSet)
-        KMeansClustering.applyKMeans(dataframe, standardizedData)
+        return KMeansClustering.applyKMeans(dataframe, standardizedData)
     
     @staticmethod
     def getDataSet():
@@ -41,4 +41,6 @@ class KMeansClustering:
         kmeans.fit(standardizedData)
 
         dataframe["cluster"] = kmeans.labels_
-        print(dataframe.groupby("cluster")["age"].mean())
+        result = dataframe.groupby("cluster")["age"].mean()
+        print(result)
+        return result.to_dict()
