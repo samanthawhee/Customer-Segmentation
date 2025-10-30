@@ -10,6 +10,7 @@
   - [Generate Dataset](#generate-dataset)
   - [Get Customers](#get-customers)
   - [Conduct Clustering](#conduct-clustering)
+  - [Select & Result (partial) Page Demo](#select--resultpartial-page-demo)
 
 ## Project Management
 🔗📝 https://trello.com/b/KH0q9L63/customer-sementation
@@ -47,9 +48,12 @@
 ### Dataset Generation
 ![Dataset_Generation.gif](readme/Dataset_Generation.gif)
 ### K-Means Clustering
-![K_Means_Clustering.jpg](readme/K_Means_Clustering.jpg)
+![K_Means_Clustering1.jpg](readme/K_Means_Clustering1.jpg)
 ### Home Page Demo
 ![Home_Page_Demo.gif](readme/Home_Page_Demo.gif)
+### Select & Result(partial) Page Demo 
+![Select_Result_301025.gif](./readme/Select_Result_301025.gif)
+
 
 ## API Documentation
 ### Generate Dataset
