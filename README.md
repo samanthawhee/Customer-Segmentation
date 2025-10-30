@@ -6,11 +6,11 @@
   - [Dataset Generation](#dataset-generation)
   - [K-Means Clustering](#k-means-clustering)
   - [Home Page Demo](#home-page-demo)
+  - [Select & Result (partial) Page Demo](#select--resultpartial-page-demo)
 - [API Documentation](#api-documentation)
   - [Generate Dataset](#generate-dataset)
   - [Get Customers](#get-customers)
   - [Conduct Clustering](#conduct-clustering)
-  - [Select & Result (partial) Page Demo](#select--resultpartial-page-demo)
 
 ## Project Management
 🔗📝 https://trello.com/b/KH0q9L63/customer-sementation
