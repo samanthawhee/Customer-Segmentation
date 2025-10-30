@@ -81,16 +81,26 @@
 
 <pre>[
   {
-    "id": 1,
-    "name": "Alice",
-    "age": 25,
-    "email": "alice@example.com"
+    "age": 26,
+    "annual_income": "148222.50",
+    "city": 13,
+    "credit_score": 746,
+    "customer_id": 1,
+    "first_name": "Rozella",
+    "last_name": "Jenderer",
+    "loan_balance": "4814308.71",
+    "occupation": 2
   },
   {
-    "id": 2,
-    "name": "Bob",
-    "age": 30,
-    "email": "bob@example.com"
+    "age": 36,
+    "annual_income": "56243.68",
+    "city": 13,
+    "credit_score": 521,
+    "customer_id": 2,
+    "first_name": "Kirby",
+    "last_name": "Manring",
+    "loan_balance": "3522967.11",
+    "occupation": 4
   }
 ]</pre>  
 - HTTP Status Codes:
@@ -107,14 +117,34 @@ curl http://localhost:5000/getCustomers
 - Response Example:
 <pre>{
   "cluster": {
-    "0": 70.48,
-    "1": 27.58,
-    "2": 48.39
-  }
+    "0": {
+      "age": 48.17836593785961,
+      "annual_income": 136263.1024510932,
+      "city": 5,
+      "credit_score": 574.5696202531645,
+      "loan_balance": 2419354.466570771,
+      "occupation": 2
+    },
+    "1": {
+      "age": 69.66666666666667,
+      "annual_income": 135399.31881944442,
+      "city": 13,
+      "credit_score": 576.1909722222222,
+      "loan_balance": 2491047.7868981482,
+      "occupation": 0
+    },
+    "2": {
+      "age": 27.603650586701434,
+      "annual_income": 138270.79179921772,
+      "city": 8,
+      "credit_score": 581.0234680573664,
+      "loan_balance": 2495915.9545632335,
+      "occupation": 2
+    }
 }</pre>
 - HTTP Status Codes:
   - 200 OK 
   - 500 Internal Server Error
 - cURL:
 <pre>curl -X POST http://localhost:5000/conductClustering</pre>
-![APi_conductClustering](readme/APi_conductClustering.png)
+![APi_conductClustering2](readme/K_Means_Clustering2.png)
