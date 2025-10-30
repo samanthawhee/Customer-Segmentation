@@ -9,16 +9,16 @@
     color: black;
 }
 
-.SelectIntro {
+.Intro {
     grid-row: 1;
     grid-column: 1 / 4;
     display: flex;
     justify-content: left;
 
-    position: sticky; /* stick to top while scrolling */
-    top: 0;           /* distance from viewport top */
-    background-color: #f9FBFE; /* match page bg to avoid overlap artifacts */
-    z-index: 10;      /* stay above table rows */
+    position: sticky;
+    top: 0;
+    background-color: #f9FBFE;
+    z-index: 10;
 }
 
 .Manage {

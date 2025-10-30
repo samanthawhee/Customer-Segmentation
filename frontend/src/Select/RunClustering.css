@@ -1,7 +1,5 @@
 .RunClustering button {
     font-size:1.2em;
-    color: white;
-    background-color: #BABABA;
     border: none;
     border-radius: 0.5em;
     padding: 0.5em 1.7em;
@@ -9,9 +7,21 @@
     transition: all 0.2s ease;
 }
 
-.RunClustering button:hover {
+button.inactive {
     color: white;
-    background-color: #db6ca9;
+    background-color: #BABABA;
+    cursor: not-allowed;
+}
+
+button.active {
+    background-color: #0046F3FF;
+    color: white;
+    cursor: pointer;
+}
+
+button.active:hover {
+    color: white;
+    background-color: #F20285;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
     transform: scale(1.02);
 

@@ -1,6 +1,18 @@
 import './Table.css';
+import React from "react";
 
-function Table({customers}) {
+function Table({ customers, rowColours, setRowColours }) {
+    const handleRowClick = (id) => {
+        setRowColours(prev => {
+            const isToggled = !!prev[id];
+            const toggledCount = Object.values(prev).filter(Boolean).length;
+
+            if (isToggled) return { ...prev, [id]: false };
+            if (toggledCount < 3) return { ...prev, [id]: true };
+            return prev;
+        });
+    };
+
     return (
         <div className="TableWrapper">
             <table className="Table">
@@ -19,10 +31,17 @@ function Table({customers}) {
                     <tbody>
                     {customers.map(c => (
                         <tr key={c.customer_id}>
-                            <td>{c.customer_id}</td>
-                            <td>{c.first_name}</td>
-                            <td>{c.last_name}</td>
-                            <td>{c.age}</td>
+                            <td colSpan={4}>
+                                <div
+                                    className={`RowBlock ${rowColours[c.customer_id] ? "color1" : "color2"}`}
+                                    onClick={() => handleRowClick(c.customer_id)}
+                                >
+                                    <span>{c.customer_id}</span>
+                                    <span>{c.first_name}</span>
+                                    <span>{c.last_name}</span>
+                                    <span>{c.age}</span>
+                                </div>
+                            </td>
                         </tr>
                     ))}
                     </tbody>
@@ -34,3 +53,4 @@ function Table({customers}) {
 }
 
 export default Table;
+

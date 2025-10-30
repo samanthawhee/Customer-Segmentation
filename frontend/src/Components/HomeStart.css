@@ -1,0 +1,55 @@
+.StartButton button {
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15); 
+  border: none;               
+  border-radius: 1em;       
+  padding: 0.5em 1.5em;      
+  cursor: pointer;           
+  transition: all 0.2s ease;  
+}
+
+.StartButton button:hover {
+  color: #db6ca9;
+  background-color: rgba(255, 255, 255, 0.4); 
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+  transform: scale(1.02);
+  
+}
+
+/* HomeStart.css */
+
+.glow-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #db6ca9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 10px #db6ca9, 0 0 20px #db6ca9;
+}
+
+/* Glowing animation when loading */
+.glow-button.loading {
+  animation: glowPulse 1s infinite alternate;
+  cursor: progress; /* shows spinner cursor */
+}
+
+@keyframes glowPulse {
+  0% {
+    color: #ffeff8;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+  }
+  100% {
+    color: #0046F3FF;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 15px #ffc3e2, 0 0 30px #ffc3e2;
+  }
+}

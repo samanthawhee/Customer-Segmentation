@@ -3,7 +3,7 @@ import './HomeIntro.css';
 function HomeIntro() {
   return (
 
-    <div className="Intro">
+    <div className="HomeIntro">
         <p>
           This project was designed and developed by Kuan Jung Huang.<br />
           Click <a 

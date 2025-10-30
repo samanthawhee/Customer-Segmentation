@@ -1,0 +1,11 @@
+.Loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+
+.Loading h1 {
+    color: #0046F3FF;
+}

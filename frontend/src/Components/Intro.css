@@ -1,0 +1,18 @@
+.Intro {
+    display: grid;
+    padding: 2px;
+    margin: 0 0 0 2em;
+    grid-template-rows: auto auto;
+    row-gap: 8px;
+}
+
+.Title {
+    grid-row: 1;
+    font-size: 3em;
+}
+
+.Content {
+    grid-row: 2;
+    text-align: justify;
+    font-size: 1em;
+}

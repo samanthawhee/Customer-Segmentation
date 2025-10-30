@@ -1,12 +1,14 @@
 import './Manage.css';
 import BackHome from "../Components/BackHome";
-import RunClustering from "../Select/RunClustering"
+import RunClustering from "../Select/RunClustering";
 
-function Manage (){
-    return(
+function Manage({ hideRunClustering, toggledCount }) {
+    return (
         <div className="Manage">
             <BackHome />
-            <RunClustering />
+            {!hideRunClustering && (
+                <RunClustering enabled={toggledCount === 3} />
+            )}
         </div>
     );
 }
