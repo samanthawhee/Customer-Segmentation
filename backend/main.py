@@ -26,7 +26,7 @@ def generateDataset():
 @app.route("/getCustomers", methods=["GET"])
 def getCustomers(): 
     try:
-        customers = DataGenerator.generateRandomString()
+        customers = DataGenerator.fetchAllCustomers()
         return jsonify(customers)
     except Exception as e:
         return jsonify(error=str(e)), 500

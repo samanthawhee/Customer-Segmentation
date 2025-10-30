@@ -41,6 +41,17 @@ class KMeansClustering:
         kmeans.fit(standardizedData)
 
         dataframe["cluster"] = kmeans.labels_
-        result = dataframe.groupby("cluster")["age"].mean()
-        print(result)
-        return result.to_dict()
+
+        # Mean for numeric features
+        numeric_cols = ["age", "annual_income", "loan_balance", "credit_score"]
+        result = dataframe.groupby("cluster")[numeric_cols].mean()
+
+        # Mode (most frequent value) for categorical features
+        categorical_cols = ["city", "occupation"]
+        modes = dataframe.groupby("cluster")[categorical_cols].agg(lambda x: x.mode()[0])
+
+        # Combine both
+        final_result = result.join(modes)
+
+        print(final_result)
+        return final_result.to_dict(orient="index")

@@ -1,10 +1,18 @@
 import './Loading.css';
+
 function Loading() {
     return (
-    <div className="Loading">
-      <h1>Loading...</h1>
-    </div>
-  );
+        <div className="Loading">
+            <h1>
+                Loading
+                <span className="dots">
+          <span>.</span>
+          <span>.</span>
+          <span>.</span>
+        </span>
+            </h1>
+        </div>
+    );
 }
 
 export default Loading;

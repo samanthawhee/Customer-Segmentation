@@ -17,7 +17,7 @@ function Select() {
         const fetchData = async () => {
             try {
                 const data = await getCustomers();
-                setCustomers(data); // ✅ fix here
+                setCustomers(data);
             } catch (err) {
                 setError(err.message);
             } finally {
