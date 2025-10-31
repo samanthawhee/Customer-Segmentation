@@ -1,0 +1,24 @@
+.ClusterInsight table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.ClusterInsight th,
+.ClusterInsight td {
+    padding: 0.5em 1em;
+    text-align: left;
+    border-right: 2px solid #ccc;
+}
+
+.ClusterInsight th:last-child,
+.ClusterInsight td:last-child {
+    border-right: none;
+}
+
+.ClusterInsight td {
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: left;
+}
+

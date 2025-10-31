@@ -1,4 +1,5 @@
 import './Home.css';
+import '../Components/BlockFrame.css'
 import HomeTitle from '../Components/HomeTitle';
 import HomeStart from '../Components/HomeStart';
 import HomeIntro from '../Components/HomeIntro';

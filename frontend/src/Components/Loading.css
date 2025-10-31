@@ -1,4 +1,4 @@
-.Loading {
+.SelectLoading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +6,7 @@
     background-color: #F5F5F5;
 }
 
-.Loading h1 {
+.SelectLoading h1 {
     color: #0046F3FF;
 }
 

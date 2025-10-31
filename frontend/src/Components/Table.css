@@ -1,0 +1,76 @@
+.SelectTable, .AssignmentTable {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%; /* make sure container fills width */
+}
+
+.TableHeader, .TableBody table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    table-layout: fixed; /* forces equal-width columns */
+}
+
+.TableHeader th {
+    width: calc(100% / 9); /* each column takes equal space */
+    text-align: center;
+    padding: 0.5em 0;
+    background-color: #f2f2f2;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.TableHeader th {
+    border: 0;
+    padding: 0.5em 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.RowBlock {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    align-items: center;
+    width: 100%;
+    padding: 0.5em 0.5em;
+    margin: 0.2em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.RowBlock span {
+    text-align: center;
+    overflow: hidden;
+}
+
+.RowBlock.color1 {
+    background-color: #0046F3FF;
+    color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 70, 243, 0.5);
+}
+
+.RowBlock.color2 {
+    font-weight: 400;
+    color: black;
+}
+
+.RowBlock.color2:hover {
+    background-color: #f9FBFE;
+    color: #0046F3FF;
+    font-weight: 500;
+}
+
+.TableBody {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-bottom: 1em;
+}
+
+.TableBody tr {
+    height: auto;
+}
+
+
+

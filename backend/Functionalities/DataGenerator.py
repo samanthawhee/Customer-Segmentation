@@ -1,5 +1,4 @@
 import random
-import string
 import os
 import psycopg2 
 
@@ -15,14 +14,15 @@ class DataGenerator:
             age = random.randint(18, 80)
             occupation = random.randint(0, 9)
             city = random.randint(0, 13)
-            annual_income = round(random.uniform(19000, 250000), 2)
-            loan_balance = round(random.uniform(1000, 5000000), 2)
+            annual_income = round(random.uniform(19000, 150000), 2)
+            loan_balance = round(random.uniform(1000, 100000), 2)
             credit_score = random.randint(300, 850)
+            cluster = None
             DataGenerator.insertData(
                 "customers", 
                 DataGenerator.createFirstName(), 
                 DataGenerator.createLastName(), 
-                age, occupation, city, annual_income, loan_balance, credit_score, filePath)
+                age, occupation, city, annual_income, loan_balance, credit_score, cluster, filePath)
         
         DataGenerator.executeSqlFile(filePath)
 
@@ -41,7 +41,7 @@ class DataGenerator:
     @staticmethod
     def writeCreateCustomersCommand(tableName, file_path):
         with open(file_path, "a") as file:
-            file.write(f"CREATE TABLE IF NOT EXISTS {tableName}(\n    id SERIAL PRIMARY KEY,\n    first_name TEXT,\n    last_name TEXT,\n    age INT,\n    occupation INT,\n    city INT, \n    annual_income DECIMAL(12, 2),\n    loan_balance DECIMAL(12, 2),\n    credit_score INT\n);\n")
+            file.write(f"CREATE TABLE IF NOT EXISTS {tableName}(\n    id SERIAL PRIMARY KEY,\n    first_name TEXT,\n    last_name TEXT,\n    age INT,\n    occupation INT,\n    city INT, \n    annual_income DECIMAL(12, 2),\n    loan_balance DECIMAL(12, 2),\n    credit_score INT,\n    cluster INT\n);\n")
 
     @staticmethod
     def createFirstNameList():
@@ -78,9 +78,10 @@ class DataGenerator:
         return random.choice(DataGenerator.createLastNameList())
 
     @staticmethod
-    def insertData(tableName, firstName, lastName, age, occupation, city, annual_income, loan_balance, credit_score, file_path):
+    def insertData(tableName, firstName, lastName, age, occupation, city, annual_income, loan_balance, credit_score, cluster, file_path):
+        cluster_value = 'NULL' if cluster is None else cluster
         with open(file_path, "a") as file:  
-            file.write(f"INSERT INTO {tableName} (first_name, last_name, age, occupation, city, annual_income, credit_score, loan_balance) VALUES ('{firstName}', '{lastName}', {age}, '{occupation}', '{city}', {annual_income}, {credit_score}, {loan_balance});\n")
+            file.write(f"INSERT INTO {tableName} (first_name, last_name, age, occupation, city, annual_income, credit_score, loan_balance, cluster) VALUES ('{firstName}', '{lastName}', {age}, {occupation}, {city}, {annual_income}, {credit_score}, {loan_balance}, {cluster_value});\n")
 
 
     @staticmethod
@@ -107,23 +108,3 @@ class DataGenerator:
         except Exception as e:
             print(f"Error connecting to the database: {e}")
             return
-
-    @staticmethod
-    def fetchAllCustomers():
-        try:
-            conn = psycopg2.connect(
-                dbname=os.environ.get("DB_NAME"),
-                user=os.environ.get("DB_USER"),
-                password=os.environ.get("DB_PASSWORD"),
-                host=os.environ.get("DB_HOST")
-            )
-            cur = conn.cursor()
-            cur.execute("SELECT id, first_name, last_name, age, occupation, city, annual_income, credit_score, loan_balance FROM customers;")
-            rows = cur.fetchall()
-            cur.close()
-            conn.close()
-
-            return [{"customer_id": r[0], "first_name": r[1], "last_name": r[2], "age": r[3], "occupation": r[4], "city": r[5], "annual_income": r[6], "credit_score": r[7], "loan_balance": r[8]} for r in rows]
-
-        except Exception as e:
-            raise e

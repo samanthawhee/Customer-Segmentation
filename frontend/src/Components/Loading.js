@@ -2,7 +2,7 @@ import './Loading.css';
 
 function Loading() {
     return (
-        <div className="Loading">
+        <div>
             <h1>
                 Loading
                 <span className="dots">

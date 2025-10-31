@@ -1,7 +1,6 @@
 import './RunClustering.css';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Loading from "../Components/Loading";
 
 function RunClustering({ enabled }) {
     const navigate = useNavigate();
@@ -9,14 +8,16 @@ function RunClustering({ enabled }) {
     const [error, setError] = useState(null);
 
     const handleClick  = async () => {
-        setLoading(true); // start loading
+        setLoading(true);
         try {
-            await fetch("http://localhost:5000/conductClustering", { method: "POST" });
-            navigate("/Result");
+            const response = await fetch("http://localhost:5000/conductClustering", { method: "POST" });
+            const data = await response.json();
+            navigate("/Result", { state: { myData: data } });
+
         } catch (err) {
             setError(err.message);
         } finally {
-            setLoading(false); // done loading
+            setLoading(false);
         }
     };
 

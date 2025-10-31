@@ -1,9 +1,9 @@
 .Select {
     display: grid;
-    height: 100vh;  /* viewport height */
+    height: 100vh;
     width: 100%;
     padding: 50px;
-    grid-template-rows: auto 1fr; /* header (SelectIntro + Manage) + table */
+    grid-template-rows: auto 1fr;
     grid-template-columns: repeat(5, 1fr);
     background-color: #f9FBFE;
     color: black;
@@ -12,27 +12,14 @@
 .Intro {
     grid-row: 1;
     grid-column: 1 / 4;
-    display: flex;
-    justify-content: left;
-
-    position: sticky;
-    top: 0;
-    background-color: #f9FBFE;
-    z-index: 10;
 }
 
 .Manage {
     grid-row: 1;
     grid-column: 5;
-
-    position: sticky;
-    top: 0;
-    background-color: #f9FBFE;
-    z-index: 10;
 }
 
-.Table {
+.SelectTable {
     grid-row: 2;
     grid-column: 1 / 6;
-    width: 100%;
 }

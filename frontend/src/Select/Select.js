@@ -1,9 +1,9 @@
 import './Select.css';
 import Loading from '../Components/Loading';
 import SelectIntro from "./SelectIntro";
-import Table from './Table';
+import SelectTable from './SelectTable';
 import Manage from './Manage';
-import { getCustomers } from "./GetCustomers";
+import { GetCustomers } from "../Components/GetCustomers";
 import { useState, useEffect } from "react";
 
 function Select() {
@@ -16,7 +16,7 @@ function Select() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const data = await getCustomers();
+                const data = await GetCustomers();
                 setCustomers(data);
             } catch (err) {
                 setError(err.message);
@@ -28,14 +28,15 @@ function Select() {
         fetchData();
     }, []);
 
-    if (loading) return <Loading />;
+    if (loading) return (
+        <div className="SelectLoading"><Loading /></div>);
     if (error) return <h1>Error: {error}</h1>;
 
     return (
         <div className="Select">
             <SelectIntro />
             <Manage toggledCount={toggledCount} />
-            <Table
+            <SelectTable
                 customers={customers}
                 rowColours={rowColours}
                 setRowColours={setRowColours}
