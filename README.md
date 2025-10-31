@@ -6,11 +6,14 @@
   - [Dataset Generation](#dataset-generation)
   - [K-Means Clustering](#k-means-clustering)
   - [Home Page Demo](#home-page-demo)
-  - [Select & Result (partial) Page Demo](#select--resultpartial-page-demo)
+  - [Select & Result (partial) Page Demo](#select--result-partial-page-demo)
+  - [Result Page Demo: Cluster insights and cluster assignments](#result-page-demo-cluster-insights-and-cluster-assignments)
 - [API Documentation](#api-documentation)
   - [Generate Dataset](#generate-dataset)
   - [Get Customers](#get-customers)
   - [Conduct Clustering](#conduct-clustering)
+  - [Get Customers by Cluster](#get-customers-by-cluster)
+
 
 ## Project Management
 🔗📝 https://trello.com/b/KH0q9L63/customer-sementation
@@ -53,6 +56,8 @@
 ![Home_Page_Demo.gif](readme/Home_Page_Demo.gif)
 ### Select & Result(partial) Page Demo 
 ![Select_Result_301025.gif](./readme/Select_Result_301025.gif)
+### Result Page Demo : Cluster insights and cluster assignments
+![Result_31102025.gif](./readme/Result_31102025.gif)
 
 
 ## API Documentation
@@ -148,3 +153,45 @@ curl http://localhost:5000/getCustomers
 - cURL:
 <pre>curl -X POST http://localhost:5000/conductClustering</pre>
 ![APi_conductClustering2](readme/K_Means_Clustering2.png)
+
+### Get Customers by Cluster
+- URL: /getCustomersByCluster
+- Method: GET
+- Description: Returns all customer data sorted by cluster.
+- Request Parameters: None
+- Response Example:
+
+<pre>{
+  "0": [
+    {
+      "age": 59,
+      "annual_income": "104706.76",
+      "city": 11,
+      "cluster": 0,
+      "credit_score": 629,
+      "customer_id": 2,
+      "first_name": "Ginevra",
+      "last_name": "Tabak",
+      "loan_balance": "45564.89",
+      "occupation": 3
+    },
+    {
+      "age": 48,
+      "annual_income": "136263.10",
+      "city": 5,
+      "cluster": 0,
+      "credit_score": 574,
+      "customer_id": 3,
+      "first_name": "John",
+      "last_name": "Doe",
+      "loan_balance": "12345.67",
+      "occupation": 1
+    }
+  ]
+}</pre>  
+- HTTP Status Codes:
+  - 200 OK 
+  - 500 Internal Server Error
+- cURL:
+<pre>curl http://localhost:5000/getCustomersByCluster</pre>
+![GetCustomerByCluster.png](readme/GetCustomerByCluster.png)
