@@ -8,6 +8,7 @@
   - [Home Page Demo](#home-page-demo)
   - [Select & Result (partial) Page Demo](#select--result-partial-page-demo)
   - [Result Page Demo: Cluster insights and cluster assignments](#result-page-demo-cluster-insights-and-cluster-assignments)
+  - [Result Page Demo : Overall and cluster assignments](#result-page-demo-overall-and-cluster-assignments)
 - [API Documentation](#api-documentation)
   - [Generate Dataset](#generate-dataset)
   - [Get Customers](#get-customers)
@@ -58,6 +59,8 @@
 ![Select_Result_301025.gif](./readme/Select_Result_301025.gif)
 ### Result Page Demo : Cluster insights and cluster assignments
 ![Result_31102025.gif](./readme/Result_31102025.gif)
+### Result Page Demo : Overall and cluster assignments
+![Result_Overall_Assignments_01112025.gif](./readme/Result_Overall_Assignments_01112025.gif)
 
 
 ## API Documentation
