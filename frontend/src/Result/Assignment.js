@@ -1,9 +1,8 @@
-import './Assignment.css'
 import { GetCustomersByCluster } from "../Components/GetCustomersByCluster";
 import AssignmentTable from "./AssignmentTable";
 import {useEffect, useState} from "react";
 
-function Assignment () {
+function Assignment ( {selectedCluster, selectedId} ) {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [customers, setCustomers] = useState([]);
@@ -27,7 +26,11 @@ function Assignment () {
     return (
         <div className="Assignment">
             <h1>Cluster Assignments</h1>
-            <AssignmentTable customers={customers} />
+            <AssignmentTable
+                customers={customers}
+                selectedCluster={selectedCluster}
+                selectedId={selectedId}
+            />
         </div>
     );
 }

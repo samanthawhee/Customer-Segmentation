@@ -12,7 +12,12 @@ class FetchData:
                 host=os.environ.get("DB_HOST")
             )
             cur = conn.cursor()
-            cur.execute("SELECT id, first_name, last_name, age, occupation, city, annual_income, credit_score, loan_balance, cluster FROM customers;")
+            cur.execute("""
+                SELECT id, first_name, last_name, age, occupation, 
+                    city, annual_income, credit_score, loan_balance, cluster 
+                FROM customers
+                ORDER BY id;
+            """)
             rows = cur.fetchall()
             cur.close()
             conn.close()

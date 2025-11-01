@@ -11,8 +11,11 @@ import Assignment from "./Assignment";
 
 function Result () {
     const location = useLocation();
-    const data = location.state?.myData.cluster;
+    const clusterData = location.state?.data;
+    const selectedId = location.state?.selectedId || [];
     const [selectedCluster, setSelectedCluster] = useState(0);
+    console.log("ClusterData:", clusterData);
+    console.log("selectedCluster:", selectedCluster);
 
     return (
         <div className="Result">
@@ -20,9 +23,9 @@ function Result () {
             <Manage hideRunClustering={true} />
             <Overall />
             <ClusterButton setSelectedCluster={setSelectedCluster}/>
-            <ClusterInsight ClusterData={data} selectedCluster={selectedCluster}/>
+            <ClusterInsight ClusterData={clusterData} selectedCluster={selectedCluster}/>
             <RecommendedProduct />
-            <Assignment />
+            <Assignment selectedCluster={selectedCluster} selectedId={selectedId}/>
         </div>
     );
 }

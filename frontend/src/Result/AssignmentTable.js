@@ -3,7 +3,19 @@ import CityMap from '../Mapping Dictionary/CityMap';
 import OccupationMap from '../Mapping Dictionary/OccupationMap';
 import React from 'react';
 
-function AssignmentTable ( {customers} ) {
+function AssignmentTable ( {customers, selectedCluster, selectedId}) {
+    const clusterAssignments = customers.filter(
+        c => c.cluster === selectedCluster
+    );
+
+    if(!clusterAssignments){
+        return (
+            <div className="AssignmentTable">
+                <h2>No data for this cluster.</h2>
+            </div>
+        );
+    }
+
     return (
         <div className="AssignmentTable">
             <table className="TableHeader">
@@ -25,10 +37,12 @@ function AssignmentTable ( {customers} ) {
             <div className="TableBody">
                 <table>
                     <tbody>
-                    {customers.map(c => (
+                    {clusterAssignments.map(c => (
                         <tr key={c.customer_id}>
                             <td colSpan={4}>
-                                <div className="RowBlock">
+                                <div
+                                    className={`RowBlock ${selectedId.includes(c.customer_id) ? "color1" : "color2"}`}
+                                >
                                     <span>{c.customer_id}</span>
                                     <span>{c.first_name}</span>
                                     <span>{c.last_name}</span>

@@ -4,7 +4,7 @@ import OccupationMap from "../Mapping Dictionary/OccupationMap";
 
 function ClusterInsight ( {ClusterData, selectedCluster } ) {
 
-    const clusterInfo = ClusterData[selectedCluster];
+    const clusterInfo = ClusterData?.cluster?.[selectedCluster];
     if(!clusterInfo){
         return (
             <div className="ClusterInsight">

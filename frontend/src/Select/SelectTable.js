@@ -3,7 +3,7 @@ import CityMap from '../Mapping Dictionary/CityMap';
 import OccupationMap from '../Mapping Dictionary/OccupationMap';
 import React from "react";
 
-function SelectTable({ customers, rowColours, setRowColours }) {
+function SelectTable({ customers, rowColours, setRowColours, setSelectedId }) {
 
     const handleRowClick = (id) => {
         setRowColours(prev => {
@@ -13,6 +13,21 @@ function SelectTable({ customers, rowColours, setRowColours }) {
             if (isToggled) return { ...prev, [id]: false };
             if (toggledCount < 3) return { ...prev, [id]: true };
             return prev;
+        });
+
+        setSelectedId(prev => {
+            const isSelected = prev.includes(id);
+
+            if (isSelected) {
+                // remove from array
+                return prev.filter(item => item !== id);
+            } else if (prev.length < 3) {
+                // add to array
+                return [...prev, id];
+            } else {
+                // already 3 selected, do nothing
+                return prev;
+            }
         });
     };
 

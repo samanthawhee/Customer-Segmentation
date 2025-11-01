@@ -11,6 +11,7 @@ function Select() {
     const [error, setError] = useState(null);
     const [customers, setCustomers] = useState([]);
     const [rowColours, setRowColours] = useState({});
+    const [selectedId, setSelectedId] = useState([])
     const toggledCount = Object.values(rowColours).filter(Boolean).length;
 
     useEffect(() => {
@@ -35,11 +36,15 @@ function Select() {
     return (
         <div className="Select">
             <SelectIntro />
-            <Manage toggledCount={toggledCount} />
+            <Manage
+                toggledCount={toggledCount}
+                selectedId={selectedId}
+            />
             <SelectTable
                 customers={customers}
                 rowColours={rowColours}
                 setRowColours={setRowColours}
+                setSelectedId={setSelectedId}
             />
         </div>
     );
