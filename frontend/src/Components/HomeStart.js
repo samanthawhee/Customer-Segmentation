@@ -1,7 +1,8 @@
 import './HomeStart.css';
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import { generateDataset } from "./GenerateDataset";
+import { generateDataset } from "../APIExecutor/GenerateDataset";
+import { generateProduct } from "../APIExecutor/GenerateProduct";
 
 function HomeStart() {
     const [loading, setLoading] = useState(false);
@@ -12,6 +13,7 @@ function HomeStart() {
         setLoading(true);
         try {
             await generateDataset();
+            await generateProduct();
             navigate("/Select");
         } catch (err) {
             setError(err.message);

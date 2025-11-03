@@ -35,10 +35,10 @@
   box-shadow: 0 0 10px #db6ca9, 0 0 20px #db6ca9;
 }
 
-/* Glowing animation when loading */
+
 .glow-button.loading {
   animation: glowPulse 1s infinite alternate;
-  cursor: progress; /* shows spinner cursor */
+  cursor: progress;
 }
 
 @keyframes glowPulse {
@@ -50,6 +50,6 @@
   100% {
     color: #0046F3FF;
     background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 25px #ffe7d4, 0 0 30px #ffe7d4;
+    box-shadow: 0 0 25px #f1d4ff, 0 0 30px #f1d4ff;
   }
 }

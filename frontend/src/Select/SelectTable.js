@@ -19,13 +19,10 @@ function SelectTable({ customers, rowColours, setRowColours, setSelectedId }) {
             const isSelected = prev.includes(id);
 
             if (isSelected) {
-                // remove from array
                 return prev.filter(item => item !== id);
             } else if (prev.length < 3) {
-                // add to array
                 return [...prev, id];
             } else {
-                // already 3 selected, do nothing
                 return prev;
             }
         });
@@ -33,21 +30,18 @@ function SelectTable({ customers, rowColours, setRowColours, setSelectedId }) {
 
     return (
         <div className="SelectTable">
-            <table className="TableHeader">
-                <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Age</th>
-                    <th>Occupation</th>
-                    <th>City</th>
-                    <th>Annual_income</th>
-                    <th>Credit_score</th>
-                    <th>Loan_balance</th>
-                </tr>
-                </thead>
-            </table>
+            <div className="TableHeader">
+                <span>ID</span>
+                <span>First Name</span>
+                <span>Last Name</span>
+                <span>Age</span>
+                <span>Occupation</span>
+                <span>City</span>
+                <span>Annual Income</span>
+                <span>Annual Spending</span>
+                <span>Credit Score</span>
+                <span>Loan Balance</span>
+            </div>
 
             <div className="TableBody">
                 <table>
@@ -66,6 +60,7 @@ function SelectTable({ customers, rowColours, setRowColours, setSelectedId }) {
                                     <span>{OccupationMap[c.occupation]}</span>
                                     <span>{CityMap[c.city]}</span>
                                     <span><span>£</span>{c.annual_income}</span>
+                                    <span><span>£</span>{c.annual_spending}</span>
                                     <span>{c.credit_score}</span>
                                     <span><span>£</span>{c.loan_balance}</span>
                                 </div>

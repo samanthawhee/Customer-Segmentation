@@ -3,7 +3,7 @@ import Loading from '../Components/Loading';
 import SelectIntro from "./SelectIntro";
 import SelectTable from './SelectTable';
 import Manage from './Manage';
-import { GetCustomers } from "../Components/GetCustomers";
+import { getCustomers } from "../APIExecutor/GetCustomers";
 import { useState, useEffect } from "react";
 
 function Select() {
@@ -17,7 +17,7 @@ function Select() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const data = await GetCustomers();
+                const data = await getCustomers();
                 setCustomers(data);
             } catch (err) {
                 setError(err.message);

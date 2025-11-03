@@ -2,9 +2,9 @@ import './ClusterInsight.css'
 import CityMap from "../Mapping Dictionary/CityMap";
 import OccupationMap from "../Mapping Dictionary/OccupationMap";
 
-function ClusterInsight ( {ClusterData, selectedCluster } ) {
+function ClusterInsight ( {ClusterData, SelectedCluster } ) {
 
-    const clusterInfo = ClusterData?.cluster?.[selectedCluster];
+    const clusterInfo = ClusterData?.cluster?.[SelectedCluster];
     if(!clusterInfo){
         return (
             <div className="ClusterInsight">
@@ -20,6 +20,7 @@ function ClusterInsight ( {ClusterData, selectedCluster } ) {
                 <tr>
                     <th>Average Age</th>
                     <th>Average Income</th>
+                    <th>Average Spending</th>
                     <th>Average Loan Balance</th>
                     <th>Average Credit Score</th>
                     <th>Most Common Occupation</th>
@@ -28,14 +29,15 @@ function ClusterInsight ( {ClusterData, selectedCluster } ) {
                 </thead>
 
                 <tbody>
-                    <tr>
-                        <td> {clusterInfo.age.toFixed(1)}</td>
-                        <td> £{clusterInfo.annual_income.toFixed(2)}</td>
-                        <td> £{clusterInfo.loan_balance.toFixed(2)}</td>
-                        <td> {clusterInfo.credit_score.toFixed(0)}</td>
-                        <td> {OccupationMap[clusterInfo.occupation]}</td>
-                        <td> {CityMap[clusterInfo.city]}</td>
-                    </tr>
+                <tr>
+                    <td> {clusterInfo.age.toFixed(1)}</td>
+                    <td> £{clusterInfo.annual_income.toFixed(2)}</td>
+                    <td> £{clusterInfo.annual_spending.toFixed(2)}</td>
+                    <td> £{clusterInfo.loan_balance.toFixed(2)}</td>
+                    <td> {clusterInfo.credit_score.toFixed(0)}</td>
+                    <td> {OccupationMap[clusterInfo.occupation]}</td>
+                    <td> {CityMap[clusterInfo.city]}</td>
+                </tr>
                 </tbody>
             </table>
         </div>

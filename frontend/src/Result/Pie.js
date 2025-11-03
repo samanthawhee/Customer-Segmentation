@@ -1,14 +1,39 @@
+import {getClustersAmounts} from "../APIExecutor/GetClustersAmounts";
+import { useEffect, useState } from "react";
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-const pieData = [
-    { name: 'Cluster A', value: 30 },
-    { name: 'Cluster B', value: 40 },
-    { name: 'Cluster C', value: 30 },
-];
 
 const COLORS = ['#C001F4', '#0046F3', '#F20285'];
+const ClusterMapping ={
+    0:"A",
+    1:"B",
+    2:"C"
+};
 
 function PieChartComponent() {
+    const [error, setError] = useState(null);
+    const [pieData, setPieData] = useState([]);
+    useEffect( () => {
+        const fetchData = async () => {
+            try{
+                const data = await getClustersAmounts();
+
+                const renamedData = data.map(item => {
+                    const clusterNum = item.cluster;
+                    const clusterLabel = ClusterMapping[clusterNum] ?? clusterNum;
+                    return {...item, name: `Cluster ${clusterLabel}`};
+                });
+                setPieData(renamedData);
+            }catch(err){
+                setError(err.message);
+            }
+        }
+
+        fetchData();
+    }, []);
+
+    if (error) return <h1>Error: {error}</h1>;
+
     return (
         <div className="Pie">
             <h3>Cluster Distribution</h3>

@@ -6,19 +6,23 @@
 
 .ClusterInsight th,
 .ClusterInsight td {
-    padding: 0.5em 1em;
     text-align: left;
     border-right: 2px solid #ccc;
+}
+
+.ClusterInsight th {
+    padding-left: 1em;
+    font-size: 0.8em;
+}
+
+.ClusterInsight td {
+    padding-left: 0.5em;
+    font-size: 1.6em;
+    font-weight: bold;
 }
 
 .ClusterInsight th:last-child,
 .ClusterInsight td:last-child {
     border-right: none;
-}
-
-.ClusterInsight td {
-    font-size: 1.6em;
-    font-weight: bold;
-    text-align: left;
 }
 

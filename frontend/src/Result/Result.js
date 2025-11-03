@@ -1,31 +1,48 @@
 import { useLocation } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import './Result.css'
 import ResultIntro from './ResultIntro'
 import Manage from '../Select/Manage'
 import Overall from './Overall'
 import ClusterButton from "./ClusterButton";
 import ClusterInsight from "./ClusterInsight";
-import RecommendedProduct from "./RecommendedProduct";
+import Product from "./Product";
 import Assignment from "./Assignment";
+import { getProduct } from "../APIExecutor/GetProduct";
 
 function Result () {
     const location = useLocation();
     const clusterData = location.state?.data;
     const selectedId = location.state?.selectedId || [];
     const [selectedCluster, setSelectedCluster] = useState(0);
-    console.log("ClusterData:", clusterData);
-    console.log("selectedCluster:", selectedCluster);
+    const [products, setProducts] = useState([]);
+    const [error, setError] = useState(null);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try{
+                const data = await getProduct();
+                setProducts(data);
+            }catch(err){
+                setError(err.message);
+            }
+        }
+
+        fetchData();
+    }, []);
+
+    if (error) return <h1>Error: {error}</h1>;
+
 
     return (
         <div className="Result">
             <ResultIntro />
             <Manage hideRunClustering={true} />
-            <Overall />
+            <Overall ClusterData={clusterData}/>
             <ClusterButton setSelectedCluster={setSelectedCluster}/>
-            <ClusterInsight ClusterData={clusterData} selectedCluster={selectedCluster}/>
-            <RecommendedProduct />
-            <Assignment selectedCluster={selectedCluster} selectedId={selectedId}/>
+            <ClusterInsight ClusterData={clusterData} SelectedCluster={selectedCluster}/>
+            <Product Products={products}/>
+            <Assignment SelectedCluster={selectedCluster} SelectedId={selectedId}/>
         </div>
     );
 }

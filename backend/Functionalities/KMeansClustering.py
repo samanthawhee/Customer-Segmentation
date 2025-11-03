@@ -1,5 +1,4 @@
 import random
-import string
 import os
 import psycopg2 
 import pandas as pd
@@ -28,7 +27,7 @@ class KMeansClustering:
 
     @staticmethod
     def get2DDataSet(df):
-        numeric_features = ["age", "annual_income", "loan_balance", "credit_score"]
+        numeric_features = ["age", "annual_income", "annual_spending", "loan_balance", "credit_score"]
         categorical_features = ["occupation", "city"]
 
         # One-hot encode categorical features
@@ -54,15 +53,13 @@ class KMeansClustering:
         dataframe["cluster"] = kmeans.labels_
 
         # Compute summary statistics (optional, for inspection)
-        numeric_cols = ["age", "annual_income", "loan_balance", "credit_score"]
+        numeric_cols = ["age", "annual_income", "annual_spending", "loan_balance", "credit_score"]
         result = dataframe.groupby("cluster")[numeric_cols].mean()
 
         categorical_cols = ["city", "occupation"]
         modes = dataframe.groupby("cluster")[categorical_cols].agg(lambda x: x.mode()[0])
 
         final_result = result.join(modes)
-
-        # ✅ Update customers with assigned clusters
         KMeansClustering.insertClusterResults(dataframe)
 
         print(final_result)
@@ -79,8 +76,6 @@ class KMeansClustering:
                 host=os.environ.get("DB_HOST")
             )
             cur = conn.cursor()
-
-            # ✅ Update cluster values for each customer
             for _, row in dataframe.iterrows():
                 cur.execute(
                     "UPDATE customers SET cluster = %s WHERE id = %s",

@@ -1,16 +1,16 @@
 import './Overall.css'
 import '../Components/BlockFrame.css'
-import RadarChartComponent from "./Radar";
+import Radar from "./Radar";
 import ScatterPlot from "./ScatterPlot"
-import PieChartComponent from "./Pie"
+import Pie from "./Pie"
 
-function Overall () {
+function Overall ( {ClusterData} ) {
     return (
         <div className="Overall">
             <h1>Clusters Overall</h1>
-            <PieChartComponent />
+            <Pie />
             <ScatterPlot />
-            <RadarChartComponent />
+            <Radar ClusterData={ClusterData}/>
         </div>
     );
 }
