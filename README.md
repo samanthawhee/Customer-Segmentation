@@ -10,6 +10,7 @@
   - [Result Page Demo: Cluster Insights and Cluster Assignments](#result-page-demo--cluster-insights-and-cluster-assignments)
   - [Result Page Demo: Overall and Cluster Assignments](#result-page-demo--overall-and-cluster-assignments)
   - [Result Page Demo: Overall and Recommended Products](#result-page-demo--overall-and-recommended-products)
+  - [Send Email Demo: Selected Cluster and Product Info, the Email Form](#send-email-demo--selected-cluster-and-product-info-the-email-form)
 - [API Documentation](#api-documentation)
   - [Generate Dataset](#generate-dataset)
   - [Get Customers](#get-customers)
@@ -19,6 +20,9 @@
   - [Get Income and Loan by Cluster](#get-income-and-loan-by-cluster)
   - [Generate Product Dataset](#generate-product-dataset)
   - [Get Products](#get-products)
+  - [Conduct Product Match](#conduct-product-match)
+  - [Get Products by Cluster](#get-products-by-cluster)
+  - [Select Product by Id](#select-product-by-id)
 
 ## Project Management
 🔗📝 https://trello.com/b/KH0q9L63/customer-sementation
@@ -67,7 +71,8 @@
 ![Result_Overall_Assignments_01112025.gif](./readme/Result_Overall_Assignments_01112025.gif)
 ### Result Page Demo : Overall and recommended products
 ![Result_04112025.gif](./readme/Result_04112025.gif)
-
+### Send Email Demo : Selected cluster and product info, the email form
+![Send_Email_06112025.gif](./readme/Send_Email_06112025.gif)
 
 ## API Documentation
 ### Generate Dataset
@@ -314,3 +319,123 @@
 - cURL:
 <pre>curl -X GET http://localhost:5000/getProducts</pre>
 ![getProducts_API.png](readme/getProducts_API.png)
+
+### Conduct Product Match
+- URL: /conductProductMatch
+- Method: POST
+- Description: Match sutiable product options.
+- Request Parameters: None
+- Response Example:
+
+<pre>{
+  "message": "Product matching completed successfully."
+}</pre>  
+- HTTP Status Codes:
+  - 200 OK 
+  - 500 Internal Server Error
+- cURL:
+<pre>curl -X POST http://localhost:5000/conductProductMatch</pre>
+
+### Get Products By Cluster
+- URL: /getProductsByCluster
+- Method: GET
+- Description: Return products sorted by cluster.
+- Request Parameters: None
+- Response Example:
+
+<pre>{
+{
+  "annual_fees": "408.38",
+  "benefits": "Various benefits depending on the product.",
+  "channels": [
+    "Online",
+    "Branch",
+    "Mobile App"
+  ],
+  "cluster": [
+    0,
+    1,
+    2
+  ],
+  "credit_score_required": 800,
+  "eligibility_criteria": {
+    "credit_score_required": 800,
+    "max_age": 67,
+    "max_income": 92197.03,
+    "min_age": 18,
+    "min_income": 34739.27
+  },
+  "interest_rate": "2.72",
+  "launch_date": "Sat, 08 Aug 2020 00:00:00 GMT",
+  "max_age": 67,
+  "max_income": "92197.03",
+  "min_age": 18,
+  "min_income": "34739.27",
+  "product_id": 2781,
+  "product_name": "Credit Card_2781",
+  "product_status": "Inactive",
+  "product_type": "Credit Card",
+  "renewable": true,
+  "reward_points": "5733.03",
+  "risk_level": "Low",
+  "score": "0.906",
+  "term_length": 30
+  }
+}</pre>  
+- HTTP Status Codes:
+  - 200 OK 
+  - 500 Internal Server Error
+- cURL:
+<pre>curl -X GET http://localhost:5000/getProductsByCluster</pre>
+
+### Select Product By Id
+- URL: /selectProductById/<int:product_id>
+- Method: GET
+- Description: Return products filtered by the product_id.
+- Request Parameters: product_id
+- Response Example:
+
+<pre>{
+{
+  "annual_fees": "408.38",
+  "benefits": "Various benefits depending on the product.",
+  "channels": [
+    "Online",
+    "Branch",
+    "Mobile App"
+  ],
+  "cluster": [
+    0,
+    1,
+    2
+  ],
+  "credit_score_required": 800,
+  "eligibility_criteria": {
+    "credit_score_required": 800,
+    "max_age": 67,
+    "max_income": 92197.03,
+    "min_age": 18,
+    "min_income": 34739.27
+  },
+  "interest_rate": "2.72",
+  "launch_date": "Sat, 08 Aug 2020 00:00:00 GMT",
+  "max_age": 67,
+  "max_income": "92197.03",
+  "min_age": 18,
+  "min_income": "34739.27",
+  "product_id": 2781,
+  "product_name": "Credit Card_2781",
+  "product_status": "Inactive",
+  "product_type": "Credit Card",
+  "renewable": true,
+  "reward_points": "5733.03",
+  "risk_level": "Low",
+  "score": "0.906",
+  "term_length": 30
+  }
+}</pre>  
+- HTTP Status Codes:
+  - 200 OK 
+  - 500 Internal Server Error
+- cURL:
+<pre>curl -X GET http://localhost:5000selectProductById/<int:product_id></pre>
