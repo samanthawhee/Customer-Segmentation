@@ -7,7 +7,7 @@ import os
 class ProductGenerator:
 
     @staticmethod
-    def executeProductDataGeneration(num_records=100):
+    def executeProductDataGeneration(num_records=350):
         filePath = ProductGenerator.createSqlFile()
         products = "products"
         ProductGenerator.writeCreateProductsCommand(products, filePath)
@@ -43,12 +43,14 @@ class ProductGenerator:
             product_status = random.choice(["Active", "Inactive"])
             launch_date = f"202{random.randint(0,3)}-{random.randint(1,12):02d}-{random.randint(1,28):02d}"
             channels = ["Online", "Branch", "Mobile App"]
+            cluster = None
+            score = None
 
             ProductGenerator.insertProductData(
                 products, product_id, product_name, product_type, eligibility_criteria,
                 min_age, max_age, min_income, max_income, credit_score_required,
                 interest_rate, annual_fees, risk_level, benefits, term_length,
-                renewable, reward_points, product_status, launch_date, channels, filePath
+                renewable, reward_points, product_status, launch_date, cluster, score, channels, filePath
             )
             
         ProductGenerator.executeSqlFile(filePath)
@@ -62,7 +64,6 @@ class ProductGenerator:
         file_path = os.path.join(folder_path, "productData.sql")
         
         open(file_path, "w").close() 
-        print(f"File created at: {file_path}")
 
         return file_path
     
@@ -70,38 +71,45 @@ class ProductGenerator:
     def writeCreateProductsCommand(tableName, file_path):
         with open(file_path, "a") as file:
             file.write(f"""
-                       CREATE TABLE IF NOT EXISTS {tableName}(
-                        id SERIAL PRIMARY KEY,
-                        product_id INT,
-                        product_name VARCHAR(100),
-                        product_type VARCHAR(50),
-                        eligibility_criteria JSON,
-                        min_age INT,
-                        max_age INT,
-                        min_income DECIMAL(12, 2),
-                        max_income DECIMAL(12, 2),
-                        credit_score_required INT,
-                        interest_rate DECIMAL(5, 2),
-                        annual_fees DECIMAL(10, 2),
-                        risk_level VARCHAR(10),
-                        benefits TEXT,
-                        term_length INT,
-                        renewable BOOLEAN,
-                        reward_points DECIMAL(10, 2),
-                        product_status VARCHAR(20),
-                        launch_date DATE,
-                        channels TEXT[]\n);
-                """)
+            CREATE TABLE IF NOT EXISTS {tableName} (
+                id SERIAL PRIMARY KEY,
+                product_id INT,
+                product_name VARCHAR(100),
+                product_type VARCHAR(50),
+                eligibility_criteria JSON,
+                min_age INT,
+                max_age INT,
+                min_income DECIMAL(12, 2),
+                max_income DECIMAL(12, 2),
+                credit_score_required INT,
+                interest_rate DECIMAL(5, 2),
+                annual_fees DECIMAL(10, 2),
+                risk_level VARCHAR(10),
+                benefits TEXT,
+                term_length INT,
+                renewable BOOLEAN,
+                reward_points DECIMAL(10, 2),
+                product_status VARCHAR(20),
+                launch_date DATE,
+                cluster INT[],        
+                score DECIMAL(5,3),    
+                channels TEXT[]
+            );
+            """)
+
     @staticmethod
     def insertProductData(tableName, product_id, product_name, product_type, eligibility_criteria,
                     min_age, max_age, min_income, max_income, credit_score_required,
                     interest_rate, annual_fees, risk_level, benefits, term_length,
-                    renewable, reward_points, product_status, launch_date, channels, file_path):
+                    renewable, reward_points, product_status, launch_date, cluster, score, channels, file_path):
+        
         
         renewable_sql = 'TRUE' if renewable else 'FALSE'
         product_name = product_name.replace("'", "''")
         benefits = benefits.replace("'", "''")
         channels_sql = "ARRAY[" + ",".join(f"'{c}'" for c in channels) + "]"
+        clusterValue = 'NULL' if cluster is None else cluster
+        scoreValue = 'NULL' if score is None else score
 
         with open(file_path, "a") as file:  
             file.write(f"""
@@ -109,11 +117,11 @@ class ProductGenerator:
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, channels) VALUES
+        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
         ({product_id}, '{product_name}', '{product_type}', '{eligibility_criteria}',
         {min_age}, {max_age}, {min_income}, {max_income}, {credit_score_required},
         {interest_rate}, {annual_fees}, '{risk_level}', '{benefits}', {term_length},
-        {renewable_sql}, {reward_points}, '{product_status}', '{launch_date}', {channels_sql});
+        {renewable_sql}, {reward_points}, '{product_status}', '{launch_date}', {clusterValue}, {scoreValue},{channels_sql});
         """)
 
 
@@ -134,7 +142,6 @@ class ProductGenerator:
             try:
                 cur.execute(sql)
                 conn.commit()
-                print("SQL file executed successfully.")
             except Exception as e:
                 print(f"SQL execution error: {e}")
 

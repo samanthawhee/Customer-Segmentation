@@ -3,7 +3,7 @@ import psycopg2
 
 class FetchData: 
     @staticmethod
-    def queryDatabase(query, params=None):
+    def queryDatabase(query, params, fetch):
         try:
             conn = psycopg2.connect(
                 dbname=os.environ.get("DB_NAME"),
@@ -12,13 +12,34 @@ class FetchData:
                 host=os.environ.get("DB_HOST")
             )
             cur = conn.cursor()
-            cur.execute(query, params)
-            rows = cur.fetchall()
-            cur.close()
-            conn.close()
-            return rows
+            
+            if params is None and fetch:
+                cur.execute(query)
+                result = cur.fetchall()
+                cur.close()
+                conn.close()
+                return result
+            
+            elif params is None and not fetch:
+                cur.execute(query)
+                conn.commit()
+                cur.close()
+                conn.close()
+            elif params is not None and fetch:
+                cur.execute(query, params)
+                result = cur.fetchall()
+                cur.close()
+                conn.close()
+                return result
+            else:   
+                cur.execute(query, params)
+                conn.commit()
+                cur.close()
+                conn.close() 
+
         except Exception as e:
             raise e
+
         
     @staticmethod
     def fetchAllCustomers():
@@ -29,7 +50,7 @@ class FetchData:
                 FROM customers
                 ORDER BY id;
             """
-            rows = FetchData.queryDatabase(query)
+            rows = FetchData.queryDatabase(query, None, True)
 
             return [{
                 "customer_id": r[0], 
@@ -57,7 +78,7 @@ class FetchData:
                 FROM customers
                 ORDER BY cluster, id;
             """
-            rows = FetchData.queryDatabase(query)
+            rows = FetchData.queryDatabase(query, None, True)
 
             grouped = {}
             for r in rows:
@@ -92,7 +113,7 @@ class FetchData:
             GROUP BY cluster
             ORDER BY cluster;
             """
-            rows = FetchData.queryDatabase(query)
+            rows = FetchData.queryDatabase(query, None, True)
 
             cluster_counts = {r[0]: r[1] for r in rows}
             return cluster_counts
@@ -107,8 +128,7 @@ class FetchData:
             FROM customers
             ORDER BY cluster, id;
             """
-            rows = FetchData.queryDatabase(query) 
-
+            rows = FetchData.queryDatabase(query, None, True) 
 
             combined = {}
             for customer_id, cluster, income, loan in rows:
@@ -130,11 +150,11 @@ class FetchData:
                 SELECT product_id, product_name, product_type, eligibility_criteria,
                     min_age, max_age, min_income, max_income, credit_score_required,
                     interest_rate, annual_fees, risk_level, benefits, term_length,
-                    renewable, reward_points, product_status, launch_date, channels
+                    renewable, reward_points, product_status, launch_date, cluster, score, channels
                 FROM products
                 ORDER BY product_id;
             """
-            rows = FetchData.queryDatabase(query)
+            rows = FetchData.queryDatabase(query, None, True)
 
             return [{
                 "product_id": r[0],
@@ -155,9 +175,107 @@ class FetchData:
                 "reward_points": r[15],
                 "product_status": r[16],
                 "launch_date": r[17],
-                "channels": r[18]
+                "cluster": r[18],
+                "score": r[19],
+                "channels": r[20]
             } for r in rows]
 
 
         except Exception as e:
             raise e
+        
+    @staticmethod
+    def fetchProductsByCluster():
+        try:
+            query = """
+                SELECT product_id, product_name, product_type, eligibility_criteria,
+                    min_age, max_age, min_income, max_income, credit_score_required,
+                    interest_rate, annual_fees, risk_level, benefits, term_length,
+                    renewable, reward_points, product_status, launch_date, cluster, score, channels
+                FROM products
+                ORDER BY product_id;
+            """
+            rows = FetchData.queryDatabase(query, None, True)
+
+            grouped = {}
+
+            for r in rows:
+                clusters = r[18]  
+                if not clusters:
+                    continue  
+
+                for c in clusters:  
+                    if c not in grouped:
+                        grouped[c] = []
+
+                    grouped[c].append({
+                        "product_id": r[0],
+                        "product_name": r[1],
+                        "product_type": r[2],
+                        "eligibility_criteria": r[3],
+                        "min_age": r[4],
+                        "max_age": r[5],
+                        "min_income": r[6],
+                        "max_income": r[7],
+                        "credit_score_required": r[8],
+                        "interest_rate": r[9],
+                        "annual_fees": r[10],
+                        "risk_level": r[11],
+                        "benefits": r[12],
+                        "term_length": r[13],
+                        "renewable": r[14],
+                        "reward_points": r[15],
+                        "product_status": r[16],
+                        "launch_date": r[17],
+                        "cluster": r[18],  
+                        "score": r[19],
+                        "channels": r[20]
+                    })
+
+            return grouped
+
+        except Exception as e:
+            raise e
+        
+    @staticmethod
+    def selectProductById(product_id):
+        try:
+            query = """
+                SELECT product_id, product_name, product_type, eligibility_criteria,
+                    min_age, max_age, min_income, max_income, credit_score_required,
+                    interest_rate, annual_fees, risk_level, benefits, term_length,
+                    renewable, reward_points, product_status, launch_date, cluster, score, channels
+                FROM products
+                WHERE product_id = %s
+                ORDER BY product_id;
+            """
+            rows = FetchData.queryDatabase(query, (product_id,), True)
+
+            return [{
+                "product_id": r[0],
+                "product_name": r[1],
+                "product_type": r[2],
+                "eligibility_criteria": r[3],
+                "min_age": r[4],
+                "max_age": r[5],
+                "min_income": r[6],
+                "max_income": r[7],
+                "credit_score_required": r[8],
+                "interest_rate": r[9],
+                "annual_fees": r[10],
+                "risk_level": r[11],
+                "benefits": r[12],
+                "term_length": r[13],
+                "renewable": r[14],
+                "reward_points": r[15],
+                "product_status": r[16],
+                "launch_date": r[17],
+                "cluster": r[18],
+                "score": r[19],
+                "channels": r[20]
+            } for r in rows]
+
+        except Exception as e:
+            raise e
+
+

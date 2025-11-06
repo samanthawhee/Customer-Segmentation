@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import Select from "./Select/Select";
 import Result from "./Result/Result";
+import SendEmail from "./Email/SendEmail";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/Select" element={<Select />} />
                 <Route path="/Result" element={<Result />}/>
+                <Route path="/SendEmail" element={<SendEmail />}/>
             </Routes>
         </Router>
     );

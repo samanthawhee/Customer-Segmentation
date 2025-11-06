@@ -1,0 +1,40 @@
+.EmailForm {
+    display: grid;
+    margin-top: 2em;
+    grid-template-columns: repeat(14, 1fr);
+    row-gap: 2em;
+    column-gap: 2em;
+}
+
+.EmailForm label {
+    grid-column: 2;
+    align-self: center;
+    text-align: right;
+}
+
+.EmailForm input, .EmailForm textarea {
+    grid-column: 3/14;
+    width: 100%;
+    border-radius: 0.8em;
+    padding: 1em;
+    background-color: white;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    outline: none;
+}
+
+.EmailForm textarea#message {
+    height: 20em;
+    resize: vertical;
+    max-height: 50em;
+    min-height: 3.5em;
+}
+
+.EmailForm input:focus {
+    outline: 0.08em solid #0046F3;
+}
+
+.EmailForm textarea:focus {
+    outline: 0.08em solid #0046F3;
+}
+

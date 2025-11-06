@@ -1,4 +1,4 @@
-.ClusterButton button, .SendNotification {
+.ClusterButton button {
     font-size:1.2em;
     border: none;
     border-radius: 0.5em;
@@ -9,10 +9,18 @@
 }
 
 .SendNotification {
+    font-size:0.8em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.9em 0.9em;
+    margin: 0 3em;
+    cursor: pointer;
+    transition: all 0.2s ease;
     background-color: #0046F3FF;
     color: white;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
 }
+
 
 .ClusterButton button:hover, .SendNotification:hover {
     color: white;

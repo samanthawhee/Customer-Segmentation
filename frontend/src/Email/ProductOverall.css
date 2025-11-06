@@ -1,0 +1,31 @@
+.selectedProduct {
+    margin-top: 2em;
+}
+
+.ProductOverall table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.ProductOverall th,
+.ProductOverall td {
+    text-align: left;
+    border-right: 2px solid #ccc;
+}
+
+.ProductOverall th {
+    padding-left: 1em;
+    font-size: 0.8em;
+}
+
+.ProductOverall td {
+    padding-left: 0.5em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.ProductOverall th:last-child,
+.ProductOverall td:last-child {
+    border-right: none;
+}

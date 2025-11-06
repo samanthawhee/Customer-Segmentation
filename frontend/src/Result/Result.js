@@ -8,21 +8,19 @@ import ClusterButton from "./ClusterButton";
 import ClusterInsight from "./ClusterInsight";
 import Product from "./Product";
 import Assignment from "./Assignment";
-import { getProduct } from "../APIExecutor/GetProduct";
+import { matchProduct } from "../APIExecutor/MatchProduct";
 
 function Result () {
     const location = useLocation();
     const clusterData = location.state?.data;
     const selectedId = location.state?.selectedId || [];
     const [selectedCluster, setSelectedCluster] = useState(0);
-    const [products, setProducts] = useState([]);
     const [error, setError] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
             try{
-                const data = await getProduct();
-                setProducts(data);
+                await matchProduct();
             }catch(err){
                 setError(err.message);
             }
@@ -41,7 +39,7 @@ function Result () {
             <Overall ClusterData={clusterData}/>
             <ClusterButton setSelectedCluster={setSelectedCluster}/>
             <ClusterInsight ClusterData={clusterData} SelectedCluster={selectedCluster}/>
-            <Product Products={products}/>
+            <Product ClusterData={clusterData} SelectedCluster={selectedCluster}/>
             <Assignment SelectedCluster={selectedCluster} SelectedId={selectedId}/>
         </div>
     );

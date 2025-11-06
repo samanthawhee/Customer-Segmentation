@@ -1,5 +1,5 @@
 .SelectTable, .Overall, .ClusterButton,
-.ClusterInsight, .RecommendedProduct, .Assignment {
+.ClusterInsight, .RecommendedProduct, .Assignment, .ClusterOverall, .ProductOverall, .EmailEdition {
     margin-top: 2em;
     padding: 2em;
     border-radius: 0.8em;

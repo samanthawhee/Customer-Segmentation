@@ -1,0 +1,31 @@
+.selectedClusterData {
+    margin-top: 2em;
+}
+
+.ClusterOverall table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.ClusterOverall th,
+.ClusterOverall td {
+    text-align: left;
+    border-right: 2px solid #ccc;
+}
+
+.ClusterOverall th {
+    padding-left: 1em;
+    font-size: 0.8em;
+}
+
+.ClusterOverall td {
+    padding-left: 0.5em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.ClusterOverall th:last-child,
+.ClusterOverall td:last-child {
+    border-right: none;
+}

@@ -2,9 +2,12 @@ from Functionalities.DataGenerator import DataGenerator
 from Functionalities.KMeansClustering import KMeansClustering
 from Functionalities.FetchData import FetchData
 from Functionalities.ProductGenerator import ProductGenerator
+from Functionalities.ProductMatcher import ProductMatcher
 from flask import Flask, jsonify
 from flask_cors import CORS
 from dotenv import load_dotenv
+from flask import request
+import traceback
 
 load_dotenv()
 
@@ -78,6 +81,31 @@ def getProducts():
         return jsonify(products)
     except Exception as e:
         return jsonify(error=str(e)), 500
+    
+@app.route("/conductProductMatch", methods=["POST"])
+def conductProductMatch():
+    try:
+        ProductMatcher.matchExector()
+        return jsonify({"message": "Product matching completed successfully."})
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify(error=str(e)), 500
+    
+@app.route("/getProductsByCluster", methods=["GET"])
+def getProductsByCluster():
+    try:
+        products = FetchData.fetchProductsByCluster()
+        return jsonify(products)
+    except Exception as e:
+        return jsonify(error=str(e)), 500
+    
+@app.route("/selectProductById/<int:product_id>", methods=["GET"])
+def selectProductById(product_id):
+    try:
+        products = FetchData.selectProductById(product_id)
+        return jsonify(products)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)

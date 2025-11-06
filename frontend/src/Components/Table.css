@@ -22,7 +22,7 @@
 }
 
 .ProductTable .TableHeader {
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
 }
 
 .TableBody table {
@@ -48,7 +48,8 @@
 }
 
 .ProductTable .RowBlock {
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    padding: 0 0.7em;
 }
 
 .RowBlock span {

@@ -24,10 +24,7 @@ function HomeStart() {
 
     return (
         <div className="StartButton">
-            {/* show error if there’s one */}
             {error && <h1>Error: {error}</h1>}
-
-            {/* main button */}
             <button
                 onClick={handleClick}
                 disabled={loading}

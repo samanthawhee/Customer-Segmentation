@@ -18,1165 +18,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Marys', 'Sarno', 
-                       18, 1, 5, 
-                       53234.72, 76390.72, 
-                       821, 72059.54, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Florri', 'Ruehle', 
-                       34, 6, 4, 
-                       49455.81, 22114.24, 
-                       504, 62812.08, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Melosa', 'Woodfin', 
-                       19, 0, 8, 
-                       56329.89, 126391.6, 
-                       644, 59156.26, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Marianna', 'Fecher', 
-                       34, 8, 13, 
-                       37306.45, 81018.13, 
-                       309, 89483.05, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Marla', 'Duarte', 
-                       39, 9, 13, 
-                       46240.51, 82572.02, 
-                       696, 13959.73, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Lyndsie', 'Hickert', 
-                       28, 6, 1, 
-                       95603.09, 149573.5, 
-                       819, 92945.74, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ivy', 'Mercedes', 
-                       59, 5, 1, 
-                       68987.06, 89870.85, 
-                       806, 39399.08, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Leonie', 'Teats', 
-                       30, 0, 6, 
-                       26295.05, 117512.3, 
-                       735, 19744.82, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Natasha', 'Chiu', 
-                       22, 3, 10, 
-                       120241.43, 76452.3, 
-                       632, 88917.63, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Marlyn', 'Yearous', 
-                       23, 1, 10, 
-                       100315.33, 145506.69, 
-                       702, 73290.5, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Dania', 'Panton', 
-                       29, 6, 8, 
-                       95890.59, 89609.22, 
-                       645, 10386.7, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Lanna', 'Vito', 
-                       49, 4, 6, 
-                       87143.05, 114341.37, 
-                       405, 46123.53, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Casi', 'Paseur', 
-                       34, 1, 9, 
-                       116223.98, 54476.6, 
-                       639, 64292.62, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Cybill', 'Rosin', 
-                       49, 5, 13, 
-                       49059.96, 44490.96, 
-                       628, 19777.85, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Melessa', 'Lindler', 
-                       79, 7, 5, 
-                       149110.72, 38507.52, 
-                       461, 7007.28, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Janette', 'Samrah', 
-                       74, 3, 12, 
-                       117639.77, 81753.8, 
-                       821, 87630.82, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Carlene', 'Gaines', 
-                       57, 8, 6, 
-                       45008.52, 93693.54, 
-                       628, 67544.85, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Stesha', 'Milles', 
-                       46, 3, 12, 
-                       91833.52, 44915.0, 
-                       803, 31116.08, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Toinette', 'Macnevin', 
-                       47, 3, 11, 
-                       65368.73, 133923.95, 
-                       793, 26344.83, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Katheryn', 'Morrisroe', 
-                       34, 9, 0, 
-                       83828.16, 72691.69, 
-                       827, 33009.9, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Malinde', 'Garia', 
-                       45, 4, 7, 
-                       88406.88, 117363.2, 
-                       481, 12444.38, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Marnia', 'Daddario', 
-                       21, 4, 5, 
-                       20638.91, 87903.16, 
-                       844, 31574.55, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Joannes', 'Vlk', 
-                       57, 0, 5, 
-                       129769.2, 33682.97, 
-                       378, 22611.14, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Jehanna', 'Kalbfleisch', 
-                       62, 2, 5, 
-                       84205.86, 25066.73, 
-                       819, 58114.6, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Carlen', 'Evenson', 
-                       38, 2, 13, 
-                       105867.38, 51230.79, 
-                       559, 58822.56, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Jeane', 'Frein', 
-                       54, 9, 5, 
-                       140959.91, 76336.22, 
-                       717, 80516.02, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Shandy', 'Ewton', 
-                       25, 2, 5, 
-                       110112.68, 22170.73, 
-                       425, 29382.8, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Tiffanie', 'Bachus', 
-                       63, 8, 1, 
-                       63690.84, 51997.16, 
-                       324, 92628.29, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Cristie', 'Overstrom', 
-                       71, 4, 0, 
-                       89676.34, 114986.02, 
-                       796, 70700.96, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Reyna', 'Dentler', 
-                       64, 1, 4, 
-                       42644.04, 70856.03, 
-                       713, 66449.5, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Waneta', 'Tardie', 
-                       55, 6, 7, 
-                       139331.29, 140351.07, 
-                       351, 52856.57, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Doria', 'Jaiyesimi', 
-                       48, 2, 9, 
-                       128207.6, 148204.53, 
-                       765, 36094.48, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Harlene', 'Lesly', 
-                       74, 3, 12, 
-                       140690.58, 131365.39, 
-                       344, 29619.55, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Dione', 'Casperson', 
-                       50, 3, 7, 
-                       100957.1, 109388.98, 
-                       686, 4139.53, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Lane', 'Breaker', 
-                       46, 6, 12, 
-                       110805.74, 95082.39, 
-                       612, 94260.85, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Joye', 'Gillam', 
-                       47, 2, 5, 
-                       25358.95, 93043.38, 
-                       384, 71071.13, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Becka', 'Pandey', 
-                       27, 1, 5, 
-                       116886.75, 48635.71, 
-                       451, 82826.84, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Annabal', 'Laranjo', 
-                       43, 7, 0, 
-                       77086.32, 117278.86, 
-                       455, 19401.57, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Judith', 'Asrari', 
-                       51, 7, 0, 
-                       101830.25, 123998.85, 
-                       552, 83611.15, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Janina', 'Smit', 
-                       58, 0, 2, 
-                       81886.23, 38996.48, 
-                       407, 56401.61, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Alameda', 'Bardis', 
-                       75, 3, 7, 
-                       89964.13, 110825.5, 
-                       423, 10791.64, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Giulia', 'Karagiannis', 
-                       54, 1, 9, 
-                       143313.88, 87152.64, 
-                       651, 96531.6, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Chlo', 'Menes', 
-                       28, 2, 2, 
-                       100564.5, 86107.67, 
-                       758, 76599.9, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Quintina', 'Mancherian', 
-                       54, 9, 7, 
-                       43370.41, 118605.78, 
-                       842, 30989.45, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Paule', 'Landram', 
-                       79, 5, 12, 
-                       122774.13, 113298.3, 
-                       748, 4242.39, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Margie', 'Trimnal', 
-                       22, 0, 2, 
-                       112529.32, 72048.31, 
-                       357, 91788.89, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Adara', 'Cerbone', 
-                       63, 3, 6, 
-                       64511.0, 122965.07, 
-                       465, 83968.27, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Carmel', 'Brander', 
-                       63, 1, 6, 
-                       149556.09, 37474.25, 
-                       518, 98523.71, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Winne', 'Jervey', 
-                       72, 7, 10, 
-                       133253.62, 51924.88, 
-                       605, 25067.09, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Wenonah', 'Dong', 
-                       63, 3, 3, 
-                       69825.67, 121618.77, 
-                       783, 97858.19, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Dayna', 'Mccubbins', 
-                       19, 7, 12, 
-                       110343.91, 65165.95, 
-                       663, 15841.73, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Karena', 'Mearns', 
-                       32, 5, 3, 
-                       114752.45, 140337.88, 
-                       628, 91264.84, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Margie', 'Kolin', 
-                       34, 7, 4, 
-                       45686.88, 125857.73, 
-                       312, 11432.4, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Dona', 'Iennaco', 
-                       50, 1, 10, 
-                       86335.04, 70376.89, 
-                       757, 8212.46, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Rhoda', 'Lanasa', 
-                       69, 1, 8, 
-                       126045.28, 102115.3, 
-                       737, 26179.28, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ashlan', 'Butts', 
-                       61, 6, 1, 
-                       98350.39, 128999.16, 
-                       363, 62038.87, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Alica', 'Boissonneault', 
-                       37, 7, 5, 
-                       79467.85, 65745.95, 
-                       529, 79088.98, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Lilli', 'Vigue', 
-                       66, 1, 6, 
-                       27070.89, 127135.33, 
-                       459, 5487.97, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Frank', 'Hand', 
-                       71, 6, 4, 
-                       40965.27, 97177.44, 
-                       321, 69931.17, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Caty', 'Dunnivan', 
-                       65, 3, 8, 
-                       59471.36, 138732.95, 
-                       405, 69784.74, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Paulie', 'Fuller', 
-                       22, 3, 6, 
-                       38616.09, 93475.81, 
-                       672, 14141.63, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ingunna', 'Reha', 
-                       71, 9, 11, 
-                       136975.29, 49468.71, 
-                       837, 72650.03, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Genni', 'Barbadillo', 
-                       22, 1, 5, 
-                       89686.32, 52894.98, 
-                       408, 65189.6, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ursulina', 'Omeara', 
-                       28, 7, 6, 
-                       92387.31, 48786.95, 
-                       451, 88911.76, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Tami', 'Wyandt', 
-                       32, 1, 10, 
-                       38725.32, 99942.91, 
-                       513, 21247.28, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ilyssa', 'Rembert', 
-                       40, 7, 10, 
-                       37360.26, 83805.14, 
-                       677, 54664.33, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Helena', 'Zaharis', 
-                       33, 3, 3, 
-                       95331.65, 109045.54, 
-                       641, 42619.12, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Mariska', 'Bailer', 
-                       51, 1, 4, 
-                       65126.14, 28828.4, 
-                       835, 86789.29, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Shannon', 'Illuzzi', 
-                       29, 3, 9, 
-                       56929.99, 25147.43, 
-                       320, 10542.91, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Marthena', 'Disalvo', 
-                       79, 6, 1, 
-                       74743.94, 92118.76, 
-                       462, 60387.8, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Lelah', 'Grossberg', 
-                       26, 0, 8, 
-                       118702.44, 56417.88, 
-                       484, 36559.21, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Inge', 'Bhandari', 
-                       57, 9, 12, 
-                       55303.95, 56669.33, 
-                       497, 11725.34, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Melisande', 'Mcniff', 
-                       77, 1, 12, 
-                       90776.98, 62103.85, 
-                       349, 26986.07, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Melodie', 'Stettler', 
-                       24, 6, 5, 
-                       56444.19, 46875.3, 
-                       541, 74352.98, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ardisj', 'Fluegge', 
-                       56, 4, 4, 
-                       134134.35, 135355.79, 
-                       683, 88884.69, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Tanitansy', 'Connolly', 
-                       60, 0, 4, 
-                       129514.84, 54553.11, 
-                       698, 2587.25, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Averyl', 'Helmbrecht', 
-                       43, 7, 3, 
-                       98270.83, 103029.95, 
-                       523, 29607.83, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Zenia', 'Massmann', 
-                       20, 6, 9, 
-                       59917.41, 26250.05, 
-                       698, 61944.48, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Federica', 'Weyer', 
-                       59, 0, 10, 
-                       136421.77, 30800.42, 
-                       843, 66806.09, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Aurore', 'Sweney', 
-                       23, 8, 7, 
-                       47999.09, 83887.8, 
-                       847, 77036.78, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Florri', 'Chreene', 
-                       23, 2, 9, 
-                       95889.9, 71832.35, 
-                       452, 26468.19, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Aarika', 'Dacpano', 
-                       45, 1, 12, 
-                       129558.44, 92073.28, 
-                       469, 73518.3, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Devonne', 'Gawrych', 
-                       46, 2, 9, 
-                       66244.13, 101462.66, 
-                       605, 67582.04, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Melicent', 'Sprunger', 
-                       33, 3, 13, 
-                       103945.92, 38932.14, 
-                       410, 53470.59, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Olympe', 'Pogozelski', 
-                       38, 5, 1, 
-                       104157.84, 34085.61, 
-                       662, 36313.63, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Bevvy', 'Yohannes', 
-                       34, 7, 8, 
-                       144100.56, 31068.15, 
-                       342, 70726.32, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Corette', 'Amarian', 
-                       21, 1, 8, 
-                       70356.32, 24021.89, 
-                       314, 26026.87, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Alex', 'Wilmore', 
-                       53, 2, 0, 
-                       64089.63, 114451.57, 
-                       780, 50922.82, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Tildie', 'Yeaman', 
-                       50, 9, 5, 
-                       47433.71, 97718.34, 
-                       833, 2446.53, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Etti', 'Janka', 
-                       20, 8, 12, 
-                       44225.87, 53241.2, 
-                       850, 17089.3, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Sephira', 'Cheung', 
-                       76, 3, 8, 
-                       38112.14, 147073.31, 
-                       622, 76894.13, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Rafaelia', 'Levasseur', 
-                       26, 3, 13, 
-                       84338.12, 37870.9, 
-                       376, 14467.99, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Elysia', 'Chustz', 
-                       57, 1, 1, 
-                       118690.62, 59325.43, 
-                       762, 49495.6, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Hanna', 'Gribbin', 
-                       27, 6, 12, 
-                       109165.9, 76815.22, 
-                       530, 10133.43, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Olympia', 'Breuninger', 
-                       50, 1, 0, 
-                       46444.84, 55116.57, 
-                       551, 7276.47, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Bernette', 'Keller', 
-                       28, 6, 1, 
-                       41730.91, 103645.23, 
-                       565, 6683.47, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ondrea', 'Mordeci', 
-                       50, 8, 9, 
-                       126677.97, 83366.37, 
-                       436, 7721.66, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Minni', 'Ludington', 
-                       80, 9, 7, 
-                       43798.2, 137289.72, 
-                       565, 6261.15, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Maude', 'Diestel', 
-                       71, 8, 9, 
-                       83275.34, 95486.21, 
-                       652, 13149.37, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Isidora', 'Karcher', 
-                       77, 1, 3, 
-                       22850.7, 139356.23, 
-                       659, 96675.74, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Mei', 'Leazer', 
-                       19, 7, 9, 
-                       26156.61, 142617.72, 
-                       373, 18083.28, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Gerda', 'Allendorf', 
-                       73, 0, 4, 
-                       33976.96, 75382.21, 
-                       402, 61919.22, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ericha', 'Senko', 
-                       63, 7, 7, 
-                       68781.26, 84748.03, 
-                       570, 56247.13, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Celia', 'Sarbacher', 
-                       77, 0, 1, 
-                       28401.2, 113862.44, 
-                       611, 35267.89, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Cathie', 'Spinn', 
-                       68, 9, 0, 
-                       65240.93, 60523.02, 
-                       573, 48519.66, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Lucita', 'Mascarenas', 
+                       ('Glenn', 'Capra', 
                        80, 7, 3, 
-                       61940.35, 99736.42, 
-                       629, 26180.73, NULL);
+                       105345.72, 28022.81, 
+                       696, 49823.71, NULL);
 
             
                        INSERT INTO customers 
@@ -1184,10 +29,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Marina', 'Jozwick', 
-                       32, 8, 6, 
-                       56937.3, 35687.3, 
-                       557, 87625.35, NULL);
+                       ('Selle', 'Hodnicki', 
+                       23, 7, 1, 
+                       21450.86, 129982.35, 
+                       743, 75269.48, NULL);
 
             
                        INSERT INTO customers 
@@ -1195,10 +40,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Allx', 'Satcher', 
-                       66, 1, 12, 
-                       136212.25, 70152.79, 
-                       483, 21738.43, NULL);
+                       ('Waneta', 'Wiedeman', 
+                       41, 7, 1, 
+                       99779.91, 100616.72, 
+                       716, 82089.44, NULL);
 
             
                        INSERT INTO customers 
@@ -1206,10 +51,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Shela', 'Lohse', 
-                       76, 9, 1, 
-                       79231.56, 115648.47, 
-                       797, 69943.04, NULL);
+                       ('Evey', 'Krystal', 
+                       50, 4, 0, 
+                       122218.38, 26883.59, 
+                       547, 68155.88, NULL);
 
             
                        INSERT INTO customers 
@@ -1217,10 +62,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Philly', 'Bizier', 
-                       69, 8, 12, 
-                       72303.91, 51287.73, 
-                       360, 94951.27, NULL);
+                       ('Kellyann', 'Colpaert', 
+                       66, 7, 10, 
+                       59914.43, 78805.13, 
+                       842, 63795.66, NULL);
 
             
                        INSERT INTO customers 
@@ -1228,10 +73,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Christyna', 'Cashatt', 
-                       60, 1, 7, 
-                       142098.94, 148214.55, 
-                       459, 60890.28, NULL);
+                       ('Dusty', 'Simonian', 
+                       69, 2, 12, 
+                       90490.38, 143061.17, 
+                       618, 69638.9, NULL);
 
             
                        INSERT INTO customers 
@@ -1239,10 +84,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Doretta', 'Donelan', 
-                       42, 8, 1, 
-                       72792.28, 94127.27, 
-                       825, 16764.19, NULL);
+                       ('Ara', 'Quiring', 
+                       63, 4, 11, 
+                       40295.18, 47673.47, 
+                       705, 44263.41, NULL);
 
             
                        INSERT INTO customers 
@@ -1250,10 +95,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Eleen', 'Krallman', 
-                       43, 1, 9, 
-                       101671.49, 117330.91, 
-                       532, 79567.37, NULL);
+                       ('Marys', 'Allcorn', 
+                       80, 8, 2, 
+                       29697.27, 51753.15, 
+                       328, 23810.22, NULL);
 
             
                        INSERT INTO customers 
@@ -1261,10 +106,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lorena', 'Mahusay', 
-                       49, 6, 6, 
-                       130214.95, 121871.84, 
-                       835, 55567.53, NULL);
+                       ('Debbie', 'Spees', 
+                       54, 2, 12, 
+                       31103.06, 141384.16, 
+                       795, 54444.15, NULL);
 
             
                        INSERT INTO customers 
@@ -1272,10 +117,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Leah', 'Speh', 
-                       54, 5, 13, 
-                       134882.3, 143144.46, 
-                       426, 71490.53, NULL);
+                       ('Berty', 'Hark', 
+                       41, 8, 13, 
+                       120511.18, 138488.61, 
+                       447, 15651.95, NULL);
 
             
                        INSERT INTO customers 
@@ -1283,10 +128,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Margalo', 'Duboise', 
-                       34, 2, 5, 
-                       53829.73, 54532.64, 
-                       789, 63343.93, NULL);
+                       ('Anstice', 'Hulsman', 
+                       44, 1, 3, 
+                       56125.13, 68467.76, 
+                       619, 9268.48, NULL);
 
             
                        INSERT INTO customers 
@@ -1294,10 +139,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Wilie', 'Wildeisen', 
-                       58, 6, 6, 
-                       61954.2, 99901.65, 
-                       338, 20925.22, NULL);
+                       ('Imojean', 'Rodman', 
+                       19, 9, 4, 
+                       57969.29, 51032.83, 
+                       653, 18912.68, NULL);
 
             
                        INSERT INTO customers 
@@ -1305,10 +150,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ernestine', 'Sanna', 
-                       29, 1, 0, 
-                       145603.7, 137365.23, 
-                       775, 61331.28, NULL);
+                       ('Devan', 'Lino', 
+                       56, 4, 5, 
+                       51608.41, 94163.52, 
+                       625, 89026.47, NULL);
 
             
                        INSERT INTO customers 
@@ -1316,10 +161,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Helli', 'Mencl', 
-                       73, 2, 9, 
-                       95376.78, 96806.5, 
-                       715, 85855.28, NULL);
+                       ('Bibbie', 'Fusca', 
+                       76, 1, 3, 
+                       102388.42, 113122.99, 
+                       797, 20530.62, NULL);
 
             
                        INSERT INTO customers 
@@ -1327,10 +172,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Shell', 'Roehling', 
-                       52, 2, 7, 
-                       141947.01, 72017.55, 
-                       714, 46212.18, NULL);
+                       ('Jillayne', 'Prater', 
+                       23, 8, 8, 
+                       134894.92, 131512.55, 
+                       391, 92940.9, NULL);
 
             
                        INSERT INTO customers 
@@ -1338,10 +183,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Maura', 'Agresti', 
-                       72, 4, 11, 
-                       128033.55, 95418.51, 
-                       458, 99861.56, NULL);
+                       ('Daune', 'Stepanek', 
+                       49, 2, 6, 
+                       144132.38, 94094.96, 
+                       770, 37520.38, NULL);
 
             
                        INSERT INTO customers 
@@ -1349,10 +194,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Serena', 'Lamarsh', 
-                       41, 9, 2, 
-                       115801.59, 96072.46, 
-                       521, 62438.33, NULL);
+                       ('Enriqueta', 'Hansman', 
+                       32, 1, 0, 
+                       30327.76, 28487.48, 
+                       799, 26437.7, NULL);
 
             
                        INSERT INTO customers 
@@ -1360,10 +205,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Helaine', 'Erbes', 
-                       73, 7, 2, 
-                       129402.03, 149433.02, 
-                       713, 48987.26, NULL);
+                       ('Emmalee', 'Burtell', 
+                       34, 9, 7, 
+                       23581.26, 119881.95, 
+                       560, 92547.19, NULL);
 
             
                        INSERT INTO customers 
@@ -1371,10 +216,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Arabelle', 'Vanderberg', 
-                       61, 1, 3, 
-                       83063.07, 54650.96, 
-                       364, 74171.8, NULL);
+                       ('Doe', 'Suggs', 
+                       68, 4, 7, 
+                       149200.41, 131726.08, 
+                       635, 60723.09, NULL);
 
             
                        INSERT INTO customers 
@@ -1382,10 +227,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Becca', 'Connors', 
-                       76, 8, 13, 
-                       40993.82, 79919.87, 
-                       744, 79216.41, NULL);
+                       ('Elisabeth', 'Kimberling', 
+                       26, 7, 11, 
+                       35276.41, 56170.2, 
+                       363, 23297.71, NULL);
 
             
                        INSERT INTO customers 
@@ -1393,10 +238,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ursala', 'Nobile', 
-                       71, 3, 9, 
-                       90268.74, 76287.69, 
-                       679, 2474.78, NULL);
+                       ('Dulciana', 'Gillan', 
+                       72, 3, 7, 
+                       135700.02, 105609.43, 
+                       725, 44968.54, NULL);
 
             
                        INSERT INTO customers 
@@ -1404,10 +249,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Simona', 'Hoscheit', 
-                       65, 5, 10, 
-                       148632.72, 102082.31, 
-                       778, 89439.27, NULL);
+                       ('Adrian', 'Heroman', 
+                       68, 4, 7, 
+                       56949.13, 78577.98, 
+                       723, 81462.59, NULL);
 
             
                        INSERT INTO customers 
@@ -1415,10 +260,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Zorina', 'Ransford', 
-                       46, 3, 2, 
-                       77701.97, 73492.62, 
-                       511, 17894.89, NULL);
+                       ('Catharine', 'Trojak', 
+                       65, 2, 1, 
+                       101282.02, 90279.18, 
+                       415, 68353.57, NULL);
 
             
                        INSERT INTO customers 
@@ -1426,10 +271,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Laurianne', 'Sjulstad', 
-                       74, 2, 13, 
-                       94396.6, 50436.27, 
-                       387, 27749.01, NULL);
+                       ('Angil', 'Zak', 
+                       18, 9, 4, 
+                       84127.48, 23405.54, 
+                       335, 30643.18, NULL);
 
             
                        INSERT INTO customers 
@@ -1437,10 +282,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Jorie', 'Hainer', 
-                       30, 4, 1, 
-                       47952.23, 35119.89, 
-                       507, 11935.15, NULL);
+                       ('Vevay', 'Beccaria', 
+                       29, 9, 2, 
+                       25304.22, 77656.14, 
+                       497, 9402.6, NULL);
 
             
                        INSERT INTO customers 
@@ -1448,10 +293,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Caroljean', 'Rosner', 
-                       58, 9, 8, 
-                       126113.55, 94834.69, 
-                       401, 21382.9, NULL);
+                       ('Lynnet', 'Sarrett', 
+                       25, 9, 1, 
+                       114093.33, 58395.36, 
+                       786, 57899.07, NULL);
 
             
                        INSERT INTO customers 
@@ -1459,10 +304,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Bernardina', 'Pazik', 
-                       54, 3, 12, 
-                       49764.02, 92661.03, 
-                       725, 23426.92, NULL);
+                       ('Willi', 'Slomer', 
+                       77, 4, 1, 
+                       103376.09, 88423.64, 
+                       308, 31729.07, NULL);
 
             
                        INSERT INTO customers 
@@ -1470,10 +315,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Rana', 'Galford', 
-                       49, 6, 0, 
-                       141627.79, 92787.5, 
-                       595, 18029.53, NULL);
+                       ('Joycelin', 'Mcelravy', 
+                       68, 9, 13, 
+                       90823.71, 72232.85, 
+                       715, 58446.82, NULL);
 
             
                        INSERT INTO customers 
@@ -1481,10 +326,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Windy', 'Colly', 
-                       78, 6, 13, 
-                       73272.48, 77791.74, 
-                       791, 23086.73, NULL);
+                       ('Agnese', 'Croyle', 
+                       34, 2, 0, 
+                       140296.0, 83143.66, 
+                       487, 13978.41, NULL);
 
             
                        INSERT INTO customers 
@@ -1492,10 +337,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Emilie', 'Niederhaus', 
-                       67, 4, 1, 
-                       31835.16, 52833.22, 
-                       378, 24948.6, NULL);
+                       ('Kaleena', 'Scarbro', 
+                       51, 5, 10, 
+                       124702.72, 80949.22, 
+                       534, 9823.38, NULL);
 
             
                        INSERT INTO customers 
@@ -1503,10 +348,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Stephana', 'Honnette', 
-                       74, 4, 9, 
-                       87636.34, 76314.8, 
-                       587, 76277.59, NULL);
+                       ('Philippine', 'Hedrix', 
+                       67, 3, 3, 
+                       133936.75, 74637.37, 
+                       305, 62142.47, NULL);
 
             
                        INSERT INTO customers 
@@ -1514,10 +359,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Cloris', 'Beaty', 
-                       47, 2, 0, 
-                       68086.47, 109150.09, 
-                       656, 14730.85, NULL);
+                       ('Cyb', 'Froats', 
+                       31, 0, 2, 
+                       66134.84, 75447.09, 
+                       721, 68046.12, NULL);
 
             
                        INSERT INTO customers 
@@ -1525,10 +370,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Noelle', 'Troxell', 
-                       40, 6, 8, 
-                       140933.76, 44983.8, 
-                       732, 5321.94, NULL);
+                       ('Adriana', 'Wadel', 
+                       19, 4, 6, 
+                       40944.37, 62062.9, 
+                       405, 85677.9, NULL);
 
             
                        INSERT INTO customers 
@@ -1536,10 +381,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Kelley', 'Charpentier', 
-                       65, 6, 1, 
-                       110974.72, 149790.51, 
-                       457, 40623.68, NULL);
+                       ('Laural', 'Decoste', 
+                       28, 8, 1, 
+                       69194.44, 31194.99, 
+                       819, 9392.81, NULL);
 
             
                        INSERT INTO customers 
@@ -1547,10 +392,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Jemima', 'Widdoes', 
-                       43, 5, 0, 
-                       140548.95, 103465.12, 
-                       647, 46383.99, NULL);
+                       ('Pam', 'Earleywine', 
+                       71, 9, 9, 
+                       68727.14, 114982.83, 
+                       847, 56416.95, NULL);
 
             
                        INSERT INTO customers 
@@ -1558,10 +403,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Gaynor', 'Ewoldt', 
-                       75, 8, 6, 
-                       113228.16, 143610.74, 
-                       429, 5528.34, NULL);
+                       ('Dulcie', 'Rosian', 
+                       59, 1, 1, 
+                       70110.88, 45349.87, 
+                       545, 25543.31, NULL);
 
             
                        INSERT INTO customers 
@@ -1569,10 +414,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Frank', 'Kanai', 
-                       71, 5, 12, 
-                       124318.9, 84128.97, 
-                       759, 49411.87, NULL);
+                       ('Margeaux', 'Ordoyne', 
+                       42, 9, 8, 
+                       40037.91, 121500.06, 
+                       555, 12863.45, NULL);
 
             
                        INSERT INTO customers 
@@ -1580,10 +425,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Vivyanne', 'Bossier', 
-                       23, 7, 0, 
-                       121550.86, 93389.64, 
-                       336, 48989.33, NULL);
+                       ('Trista', 'Woodberry', 
+                       47, 2, 10, 
+                       37125.37, 45962.98, 
+                       380, 94102.23, NULL);
 
             
                        INSERT INTO customers 
@@ -1591,10 +436,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Marysa', 'Thane', 
-                       69, 1, 9, 
-                       86575.41, 76384.86, 
-                       358, 70155.12, NULL);
+                       ('Rycca', 'Placino', 
+                       45, 5, 7, 
+                       58111.24, 22348.53, 
+                       682, 70522.74, NULL);
 
             
                        INSERT INTO customers 
@@ -1602,10 +447,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Amelie', 'Adelgren', 
-                       57, 3, 9, 
-                       67988.4, 132901.41, 
-                       715, 30501.91, NULL);
+                       ('Debora', 'Billen', 
+                       50, 4, 7, 
+                       33395.68, 129006.16, 
+                       760, 97751.72, NULL);
 
             
                        INSERT INTO customers 
@@ -1613,10 +458,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Olenka', 'Jessup', 
-                       68, 8, 7, 
-                       119560.04, 49146.43, 
-                       828, 28149.26, NULL);
+                       ('Kevyn', 'Letellier', 
+                       19, 8, 6, 
+                       50479.19, 69087.23, 
+                       719, 96377.25, NULL);
 
             
                        INSERT INTO customers 
@@ -1624,10 +469,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Celene', 'Jehlicka', 
-                       60, 0, 0, 
-                       92635.21, 90137.1, 
-                       515, 46385.4, NULL);
+                       ('Dorelle', 'Parsell', 
+                       73, 2, 5, 
+                       123585.17, 40045.65, 
+                       481, 31801.0, NULL);
 
             
                        INSERT INTO customers 
@@ -1635,10 +480,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Gusta', 'Barbato', 
-                       38, 2, 0, 
-                       92486.31, 78839.88, 
-                       757, 66877.85, NULL);
+                       ('Barbette', 'Kistner', 
+                       61, 5, 10, 
+                       26579.15, 79968.96, 
+                       485, 95196.14, NULL);
 
             
                        INSERT INTO customers 
@@ -1646,1352 +491,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Giovanna', 'Canelo', 
-                       42, 6, 5, 
-                       129907.5, 25923.68, 
-                       750, 82671.62, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Elisabeth', 'Felberbaum', 
-                       80, 0, 5, 
-                       25969.06, 81749.57, 
-                       490, 57354.09, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Cristal', 'Linak', 
-                       54, 5, 7, 
-                       112207.82, 20081.96, 
-                       746, 40360.88, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ursa', 'Simer', 
-                       22, 3, 11, 
-                       51135.59, 119155.23, 
-                       322, 5804.4, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Charlena', 'Horsley', 
-                       37, 0, 7, 
-                       138411.8, 144194.62, 
-                       502, 67553.79, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Sibbie', 'Wolsdorf', 
-                       32, 5, 9, 
-                       42323.27, 118760.04, 
-                       616, 15908.58, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Rory', 'Gajeski', 
-                       49, 6, 10, 
-                       138589.71, 90241.73, 
-                       549, 70435.81, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Alla', 'Olerud', 
-                       35, 8, 3, 
-                       78333.9, 31566.33, 
-                       742, 34549.76, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ania', 'Bobseine', 
-                       33, 2, 10, 
-                       140791.55, 98549.44, 
-                       619, 42580.15, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Dorene', 'Clowdus', 
-                       45, 0, 11, 
-                       52271.03, 38989.99, 
-                       507, 98343.08, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Tilly', 'Precise', 
-                       26, 2, 13, 
-                       28089.7, 85052.8, 
-                       463, 25927.55, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Verine', 'Siriano', 
-                       79, 0, 8, 
-                       118884.6, 141395.72, 
-                       680, 68863.86, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Abigale', 'Arena', 
-                       19, 2, 3, 
-                       19722.33, 78855.52, 
-                       803, 56312.1, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Wini', 'Martucci', 
-                       71, 6, 1, 
-                       95448.72, 80648.0, 
-                       572, 80146.06, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ainslee', 'Viray', 
-                       25, 0, 4, 
-                       130154.55, 80975.82, 
-                       618, 16823.49, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Chrysa', 'Takeda', 
-                       23, 7, 6, 
-                       50008.64, 127968.15, 
-                       455, 28252.58, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Mair', 'Malkasian', 
-                       51, 3, 11, 
-                       108529.09, 26160.24, 
-                       333, 82924.51, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Donetta', 'Bracey', 
-                       31, 1, 4, 
-                       149789.68, 57075.04, 
-                       694, 57182.81, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Janet', 'Ulanski', 
-                       49, 4, 10, 
-                       133644.32, 142033.47, 
-                       401, 54883.65, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Julia', 'Bertelson', 
-                       63, 6, 8, 
-                       50775.37, 63626.62, 
-                       463, 72061.13, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Tabatha', 'Balliew', 
-                       79, 4, 8, 
-                       74631.79, 101874.91, 
-                       751, 65759.09, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Bee', 'Bellue', 
-                       70, 5, 0, 
-                       110791.72, 91062.63, 
-                       714, 96239.1, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Roxine', 'Beacom', 
-                       37, 9, 11, 
-                       132697.61, 73425.2, 
-                       762, 1449.8, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Anallese', 'Rentar', 
-                       56, 3, 5, 
-                       87800.79, 113787.36, 
-                       821, 14574.03, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Vonnie', 'Cortopassi', 
-                       51, 6, 4, 
-                       76714.26, 20181.98, 
-                       550, 7950.61, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Euphemia', 'Sperduti', 
-                       41, 4, 7, 
-                       20304.7, 100194.75, 
-                       559, 47425.47, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Kaia', 'Desanto', 
-                       37, 8, 0, 
-                       94746.88, 48701.52, 
-                       615, 65625.81, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Terrijo', 'Zoucha', 
-                       62, 7, 2, 
-                       121889.52, 50634.13, 
-                       686, 10578.67, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Charity', 'Norland', 
-                       46, 3, 11, 
-                       105919.04, 40538.4, 
-                       623, 44493.5, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Pru', 'Mitchusson', 
-                       29, 6, 7, 
-                       20613.03, 66406.63, 
-                       623, 81764.44, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Doro', 'Hanstein', 
-                       55, 3, 0, 
-                       47187.95, 98048.86, 
-                       819, 35204.88, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Cynthy', 'Casola', 
-                       29, 0, 0, 
-                       85714.2, 101205.74, 
-                       469, 22730.93, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Rhodia', 'Ruleman', 
-                       22, 8, 6, 
-                       40932.98, 85932.66, 
-                       709, 52587.14, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Tammy', 'Schrott', 
-                       23, 8, 12, 
-                       44525.78, 44382.81, 
-                       384, 34225.88, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ynez', 'Paling', 
-                       33, 6, 6, 
-                       48047.13, 27760.14, 
-                       581, 60768.68, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Kitty', 'Abdel', 
-                       73, 4, 5, 
-                       33663.87, 136416.55, 
-                       635, 56760.45, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Veda', 'Tanzman', 
-                       30, 0, 1, 
-                       113802.11, 90264.18, 
-                       800, 32109.1, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Joann', 'Wickes', 
-                       32, 9, 11, 
-                       68045.65, 26936.69, 
-                       522, 59470.83, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Jeri', 'Wodicka', 
-                       68, 3, 8, 
-                       46807.41, 121939.96, 
-                       717, 32136.14, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Bethanne', 'Tomopoulos', 
-                       72, 5, 5, 
-                       121182.69, 24587.34, 
-                       606, 38384.18, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Deedee', 'Scribellito', 
-                       44, 2, 11, 
-                       119897.4, 141140.31, 
-                       389, 24610.31, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Juliette', 'Bergem', 
-                       37, 6, 8, 
-                       43970.22, 100159.35, 
-                       352, 66450.2, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Calypso', 'Bultron', 
-                       30, 2, 13, 
-                       94369.24, 49989.44, 
-                       359, 23877.34, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Hynda', 'Canny', 
-                       59, 2, 4, 
-                       99607.61, 138211.06, 
-                       607, 69312.33, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Charisse', 'Rogian', 
-                       47, 0, 1, 
-                       50975.83, 131726.71, 
-                       418, 30425.67, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Dorothy', 'Urtado', 
-                       23, 3, 10, 
-                       26786.97, 64137.43, 
-                       422, 23913.73, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Bonny', 'Gilkey', 
-                       76, 5, 0, 
-                       107100.64, 127877.76, 
-                       557, 41898.3, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Inessa', 'Castellari', 
-                       26, 0, 0, 
-                       138892.27, 36740.39, 
-                       464, 73231.53, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Danyelle', 'Vil', 
-                       79, 8, 3, 
-                       55481.6, 99722.64, 
-                       725, 58738.06, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Angelia', 'Detullio', 
-                       19, 2, 1, 
-                       82056.81, 115559.96, 
-                       417, 78873.12, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Shannon', 'Fuhrmeister', 
-                       33, 2, 10, 
-                       64178.75, 70770.0, 
-                       311, 61618.08, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Joline', 'Majano', 
-                       57, 1, 6, 
-                       111065.7, 54818.3, 
-                       605, 22156.07, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Kerrill', 'Vielle', 
-                       52, 9, 1, 
-                       85879.19, 138063.25, 
-                       409, 1002.09, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Koralle', 'Machacek', 
-                       71, 0, 5, 
-                       53622.84, 68581.7, 
-                       623, 27146.21, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Jennette', 'Tentler', 
-                       57, 2, 13, 
-                       27614.97, 102244.9, 
-                       567, 96090.56, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Marcie', 'Schlagel', 
-                       77, 8, 6, 
-                       85232.06, 46817.02, 
-                       773, 28650.45, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Dominga', 'Gindi', 
-                       22, 3, 8, 
-                       50226.43, 100123.47, 
-                       595, 79127.16, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Bria', 'Whittle', 
-                       62, 9, 13, 
-                       122716.76, 22524.71, 
-                       562, 5607.21, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Nissie', 'Wolter', 
-                       34, 8, 13, 
-                       137510.25, 31092.33, 
-                       334, 45474.78, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Crystie', 'Benham', 
-                       70, 0, 11, 
-                       135208.24, 68652.26, 
-                       734, 49017.49, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Cheslie', 'Magoon', 
-                       72, 3, 9, 
-                       66267.05, 66834.27, 
-                       714, 82060.2, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Rennie', 'Caspary', 
-                       26, 9, 3, 
-                       103003.8, 109154.06, 
-                       539, 39421.45, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Carlye', 'Atanacio', 
-                       66, 4, 1, 
-                       67026.38, 45127.28, 
-                       741, 25128.22, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Mada', 'Hulette', 
-                       41, 8, 7, 
-                       47694.13, 94307.51, 
-                       344, 62945.37, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Dalia', 'Mahler', 
-                       50, 1, 2, 
-                       124742.95, 85212.91, 
-                       415, 83573.32, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Brittne', 'Bias', 
-                       34, 2, 8, 
-                       30882.87, 69341.74, 
-                       608, 77508.94, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Michaeline', 'Minteer', 
-                       55, 2, 13, 
-                       96349.56, 70695.66, 
-                       536, 13723.75, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Kare', 'Douthitt', 
-                       49, 3, 11, 
-                       22923.35, 141389.71, 
-                       586, 52278.3, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Nikaniki', 'Mackedanz', 
-                       43, 5, 0, 
-                       121481.27, 102910.36, 
-                       723, 61269.59, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Sharai', 'Gisler', 
-                       51, 3, 3, 
-                       126169.94, 148153.61, 
-                       737, 22586.94, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Yasmin', 'Reser', 
-                       48, 1, 1, 
-                       138376.65, 59439.71, 
-                       693, 75118.91, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Goldarina', 'Kiehne', 
-                       27, 0, 7, 
-                       122811.15, 62376.13, 
-                       764, 87181.24, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ofella', 'Zalk', 
-                       54, 4, 3, 
-                       123180.64, 135774.94, 
-                       403, 72213.72, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Jandy', 'Bast', 
-                       53, 1, 3, 
-                       107311.8, 38219.91, 
-                       587, 73970.27, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Dorise', 'Chukri', 
-                       21, 6, 0, 
-                       78055.44, 102756.8, 
-                       829, 70985.45, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Nanine', 'Toliver', 
-                       25, 2, 9, 
-                       89586.76, 147987.39, 
-                       485, 76458.97, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Fedora', 'Narkevicius', 
-                       42, 7, 9, 
-                       83092.41, 51623.47, 
-                       737, 51645.43, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Herta', 'Gorder', 
-                       46, 3, 2, 
-                       138279.84, 71363.32, 
-                       326, 86054.73, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Dollie', 'Koch', 
-                       57, 3, 12, 
-                       115632.65, 122749.84, 
-                       617, 7812.47, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Kym', 'Casebier', 
-                       67, 0, 0, 
-                       19304.63, 128015.67, 
-                       693, 31784.39, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Geralda', 'Jesperson', 
-                       71, 9, 8, 
-                       113835.79, 58020.59, 
-                       588, 26095.79, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Elka', 'Faber', 
-                       28, 2, 13, 
-                       140003.49, 144452.3, 
-                       315, 49492.85, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Lane', 'Jaquet', 
-                       22, 9, 1, 
-                       101406.19, 119613.77, 
-                       678, 40548.11, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Margalit', 'Liwanag', 
-                       44, 6, 0, 
-                       126233.44, 75792.23, 
-                       334, 23424.31, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Emmye', 'Engleberg', 
-                       78, 8, 9, 
-                       101493.16, 51122.49, 
-                       420, 22205.19, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Samaria', 'Detty', 
-                       55, 8, 8, 
-                       84219.58, 59070.37, 
-                       454, 85048.14, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Cosette', 'Eli', 
-                       22, 6, 3, 
-                       39721.6, 80705.12, 
-                       552, 68734.3, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Olimpia', 'Brown', 
-                       73, 4, 8, 
-                       75200.77, 148199.91, 
-                       401, 96946.4, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Brunhilde', 'Grossack', 
-                       20, 3, 11, 
-                       149003.91, 106481.61, 
-                       829, 16662.28, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Michele', 'Tilden', 
-                       21, 6, 6, 
-                       69301.17, 138942.6, 
-                       342, 58172.77, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Raychel', 'Kappa', 
-                       27, 6, 13, 
-                       95209.57, 84057.52, 
-                       364, 24341.74, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Chelsy', 'Yamanaka', 
-                       66, 0, 3, 
-                       78392.36, 90099.01, 
-                       580, 2682.93, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Tarrah', 'Nouri', 
-                       30, 0, 4, 
-                       123432.05, 45195.77, 
-                       399, 90798.93, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Catrina', 'Bumbray', 
-                       42, 8, 5, 
-                       91402.39, 106725.9, 
-                       471, 84149.01, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Sissie', 'Kawamoto', 
-                       22, 9, 10, 
-                       123979.83, 84625.62, 
-                       672, 64589.9, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Druci', 'Vasi', 
-                       32, 5, 10, 
-                       113637.18, 85690.01, 
-                       452, 41695.57, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Trudi', 'Lare', 
-                       20, 3, 13, 
-                       143055.28, 48419.35, 
-                       850, 86153.07, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Elladine', 'Hurme', 
-                       20, 8, 11, 
-                       105871.47, 83883.37, 
-                       483, 24494.75, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Leigha', 'Muraski', 
-                       31, 9, 0, 
-                       56796.93, 28476.86, 
-                       424, 71854.48, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Jesselyn', 'Decesare', 
-                       65, 9, 7, 
-                       133120.75, 60127.85, 
-                       444, 80704.84, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Cissy', 'Tavarez', 
-                       24, 0, 2, 
-                       71571.23, 107142.2, 
-                       777, 9796.28, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Anabel', 'Fosse', 
-                       74, 7, 4, 
-                       142633.86, 115485.57, 
-                       397, 34195.03, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Pierette', 'Mormann', 
-                       78, 4, 0, 
-                       102098.01, 52310.25, 
-                       491, 93126.76, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Gertrude', 'Cowser', 
-                       73, 0, 13, 
-                       47049.36, 26521.52, 
-                       552, 16875.12, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Annette', 'Kindlimann', 
-                       75, 4, 13, 
-                       81505.63, 67091.98, 
-                       840, 34797.69, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Chrysler', 'Hoekman', 
-                       23, 2, 0, 
-                       67068.65, 141193.94, 
-                       832, 5368.6, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Crystal', 'Nwachukwu', 
-                       72, 2, 12, 
-                       101775.71, 149564.92, 
-                       539, 4181.22, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Mariejeanne', 'Sipla', 
-                       64, 5, 3, 
-                       101290.07, 117123.63, 
-                       530, 83538.91, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Lisabeth', 'Telesco', 
-                       58, 4, 3, 
-                       145023.45, 26103.13, 
-                       770, 22235.22, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Kathleen', 'Brighter', 
-                       48, 4, 0, 
-                       123777.07, 128505.67, 
-                       557, 75101.95, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Novelia', 'Saelee', 
-                       32, 3, 12, 
-                       35397.48, 120377.35, 
-                       718, 19604.71, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Albina', 'Pesicka', 
-                       31, 5, 1, 
-                       79234.99, 107833.36, 
-                       317, 40876.52, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Starr', 'Bensberg', 
-                       20, 2, 5, 
-                       25584.43, 76740.83, 
-                       317, 4913.99, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Christina', 'Kwaterski', 
-                       49, 8, 13, 
-                       104289.45, 97514.77, 
-                       493, 91217.24, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Salli', 'Escareno', 
-                       36, 4, 2, 
-                       114508.1, 50596.77, 
-                       649, 30560.12, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Manda', 'Deprofio', 
-                       66, 1, 7, 
-                       28490.27, 127768.04, 
-                       516, 5839.67, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ula', 'Scheu', 
-                       27, 1, 9, 
-                       28946.09, 98191.22, 
-                       683, 60853.88, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Trudy', 'Walin', 
-                       64, 3, 12, 
-                       42274.89, 91689.63, 
-                       456, 88400.18, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Loella', 'Marius', 
-                       42, 1, 10, 
-                       146609.31, 80100.75, 
-                       344, 3014.26, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Michal', 'Fregozo', 
-                       20, 8, 12, 
-                       36786.82, 73682.64, 
-                       347, 36116.02, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ileana', 'Merk', 
-                       72, 3, 8, 
-                       63676.05, 115397.82, 
-                       539, 23346.1, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Konstance', 'Ober', 
-                       49, 6, 2, 
-                       35703.22, 60056.87, 
-                       393, 39352.27, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Susanetta', 'Arnesen', 
+                       ('Ketty', 'Kiest', 
                        59, 1, 3, 
-                       52067.0, 140755.53, 
-                       380, 26583.87, NULL);
+                       116713.55, 113245.34, 
+                       806, 55510.58, NULL);
 
             
                        INSERT INTO customers 
@@ -2999,10 +502,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Jacquelin', 'Ashlock', 
-                       54, 3, 4, 
-                       111590.75, 145645.0, 
-                       770, 76505.22, NULL);
+                       ('Jayme', 'Romas', 
+                       71, 3, 13, 
+                       56234.13, 67997.13, 
+                       475, 58217.14, NULL);
 
             
                        INSERT INTO customers 
@@ -3010,10 +513,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lillian', 'Deloff', 
-                       67, 4, 7, 
-                       90542.45, 120081.71, 
-                       374, 22083.55, NULL);
+                       ('Sybyl', 'Amber', 
+                       69, 9, 9, 
+                       49335.48, 30609.17, 
+                       607, 31921.35, NULL);
 
             
                        INSERT INTO customers 
@@ -3021,10 +524,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Claudia', 'Horaney', 
-                       73, 9, 2, 
-                       46892.21, 143594.54, 
-                       810, 91500.51, NULL);
+                       ('Theodora', 'Lokken', 
+                       43, 4, 12, 
+                       43968.98, 68289.12, 
+                       609, 35950.84, NULL);
 
             
                        INSERT INTO customers 
@@ -3032,10 +535,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Andromache', 'Brenneis', 
-                       50, 6, 5, 
-                       89378.94, 49302.56, 
-                       443, 27549.1, NULL);
+                       ('Juliane', 'Grett', 
+                       80, 5, 7, 
+                       84454.39, 123318.61, 
+                       657, 45329.78, NULL);
 
             
                        INSERT INTO customers 
@@ -3043,10 +546,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Rae', 'Belts', 
-                       54, 1, 8, 
-                       143322.46, 149461.73, 
-                       332, 62853.88, NULL);
+                       ('Adah', 'Hayduk', 
+                       61, 2, 8, 
+                       20110.65, 34678.75, 
+                       463, 50743.51, NULL);
 
             
                        INSERT INTO customers 
@@ -3054,10 +557,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Rosa', 'Moores', 
-                       80, 0, 1, 
-                       47428.18, 144820.75, 
-                       395, 58665.54, NULL);
+                       ('Pepita', 'Torrella', 
+                       36, 7, 13, 
+                       81474.28, 102857.01, 
+                       666, 65182.1, NULL);
 
             
                        INSERT INTO customers 
@@ -3065,10 +568,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Marianna', 'Nazir', 
-                       51, 4, 5, 
-                       144482.2, 42366.28, 
-                       678, 67070.93, NULL);
+                       ('Judith', 'Goodfriend', 
+                       45, 3, 9, 
+                       47851.49, 78795.89, 
+                       347, 11882.15, NULL);
 
             
                        INSERT INTO customers 
@@ -3076,10 +579,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Verla', 'Mauss', 
-                       19, 5, 5, 
-                       50486.92, 19643.25, 
-                       323, 91258.97, NULL);
+                       ('Henrietta', 'Mezzinni', 
+                       18, 3, 1, 
+                       144841.46, 127065.46, 
+                       331, 57681.55, NULL);
 
             
                        INSERT INTO customers 
@@ -3087,10 +590,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ilene', 'Sedlay', 
-                       28, 3, 2, 
-                       132724.84, 29852.92, 
-                       756, 79833.5, NULL);
+                       ('Harrietta', 'Warnke', 
+                       31, 1, 5, 
+                       81381.13, 117840.67, 
+                       790, 98246.34, NULL);
 
             
                        INSERT INTO customers 
@@ -3098,10 +601,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Janene', 'Tallis', 
-                       58, 4, 9, 
-                       50882.45, 44128.53, 
-                       646, 10546.05, NULL);
+                       ('Jeanne', 'Pellet', 
+                       23, 7, 1, 
+                       62482.16, 90082.54, 
+                       676, 78493.97, NULL);
 
             
                        INSERT INTO customers 
@@ -3109,10 +612,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ruth', 'Trigillo', 
-                       31, 8, 6, 
-                       38814.3, 34881.71, 
-                       635, 54273.78, NULL);
+                       ('Anestassia', 'Deer', 
+                       51, 1, 12, 
+                       83894.29, 114874.75, 
+                       821, 51990.14, NULL);
 
             
                        INSERT INTO customers 
@@ -3120,10 +623,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Tarrah', 'Mohead', 
-                       53, 2, 0, 
-                       54881.58, 68941.31, 
-                       705, 4600.73, NULL);
+                       ('Sallyanne', 'Sulzman', 
+                       39, 2, 0, 
+                       145002.99, 60665.08, 
+                       376, 8676.54, NULL);
 
             
                        INSERT INTO customers 
@@ -3131,10 +634,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Hermia', 'Quezergue', 
-                       80, 7, 6, 
-                       67715.11, 85226.52, 
-                       462, 25962.27, NULL);
+                       ('Ludovika', 'Shoffstall', 
+                       65, 5, 11, 
+                       129131.37, 55688.49, 
+                       588, 68367.69, NULL);
 
             
                        INSERT INTO customers 
@@ -3142,10 +645,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lilian', 'Leask', 
-                       42, 7, 5, 
-                       99766.67, 48444.39, 
-                       738, 18250.67, NULL);
+                       ('Edeline', 'Pantaleo', 
+                       19, 6, 8, 
+                       143831.05, 101762.96, 
+                       560, 14691.21, NULL);
 
             
                        INSERT INTO customers 
@@ -3153,10 +656,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Tawsha', 'Biersner', 
-                       19, 6, 3, 
-                       20226.27, 52770.93, 
-                       332, 16626.13, NULL);
+                       ('Danyette', 'Filsinger', 
+                       61, 9, 9, 
+                       106978.69, 144076.95, 
+                       432, 87955.14, NULL);
 
             
                        INSERT INTO customers 
@@ -3164,10 +667,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Giustina', 'Karsten', 
-                       67, 9, 0, 
-                       144002.22, 33290.45, 
-                       807, 15670.36, NULL);
+                       ('Aile', 'Marton', 
+                       51, 4, 2, 
+                       81204.64, 148853.88, 
+                       748, 84859.39, NULL);
 
             
                        INSERT INTO customers 
@@ -3175,10 +678,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Cherrita', 'Tsasie', 
-                       61, 8, 4, 
-                       141524.25, 138863.49, 
-                       467, 8093.41, NULL);
+                       ('Roxane', 'Hughes', 
+                       33, 7, 11, 
+                       48901.67, 79239.67, 
+                       386, 25152.02, NULL);
 
             
                        INSERT INTO customers 
@@ -3186,10 +689,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Sande', 'Bellmay', 
-                       42, 5, 11, 
-                       54637.73, 36774.43, 
-                       629, 96347.1, NULL);
+                       ('Valina', 'Prest', 
+                       60, 4, 5, 
+                       116071.2, 115900.81, 
+                       399, 63540.35, NULL);
 
             
                        INSERT INTO customers 
@@ -3197,10 +700,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Irene', 'Newens', 
-                       75, 4, 2, 
-                       62195.18, 33612.89, 
-                       834, 43318.52, NULL);
+                       ('Sheelagh', 'Hodgkin', 
+                       59, 0, 2, 
+                       50936.11, 75995.78, 
+                       510, 84404.14, NULL);
 
             
                        INSERT INTO customers 
@@ -3208,10 +711,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Corinne', 'Thiemann', 
-                       39, 5, 9, 
-                       99464.55, 112989.12, 
-                       547, 68685.22, NULL);
+                       ('Carmelle', 'Cross', 
+                       24, 4, 4, 
+                       90888.06, 99645.8, 
+                       635, 26306.08, NULL);
 
             
                        INSERT INTO customers 
@@ -3219,10 +722,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Amara', 'Rutana', 
-                       47, 7, 13, 
-                       23474.4, 44505.42, 
-                       389, 20856.81, NULL);
+                       ('Lee', 'Kolodziej', 
+                       42, 7, 2, 
+                       146222.51, 116354.38, 
+                       562, 69394.22, NULL);
 
             
                        INSERT INTO customers 
@@ -3230,10 +733,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Margret', 'Brogglin', 
-                       40, 3, 9, 
-                       96789.52, 60789.32, 
-                       799, 63346.97, NULL);
+                       ('Cindra', 'Poot', 
+                       53, 5, 11, 
+                       33987.53, 97877.92, 
+                       576, 34494.77, NULL);
 
             
                        INSERT INTO customers 
@@ -3241,10 +744,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Mariana', 'Ratkovich', 
-                       44, 9, 5, 
-                       33118.41, 125612.35, 
-                       364, 6569.61, NULL);
+                       ('Dixie', 'Krupinski', 
+                       57, 9, 12, 
+                       68550.57, 77887.05, 
+                       361, 21606.43, NULL);
 
             
                        INSERT INTO customers 
@@ -3252,10 +755,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Leela', 'Mintor', 
-                       44, 3, 7, 
-                       20647.62, 19838.1, 
-                       539, 78025.87, NULL);
+                       ('Sherry', 'Solinas', 
+                       24, 8, 9, 
+                       131348.55, 48747.63, 
+                       611, 45863.81, NULL);
 
             
                        INSERT INTO customers 
@@ -3263,10 +766,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Denyse', 'Sidoti', 
-                       45, 1, 12, 
-                       62507.93, 121618.12, 
-                       552, 54815.96, NULL);
+                       ('Merrill', 'Belyea', 
+                       52, 2, 4, 
+                       85176.71, 74631.76, 
+                       337, 29651.3, NULL);
 
             
                        INSERT INTO customers 
@@ -3274,10 +777,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Arliene', 'Finkenbiner', 
-                       79, 2, 2, 
-                       102790.04, 91412.33, 
-                       419, 2196.61, NULL);
+                       ('Grace', 'Dries', 
+                       65, 2, 9, 
+                       37703.74, 89971.73, 
+                       376, 62134.03, NULL);
 
             
                        INSERT INTO customers 
@@ -3285,10 +788,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Jesselyn', 'Grabinski', 
-                       72, 9, 11, 
-                       134196.69, 52467.21, 
-                       478, 90418.07, NULL);
+                       ('Cathrine', 'Braxton', 
+                       72, 6, 1, 
+                       58735.77, 48715.97, 
+                       535, 25720.47, NULL);
 
             
                        INSERT INTO customers 
@@ -3296,10 +799,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Cherice', 'Valderas', 
-                       64, 1, 11, 
-                       109611.28, 39485.91, 
-                       354, 94356.79, NULL);
+                       ('Kaycee', 'Argrave', 
+                       31, 6, 1, 
+                       71280.66, 140744.29, 
+                       340, 69933.5, NULL);
 
             
                        INSERT INTO customers 
@@ -3307,10 +810,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Sal', 'Rainford', 
-                       66, 0, 8, 
-                       24352.89, 81656.85, 
-                       602, 4733.45, NULL);
+                       ('Zsazsa', 'Plume', 
+                       28, 6, 13, 
+                       88388.79, 77253.17, 
+                       785, 91329.25, NULL);
 
             
                        INSERT INTO customers 
@@ -3318,10 +821,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lenna', 'Dalhart', 
-                       47, 8, 10, 
-                       123869.32, 66248.41, 
-                       660, 9966.79, NULL);
+                       ('Enrica', 'Shami', 
+                       35, 2, 5, 
+                       128215.79, 78649.22, 
+                       574, 77605.1, NULL);
 
             
                        INSERT INTO customers 
@@ -3329,10 +832,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ardis', 'Erard', 
-                       50, 8, 11, 
-                       57120.23, 48554.9, 
-                       375, 18071.06, NULL);
+                       ('Maible', 'Malizia', 
+                       69, 9, 12, 
+                       139650.63, 106315.43, 
+                       694, 42296.18, NULL);
 
             
                        INSERT INTO customers 
@@ -3340,10 +843,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Clarinda', 'Elery', 
-                       29, 0, 11, 
-                       52838.62, 107358.44, 
-                       592, 97447.79, NULL);
+                       ('Chelsea', 'Dukette', 
+                       70, 7, 7, 
+                       86851.14, 127609.32, 
+                       602, 22225.51, NULL);
 
             
                        INSERT INTO customers 
@@ -3351,10 +854,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Prue', 'Climes', 
-                       37, 6, 4, 
-                       99450.3, 80851.01, 
-                       403, 69166.52, NULL);
+                       ('Holly', 'Rodriquez', 
+                       50, 6, 2, 
+                       92187.38, 137714.1, 
+                       537, 8906.75, NULL);
 
             
                        INSERT INTO customers 
@@ -3362,10 +865,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ardelia', 'Lehmer', 
-                       64, 2, 1, 
-                       120636.54, 129263.25, 
-                       817, 50721.19, NULL);
+                       ('Jeana', 'Anes', 
+                       29, 4, 0, 
+                       132121.69, 65486.61, 
+                       672, 59657.29, NULL);
 
             
                        INSERT INTO customers 
@@ -3373,10 +876,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Muriel', 'Stiefel', 
-                       33, 1, 6, 
-                       115279.23, 105719.58, 
-                       396, 6109.59, NULL);
+                       ('Federica', 'Barrena', 
+                       51, 5, 10, 
+                       63609.18, 27215.82, 
+                       673, 86498.33, NULL);
 
             
                        INSERT INTO customers 
@@ -3384,10 +887,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Neysa', 'Broy', 
-                       40, 1, 9, 
-                       75927.61, 147541.03, 
-                       686, 42390.34, NULL);
+                       ('Karmen', 'Foo', 
+                       45, 4, 4, 
+                       115058.53, 23521.95, 
+                       491, 54168.43, NULL);
 
             
                        INSERT INTO customers 
@@ -3395,10 +898,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Georgie', 'Wimett', 
-                       54, 5, 13, 
-                       148200.61, 35459.12, 
-                       357, 15769.42, NULL);
+                       ('Sacha', 'Biery', 
+                       23, 7, 0, 
+                       23753.07, 69816.13, 
+                       498, 96479.87, NULL);
 
             
                        INSERT INTO customers 
@@ -3406,10 +909,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lanita', 'Mensi', 
-                       54, 8, 1, 
-                       69471.32, 44055.53, 
-                       611, 96667.33, NULL);
+                       ('Lida', 'Pock', 
+                       33, 9, 4, 
+                       111008.49, 50346.35, 
+                       392, 54695.12, NULL);
 
             
                        INSERT INTO customers 
@@ -3417,10 +920,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lise', 'Niforos', 
-                       53, 8, 9, 
-                       108188.39, 132211.32, 
-                       348, 42031.31, NULL);
+                       ('Mechelle', 'Angelilli', 
+                       52, 3, 9, 
+                       84697.92, 105628.11, 
+                       645, 88299.17, NULL);
 
             
                        INSERT INTO customers 
@@ -3428,10 +931,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ailene', 'Boulos', 
-                       41, 7, 7, 
-                       114205.09, 41576.61, 
-                       542, 85550.76, NULL);
+                       ('Desiri', 'Sedlay', 
+                       23, 7, 11, 
+                       89647.06, 43322.14, 
+                       496, 66086.13, NULL);
 
             
                        INSERT INTO customers 
@@ -3439,10 +942,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Desiri', 'Lyne', 
-                       37, 5, 3, 
-                       83691.25, 96797.4, 
-                       380, 40462.23, NULL);
+                       ('Berri', 'Luy', 
+                       73, 8, 3, 
+                       137151.96, 141348.79, 
+                       454, 83910.55, NULL);
 
             
                        INSERT INTO customers 
@@ -3450,10 +953,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Adrianna', 'Noor', 
-                       76, 1, 13, 
-                       85036.03, 59858.08, 
-                       748, 77532.19, NULL);
+                       ('Madge', 'Prosser', 
+                       72, 5, 7, 
+                       101829.36, 103985.55, 
+                       649, 9334.88, NULL);
 
             
                        INSERT INTO customers 
@@ -3461,10 +964,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Marje', 'Balling', 
-                       43, 5, 12, 
-                       115192.41, 133212.57, 
-                       569, 8481.12, NULL);
+                       ('Misti', 'Tapanes', 
+                       36, 0, 3, 
+                       123827.95, 137040.77, 
+                       766, 61890.22, NULL);
 
             
                        INSERT INTO customers 
@@ -3472,10 +975,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Sheila', 'Troglen', 
-                       76, 0, 3, 
-                       97352.28, 73658.05, 
-                       544, 36851.77, NULL);
+                       ('Sibelle', 'Rosenow', 
+                       75, 5, 3, 
+                       58697.13, 97159.84, 
+                       748, 44222.76, NULL);
 
             
                        INSERT INTO customers 
@@ -3483,10 +986,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Tammie', 'Kreb', 
-                       58, 0, 2, 
-                       136107.13, 109898.45, 
-                       612, 25350.01, NULL);
+                       ('Fey', 'Debar', 
+                       69, 3, 9, 
+                       108168.13, 131194.53, 
+                       578, 79644.39, NULL);
 
             
                        INSERT INTO customers 
@@ -3494,10 +997,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Roselin', 'Behme', 
-                       36, 6, 6, 
-                       108732.52, 108419.91, 
-                       433, 78403.39, NULL);
+                       ('Anitra', 'Setzler', 
+                       30, 1, 3, 
+                       24272.29, 42719.92, 
+                       479, 83219.53, NULL);
 
             
                        INSERT INTO customers 
@@ -3505,10 +1008,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Prissie', 'Faulcon', 
-                       38, 3, 7, 
-                       27673.34, 146262.0, 
-                       359, 11620.08, NULL);
+                       ('Glynis', 'Laakso', 
+                       53, 1, 4, 
+                       54996.58, 102040.3, 
+                       703, 50728.37, NULL);
 
             
                        INSERT INTO customers 
@@ -3516,10 +1019,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Saidee', 'Cribari', 
-                       54, 5, 2, 
-                       135218.08, 56721.71, 
-                       519, 23904.17, NULL);
+                       ('Monah', 'Stanforth', 
+                       26, 5, 8, 
+                       96495.48, 140839.98, 
+                       308, 24133.95, NULL);
 
             
                        INSERT INTO customers 
@@ -3527,10 +1030,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Nicoline', 'Sublett', 
-                       32, 1, 2, 
-                       86186.83, 72790.4, 
-                       762, 84749.71, NULL);
+                       ('Corrine', 'Oderkirk', 
+                       59, 3, 11, 
+                       117215.82, 133665.08, 
+                       345, 24820.17, NULL);
 
             
                        INSERT INTO customers 
@@ -3538,10 +1041,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Shannah', 'Vines', 
-                       38, 5, 8, 
-                       47340.79, 125035.57, 
-                       584, 70739.16, NULL);
+                       ('Ashlan', 'Bandasak', 
+                       69, 5, 12, 
+                       32325.89, 54701.13, 
+                       372, 98023.1, NULL);
 
             
                        INSERT INTO customers 
@@ -3549,10 +1052,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Dominica', 'Mcclafferty', 
-                       52, 9, 11, 
-                       89838.59, 66086.54, 
-                       756, 23681.12, NULL);
+                       ('Thia', 'Kasahara', 
+                       60, 2, 9, 
+                       54297.07, 69556.47, 
+                       526, 93705.21, NULL);
 
             
                        INSERT INTO customers 
@@ -3560,10 +1063,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Amity', 'Gerosa', 
-                       44, 7, 0, 
-                       56038.14, 44291.01, 
-                       612, 7470.51, NULL);
+                       ('Shani', 'Pennix', 
+                       24, 2, 13, 
+                       28209.77, 87392.43, 
+                       562, 80587.3, NULL);
 
             
                        INSERT INTO customers 
@@ -3571,10 +1074,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Jacinta', 'Filipovich', 
-                       64, 5, 9, 
-                       76144.62, 62883.46, 
-                       600, 67643.93, NULL);
+                       ('Dusty', 'Fralick', 
+                       42, 8, 0, 
+                       124000.01, 65737.87, 
+                       711, 23620.43, NULL);
 
             
                        INSERT INTO customers 
@@ -3582,10 +1085,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Melantha', 'Borman', 
-                       49, 0, 2, 
-                       60759.62, 29979.06, 
-                       496, 34237.02, NULL);
+                       ('Donnamarie', 'Willie', 
+                       62, 4, 10, 
+                       58694.34, 89106.66, 
+                       479, 43481.6, NULL);
 
             
                        INSERT INTO customers 
@@ -3593,10 +1096,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Leese', 'Isa', 
-                       66, 3, 2, 
-                       143649.0, 103097.22, 
-                       446, 76927.8, NULL);
+                       ('Lorain', 'Solorio', 
+                       39, 5, 0, 
+                       128050.03, 57567.0, 
+                       521, 27298.74, NULL);
 
             
                        INSERT INTO customers 
@@ -3604,10 +1107,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Kate', 'Catus', 
-                       53, 0, 11, 
-                       132361.07, 85028.59, 
-                       560, 84473.34, NULL);
+                       ('Glory', 'Inkavesvanitc', 
+                       25, 4, 2, 
+                       56522.13, 29228.6, 
+                       491, 17580.37, NULL);
 
             
                        INSERT INTO customers 
@@ -3615,10 +1118,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Cicely', 'Suchanek', 
-                       18, 4, 11, 
-                       42836.68, 19006.11, 
-                       359, 10644.99, NULL);
+                       ('Ingaberg', 'Loftman', 
+                       27, 2, 8, 
+                       95976.46, 78291.6, 
+                       581, 20451.05, NULL);
 
             
                        INSERT INTO customers 
@@ -3626,10 +1129,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Pamella', 'Smillie', 
-                       29, 1, 4, 
-                       110110.64, 139950.05, 
-                       703, 31698.16, NULL);
+                       ('Erinn', 'Prizzi', 
+                       44, 3, 11, 
+                       137586.44, 118881.85, 
+                       462, 92061.62, NULL);
 
             
                        INSERT INTO customers 
@@ -3637,10 +1140,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Vi', 'Trentham', 
-                       76, 1, 0, 
-                       68479.19, 97705.3, 
-                       463, 58303.86, NULL);
+                       ('Catlee', 'Hetu', 
+                       31, 5, 2, 
+                       132215.89, 44091.05, 
+                       460, 12294.18, NULL);
 
             
                        INSERT INTO customers 
@@ -3648,10 +1151,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Mellisent', 'Prez', 
-                       47, 2, 8, 
-                       128626.23, 81133.04, 
-                       477, 37755.84, NULL);
+                       ('Devina', 'Mcgrady', 
+                       63, 9, 3, 
+                       89266.5, 28391.89, 
+                       842, 7142.27, NULL);
 
             
                        INSERT INTO customers 
@@ -3659,10 +1162,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Sharleen', 'Anreozzi', 
-                       77, 7, 0, 
-                       119894.88, 117427.28, 
-                       693, 92785.71, NULL);
+                       ('Shaun', 'Lerwick', 
+                       51, 8, 13, 
+                       80035.79, 93352.0, 
+                       454, 14802.2, NULL);
 
             
                        INSERT INTO customers 
@@ -3670,10 +1173,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Sybil', 'Hannam', 
-                       37, 1, 13, 
-                       36339.31, 63388.36, 
-                       666, 10868.81, NULL);
+                       ('Desdemona', 'Weltz', 
+                       63, 9, 1, 
+                       139549.99, 125670.68, 
+                       441, 29985.04, NULL);
 
             
                        INSERT INTO customers 
@@ -3681,10 +1184,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Iris', 'Williby', 
-                       26, 3, 5, 
-                       146249.41, 115338.89, 
-                       303, 19494.19, NULL);
+                       ('Katerina', 'Ridgel', 
+                       29, 6, 6, 
+                       94143.0, 110569.48, 
+                       372, 6219.54, NULL);
 
             
                        INSERT INTO customers 
@@ -3692,10 +1195,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Adele', 'Pelzer', 
-                       49, 4, 8, 
-                       70437.75, 122307.07, 
-                       741, 87336.83, NULL);
+                       ('Cthrine', 'Nickey', 
+                       21, 7, 1, 
+                       124152.0, 113453.35, 
+                       404, 69812.98, NULL);
 
             
                        INSERT INTO customers 
@@ -3703,10 +1206,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Margy', 'Rogerson', 
-                       19, 3, 11, 
-                       28884.66, 77424.31, 
-                       685, 78609.1, NULL);
+                       ('Hermine', 'Anhalt', 
+                       32, 5, 9, 
+                       121014.5, 129922.91, 
+                       630, 51348.54, NULL);
 
             
                        INSERT INTO customers 
@@ -3714,10 +1217,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Mariska', 'Driggars', 
-                       54, 3, 12, 
-                       127433.66, 86614.25, 
-                       744, 4636.44, NULL);
+                       ('Arlene', 'Bobst', 
+                       63, 8, 0, 
+                       75271.12, 19471.01, 
+                       456, 16389.51, NULL);
 
             
                        INSERT INTO customers 
@@ -3725,10 +1228,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ingeborg', 'Strazisar', 
-                       29, 0, 12, 
-                       62823.18, 81089.04, 
-                       787, 17276.99, NULL);
+                       ('Barbara-Anne', 'Schwingler', 
+                       47, 2, 10, 
+                       117072.37, 97477.73, 
+                       798, 56142.02, NULL);
 
             
                        INSERT INTO customers 
@@ -3736,10 +1239,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Quintana', 'Uzee', 
-                       65, 4, 11, 
-                       38333.18, 41336.41, 
-                       795, 74560.84, NULL);
+                       ('Joletta', 'Texeira', 
+                       33, 4, 10, 
+                       131343.12, 28570.26, 
+                       433, 13641.04, NULL);
 
             
                        INSERT INTO customers 
@@ -3747,10 +1250,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Pegeen', 'Began', 
-                       52, 4, 0, 
-                       75588.96, 34796.42, 
-                       679, 56725.99, NULL);
+                       ('Ingunna', 'Veitinger', 
+                       53, 3, 12, 
+                       71453.13, 121732.71, 
+                       565, 81308.9, NULL);
 
             
                        INSERT INTO customers 
@@ -3758,10 +1261,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Audrey', 'Eberspacher', 
-                       63, 9, 11, 
-                       143761.24, 77242.09, 
-                       372, 89537.73, NULL);
+                       ('Agnesse', 'Zeng', 
+                       48, 6, 6, 
+                       63743.83, 119060.4, 
+                       471, 38127.24, NULL);
 
             
                        INSERT INTO customers 
@@ -3769,10 +1272,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lilias', 'Useted', 
-                       67, 6, 11, 
-                       103139.98, 127595.9, 
-                       614, 15426.24, NULL);
+                       ('Bennie', 'Heiting', 
+                       73, 7, 6, 
+                       49238.4, 71643.84, 
+                       651, 7242.93, NULL);
 
             
                        INSERT INTO customers 
@@ -3780,10 +1283,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ursa', 'Lossing', 
-                       76, 0, 1, 
-                       29849.01, 22673.23, 
-                       747, 11021.08, NULL);
+                       ('Bibbie', 'Doerhoff', 
+                       38, 7, 6, 
+                       89374.01, 71902.7, 
+                       845, 2331.22, NULL);
 
             
                        INSERT INTO customers 
@@ -3791,10 +1294,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Luelle', 'Severo', 
-                       78, 6, 3, 
-                       46963.8, 96147.62, 
-                       438, 83884.04, NULL);
+                       ('Theda', 'Finni', 
+                       79, 2, 6, 
+                       114326.62, 51110.0, 
+                       463, 12330.3, NULL);
 
             
                        INSERT INTO customers 
@@ -3802,10 +1305,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Keri', 'Halpain', 
-                       76, 7, 6, 
-                       19938.79, 127633.44, 
-                       758, 6401.58, NULL);
+                       ('Gretchen', 'Marrufo', 
+                       48, 0, 3, 
+                       133582.66, 29795.8, 
+                       450, 63243.66, NULL);
 
             
                        INSERT INTO customers 
@@ -3813,10 +1316,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Malvina', 'Crummitt', 
-                       68, 7, 0, 
-                       35979.77, 126320.19, 
-                       580, 93044.85, NULL);
+                       ('Carin', 'Veitinger', 
+                       79, 8, 12, 
+                       48102.28, 40217.1, 
+                       389, 14252.83, NULL);
 
             
                        INSERT INTO customers 
@@ -3824,10 +1327,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Shelbi', 'Leah', 
-                       39, 9, 4, 
-                       108968.67, 64986.1, 
-                       460, 73443.56, NULL);
+                       ('Brittni', 'Peasnall', 
+                       30, 5, 6, 
+                       55245.64, 98394.37, 
+                       715, 28592.44, NULL);
 
             
                        INSERT INTO customers 
@@ -3835,10 +1338,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Elana', 'Seidita', 
-                       35, 9, 0, 
-                       72162.05, 38784.9, 
-                       314, 89673.74, NULL);
+                       ('Felecia', 'Rouser', 
+                       20, 0, 8, 
+                       65633.74, 100156.86, 
+                       594, 89122.11, NULL);
 
             
                        INSERT INTO customers 
@@ -3846,10 +1349,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Barbey', 'Pomarico', 
-                       47, 1, 10, 
-                       148702.87, 129766.89, 
-                       781, 81826.01, NULL);
+                       ('Franni', 'Ivers', 
+                       66, 8, 8, 
+                       28376.26, 38791.53, 
+                       333, 47920.75, NULL);
 
             
                        INSERT INTO customers 
@@ -3857,10 +1360,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lotty', 'Greisiger', 
-                       60, 3, 5, 
-                       116340.04, 48931.82, 
-                       432, 74376.2, NULL);
+                       ('Tobey', 'Ginolfi', 
+                       40, 0, 7, 
+                       92389.21, 139844.57, 
+                       617, 33034.62, NULL);
 
             
                        INSERT INTO customers 
@@ -3868,10 +1371,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Trude', 'Kamphoefner', 
-                       52, 3, 6, 
-                       23031.08, 69740.96, 
-                       792, 96446.59, NULL);
+                       ('Mercy', 'Witthoft', 
+                       25, 1, 1, 
+                       72460.36, 99023.46, 
+                       621, 10822.39, NULL);
 
             
                        INSERT INTO customers 
@@ -3879,10 +1382,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Georgia', 'Boesch', 
-                       57, 5, 5, 
-                       113780.68, 87691.26, 
-                       542, 70551.71, NULL);
+                       ('Bethany', 'Pettitt', 
+                       34, 0, 11, 
+                       56973.35, 145829.88, 
+                       835, 40143.86, NULL);
 
             
                        INSERT INTO customers 
@@ -3890,10 +1393,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Cathe', 'Mousley', 
-                       56, 8, 5, 
-                       87353.02, 65916.33, 
-                       830, 32641.91, NULL);
+                       ('Abagael', 'Hehn', 
+                       31, 2, 3, 
+                       36972.48, 78296.36, 
+                       559, 51340.3, NULL);
 
             
                        INSERT INTO customers 
@@ -3901,10 +1404,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lindsay', 'Seifert', 
-                       32, 0, 2, 
-                       56065.0, 87041.68, 
-                       797, 49214.77, NULL);
+                       ('Carmon', 'Hoxit', 
+                       47, 7, 8, 
+                       67959.84, 113038.72, 
+                       488, 30817.93, NULL);
 
             
                        INSERT INTO customers 
@@ -3912,10 +1415,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Genna', 'Baade', 
-                       18, 9, 6, 
-                       98632.13, 98742.9, 
-                       744, 64634.97, NULL);
+                       ('Evelina', 'Tao', 
+                       41, 1, 0, 
+                       95367.98, 113207.57, 
+                       522, 95310.89, NULL);
 
             
                        INSERT INTO customers 
@@ -3923,10 +1426,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lorraine', 'Keifer', 
-                       77, 7, 1, 
-                       22826.98, 49045.07, 
-                       685, 15412.8, NULL);
+                       ('Nana', 'Alesna', 
+                       42, 5, 0, 
+                       86108.69, 39785.89, 
+                       620, 1929.56, NULL);
 
             
                        INSERT INTO customers 
@@ -3934,10 +1437,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Rosette', 'Gorgo', 
-                       39, 1, 8, 
-                       93224.13, 20781.39, 
-                       699, 22193.17, NULL);
+                       ('Brianna', 'Dawahoya', 
+                       35, 9, 3, 
+                       116987.34, 65275.42, 
+                       328, 65893.46, NULL);
 
             
                        INSERT INTO customers 
@@ -3945,10 +1448,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Albina', 'Delira', 
-                       27, 4, 10, 
-                       96520.47, 96906.22, 
-                       752, 8759.93, NULL);
+                       ('Andeee', 'Paugh', 
+                       73, 1, 8, 
+                       43509.88, 128057.33, 
+                       520, 27875.59, NULL);
 
             
                        INSERT INTO customers 
@@ -3956,10 +1459,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Merci', 'Bacio', 
-                       33, 6, 10, 
-                       20936.24, 63240.59, 
-                       423, 1818.2, NULL);
+                       ('Merrili', 'Dunken', 
+                       77, 0, 2, 
+                       110491.39, 94241.85, 
+                       640, 30279.4, NULL);
 
             
                        INSERT INTO customers 
@@ -3967,10 +1470,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Dedie', 'Dilella', 
-                       60, 9, 11, 
-                       80200.72, 94154.96, 
-                       744, 17938.73, NULL);
+                       ('Cecilia', 'Zuberbuhler', 
+                       32, 5, 7, 
+                       38566.06, 51841.6, 
+                       730, 31806.55, NULL);
 
             
                        INSERT INTO customers 
@@ -3978,10 +1481,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Tedra', 'Labuff', 
-                       42, 9, 9, 
-                       38335.34, 138836.77, 
-                       480, 3630.57, NULL);
+                       ('Gnni', 'Levreau', 
+                       76, 2, 4, 
+                       145024.65, 128302.05, 
+                       775, 13709.24, NULL);
 
             
                        INSERT INTO customers 
@@ -3989,10 +1492,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Carma', 'Cutts', 
-                       51, 2, 9, 
-                       28834.85, 101898.51, 
-                       643, 43429.79, NULL);
+                       ('Nadya', 'Hosle', 
+                       80, 6, 13, 
+                       72327.83, 44552.79, 
+                       787, 65241.22, NULL);
 
             
                        INSERT INTO customers 
@@ -4000,10 +1503,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ashlan', 'Matherne', 
-                       33, 9, 12, 
-                       36217.25, 129081.58, 
-                       656, 51567.88, NULL);
+                       ('Elinor', 'Defries', 
+                       73, 0, 11, 
+                       140140.87, 87375.99, 
+                       326, 31196.34, NULL);
 
             
                        INSERT INTO customers 
@@ -4011,10 +1514,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Blythe', 'Patricio', 
-                       18, 0, 7, 
-                       119069.72, 40649.22, 
-                       358, 48208.57, NULL);
+                       ('Alaine', 'Henthorne', 
+                       75, 2, 13, 
+                       70981.17, 81149.5, 
+                       657, 34300.92, NULL);
 
             
                        INSERT INTO customers 
@@ -4022,10 +1525,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ivette', 'Lea', 
-                       62, 7, 0, 
-                       68897.05, 119882.29, 
-                       425, 67320.51, NULL);
+                       ('Dacia', 'Apple', 
+                       63, 8, 6, 
+                       135370.53, 57298.81, 
+                       541, 82091.06, NULL);
 
             
                        INSERT INTO customers 
@@ -4033,10 +1536,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Noni', 'Debois', 
-                       72, 8, 2, 
-                       117869.23, 109534.12, 
-                       355, 98849.99, NULL);
+                       ('Ertha', 'Witham', 
+                       80, 7, 13, 
+                       146693.8, 101226.24, 
+                       659, 9369.59, NULL);
 
             
                        INSERT INTO customers 
@@ -4044,10 +1547,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Philippine', 'Bauknight', 
-                       62, 1, 3, 
-                       87858.46, 30498.18, 
-                       440, 39067.84, NULL);
+                       ('Roxana', 'Smouse', 
+                       36, 0, 12, 
+                       127719.03, 28645.03, 
+                       427, 38132.37, NULL);
 
             
                        INSERT INTO customers 
@@ -4055,10 +1558,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Luelle', 'Blystone', 
-                       71, 6, 4, 
-                       126430.87, 43955.55, 
-                       463, 30371.74, NULL);
+                       ('Robinetta', 'Ashaf', 
+                       22, 6, 8, 
+                       124200.7, 25236.27, 
+                       787, 12201.39, NULL);
 
             
                        INSERT INTO customers 
@@ -4066,10 +1569,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Jodi', 'Gorence', 
-                       54, 9, 11, 
-                       32927.96, 114510.02, 
-                       356, 82586.86, NULL);
+                       ('Chicky', 'Cataldo', 
+                       59, 2, 9, 
+                       24612.12, 121657.6, 
+                       509, 46610.4, NULL);
 
             
                        INSERT INTO customers 
@@ -4077,10 +1580,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lorie', 'Phillis', 
-                       73, 8, 11, 
-                       49089.52, 24358.66, 
-                       790, 95780.17, NULL);
+                       ('Cami', 'Malis', 
+                       29, 9, 8, 
+                       56555.36, 67995.4, 
+                       341, 93749.77, NULL);
 
             
                        INSERT INTO customers 
@@ -4088,10 +1591,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Mozelle', 'Waiss', 
-                       47, 3, 11, 
-                       22447.74, 143692.94, 
-                       338, 56158.17, NULL);
+                       ('Mechelle', 'Deep', 
+                       69, 2, 11, 
+                       85469.78, 125026.45, 
+                       544, 70616.31, NULL);
 
             
                        INSERT INTO customers 
@@ -4099,10 +1602,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Hedvig', 'Schettler', 
-                       59, 4, 11, 
-                       47154.5, 74977.48, 
-                       321, 38633.75, NULL);
+                       ('Jobie', 'Mosburg', 
+                       46, 1, 2, 
+                       20938.54, 116469.36, 
+                       395, 55620.53, NULL);
 
             
                        INSERT INTO customers 
@@ -4110,10 +1613,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Gabi', 'Boydstun', 
-                       48, 6, 9, 
-                       75936.41, 74723.83, 
-                       314, 87941.59, NULL);
+                       ('Nicolette', 'Sawney', 
+                       22, 9, 3, 
+                       27975.19, 136397.21, 
+                       799, 98784.07, NULL);
 
             
                        INSERT INTO customers 
@@ -4121,10 +1624,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Darline', 'Edmundson', 
-                       66, 3, 2, 
-                       137076.2, 71582.32, 
-                       652, 55702.32, NULL);
+                       ('Effie', 'Krompel', 
+                       41, 1, 5, 
+                       63251.28, 22994.83, 
+                       620, 31500.6, NULL);
 
             
                        INSERT INTO customers 
@@ -4132,10 +1635,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Corrina', 'Gershman', 
-                       55, 8, 4, 
-                       19093.49, 144641.31, 
-                       425, 88614.97, NULL);
+                       ('Zahara', 'Shire', 
+                       18, 6, 6, 
+                       78384.76, 104466.73, 
+                       841, 14323.8, NULL);
 
             
                        INSERT INTO customers 
@@ -4143,10 +1646,1143 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Enid', 'Pinchbeck', 
+                       ('Elspeth', 'Pywell', 
+                       40, 3, 7, 
+                       123282.93, 60330.78, 
+                       460, 49372.03, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lilly', 'Brocks', 
+                       41, 7, 1, 
+                       53027.81, 139356.56, 
+                       414, 20379.3, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Bell', 'Soho', 
+                       21, 7, 12, 
+                       144739.71, 134029.51, 
+                       328, 20463.42, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Robyn', 'Thalls', 
+                       80, 6, 5, 
+                       66215.71, 49052.28, 
+                       606, 20090.89, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Blithe', 'Murello', 
+                       53, 2, 2, 
+                       63521.98, 26152.53, 
+                       379, 46800.35, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Chantal', 'Golinski', 
+                       59, 7, 7, 
+                       114124.54, 65317.18, 
+                       673, 82936.42, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kessiah', 'Tollefsrud', 
+                       62, 2, 0, 
+                       58989.33, 96506.11, 
+                       704, 24146.12, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Cris', 'Nucci', 
+                       60, 2, 13, 
+                       113950.96, 109829.72, 
+                       601, 54002.25, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Hephzibah', 'Truehart', 
+                       41, 6, 6, 
+                       100789.02, 117669.3, 
+                       724, 21030.83, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Aeriell', 'Derise', 
+                       36, 6, 8, 
+                       110014.96, 71024.69, 
+                       521, 49262.57, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Annamarie', 'Mcguigan', 
+                       31, 9, 4, 
+                       118024.25, 132130.93, 
+                       670, 64542.95, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Codie', 'Piearcy', 
+                       30, 6, 0, 
+                       94588.49, 93441.07, 
+                       427, 18605.35, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lilah', 'Saez', 
+                       52, 5, 6, 
+                       102721.07, 120273.78, 
+                       474, 40058.09, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Halli', 'Sayres', 
+                       53, 0, 4, 
+                       149112.63, 101744.6, 
+                       785, 7894.43, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lucienne', 'Karsh', 
+                       59, 4, 7, 
+                       117959.02, 94276.45, 
+                       445, 84271.5, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Laurena', 'Marlene', 
+                       66, 5, 10, 
+                       112228.04, 95507.21, 
+                       713, 81766.76, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Daile', 'Johnigan', 
+                       21, 1, 10, 
+                       145313.57, 62505.0, 
+                       746, 16416.99, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lark', 'Reik', 
+                       58, 3, 10, 
+                       86771.66, 122928.58, 
+                       463, 80968.73, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Abigale', 'Vancampen', 
+                       78, 8, 4, 
+                       36868.05, 66656.53, 
+                       539, 55980.31, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sonni', 'Wilda', 
+                       31, 3, 4, 
+                       60777.69, 56065.16, 
+                       541, 7924.6, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Glen', 'Sondag', 
+                       50, 7, 8, 
+                       118082.67, 67235.03, 
+                       528, 42978.05, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Vally', 'Mcculough', 
+                       47, 0, 5, 
+                       43522.61, 107912.46, 
+                       640, 72371.69, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sibilla', 'Limones', 
+                       73, 6, 5, 
+                       146075.4, 38115.57, 
+                       497, 44890.71, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Raye', 'Giacherio', 
+                       59, 5, 5, 
+                       26605.56, 82783.73, 
+                       775, 99676.63, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Imelda', 'Rakich', 
+                       49, 6, 6, 
+                       115542.97, 30633.38, 
+                       646, 69558.96, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Allyson', 'Sholler', 
+                       25, 6, 3, 
+                       125548.83, 50619.69, 
+                       439, 76113.1, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Margaretta', 'Damm', 
+                       29, 3, 4, 
+                       53827.15, 76018.66, 
+                       825, 6535.03, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Paulita', 'Quinby', 
+                       23, 4, 4, 
+                       24124.22, 92179.16, 
+                       533, 71929.65, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Bessie', 'Holster', 
+                       53, 1, 12, 
+                       147612.64, 122358.47, 
+                       766, 35215.19, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lacie', 'Engelstad', 
+                       58, 8, 4, 
+                       92263.57, 85194.83, 
+                       621, 94187.51, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Hilda', 'Stachowski', 
+                       60, 0, 5, 
+                       133956.7, 36863.87, 
+                       577, 58946.57, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Valeda', 'Hillyard', 
+                       24, 5, 9, 
+                       44221.74, 129690.24, 
+                       730, 96111.42, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Roxi', 'Kelsoe', 
+                       69, 6, 2, 
+                       53326.91, 141830.96, 
+                       700, 64717.15, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Gaye', 'Cassler', 
+                       54, 8, 9, 
+                       21073.5, 69472.45, 
+                       474, 40247.12, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Clotilda', 'Norcia', 
+                       57, 7, 6, 
+                       145231.86, 141990.94, 
+                       503, 97430.75, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Germaine', 'Dauphinais', 
+                       60, 5, 5, 
+                       43619.98, 136822.58, 
+                       710, 91195.99, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lizzie', 'Thuman', 
+                       39, 1, 6, 
+                       132814.25, 23121.86, 
+                       819, 43580.67, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Merlina', 'Andrson', 
+                       47, 4, 7, 
+                       84212.65, 63148.03, 
+                       485, 74477.26, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Catie', 'Onishi', 
+                       20, 1, 2, 
+                       88186.23, 84871.66, 
+                       303, 27512.54, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sharyl', 'Jurs', 
+                       31, 2, 8, 
+                       103907.82, 125302.28, 
+                       389, 18689.91, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Loria', 'Distance', 
+                       72, 0, 13, 
+                       148425.27, 138099.79, 
+                       499, 97571.17, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Row', 'Wattson', 
+                       69, 5, 12, 
+                       95927.98, 94464.84, 
+                       822, 63298.92, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Fiona', 'Balzer', 
+                       70, 1, 11, 
+                       27890.7, 54650.13, 
+                       747, 93074.82, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Candis', 'Dolney', 
+                       28, 4, 13, 
+                       92857.67, 107889.89, 
+                       314, 33648.02, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Gaby', 'Alli', 
+                       42, 6, 4, 
+                       32070.32, 106917.18, 
+                       584, 2861.37, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Bobby', 'Boblett', 
+                       47, 6, 13, 
+                       113936.56, 61830.56, 
+                       437, 88763.91, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Corliss', 'Prata', 
+                       36, 5, 5, 
+                       113000.04, 57262.44, 
+                       445, 91617.58, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Dacey', 'Hohenbrink', 
+                       79, 9, 7, 
+                       127548.34, 134437.81, 
+                       789, 21819.79, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Joletta', 'Lindo', 
+                       43, 9, 10, 
+                       125242.09, 141048.16, 
+                       334, 50118.86, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Linzy', 'Wielgus', 
+                       73, 8, 12, 
+                       33638.97, 99701.01, 
+                       609, 14298.89, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Andeee', 'Orourke', 
+                       74, 2, 2, 
+                       41056.52, 66008.07, 
+                       485, 35349.38, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Vin', 'Dooling', 
+                       36, 3, 13, 
+                       132946.61, 110365.55, 
+                       460, 24790.2, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ellen', 'Wiederhold', 
+                       69, 0, 8, 
+                       123978.32, 86148.5, 
+                       739, 68919.59, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Helenka', 'Lovasz', 
+                       64, 5, 3, 
+                       134110.44, 57342.5, 
+                       410, 42261.63, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Alvera', 'Chilek', 
+                       19, 4, 5, 
+                       30513.81, 25916.34, 
+                       614, 75564.03, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Zita', 'Slacum', 
+                       54, 9, 10, 
+                       146567.32, 47884.51, 
+                       374, 57744.39, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lorain', 'Frankart', 
+                       39, 2, 10, 
+                       26714.57, 38191.84, 
+                       469, 52852.65, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Yevette', 'Rotner', 
+                       21, 5, 8, 
+                       60839.5, 64315.17, 
+                       819, 11690.27, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ann-Marie', 'Lamattina', 
+                       78, 2, 4, 
+                       89952.22, 42390.45, 
+                       831, 15456.06, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Karlyn', 'Bultman', 
+                       71, 8, 8, 
+                       104746.84, 134066.73, 
+                       389, 30870.52, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Tabatha', 'Bacich', 
+                       30, 8, 1, 
+                       123677.4, 43274.92, 
+                       744, 13361.35, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Edyth', 'Odegard', 
+                       42, 3, 12, 
+                       23593.84, 84955.68, 
+                       658, 20595.19, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Saundra', 'Loucks', 
+                       44, 5, 9, 
+                       30262.1, 49376.28, 
+                       773, 22910.96, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sianna', 'Bauernfeind', 
+                       37, 4, 8, 
+                       133049.97, 130109.74, 
+                       597, 70266.24, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Bellanca', 'Slutsky', 
+                       47, 1, 2, 
+                       135645.66, 107709.39, 
+                       335, 11297.7, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Andi', 'Oblander', 
+                       19, 0, 3, 
+                       51502.49, 122659.96, 
+                       641, 3540.27, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Alessandra', 'Bunting', 
+                       33, 6, 12, 
+                       60844.28, 141466.03, 
+                       395, 32185.37, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ally', 'Dugas', 
+                       67, 6, 1, 
+                       21073.03, 106958.75, 
+                       688, 10650.54, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Dacy', 'Pothoven', 
+                       78, 6, 8, 
+                       129553.83, 51353.32, 
+                       661, 41759.88, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Corny', 'Zarebski', 
+                       43, 0, 9, 
+                       38358.65, 140186.76, 
+                       543, 57588.5, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Cloris', 'Alquijay', 
+                       78, 7, 12, 
+                       100459.77, 104055.64, 
+                       813, 14466.06, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Grazia', 'Vacante', 
+                       80, 1, 13, 
+                       66485.31, 20320.23, 
+                       823, 13026.56, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Jesselyn', 'Heeter', 
+                       37, 3, 3, 
+                       122584.76, 132717.45, 
+                       413, 54868.4, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Tiphani', 'Zega', 
+                       73, 4, 4, 
+                       123065.3, 95481.44, 
+                       669, 94782.06, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Jean', 'Kinsey', 
+                       50, 1, 2, 
+                       108924.61, 40939.91, 
+                       640, 67797.01, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ilka', 'Valiquette', 
+                       64, 6, 0, 
+                       83670.42, 42621.6, 
+                       444, 17072.84, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sadie', 'Lancia', 
+                       46, 4, 7, 
+                       71577.19, 92061.67, 
+                       740, 16237.55, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Alyssa', 'Collea', 
+                       43, 0, 11, 
+                       28146.49, 121916.66, 
+                       572, 2037.56, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lila', 'Corfman', 
+                       75, 0, 1, 
+                       131552.64, 81957.2, 
+                       727, 28779.64, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kyle', 'Kelii', 
+                       26, 7, 6, 
+                       23746.49, 59889.4, 
+                       407, 85535.33, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Merilyn', 'Freund', 
+                       59, 4, 8, 
+                       72858.62, 135763.69, 
+                       809, 33807.62, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Keslie', 'Partmann', 
+                       37, 6, 13, 
+                       125199.82, 42825.52, 
+                       832, 79896.56, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Bonnie', 'Heckendorf', 
+                       63, 2, 13, 
+                       80372.67, 21324.03, 
+                       434, 60841.24, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Wendie', 'Kitty', 
+                       74, 0, 6, 
+                       132992.34, 147329.59, 
+                       799, 72618.83, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ashli', 'Kurtzman', 
+                       27, 9, 5, 
+                       141104.36, 64593.77, 
+                       525, 75830.24, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Rahel', 'Dobrzykowski', 
+                       25, 7, 10, 
+                       79406.54, 140713.32, 
+                       580, 3947.45, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Othelia', 'Hudgeons', 
+                       62, 6, 0, 
+                       96833.14, 31474.37, 
+                       671, 85529.03, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('George', 'Reager', 
+                       30, 5, 10, 
+                       42540.54, 134538.89, 
+                       423, 90526.26, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lizzy', 'Caldon', 
+                       32, 5, 10, 
+                       97108.93, 127110.83, 
+                       796, 40092.32, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ronalda', 'Escober', 
+                       66, 2, 12, 
+                       141601.17, 59694.91, 
+                       655, 21106.95, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Garnette', 'Katula', 
+                       55, 7, 0, 
+                       139569.46, 41514.52, 
+                       716, 67453.37, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Bernadine', 'Araque', 
+                       58, 5, 4, 
+                       58912.0, 140841.25, 
+                       693, 87674.21, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Conny', 'Pouncil', 
+                       65, 7, 3, 
+                       68893.58, 48260.22, 
+                       751, 63443.49, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ibbie', 'Jessel', 
+                       67, 1, 0, 
+                       33939.89, 27873.53, 
+                       819, 95668.27, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Janaye', 'Schuppenhauer', 
+                       77, 1, 10, 
+                       27304.35, 53691.85, 
+                       770, 25500.96, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Emily', 'Redhouse', 
+                       54, 3, 1, 
+                       65068.22, 26948.68, 
+                       581, 88418.56, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Aurie', 'Wackenhut', 
+                       20, 1, 1, 
+                       51254.94, 88438.82, 
+                       785, 7244.48, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Emmalee', 'Niederhaus', 
+                       66, 6, 6, 
+                       80587.6, 97200.51, 
+                       578, 35456.57, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Claudine', 'Froozy', 
+                       79, 8, 3, 
+                       135595.61, 98954.18, 
+                       398, 43014.5, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Debee', 'Gallaher', 
+                       51, 3, 3, 
+                       108364.59, 22228.81, 
+                       607, 53542.61, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Shandra', 'Freydel', 
+                       77, 5, 1, 
+                       118829.64, 140173.97, 
+                       755, 23485.88, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Carmina', 'Wirth', 
+                       79, 3, 9, 
+                       127649.14, 125551.73, 
+                       585, 77628.83, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Datha', 'Berthelsen', 
+                       21, 6, 1, 
+                       70718.54, 109201.74, 
+                       660, 65096.44, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Annora', 'Irimata', 
                        48, 4, 13, 
-                       80634.54, 51954.67, 
-                       481, 14499.45, NULL);
+                       87303.42, 146585.46, 
+                       307, 26879.27, NULL);
 
             
                        INSERT INTO customers 
@@ -4154,10 +2790,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Pierette', 'Caliman', 
-                       38, 1, 5, 
-                       27014.81, 129502.74, 
-                       362, 95871.04, NULL);
+                       ('Verine', 'Hislop', 
+                       66, 6, 7, 
+                       146144.16, 80208.73, 
+                       502, 67565.81, NULL);
 
             
                        INSERT INTO customers 
@@ -4165,10 +2801,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lotte', 'Pertsovsky', 
-                       69, 1, 3, 
-                       140488.91, 101311.43, 
-                       763, 74674.19, NULL);
+                       ('Oralia', 'Antonio', 
+                       55, 9, 10, 
+                       89459.79, 29523.72, 
+                       338, 79750.3, NULL);
 
             
                        INSERT INTO customers 
@@ -4176,10 +2812,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Vilhelmina', 'Roff', 
-                       60, 8, 1, 
-                       40020.95, 129177.79, 
-                       804, 18484.34, NULL);
+                       ('Pauletta', 'Yamashita', 
+                       51, 3, 9, 
+                       78785.81, 105071.56, 
+                       318, 4578.69, NULL);
 
             
                        INSERT INTO customers 
@@ -4187,10 +2823,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Johnath', 'Tietge', 
-                       22, 2, 13, 
-                       61859.87, 134790.98, 
-                       653, 69118.47, NULL);
+                       ('Lacee', 'Fitchett', 
+                       34, 6, 10, 
+                       21689.62, 143586.57, 
+                       515, 11505.93, NULL);
 
             
                        INSERT INTO customers 
@@ -4198,10 +2834,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Kimmy', 'Augeri', 
-                       64, 9, 6, 
-                       121561.45, 80924.6, 
-                       416, 10161.33, NULL);
+                       ('Viviene', 'Pillitteri', 
+                       18, 0, 7, 
+                       54125.07, 89641.59, 
+                       470, 84822.41, NULL);
 
             
                        INSERT INTO customers 
@@ -4209,10 +2845,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Milka', 'Aragaki', 
-                       26, 6, 3, 
-                       41571.49, 103294.84, 
-                       448, 96624.25, NULL);
+                       ('Maren', 'Nahl', 
+                       38, 8, 1, 
+                       86998.46, 127870.89, 
+                       499, 85292.76, NULL);
 
             
                        INSERT INTO customers 
@@ -4220,10 +2856,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Melody', 'Mckindra', 
-                       60, 2, 11, 
-                       125166.82, 50648.25, 
-                       821, 11125.47, NULL);
+                       ('Eugine', 'Folz', 
+                       51, 3, 11, 
+                       126723.33, 115063.86, 
+                       510, 13866.32, NULL);
 
             
                        INSERT INTO customers 
@@ -4231,10 +2867,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Romola', 'Smithmyer', 
-                       50, 5, 9, 
-                       45254.67, 140419.34, 
-                       512, 33740.82, NULL);
+                       ('Afton', 'Mcculloh', 
+                       45, 6, 6, 
+                       147492.45, 129797.76, 
+                       491, 68641.42, NULL);
 
             
                        INSERT INTO customers 
@@ -4242,10 +2878,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Priscilla', 'Hafen', 
-                       48, 7, 2, 
-                       34039.06, 133416.23, 
-                       565, 96087.86, NULL);
+                       ('Loren', 'Kerker', 
+                       44, 2, 1, 
+                       84330.46, 60231.29, 
+                       453, 63620.31, NULL);
 
             
                        INSERT INTO customers 
@@ -4253,10 +2889,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Rozalin', 'Clary', 
-                       50, 1, 1, 
-                       60873.1, 57250.98, 
-                       471, 63865.86, NULL);
+                       ('Bren', 'Mccleery', 
+                       51, 6, 10, 
+                       104052.47, 19072.8, 
+                       313, 56928.98, NULL);
 
             
                        INSERT INTO customers 
@@ -4264,10 +2900,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Olly', 'Linhart', 
-                       41, 2, 11, 
-                       87745.67, 53592.85, 
-                       758, 75226.95, NULL);
+                       ('Sybille', 'Ramariz', 
+                       78, 0, 10, 
+                       118882.52, 115831.36, 
+                       418, 73020.13, NULL);
 
             
                        INSERT INTO customers 
@@ -4275,10 +2911,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Vanni', 'Klaver', 
-                       31, 3, 11, 
-                       48431.66, 99674.19, 
-                       826, 31759.98, NULL);
+                       ('Emelyne', 'Sledz', 
+                       26, 7, 9, 
+                       130409.82, 26394.34, 
+                       490, 82346.71, NULL);
 
             
                        INSERT INTO customers 
@@ -4286,10 +2922,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Rosa', 'Engman', 
-                       78, 1, 0, 
-                       43276.28, 89017.15, 
-                       678, 65885.89, NULL);
+                       ('Ettie', 'Boyette', 
+                       30, 2, 5, 
+                       91837.03, 117517.64, 
+                       316, 96513.59, NULL);
 
             
                        INSERT INTO customers 
@@ -4297,10 +2933,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Daveen', 'Schnelzer', 
-                       61, 1, 6, 
-                       66792.12, 88901.13, 
-                       391, 66676.36, NULL);
+                       ('Arly', 'Barney', 
+                       80, 7, 3, 
+                       56177.87, 39245.79, 
+                       319, 55914.24, NULL);
 
             
                        INSERT INTO customers 
@@ -4308,10 +2944,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Trude', 'Akamine', 
-                       23, 7, 4, 
-                       99397.21, 147229.8, 
-                       453, 40847.14, NULL);
+                       ('Madelyn', 'Siemers', 
+                       74, 0, 4, 
+                       105817.02, 74969.35, 
+                       632, 47995.43, NULL);
 
             
                        INSERT INTO customers 
@@ -4319,10 +2955,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Salli', 'Ellwanger', 
-                       61, 6, 7, 
-                       43885.4, 41392.32, 
-                       523, 61331.35, NULL);
+                       ('Emmy', 'Cower', 
+                       38, 1, 6, 
+                       79875.17, 129966.26, 
+                       589, 38234.47, NULL);
 
             
                        INSERT INTO customers 
@@ -4330,10 +2966,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Pamela', 'Ponciano', 
-                       28, 5, 9, 
-                       148371.16, 147199.04, 
-                       554, 37790.18, NULL);
+                       ('Neille', 'Stalling', 
+                       77, 6, 1, 
+                       31863.17, 105882.84, 
+                       317, 46418.16, NULL);
 
             
                        INSERT INTO customers 
@@ -4341,10 +2977,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Sal', 'Tysor', 
-                       32, 5, 13, 
-                       89866.68, 113257.37, 
-                       338, 96392.61, NULL);
+                       ('Meggi', 'Makanani', 
+                       22, 3, 10, 
+                       42004.11, 66572.35, 
+                       636, 53644.25, NULL);
 
             
                        INSERT INTO customers 
@@ -4352,10 +2988,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Gilda', 'Ingrim', 
-                       30, 1, 7, 
-                       51898.43, 29665.91, 
-                       705, 60140.19, NULL);
+                       ('Amandy', 'Portwood', 
+                       55, 8, 0, 
+                       104588.99, 108426.16, 
+                       830, 29790.81, NULL);
 
             
                        INSERT INTO customers 
@@ -4363,10 +2999,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Helena', 'Ridgill', 
-                       67, 2, 7, 
-                       104583.1, 40100.16, 
-                       343, 88626.96, NULL);
+                       ('Lorna', 'Vanfossan', 
+                       28, 8, 12, 
+                       126049.94, 81858.42, 
+                       601, 72507.76, NULL);
 
             
                        INSERT INTO customers 
@@ -4374,10 +3010,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Mimi', 'Moncivais', 
-                       26, 7, 1, 
-                       140340.59, 74103.65, 
-                       705, 85799.81, NULL);
+                       ('Carmel', 'Trybala', 
+                       61, 4, 2, 
+                       116643.97, 106182.3, 
+                       427, 68871.6, NULL);
 
             
                        INSERT INTO customers 
@@ -4385,10 +3021,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Selinda', 'Porteous', 
-                       75, 6, 0, 
-                       102585.47, 28278.66, 
-                       674, 35738.93, NULL);
+                       ('Koralle', 'Kobis', 
+                       21, 9, 8, 
+                       52551.43, 27319.6, 
+                       787, 80662.7, NULL);
 
             
                        INSERT INTO customers 
@@ -4396,10 +3032,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Kipp', 'Rudell', 
-                       24, 7, 13, 
-                       117653.45, 103190.57, 
-                       699, 29893.73, NULL);
+                       ('Linzy', 'Finnell', 
+                       59, 9, 4, 
+                       51337.9, 34202.78, 
+                       844, 60086.39, NULL);
 
             
                        INSERT INTO customers 
@@ -4407,494 +3043,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Merola', 'Dimuccio', 
-                       31, 0, 1, 
-                       34449.4, 130531.26, 
-                       641, 98202.84, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Jacquette', 'Schwebke', 
-                       49, 0, 1, 
-                       39090.39, 141596.79, 
-                       624, 64349.28, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Gerry', 'Dampier', 
-                       29, 4, 7, 
-                       144218.18, 25781.86, 
-                       607, 97582.4, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ellette', 'Swiller', 
-                       45, 9, 8, 
-                       76872.48, 52409.49, 
-                       764, 34728.97, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Grier', 'Moss', 
-                       79, 0, 8, 
-                       36469.83, 35351.7, 
-                       459, 51498.15, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Lyssa', 'Krossen', 
-                       21, 8, 0, 
-                       131679.95, 59062.58, 
-                       429, 82034.06, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Julietta', 'Pereyda', 
-                       78, 1, 9, 
-                       32602.06, 56714.86, 
-                       672, 75349.59, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Codi', 'Raulerson', 
-                       68, 3, 13, 
-                       56109.47, 33273.16, 
-                       725, 37917.65, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Heida', 'Rogue', 
-                       73, 6, 6, 
-                       131599.36, 21219.75, 
-                       596, 50284.81, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Caryl', 'Rapier', 
-                       35, 6, 12, 
-                       40728.22, 67305.01, 
-                       358, 91791.32, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Daisy', 'Bideaux', 
-                       64, 8, 12, 
-                       140029.79, 118711.32, 
-                       841, 51632.71, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Eirena', 'Dragotta', 
-                       37, 8, 3, 
-                       123445.72, 111936.46, 
-                       394, 9755.92, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Arlana', 'Durling', 
-                       23, 3, 2, 
-                       104378.8, 77285.39, 
-                       647, 52111.88, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Kara-Lynn', 'Waddel', 
-                       71, 5, 1, 
-                       103533.42, 36748.67, 
-                       540, 92177.55, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Reeta', 'Seering', 
-                       27, 0, 1, 
-                       91291.62, 43001.74, 
-                       363, 17013.7, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ermina', 'Rainie', 
-                       33, 6, 5, 
-                       140624.81, 135997.98, 
-                       659, 84983.45, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Berthe', 'Breach', 
-                       53, 2, 0, 
-                       33433.28, 22691.54, 
-                       407, 99363.7, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Kissie', 'Samway', 
-                       28, 2, 12, 
-                       45220.36, 104739.42, 
-                       521, 35546.33, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Minta', 'Grappe', 
-                       43, 4, 7, 
-                       132877.04, 114473.39, 
-                       436, 19570.15, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Jillayne', 'Janosek', 
-                       64, 7, 11, 
-                       39436.04, 127559.99, 
-                       848, 24841.29, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Mirilla', 'Laureno', 
-                       39, 6, 0, 
-                       61658.48, 114776.01, 
-                       535, 97544.32, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Gillan', 'Lines', 
-                       64, 2, 7, 
-                       143544.81, 113911.5, 
-                       732, 86040.04, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Ted', 'Scaiano', 
-                       36, 9, 10, 
-                       94446.41, 37674.23, 
-                       819, 27907.0, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Alessandra', 'Kreissler', 
-                       18, 8, 12, 
-                       146172.56, 56950.85, 
-                       714, 77623.01, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Noemi', 'Hepburn', 
-                       80, 5, 12, 
-                       123374.3, 139502.03, 
-                       485, 76599.48, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Laraine', 'Luzell', 
-                       51, 2, 8, 
-                       57792.75, 149998.7, 
-                       662, 26825.13, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Erminie', 'Vanleuvan', 
-                       41, 5, 12, 
-                       112415.74, 56207.73, 
-                       706, 10630.42, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Nichol', 'Jeanette', 
-                       69, 7, 9, 
-                       103228.82, 143569.93, 
-                       827, 95194.85, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Catharine', 'Berrios', 
-                       36, 7, 12, 
-                       110502.59, 39639.1, 
-                       622, 20798.8, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Evelyn', 'Hochberg', 
-                       79, 2, 12, 
-                       131751.7, 147702.18, 
-                       646, 94608.93, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Verla', 'Wyllie', 
-                       73, 7, 2, 
-                       92969.86, 96577.26, 
-                       573, 77258.75, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Nonnah', 'Sanos', 
-                       67, 9, 6, 
-                       52333.79, 80742.22, 
-                       729, 80515.56, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Rafa', 'Gingg', 
-                       34, 4, 11, 
-                       76261.26, 60713.0, 
-                       731, 61486.53, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Melisande', 'Glew', 
-                       61, 6, 9, 
-                       111486.53, 138910.59, 
-                       738, 53970.7, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Bellanca', 'Twellman', 
-                       66, 2, 13, 
-                       57015.29, 71158.26, 
-                       712, 29467.48, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Lenette', 'Dubovsky', 
-                       72, 5, 5, 
-                       144903.08, 56676.0, 
-                       330, 31903.74, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Alys', 'Angelos', 
-                       22, 5, 5, 
-                       126834.8, 108202.91, 
-                       780, 36219.66, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Emalee', 'Cassara', 
-                       51, 0, 2, 
-                       89428.89, 40160.2, 
-                       554, 72596.52, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Yolande', 'Romanelli', 
-                       42, 6, 2, 
-                       101665.54, 77877.44, 
-                       481, 70318.97, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Brigid', 'Birnie', 
-                       45, 1, 11, 
-                       141121.85, 59779.22, 
-                       695, 10448.56, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Angelica', 'Reeck', 
-                       59, 0, 7, 
-                       104076.96, 81859.71, 
-                       545, 91106.98, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Darlleen', 'Plese', 
-                       65, 8, 6, 
-                       66589.03, 76089.94, 
-                       745, 81170.62, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Cari', 'Seabert', 
-                       77, 3, 7, 
-                       144812.48, 111649.46, 
-                       689, 45866.31, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Sheryl', 'Igel', 
-                       28, 8, 4, 
-                       111894.14, 86516.59, 
-                       673, 90636.35, NULL);
-
-            
-                       INSERT INTO customers 
-                       (first_name, last_name, age, 
-                       occupation, city, annual_income, 
-                       annual_spending, credit_score, loan_balance, 
-                       cluster) VALUES 
-                       ('Sheba', 'Trentz', 
+                       ('Shandeigh', 'Plemons', 
                        76, 8, 5, 
-                       145566.07, 40884.88, 
-                       672, 30345.12, NULL);
+                       29165.72, 102351.13, 
+                       383, 86943.21, NULL);
 
             
                        INSERT INTO customers 
@@ -4902,10 +3054,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Corenda', 'Geasley', 
-                       67, 4, 12, 
-                       28969.54, 107330.08, 
-                       740, 91105.18, NULL);
+                       ('Marietta', 'Tsou', 
+                       37, 7, 9, 
+                       46407.24, 129058.99, 
+                       496, 80407.67, NULL);
 
             
                        INSERT INTO customers 
@@ -4913,10 +3065,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Astrid', 'Bettini', 
-                       19, 1, 6, 
-                       40383.35, 95798.03, 
-                       768, 53144.64, NULL);
+                       ('Rosy', 'Gentile', 
+                       66, 9, 2, 
+                       42653.34, 25074.37, 
+                       494, 52398.79, NULL);
 
             
                        INSERT INTO customers 
@@ -4924,10 +3076,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Carlina', 'Defosses', 
-                       54, 6, 10, 
-                       34991.71, 33698.51, 
-                       413, 71844.24, NULL);
+                       ('Ottilie', 'Moskowitz', 
+                       68, 0, 8, 
+                       95310.09, 36331.03, 
+                       426, 70313.66, NULL);
 
             
                        INSERT INTO customers 
@@ -4935,10 +3087,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Angil', 'Escalero', 
-                       60, 4, 0, 
-                       19078.8, 107078.7, 
-                       722, 84266.47, NULL);
+                       ('Druci', 'Kaiktsian', 
+                       71, 3, 1, 
+                       104682.62, 59934.48, 
+                       808, 39911.96, NULL);
 
             
                        INSERT INTO customers 
@@ -4946,10 +3098,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ree', 'Jone', 
-                       29, 5, 3, 
-                       48619.08, 82608.23, 
-                       802, 76318.68, NULL);
+                       ('Charlotte', 'Antolak', 
+                       19, 1, 5, 
+                       81101.65, 82797.21, 
+                       567, 95659.47, NULL);
 
             
                        INSERT INTO customers 
@@ -4957,10 +3109,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Bobinette', 'Custodio', 
-                       64, 9, 8, 
-                       129633.99, 107214.35, 
-                       459, 44789.23, NULL);
+                       ('Pamela', 'Killoran', 
+                       24, 0, 5, 
+                       88841.51, 41970.33, 
+                       465, 76000.02, NULL);
 
             
                        INSERT INTO customers 
@@ -4968,10 +3120,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Mariska', 'Sadan', 
-                       31, 0, 9, 
-                       70613.3, 39725.72, 
-                       646, 27796.75, NULL);
+                       ('Annis', 'Grossmann', 
+                       23, 6, 2, 
+                       26697.94, 29730.81, 
+                       842, 24822.11, NULL);
 
             
                        INSERT INTO customers 
@@ -4979,10 +3131,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Harlene', 'Neese', 
-                       67, 0, 10, 
-                       148032.39, 148101.72, 
-                       337, 49035.66, NULL);
+                       ('Caron', 'Burtschi', 
+                       32, 3, 9, 
+                       34525.14, 106281.44, 
+                       403, 27893.59, NULL);
 
             
                        INSERT INTO customers 
@@ -4990,10 +3142,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Austina', 'Allaire', 
-                       78, 5, 11, 
-                       115802.46, 95439.2, 
-                       544, 35294.21, NULL);
+                       ('Tiphanie', 'Rottinghaus', 
+                       52, 2, 10, 
+                       115859.04, 107780.87, 
+                       567, 76075.74, NULL);
 
             
                        INSERT INTO customers 
@@ -5001,10 +3153,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ginger', 'Arkontaky', 
-                       74, 7, 7, 
-                       83023.03, 88789.79, 
-                       728, 72153.21, NULL);
+                       ('Lonna', 'Dar', 
+                       64, 8, 11, 
+                       132796.52, 96653.23, 
+                       767, 32474.63, NULL);
 
             
                        INSERT INTO customers 
@@ -5012,10 +3164,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Velma', 'Athens', 
-                       29, 6, 9, 
-                       139664.82, 109673.61, 
-                       393, 34469.67, NULL);
+                       ('Chelsie', 'Germundson', 
+                       37, 0, 3, 
+                       68083.4, 74720.72, 
+                       498, 90554.05, NULL);
 
             
                        INSERT INTO customers 
@@ -5023,10 +3175,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Amie', 'Bolinder', 
-                       34, 7, 12, 
-                       27265.08, 75498.85, 
-                       664, 87816.74, NULL);
+                       ('Blondie', 'Hajdas', 
+                       72, 9, 5, 
+                       130410.06, 131593.62, 
+                       714, 30993.71, NULL);
 
             
                        INSERT INTO customers 
@@ -5034,10 +3186,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Shani', 'Barbarin', 
-                       47, 8, 11, 
-                       75058.22, 145665.72, 
-                       700, 73974.34, NULL);
+                       ('Raine', 'Chalupa', 
+                       53, 2, 4, 
+                       25231.95, 76907.52, 
+                       828, 23673.46, NULL);
 
             
                        INSERT INTO customers 
@@ -5045,10 +3197,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Britte', 'Savka', 
-                       58, 8, 3, 
-                       149565.01, 53187.61, 
-                       444, 81640.72, NULL);
+                       ('Chery', 'Lagrasse', 
+                       73, 1, 1, 
+                       62746.26, 149976.18, 
+                       378, 82284.46, NULL);
 
             
                        INSERT INTO customers 
@@ -5056,10 +3208,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Camellia', 'Skoczylas', 
-                       21, 4, 12, 
-                       79409.91, 63235.66, 
-                       661, 88307.02, NULL);
+                       ('Ranna', 'Polkinghorn', 
+                       52, 8, 11, 
+                       50934.69, 125278.67, 
+                       650, 89292.6, NULL);
 
             
                        INSERT INTO customers 
@@ -5067,10 +3219,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Eudora', 'Sovich', 
-                       69, 3, 12, 
-                       102720.86, 112493.24, 
-                       483, 85776.88, NULL);
+                       ('Rebecka', 'Girellini', 
+                       60, 1, 3, 
+                       145647.73, 53340.58, 
+                       500, 94733.11, NULL);
 
             
                        INSERT INTO customers 
@@ -5078,10 +3230,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Sibbie', 'Shadrick', 
-                       52, 2, 9, 
-                       88602.4, 130148.33, 
-                       330, 73698.17, NULL);
+                       ('Celestyn', 'Howie', 
+                       29, 3, 2, 
+                       77794.43, 56880.32, 
+                       598, 67673.33, NULL);
 
             
                        INSERT INTO customers 
@@ -5089,10 +3241,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Astrix', 'Sentz', 
-                       54, 8, 0, 
-                       100989.76, 65950.83, 
-                       705, 13687.58, NULL);
+                       ('Calypso', 'Kimoto', 
+                       72, 0, 8, 
+                       144403.4, 140853.04, 
+                       807, 29673.9, NULL);
 
             
                        INSERT INTO customers 
@@ -5100,10 +3252,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Geri', 'Sedlack', 
-                       63, 5, 5, 
-                       23405.11, 65982.24, 
-                       458, 91423.42, NULL);
+                       ('Nerty', 'Kaschmitter', 
+                       73, 0, 4, 
+                       41781.48, 40704.57, 
+                       622, 46737.41, NULL);
 
             
                        INSERT INTO customers 
@@ -5111,10 +3263,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Onida', 'Mottillo', 
-                       22, 1, 5, 
-                       66190.37, 106599.58, 
-                       422, 28910.75, NULL);
+                       ('Kerrill', 'Sedbrook', 
+                       76, 1, 13, 
+                       70378.14, 23289.94, 
+                       523, 66106.33, NULL);
 
             
                        INSERT INTO customers 
@@ -5122,10 +3274,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Alisun', 'Hallberg', 
-                       30, 0, 9, 
-                       144910.82, 40656.17, 
-                       719, 74413.35, NULL);
+                       ('Angelica', 'Roble', 
+                       50, 4, 1, 
+                       122610.65, 120387.3, 
+                       402, 15804.87, NULL);
 
             
                        INSERT INTO customers 
@@ -5133,10 +3285,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Caty', 'Brehm', 
-                       49, 7, 9, 
-                       136864.53, 109982.93, 
-                       522, 7707.74, NULL);
+                       ('Maren', 'Vanboven', 
+                       65, 8, 1, 
+                       125731.33, 113360.48, 
+                       749, 5675.86, NULL);
 
             
                        INSERT INTO customers 
@@ -5144,10 +3296,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Violet', 'Lomuscio', 
-                       63, 1, 2, 
-                       66266.97, 33622.98, 
-                       403, 65546.47, NULL);
+                       ('Arabele', 'Perrette', 
+                       58, 6, 9, 
+                       55783.58, 66569.49, 
+                       716, 22335.45, NULL);
 
             
                        INSERT INTO customers 
@@ -5155,10 +3307,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Melisandra', 'Daman', 
-                       67, 3, 11, 
-                       130511.99, 130089.26, 
-                       527, 59222.65, NULL);
+                       ('Vikki', 'Kryst', 
+                       19, 4, 2, 
+                       135500.16, 64584.54, 
+                       400, 95507.18, NULL);
 
             
                        INSERT INTO customers 
@@ -5166,10 +3318,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Jewelle', 'Pulcher', 
-                       28, 9, 5, 
-                       47594.75, 141123.37, 
-                       425, 50566.3, NULL);
+                       ('Rhodia', 'Antonsen', 
+                       46, 9, 9, 
+                       107247.88, 84181.47, 
+                       826, 53079.69, NULL);
 
             
                        INSERT INTO customers 
@@ -5177,10 +3329,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Denyse', 'Hafen', 
-                       42, 9, 2, 
-                       76400.34, 30571.61, 
-                       640, 61029.31, NULL);
+                       ('Daune', 'Henion', 
+                       46, 8, 10, 
+                       141797.7, 149401.69, 
+                       839, 35936.91, NULL);
 
             
                        INSERT INTO customers 
@@ -5188,10 +3340,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Larissa', 'Lamoureaux', 
-                       71, 5, 4, 
-                       128090.22, 51182.7, 
-                       344, 48904.92, NULL);
+                       ('Mercedes', 'Ernest', 
+                       30, 2, 2, 
+                       99382.25, 109983.75, 
+                       772, 29997.3, NULL);
 
             
                        INSERT INTO customers 
@@ -5199,10 +3351,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Jaime', 'Oscar', 
-                       47, 9, 12, 
-                       120026.17, 143973.98, 
-                       354, 48268.26, NULL);
+                       ('Essy', 'Zeigler', 
+                       30, 7, 12, 
+                       127298.83, 146194.53, 
+                       514, 67996.39, NULL);
 
             
                        INSERT INTO customers 
@@ -5210,10 +3362,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Perrine', 'Sopher', 
-                       56, 6, 11, 
-                       62052.82, 124524.97, 
-                       717, 16646.81, NULL);
+                       ('Vanni', 'Policicchio', 
+                       37, 7, 11, 
+                       94353.1, 37443.3, 
+                       436, 65036.97, NULL);
 
             
                        INSERT INTO customers 
@@ -5221,10 +3373,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Berry', 'Wolaver', 
-                       49, 7, 4, 
-                       137755.47, 90345.89, 
-                       411, 7617.09, NULL);
+                       ('Lorinda', 'Cotterman', 
+                       58, 4, 8, 
+                       38844.93, 140362.69, 
+                       672, 55974.47, NULL);
 
             
                        INSERT INTO customers 
@@ -5232,10 +3384,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Lexine', 'Nethercutt', 
-                       44, 2, 4, 
-                       97221.99, 62645.16, 
-                       490, 13867.8, NULL);
+                       ('Melva', 'Kazemi', 
+                       41, 1, 9, 
+                       134324.52, 98565.35, 
+                       820, 71045.65, NULL);
 
             
                        INSERT INTO customers 
@@ -5243,10 +3395,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Annabelle', 'Woehr', 
-                       46, 2, 0, 
-                       59971.48, 140678.23, 
-                       746, 99118.85, NULL);
+                       ('Darbie', 'Barett', 
+                       61, 2, 2, 
+                       95606.68, 99793.85, 
+                       525, 42335.07, NULL);
 
             
                        INSERT INTO customers 
@@ -5254,10 +3406,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Fanechka', 'Pecinovsky', 
-                       29, 5, 9, 
-                       55592.66, 122464.13, 
-                       696, 21483.16, NULL);
+                       ('Sheena', 'Goracke', 
+                       45, 6, 3, 
+                       138695.81, 108016.47, 
+                       331, 88692.73, NULL);
 
             
                        INSERT INTO customers 
@@ -5265,10 +3417,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Joycelin', 'Bollis', 
-                       29, 1, 8, 
-                       84954.51, 24098.05, 
-                       624, 92721.09, NULL);
+                       ('Xylina', 'Chime', 
+                       50, 8, 8, 
+                       42365.68, 50170.87, 
+                       494, 28587.71, NULL);
 
             
                        INSERT INTO customers 
@@ -5276,10 +3428,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Tory', 'Credi', 
-                       57, 0, 0, 
-                       146792.57, 63792.13, 
-                       705, 35761.11, NULL);
+                       ('Valentia', 'Cadet', 
+                       80, 2, 3, 
+                       47086.91, 25788.69, 
+                       457, 12809.91, NULL);
 
             
                        INSERT INTO customers 
@@ -5287,10 +3439,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Rowena', 'Spickler', 
-                       76, 3, 10, 
-                       117993.61, 74939.42, 
-                       441, 33931.22, NULL);
+                       ('Shena', 'Coch', 
+                       70, 6, 13, 
+                       107125.02, 30756.7, 
+                       756, 89325.25, NULL);
 
             
                        INSERT INTO customers 
@@ -5298,10 +3450,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Pavia', 'Hannasch', 
-                       33, 1, 6, 
-                       103250.73, 21436.55, 
-                       379, 28668.29, NULL);
+                       ('Flore', 'Gienger', 
+                       69, 0, 2, 
+                       122270.3, 103006.87, 
+                       517, 34596.97, NULL);
 
             
                        INSERT INTO customers 
@@ -5309,10 +3461,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Dorree', 'Bray', 
-                       74, 4, 8, 
-                       131985.78, 27231.43, 
-                       347, 16257.08, NULL);
+                       ('Cathie', 'Yaklin', 
+                       28, 0, 5, 
+                       64837.41, 39856.86, 
+                       638, 5255.55, NULL);
 
             
                        INSERT INTO customers 
@@ -5320,10 +3472,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Ermengarde', 'Bambaci', 
-                       50, 0, 10, 
-                       36204.26, 20960.22, 
-                       460, 27486.95, NULL);
+                       ('Stormy', 'Alfonso', 
+                       38, 2, 7, 
+                       132875.73, 66094.0, 
+                       530, 38872.69, NULL);
 
             
                        INSERT INTO customers 
@@ -5331,10 +3483,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Maggie', 'Janacek', 
-                       37, 3, 8, 
-                       102898.71, 128632.42, 
-                       400, 33106.3, NULL);
+                       ('Liva', 'Duffel', 
+                       72, 1, 1, 
+                       133955.2, 27206.75, 
+                       816, 41851.63, NULL);
 
             
                        INSERT INTO customers 
@@ -5342,10 +3494,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Carmelia', 'Hoerig', 
-                       79, 7, 13, 
-                       93966.61, 144928.32, 
-                       545, 52011.69, NULL);
+                       ('Dulsea', 'Sames', 
+                       44, 1, 5, 
+                       107606.64, 103908.08, 
+                       354, 95479.6, NULL);
 
             
                        INSERT INTO customers 
@@ -5353,10 +3505,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Aurlie', 'Annand', 
-                       19, 2, 13, 
-                       64975.84, 144923.76, 
-                       556, 65256.89, NULL);
+                       ('Carey', 'Kaneshiro', 
+                       55, 4, 9, 
+                       132144.27, 141344.24, 
+                       510, 86856.02, NULL);
 
             
                        INSERT INTO customers 
@@ -5364,10 +3516,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Emilee', 'Seger', 
-                       53, 2, 11, 
-                       81116.7, 121959.87, 
-                       334, 16473.55, NULL);
+                       ('Luella', 'Stonelake', 
+                       32, 0, 9, 
+                       138577.68, 123811.56, 
+                       451, 31903.41, NULL);
 
             
                        INSERT INTO customers 
@@ -5375,10 +3527,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Robinetta', 'Heusel', 
-                       34, 6, 6, 
-                       125091.81, 19595.86, 
-                       593, 77305.43, NULL);
+                       ('Odelia', 'Reade', 
+                       50, 4, 0, 
+                       84970.15, 134492.09, 
+                       631, 72117.87, NULL);
 
             
                        INSERT INTO customers 
@@ -5386,10 +3538,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Faydra', 'Reddin', 
-                       80, 2, 13, 
-                       131008.43, 100907.94, 
-                       835, 34672.37, NULL);
+                       ('Aveline', 'Konicek', 
+                       45, 4, 9, 
+                       119522.57, 138563.43, 
+                       534, 20933.82, NULL);
 
             
                        INSERT INTO customers 
@@ -5397,10 +3549,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Alvinia', 'Specchio', 
-                       55, 1, 0, 
-                       69437.92, 119010.17, 
-                       753, 51206.63, NULL);
+                       ('Loreen', 'Gollihue', 
+                       40, 2, 12, 
+                       28579.46, 102164.81, 
+                       510, 88569.81, NULL);
 
             
                        INSERT INTO customers 
@@ -5408,10 +3560,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Mignon', 'Masone', 
-                       20, 0, 9, 
-                       83402.95, 119307.39, 
-                       457, 47502.68, NULL);
+                       ('Leila', 'Kosen', 
+                       25, 1, 1, 
+                       78516.95, 146188.51, 
+                       413, 11966.56, NULL);
 
             
                        INSERT INTO customers 
@@ -5419,10 +3571,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Dion', 'Debiew', 
-                       69, 9, 2, 
-                       64489.13, 29357.72, 
-                       612, 28379.4, NULL);
+                       ('Mavra', 'Prohonic', 
+                       25, 4, 8, 
+                       87922.92, 41430.35, 
+                       660, 16751.44, NULL);
 
             
                        INSERT INTO customers 
@@ -5430,10 +3582,230 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Dorri', 'Wettstein', 
+                       ('Tammie', 'Hassian', 
+                       37, 2, 13, 
+                       32008.74, 81846.19, 
+                       696, 19603.27, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Shane', 'Cottom', 
+                       24, 9, 6, 
+                       40556.43, 53725.92, 
+                       716, 44794.56, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ina', 'Oquenda', 
+                       63, 2, 1, 
+                       42519.85, 59931.23, 
+                       329, 19649.01, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Angil', 'Audette', 
+                       71, 6, 5, 
+                       97800.68, 85457.86, 
+                       447, 22432.84, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lark', 'Isaksen', 
+                       77, 7, 2, 
+                       49655.64, 104919.08, 
+                       617, 40252.83, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Wilona', 'Preble', 
+                       45, 2, 9, 
+                       135360.67, 129826.63, 
+                       362, 34126.27, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Maxi', 'Mardis', 
+                       59, 9, 12, 
+                       126508.14, 38764.75, 
+                       508, 42677.77, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Eleanor', 'Elieff', 
+                       48, 3, 11, 
+                       102350.4, 114226.58, 
+                       767, 51231.94, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Fredra', 'Mathurin', 
+                       30, 1, 13, 
+                       106863.8, 38259.15, 
+                       578, 60921.87, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Tally', 'Compston', 
+                       31, 3, 10, 
+                       128818.16, 37728.25, 
+                       372, 97090.25, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sib', 'Spiewak', 
+                       75, 7, 12, 
+                       109419.68, 75897.81, 
+                       619, 92414.43, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sunny', 'Jellings', 
+                       75, 7, 2, 
+                       45208.41, 35141.61, 
+                       579, 24540.87, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Evania', 'Goshi', 
+                       60, 3, 13, 
+                       93356.4, 125507.21, 
+                       314, 24760.23, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Andree', 'Rabin', 
+                       49, 3, 4, 
+                       71664.81, 132324.41, 
+                       558, 32974.65, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Glennie', 'Vangordon', 
+                       70, 3, 10, 
+                       107731.55, 81323.44, 
+                       834, 16298.9, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Goldia', 'Melstrom', 
+                       71, 3, 6, 
+                       36127.36, 21266.27, 
+                       382, 72633.54, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Elene', 'Coney', 
+                       56, 7, 9, 
+                       82850.33, 109981.02, 
+                       505, 63854.74, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Jewell', 'Gloston', 
+                       19, 4, 1, 
+                       81093.59, 44485.16, 
+                       323, 75021.51, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Malorie', 'Defranco', 
+                       65, 5, 1, 
+                       73811.07, 103929.89, 
+                       748, 14532.1, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Deny', 'Senko', 
+                       30, 6, 2, 
+                       32762.51, 138009.87, 
+                       533, 11238.54, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Elna', 'Goldsborough', 
                        40, 1, 1, 
-                       67603.65, 46229.76, 
-                       778, 24554.65, NULL);
+                       80780.09, 130658.25, 
+                       590, 43572.44, NULL);
 
             
                        INSERT INTO customers 
@@ -5441,10 +3813,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Rodi', 'Caposole', 
-                       66, 9, 0, 
-                       143200.77, 96107.17, 
-                       577, 19632.4, NULL);
+                       ('Ailene', 'Lajoy', 
+                       63, 8, 12, 
+                       20766.32, 61501.85, 
+                       812, 74652.13, NULL);
 
             
                        INSERT INTO customers 
@@ -5452,10 +3824,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Sosanna', 'Schutter', 
-                       52, 3, 4, 
-                       122209.99, 48850.67, 
-                       608, 11368.24, NULL);
+                       ('Julienne', 'Waddy', 
+                       75, 6, 11, 
+                       57751.95, 57432.4, 
+                       545, 34873.25, NULL);
 
             
                        INSERT INTO customers 
@@ -5463,10 +3835,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Josee', 'Cerveny', 
-                       74, 1, 13, 
-                       37006.79, 20439.53, 
-                       780, 98394.29, NULL);
+                       ('Silvie', 'Amerine', 
+                       25, 8, 8, 
+                       60649.34, 132923.92, 
+                       779, 6656.36, NULL);
 
             
                        INSERT INTO customers 
@@ -5474,10 +3846,439 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Nari', 'Vanhooser', 
+                       ('Genevra', 'Linne', 
+                       78, 7, 4, 
+                       118723.32, 111867.67, 
+                       583, 2224.3, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lorraine', 'Castillejo', 
+                       31, 5, 7, 
+                       53298.0, 128936.56, 
+                       450, 37417.37, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Minnie', 'Batte', 
+                       75, 5, 10, 
+                       25707.74, 55459.57, 
+                       846, 44311.74, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Amalea', 'Sanjurjo', 
+                       60, 5, 4, 
+                       72023.64, 149926.45, 
+                       599, 65419.33, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sissie', 'Leichtenberge', 
+                       22, 1, 8, 
+                       101213.14, 65660.04, 
+                       331, 54620.97, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Felicia', 'Villnave', 
+                       30, 3, 4, 
+                       129231.05, 27203.58, 
+                       400, 45664.28, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Krissy', 'Taruc', 
+                       57, 3, 4, 
+                       143614.57, 62653.76, 
+                       427, 45590.04, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Aveline', 'Towey', 
+                       57, 2, 12, 
+                       114854.89, 120797.68, 
+                       682, 13875.49, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Taryn', 'Hych', 
+                       26, 9, 3, 
+                       51333.12, 94374.63, 
+                       824, 4046.19, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Rubina', 'Sasengbong', 
+                       36, 7, 9, 
+                       39960.78, 29395.05, 
+                       833, 17825.58, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Dorena', 'Fergoson', 
+                       53, 0, 10, 
+                       52818.43, 106416.12, 
+                       704, 74996.13, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Heloise', 'Neidhardt', 
+                       48, 8, 5, 
+                       139676.41, 48268.56, 
+                       365, 28923.59, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Deina', 'Belken', 
+                       79, 3, 11, 
+                       113096.73, 113571.23, 
+                       537, 22027.83, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Rodie', 'Mechling', 
+                       42, 8, 12, 
+                       141932.97, 88519.77, 
+                       395, 59125.86, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Victoria', 'Rundle', 
+                       68, 2, 7, 
+                       145423.01, 110434.16, 
+                       785, 81316.36, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Bernetta', 'England', 
+                       32, 2, 7, 
+                       69903.27, 40870.3, 
+                       764, 79441.05, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Andeee', 'Conlan', 
+                       44, 4, 5, 
+                       29384.89, 22206.53, 
+                       519, 37433.51, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Jenna', 'Marchiano', 
+                       68, 2, 13, 
+                       43487.39, 78046.85, 
+                       432, 40086.89, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Othella', 'Jemenez', 
+                       70, 7, 6, 
+                       62122.87, 66687.3, 
+                       622, 64325.24, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kial', 'Josten', 
+                       59, 0, 9, 
+                       57669.25, 107217.29, 
+                       773, 51805.99, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Barbette', 'Blatz', 
+                       45, 9, 6, 
+                       26697.81, 43719.69, 
+                       654, 3650.36, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sondra', 'Worobel', 
+                       73, 3, 6, 
+                       122389.58, 67925.53, 
+                       572, 37065.6, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Estella', 'Campillo', 
+                       39, 9, 0, 
+                       87832.9, 61513.58, 
+                       745, 51849.61, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Desiri', 'Susor', 
+                       54, 2, 11, 
+                       62458.34, 23590.14, 
+                       601, 20662.64, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Arabele', 'Macchiarella', 
+                       33, 5, 5, 
+                       50155.26, 60511.65, 
+                       511, 48972.68, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Aura', 'Gahring', 
+                       34, 9, 6, 
+                       47134.44, 30175.62, 
+                       438, 49680.44, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Berty', 'Wreyford', 
+                       22, 7, 13, 
+                       129540.19, 110292.81, 
+                       783, 47519.06, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Dareen', 'Bainum', 
+                       62, 2, 6, 
+                       143210.84, 86552.99, 
+                       567, 98809.32, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Jaclin', 'Ebeling', 
+                       32, 8, 7, 
+                       101909.66, 48456.03, 
+                       849, 84486.02, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Nicolea', 'Kleman', 
+                       38, 3, 2, 
+                       119454.6, 38008.8, 
+                       687, 77988.53, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Alta', 'Reinholtz', 
+                       63, 8, 7, 
+                       79015.75, 85342.97, 
+                       363, 79962.83, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Toni', 'Boggio', 
+                       49, 6, 6, 
+                       21124.19, 107486.1, 
+                       360, 50479.07, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Henryetta', 'Revelle', 
+                       50, 0, 3, 
+                       56313.44, 140629.97, 
+                       830, 25662.13, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kara', 'Chiera', 
+                       41, 8, 11, 
+                       93072.24, 102387.68, 
+                       742, 2992.29, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Emmeline', 'Profeta', 
+                       57, 9, 3, 
+                       149253.04, 96388.9, 
+                       510, 49580.91, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Cate', 'Anderman', 
+                       63, 7, 8, 
+                       22703.76, 60300.07, 
+                       767, 44989.71, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Meg', 'Madaras', 
+                       50, 1, 6, 
+                       100490.02, 61384.3, 
+                       728, 47794.81, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Donni', 'Kolassa', 
+                       75, 4, 13, 
+                       118534.87, 20229.49, 
+                       427, 67721.71, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Laraine', 'Vonschriltz', 
+                       66, 2, 0, 
+                       117595.0, 68800.69, 
+                       606, 55957.74, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Janel', 'Odome', 
                        47, 0, 6, 
-                       24486.61, 107399.15, 
-                       516, 16242.33, NULL);
+                       144680.18, 38038.4, 
+                       494, 28061.34, NULL);
 
             
                        INSERT INTO customers 
@@ -5485,10 +4286,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Cele', 'Kieger', 
-                       35, 6, 12, 
-                       118584.12, 126522.62, 
-                       611, 76538.54, NULL);
+                       ('Gillian', 'Tippery', 
+                       28, 3, 9, 
+                       118268.06, 148598.77, 
+                       586, 2292.6, NULL);
 
             
                        INSERT INTO customers 
@@ -5496,10 +4297,10 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Rasla', 'Liriano', 
-                       34, 7, 13, 
-                       126754.86, 32858.27, 
-                       713, 77584.75, NULL);
+                       ('Aidan', 'Frascella', 
+                       52, 1, 0, 
+                       94381.0, 28064.97, 
+                       847, 41547.4, NULL);
 
             
                        INSERT INTO customers 
@@ -5507,9 +4308,1208 @@
                        occupation, city, annual_income, 
                        annual_spending, credit_score, loan_balance, 
                        cluster) VALUES 
-                       ('Cesya', 'Modic', 
-                       42, 1, 13, 
-                       108279.26, 131265.72, 
-                       562, 92380.64, NULL);
+                       ('Allx', 'Bialecki', 
+                       65, 2, 13, 
+                       133896.02, 75299.88, 
+                       841, 47633.98, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Peri', 'Capes', 
+                       42, 3, 4, 
+                       84041.74, 77667.83, 
+                       777, 70771.12, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Adda', 'Raike', 
+                       29, 1, 5, 
+                       102988.06, 78439.0, 
+                       641, 22303.35, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Clementina', 'Vukich', 
+                       60, 8, 3, 
+                       29891.57, 148162.68, 
+                       542, 46174.84, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Mariana', 'Middlekauff', 
+                       64, 3, 2, 
+                       112763.67, 85013.3, 
+                       587, 59480.85, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Tarrah', 'Strano', 
+                       37, 2, 2, 
+                       127128.36, 124957.38, 
+                       352, 11405.06, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Nicolle', 'Aloia', 
+                       64, 4, 2, 
+                       100589.61, 101648.5, 
+                       423, 81049.92, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ruthe', 'Eckis', 
+                       52, 7, 7, 
+                       71257.15, 105409.96, 
+                       418, 21061.0, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Malva', 'Szaflarski', 
+                       29, 9, 0, 
+                       101253.38, 21309.5, 
+                       472, 37989.29, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Filia', 'Emily', 
+                       37, 1, 2, 
+                       88920.38, 143294.87, 
+                       492, 27517.91, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ellen', 'Wilcox', 
+                       63, 5, 5, 
+                       146007.23, 25228.66, 
+                       356, 65209.46, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kitty', 'Dayao', 
+                       71, 6, 0, 
+                       89860.7, 122616.57, 
+                       808, 91677.22, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Nananne', 'Christley', 
+                       67, 9, 6, 
+                       118441.96, 81954.36, 
+                       409, 27615.63, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Jonell', 'Kienle', 
+                       26, 3, 11, 
+                       113663.89, 112394.59, 
+                       605, 28886.96, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Helena', 'Aycox', 
+                       66, 8, 10, 
+                       56879.16, 28099.52, 
+                       679, 29866.72, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Merola', 'Belarmino', 
+                       41, 9, 4, 
+                       111879.04, 73825.91, 
+                       703, 16105.08, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Jaime', 'Bigsby', 
+                       54, 7, 9, 
+                       142275.0, 117061.38, 
+                       471, 70879.72, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kissiah', 'Mcmindes', 
+                       25, 4, 2, 
+                       80722.07, 114631.67, 
+                       814, 30948.47, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ame', 'Mirick', 
+                       74, 4, 11, 
+                       72084.14, 58258.42, 
+                       762, 35535.48, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Constantine', 'Sherief', 
+                       69, 5, 0, 
+                       141128.65, 121608.3, 
+                       702, 2586.1, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Marion', 'Lobos', 
+                       43, 1, 4, 
+                       118766.17, 62114.49, 
+                       420, 79992.02, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Tatiania', 'Staheli', 
+                       37, 4, 5, 
+                       145254.35, 20467.96, 
+                       360, 28519.04, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Dulce', 'Denning', 
+                       62, 4, 5, 
+                       51271.59, 81786.89, 
+                       753, 99538.76, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Angelia', 'Pauling', 
+                       48, 9, 2, 
+                       122235.7, 141652.13, 
+                       715, 56597.95, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Karisa', 'Lury', 
+                       53, 5, 9, 
+                       126117.01, 89050.43, 
+                       457, 62181.72, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kelcy', 'Geitgey', 
+                       51, 0, 13, 
+                       32351.64, 30699.19, 
+                       850, 57378.08, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Marna', 'Wiesel', 
+                       46, 7, 8, 
+                       98002.44, 49095.39, 
+                       763, 36757.1, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Guinevere', 'Kempster', 
+                       63, 9, 2, 
+                       63452.6, 60683.49, 
+                       768, 50845.38, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Alex', 'Flosi', 
+                       26, 1, 5, 
+                       130778.72, 38314.11, 
+                       844, 30711.5, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Deena', 'Butchee', 
+                       59, 9, 2, 
+                       109921.49, 40596.0, 
+                       774, 58769.78, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Chanda', 'Rudick', 
+                       63, 9, 1, 
+                       139618.83, 110290.39, 
+                       788, 11210.09, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Martha', 'Hoxworth', 
+                       30, 0, 9, 
+                       116669.38, 121931.98, 
+                       335, 85609.13, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Fannie', 'Neidich', 
+                       47, 9, 1, 
+                       56339.18, 68684.9, 
+                       305, 61446.33, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Annnora', 'Vogelgesang', 
+                       55, 0, 12, 
+                       53254.21, 19812.47, 
+                       437, 45072.9, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Roxanna', 'Camarena', 
+                       46, 2, 10, 
+                       131409.35, 36893.13, 
+                       688, 70497.0, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kordula', 'Bugarewicz', 
+                       75, 3, 4, 
+                       23085.06, 35806.62, 
+                       449, 61100.55, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Abby', 'Corker', 
+                       26, 4, 0, 
+                       37574.67, 148996.56, 
+                       697, 22142.87, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sallee', 'Astorino', 
+                       65, 2, 13, 
+                       66733.27, 124531.2, 
+                       381, 24326.29, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Trude', 'Higgason', 
+                       57, 0, 5, 
+                       48606.59, 75765.42, 
+                       718, 31133.73, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Audi', 'Kettner', 
+                       52, 1, 6, 
+                       140893.92, 24957.33, 
+                       427, 28407.02, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kathe', 'Escalero', 
+                       20, 8, 3, 
+                       110494.51, 104820.77, 
+                       459, 74701.92, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ashlen', 'Kopper', 
+                       23, 5, 5, 
+                       56063.67, 128356.28, 
+                       641, 49879.29, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('La Verne', 'Bonge', 
+                       54, 1, 11, 
+                       143464.25, 133673.93, 
+                       769, 12275.79, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Prudence', 'Dimitt', 
+                       57, 1, 1, 
+                       65911.01, 113730.78, 
+                       843, 13331.72, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Carlye', 'Vrbka', 
+                       80, 9, 3, 
+                       96015.44, 138772.68, 
+                       422, 26117.52, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lucie', 'Foust', 
+                       61, 7, 2, 
+                       99574.04, 97429.1, 
+                       530, 49480.69, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Theresa', 'Ruisi', 
+                       60, 5, 7, 
+                       115151.94, 95423.95, 
+                       504, 15788.6, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Cathie', 'Mcrea', 
+                       33, 5, 1, 
+                       89451.94, 87568.56, 
+                       535, 23098.93, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Jeanne', 'Deer', 
+                       76, 9, 5, 
+                       124743.54, 52422.49, 
+                       752, 90199.91, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Ivette', 'Aleem', 
+                       23, 3, 1, 
+                       114467.61, 110773.88, 
+                       564, 69289.03, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Shawna', 'Berret', 
+                       31, 6, 6, 
+                       84001.93, 145785.55, 
+                       523, 67672.49, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Geneva', 'Reddig', 
+                       34, 1, 13, 
+                       66724.96, 120723.36, 
+                       746, 89886.92, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Elena', 'Babick', 
+                       73, 8, 0, 
+                       88220.75, 19369.51, 
+                       584, 94430.31, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Glynis', 'Billingslea', 
+                       22, 9, 5, 
+                       34966.42, 62533.35, 
+                       414, 16795.77, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Neile', 'Tutoky', 
+                       33, 5, 9, 
+                       136771.66, 32684.2, 
+                       822, 68601.25, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Robbi', 'Gaba', 
+                       65, 7, 1, 
+                       37484.86, 35572.11, 
+                       744, 39101.06, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Teddie', 'Sanford', 
+                       60, 8, 13, 
+                       59740.64, 122792.28, 
+                       429, 16426.51, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Goldi', 'Attwood', 
+                       29, 0, 12, 
+                       23870.26, 137464.59, 
+                       745, 90338.7, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Joceline', 'Misner', 
+                       28, 5, 8, 
+                       94239.12, 60027.5, 
+                       504, 24497.2, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Mia', 'Sauerbry', 
+                       68, 8, 10, 
+                       131189.3, 81489.8, 
+                       840, 42597.98, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Helga', 'Courchine', 
+                       53, 5, 1, 
+                       78732.62, 128072.45, 
+                       520, 41795.51, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Imelda', 'Jayme', 
+                       64, 6, 4, 
+                       68806.18, 103126.91, 
+                       648, 85107.75, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Tootsie', 'Enders', 
+                       60, 1, 6, 
+                       65872.82, 51951.2, 
+                       731, 4144.69, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Vivien', 'Tijerino', 
+                       58, 7, 10, 
+                       114165.83, 81456.74, 
+                       676, 91479.86, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Mehetabel', 'Buretta', 
+                       77, 8, 12, 
+                       138822.38, 35081.71, 
+                       515, 69112.53, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Dore', 'Hornbeck', 
+                       28, 9, 8, 
+                       76090.01, 135878.65, 
+                       374, 36856.5, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lira', 'Matheny', 
+                       27, 6, 10, 
+                       96665.88, 104404.7, 
+                       301, 67992.06, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Theresita', 'Ping', 
+                       32, 6, 3, 
+                       99958.82, 40014.88, 
+                       405, 72356.55, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Zea', 'Musgrave', 
+                       75, 8, 5, 
+                       46441.26, 71437.3, 
+                       559, 31602.14, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Micaela', 'Shellnut', 
+                       34, 6, 6, 
+                       29396.1, 60063.84, 
+                       601, 4762.76, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sherilyn', 'Dubuc', 
+                       27, 7, 2, 
+                       48013.5, 111214.27, 
+                       608, 61714.4, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Geri', 'Fichter', 
+                       58, 6, 1, 
+                       117592.82, 22432.71, 
+                       547, 47383.19, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Demetra', 'Meckes', 
+                       41, 1, 2, 
+                       119430.06, 32229.33, 
+                       802, 2940.8, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Linette', 'Strackbein', 
+                       41, 1, 11, 
+                       49552.13, 84452.27, 
+                       758, 50217.43, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Tommie', 'Noggles', 
+                       30, 5, 4, 
+                       106522.83, 44813.22, 
+                       741, 34054.03, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Dulciana', 'Hachting', 
+                       67, 4, 3, 
+                       48064.03, 138368.88, 
+                       499, 97338.93, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Opal', 'Lindel', 
+                       61, 4, 0, 
+                       63463.37, 78504.74, 
+                       808, 70630.39, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Rozalin', 'Diclaudio', 
+                       71, 7, 2, 
+                       123526.3, 87267.05, 
+                       682, 84478.84, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Vernice', 'Ellcessor', 
+                       71, 4, 11, 
+                       32350.06, 63013.81, 
+                       435, 11337.53, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Emmalynne', 'Morella', 
+                       60, 6, 2, 
+                       42176.29, 86474.54, 
+                       381, 34449.78, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Teresina', 'Gaglione', 
+                       59, 1, 2, 
+                       137324.29, 123054.14, 
+                       432, 61064.31, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Jaclin', 'Eiche', 
+                       62, 8, 3, 
+                       71124.35, 92314.54, 
+                       419, 58179.08, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Lizette', 'Beagle', 
+                       76, 2, 7, 
+                       129606.08, 45860.52, 
+                       424, 70250.5, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Marcia', 'Satchwell', 
+                       27, 7, 1, 
+                       134722.1, 93661.17, 
+                       552, 80843.71, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Hedy', 'Potsander', 
+                       32, 8, 9, 
+                       145106.17, 80397.42, 
+                       759, 50422.23, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Blaire', 'Thibeault', 
+                       65, 4, 0, 
+                       117296.2, 94368.37, 
+                       383, 35133.83, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kailey', 'Bordin', 
+                       41, 0, 8, 
+                       112041.73, 89031.98, 
+                       352, 81956.11, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Tabbie', 'Pardall', 
+                       52, 2, 8, 
+                       20441.68, 68992.02, 
+                       591, 85031.17, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Glennie', 'Bartolome', 
+                       63, 5, 12, 
+                       146849.51, 22660.61, 
+                       334, 4372.48, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kellie', 'Lindeman', 
+                       43, 9, 11, 
+                       110759.16, 128964.13, 
+                       333, 78619.77, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Alisun', 'Friedel', 
+                       48, 6, 1, 
+                       59366.47, 52094.41, 
+                       703, 99665.31, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Wilma', 'Khilling', 
+                       27, 1, 13, 
+                       65535.57, 129257.6, 
+                       325, 48018.08, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Agretha', 'Ventre', 
+                       56, 0, 3, 
+                       84988.03, 148818.57, 
+                       719, 93362.04, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sandie', 'Morence', 
+                       61, 3, 6, 
+                       103052.37, 86946.67, 
+                       732, 2411.2, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Phylys', 'Zonia', 
+                       73, 0, 3, 
+                       95004.74, 70572.74, 
+                       570, 73407.41, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Hermia', 'Kneisler', 
+                       27, 8, 11, 
+                       65843.26, 142933.28, 
+                       368, 1823.48, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Benni', 'Wohlers', 
+                       22, 3, 4, 
+                       122926.18, 72067.3, 
+                       823, 54554.59, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Fannie', 'Mayala', 
+                       36, 4, 12, 
+                       66887.22, 97479.62, 
+                       388, 75622.52, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Danell', 'Magierski', 
+                       64, 9, 9, 
+                       111781.58, 94426.84, 
+                       698, 15519.28, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Barbabra', 'Landress', 
+                       29, 5, 2, 
+                       75666.77, 46141.5, 
+                       689, 81668.24, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Johanna', 'Gaughan', 
+                       68, 1, 4, 
+                       84155.92, 48618.09, 
+                       692, 43742.94, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Marys', 'Johanning', 
+                       67, 9, 9, 
+                       43568.44, 77246.01, 
+                       722, 73389.78, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Fredericka', 'Hogenson', 
+                       56, 8, 1, 
+                       103415.37, 22646.37, 
+                       522, 36532.42, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Kellsie', 'Welp', 
+                       40, 0, 13, 
+                       40949.0, 52695.61, 
+                       664, 10221.98, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Amelia', 'Mccraney', 
+                       41, 1, 13, 
+                       75856.14, 137653.02, 
+                       751, 76613.2, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Dolli', 'Swait', 
+                       36, 8, 6, 
+                       134854.84, 88397.16, 
+                       407, 99155.31, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Sibella', 'Luetkemeyer', 
+                       23, 4, 0, 
+                       78793.56, 104392.69, 
+                       382, 93036.87, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Rosalinde', 'Casareno', 
+                       46, 2, 10, 
+                       42582.94, 123940.29, 
+                       342, 56745.79, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Orelie', 'Bickerton', 
+                       66, 0, 10, 
+                       132418.07, 55963.52, 
+                       555, 50931.98, NULL);
+
+            
+                       INSERT INTO customers 
+                       (first_name, last_name, age, 
+                       occupation, city, annual_income, 
+                       annual_spending, credit_score, loan_balance, 
+                       cluster) VALUES 
+                       ('Rozalin', 'Hammers', 
+                       72, 3, 2, 
+                       117264.96, 35659.75, 
+                       816, 26543.32, NULL);
 
             
