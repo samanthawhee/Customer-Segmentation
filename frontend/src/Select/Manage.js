@@ -1,5 +1,5 @@
 import './Manage.css';
-import BackHome from "../Components/BackHome";
+import BackHome from "../Home/BackHome";
 import RunClustering from "../Select/RunClustering";
 
 function Manage({ hideRunClustering, toggledCount, selectedId }) {

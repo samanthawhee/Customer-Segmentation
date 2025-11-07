@@ -1,10 +1,11 @@
 import './Select.css';
-import Loading from '../Components/Loading';
+import Loading from '../Home/Loading';
 import SelectIntro from "./SelectIntro";
 import SelectTable from './SelectTable';
 import Manage from './Manage';
 import { getCustomers } from "../APIExecutor/GetCustomers";
 import { useState, useEffect } from "react";
+import Copyright from "../Home/Copyright";
 
 function Select() {
     const [loading, setLoading] = useState(true);
@@ -46,6 +47,7 @@ function Select() {
                 setRowColours={setRowColours}
                 setSelectedId={setSelectedId}
             />
+            <Copyright />
         </div>
     );
 }

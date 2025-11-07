@@ -1,0 +1,45 @@
+.Final {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/Background.png');
+    background-size: cover;
+    background-position: center;
+
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+
+}
+
+.Final .HomeTitle {
+    grid-column: 4/8;
+    grid-row: 6;
+}
+
+.Final .ThankYou {
+    grid-column: 2 / 10;
+    grid-row: 7;
+}
+
+.Final .Comment{
+    grid-column: 2 / 10;
+    grid-row: 10;
+}
+
+.Final .StartButton {
+    grid-column: 4 / 8;
+    grid-row: 13;
+    text-align: center;
+}
+
+.Final .HomeIntro {
+    grid-column: 4 / 8;
+    grid-row: 16;
+
+}
+
+.Final .Copyright {
+    grid-column: 4 / 8;
+    grid-row: 20;
+
+}

@@ -23,6 +23,18 @@
     outline: none;
 }
 
+.EmailStatus {
+    font-size: 0.8em;
+    grid-column: 8/12;
+    text-align: right;
+    align-self: center;
+    color: #F20285;
+}
+
+.EmailForm button {
+    grid-column: 12/14;
+}
+
 .EmailForm textarea#message {
     height: 20em;
     resize: vertical;

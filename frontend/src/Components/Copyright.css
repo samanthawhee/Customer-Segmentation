@@ -2,5 +2,15 @@
   color: white;
   font-size: 0.8em;
   text-align: center;
-  margin: 0; 
+}
+
+.Home .Copyright p {
+  margin-bottom: 1em;
+}
+
+.Select .Copyright p,
+.Result .Copyright p,
+.SendEmail .Copyright p {
+  color: black;
+  margin-top: 20px;
 }

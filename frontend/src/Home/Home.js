@@ -1,9 +1,9 @@
 import './Home.css';
 import '../Components/BlockFrame.css'
-import HomeTitle from '../Components/HomeTitle';
-import HomeStart from '../Components/HomeStart';
-import HomeIntro from '../Components/HomeIntro';
-import Copyright from '../Components/Copyright';
+import HomeTitle from './HomeTitle';
+import HomeStart from './HomeStart';
+import HomeIntro from './HomeIntro';
+import Copyright from './Copyright';
 
 function Home() {
   return (

@@ -1,4 +1,4 @@
-import './HomeTitle.css';
+import '../Components/Title.css';
 
 function HomeTitle() {
   return (

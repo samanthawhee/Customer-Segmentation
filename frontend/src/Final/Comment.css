@@ -1,0 +1,27 @@
+.Comment{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.Comment input {
+    grid-column: 4 / 17;
+    width: 100%;
+    padding-left: 1em;
+    border-radius: 0.8em;
+    background-color: white;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    outline: none;
+}
+
+.Comment button{
+    grid-column: 17;
+    margin-left: 1em;
+}
+
+.Comment .EmailStatus {
+    grid-column: 18;
+    color: white;
+    text-align: center;
+    margin-left: 1em;
+}

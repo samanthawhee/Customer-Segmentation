@@ -11,6 +11,7 @@ import ProductOverall from "./ProductOverall";
 import EmailEdition from "./EmailEdition";
 import Manage from "../Select/Manage";
 import { selectProductById } from "../APIExecutor/SelectProductById";
+import Copyright from "../Home/Copyright";
 
 function SendEmail () {
     const location = useLocation();
@@ -23,10 +24,8 @@ function SendEmail () {
         const fetchData = async () => {
             try {
                 const data = await selectProductById(selectedProduct);
-
                 const normalised = Array.isArray(data) ? data[0] : data;
                 setProduct(normalised);
-
             } catch (err) {
                 setError(err.message);
             }
@@ -36,11 +35,8 @@ function SendEmail () {
             fetchData();
         }
 
-        if (selectedProduct) {
-            window.scrollTo({ top: 0, behavior: 'auto' });
-        }
-
     }, [selectedProduct]);
+
 
 
     if (error) return <h1>Error: {error}</h1>;
@@ -49,10 +45,11 @@ function SendEmail () {
     return (
         <div className="SendEmail">
             <SendIntro />
+            <EmailEdition />
             <Manage hideRunClustering={true} />
             <ClusterOverall ClusterData={clusterData}/>
             <ProductOverall Product={product}/>
-            <EmailEdition />
+            <Copyright />
         </div>
     );
 }

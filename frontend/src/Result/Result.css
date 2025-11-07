@@ -1,14 +1,3 @@
-.Result {
-    display: grid;
-    min-height: 100vh;
-    width: 100%;
-    padding: 50px;
-    grid-template-rows: auto 1fr;
-    grid-template-columns: repeat(5, 1fr);
-    background-color: #f9FBFE;
-    color: black;
-}
-
 .Intro {
     grid-row: 1;
     grid-column: 1 / 4;
@@ -42,4 +31,9 @@
 .Assignment {
     grid-row: 7;
     grid-column: 1 / 6;
+}
+
+.Copyright {
+    grid-row: 8;
+    grid-column: 3;
 }

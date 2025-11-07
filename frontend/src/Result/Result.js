@@ -9,6 +9,7 @@ import ClusterInsight from "./ClusterInsight";
 import Product from "./Product";
 import Assignment from "./Assignment";
 import { matchProduct } from "../APIExecutor/MatchProduct";
+import Copyright from "../Home/Copyright";
 
 function Result () {
     const location = useLocation();
@@ -41,6 +42,7 @@ function Result () {
             <ClusterInsight ClusterData={clusterData} SelectedCluster={selectedCluster}/>
             <Product ClusterData={clusterData} SelectedCluster={selectedCluster}/>
             <Assignment SelectedCluster={selectedCluster} SelectedId={selectedId}/>
+            <Copyright />
         </div>
     );
 }

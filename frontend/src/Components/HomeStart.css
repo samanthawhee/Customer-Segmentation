@@ -6,7 +6,7 @@
   border-radius: 1em;       
   padding: 0.5em 1.5em;      
   cursor: pointer;           
-  transition: all 0.2s ease;  
+  transition: all 0.2s ease;
 }
 
 .StartButton button:hover {
@@ -17,7 +17,6 @@
   
 }
 
-/* HomeStart.css */
 
 .glow-button {
   padding: 12px 24px;

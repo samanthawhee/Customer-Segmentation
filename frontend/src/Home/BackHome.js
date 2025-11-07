@@ -1,4 +1,4 @@
-import './BackHome.css'
+import '../Components/BackHome.css'
 import { useNavigate } from "react-router-dom";
 
 function BackHome () {
