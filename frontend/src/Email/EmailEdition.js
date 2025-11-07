@@ -25,7 +25,7 @@ function EmailEdition () {
                     setStatus("Email sent successfully! Redirecting to the final page...");
                     setTimeout(() => {
                         navigate("/Final");
-                    }, 2000);
+                    }, 500);
                 },
                 (error) => {
                     console.log(error.text);

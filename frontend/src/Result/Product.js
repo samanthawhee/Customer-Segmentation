@@ -1,4 +1,3 @@
-import './Product.css'
 import './ProductTable'
 import ProductTable from "./ProductTable";
 import {useEffect, useState} from "react";
