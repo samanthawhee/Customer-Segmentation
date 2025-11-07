@@ -1,78 +1,121 @@
 ## Table of Contents
-- [Project Management](#project-management)
-  - [Work Flow & Wireframe](#work-flow--wireframe)
-  - [Prototype](#prototype)
-- [Project Development](#project-development)
-  - [Dataset Generation](#dataset-generation)
-  - [K-Means Clustering](#k-means-clustering)
-  - [Home Page Demo](#home-page-demo)
-  - [Select & Result (Partial) Page Demo](#select--resultpartial-page-demo)
-  - [Result Page Demo: Cluster Insights and Cluster Assignments](#result-page-demo--cluster-insights-and-cluster-assignments)
-  - [Result Page Demo: Overall and Cluster Assignments](#result-page-demo--overall-and-cluster-assignments)
-  - [Result Page Demo: Overall and Recommended Products](#result-page-demo--overall-and-recommended-products)
-  - [Send Email Demo: Selected Cluster and Product Info, the Email Form](#send-email-demo--selected-cluster-and-product-info-the-email-form)
-- [API Documentation](#api-documentation)
+
+- Project Development
+  - [Project Demo: Local Server](#project-demo-local-server)
+  - [Database Schemes](#database-schemes)
+    - [customers](#customers)
+    - [products](#products)
+  - [Work Diary](#work-diary)
+
+- API Documentation
   - [Generate Dataset](#generate-dataset)
   - [Get Customers](#get-customers)
   - [Conduct Clustering](#conduct-clustering)
   - [Get Customers by Cluster](#get-customers-by-cluster)
   - [Get Clusters Amounts](#get-clusters-amounts)
-  - [Get Income and Loan by Cluster](#get-income-and-loan-by-cluster)
+  - [Get Income And Loan by Cluster](#get-income-and-loan-by-cluster)
   - [Generate Product Dataset](#generate-product-dataset)
   - [Get Products](#get-products)
   - [Conduct Product Match](#conduct-product-match)
-  - [Get Products by Cluster](#get-products-by-cluster)
-  - [Select Product by Id](#select-product-by-id)
+  - [Get Products By Cluster](#get-products-by-cluster)
+  - [Select Product By Id](#select-product-by-id)
 
-## Project Management
-🔗📝 https://trello.com/b/KH0q9L63/customer-sementation
+- Project Design
+  - [Work Flow & Wireframe](#work-flow--wireframe)
+  - [Prototype: Figma](#prototype-figma)
 
-### Work Flow & Wireframe
-<table>
-  <tr>
-    <th>Work Flow</th>
-    <th>Wireframe</th>
-    <th>UIUX</th>
-  </tr>
-  <tr>
-    <td align="center"><b>Miro</b></td>
-    <td align="center"><b>Miro</b></td>
-    <td align="center"><b>Figma</b></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <img src="https://github.com/samanthawhee/Customer-Segmentation/blob/master/Images/Work%20Flow.jpg" width="300"/>
-    </td>
-    <td align="center" valign="top">
-      <img src="https://github.com/samanthawhee/Customer-Segmentation/blob/master/Images/Wireframe.jpg" width="300"/>
-    </td>
-    <td align="center" valign="top">
-      <img src="https://github.com/samanthawhee/Customer-Segmentation/blob/master/readme/UIUX-1.png" width="500"/>
-      <img src="https://github.com/samanthawhee/Customer-Segmentation/blob/master/readme/UIUX-2.png" width="500"/>
-    </td>
-  </tr>
-</table>
+- Appendixes
+  - [Dataset Generation](#dataset-generation)
+  - [K-Means Clustering](#k-means-clustering)
+  - [Home Page Demo](#home-page-demo)
+  - [Select & Result (partial) Page Demo](#select--resultpartial-page-demo)
+  - [Result Page Demo: Cluster insights and cluster assignments](#result-page-demo-cluster-insights-and-cluster-assignments)
+  - [Result Page Demo: Overall and cluster assignments](#result-page-demo-overall-and-cluster-assignments)
+  - [Result Page Demo: Overall and recommended products](#result-page-demo-overall-and-recommended-products)
+  - [Send Email Demo: Selected cluster and product info the email form](#send-email-demo-selected-cluster-and-product-info-the-email-form)
 
-### Prototype
-![Prototype.gif](readme/Prototype.gif)
+
+
 
 ## Project Development
-### Dataset Generation
-![Dataset_Generation.gif](readme/Dataset_Generation.gif)
-### K-Means Clustering
-![K_Means_Clustering1.jpg](readme/K_Means_Clustering1.jpg)
-### Home Page Demo
-![Home_Page_Demo.gif](readme/Home_Page_Demo.gif)
-### Select & Result(partial) Page Demo 
-![Select_Result_301025.gif](./readme/Select_Result_301025.gif)
-### Result Page Demo : Cluster insights and cluster assignments
-![Result_31102025.gif](./readme/Result_31102025.gif)
-### Result Page Demo : Overall and cluster assignments
-![Result_Overall_Assignments_01112025.gif](./readme/Result_Overall_Assignments_01112025.gif)
-### Result Page Demo : Overall and recommended products
-![Result_04112025.gif](./readme/Result_04112025.gif)
-### Send Email Demo : Selected cluster and product info, the email form
-![Send_Email_06112025.gif](./readme/Send_Email_06112025.gif)
+
+### Project Demo: Local Server
+![Final_demo_07112025.gif](readme/Final_demo_07112025.gif)
+
+### Database Schemes
+#### customers
+| Column Name      | Data Type        | Constraints / Description                  |
+|------------------|------------------|--------------------------------------------|
+| id               | SERIAL           | PRIMARY KEY                               |
+| first_name       | TEXT             | NOT NULL                                  |
+| last_name        | TEXT             | NOT NULL                                  |
+| age              | INT              | Non-negative                              |
+| occupation       | INT              | - 0: Student<br>- 1: Salaried Employee<br>- 2: Self-Employed<br>- 3: Business Owner<br>- 4: Retired<br>- 5: Unemployed<br>- 6: Homemaker<br>- 7: Freelancer<br>- 8: Contractor<br>- 9: Government Employee |
+| city             | INT              | - 0: Belfast<br>- 1: Birmingham<br>- 2: Bristol<br>- 3: Cardiff<br>- 4: Edinburgh<br>- 5: Glasgow<br>- 6: Leeds<br>- 7: Leicester<br>- 8: Liverpool<br>- 9: London<br>- 10: Manchester<br>- 11: Newcastle<br>- 12: Nottingham<br>- 13: Sheffield<br>- 14: Southampton |
+| annual_income    | DECIMAL(12,2)    | Non-negative                               |
+| annual_spending  | DECIMAL(12,2)    | Non-negative                               |
+| loan_balance     | DECIMAL(12,2)    | Non-negative                               |
+| credit_score     | INT              | Typically 0–850                           |
+| cluster          | INT              | Cluster assignment (for clustering analysis)  |
+
+#### products
+| Column Name           | Data Type          | Constraints / Description |
+|-----------------------|--------------------|---------------------------|
+| id                   | SERIAL            | PRIMARY KEY               |
+| product_id           | INT               | Unique product identifier |
+| product_name         | VARCHAR(100)      | Name of the product       |
+| product_type         | VARCHAR(50)       | Type/category of the product |
+| eligibility_criteria | JSON              | JSON object containing eligibility rules |
+| min_age              | INT               | Minimum age for eligibility |
+| max_age              | INT               | Maximum age for eligibility |
+| min_income           | DECIMAL(12,2)     | Minimum annual income for eligibility |
+| max_income           | DECIMAL(12,2)     | Maximum annual income for eligibility |
+| credit_score_required | INT              | Minimum required credit score |
+| interest_rate        | DECIMAL(5,2)      | Interest rate |
+| annual_fees          | DECIMAL(10,2)     | Annual fees charged for the product |
+| risk_level           | VARCHAR(10)       | Risk category |
+| benefits             | TEXT              | Text description of product benefits |
+| term_length          | INT               | Term length in months or years |
+| renewable            | BOOLEAN           | TRUE if product can be renewed |
+| reward_points        | DECIMAL(10,2)     | Reward points accrued with the product |
+| product_status       | VARCHAR(20)       | Status of product  |
+| launch_date          | DATE              | Launch date of the product |
+| cluster              | INT[]             | Array of cluster IDs the product belongs to |
+| score                | DECIMAL(5,3)      | Score assigned to the product  |
+| channels             | TEXT[]            | Array of channels where the product is available  |
+
+### Work Diary
+|       Dates       | Work Scope | Description |
+|:----------------:|:------------:|-------------|
+| 7 Nov 2025       | Frontend   | - Add `Copyright.js` to each page<br>- Add `Final.js` page<br>- Integrate the EmailJS third-party service<br>- Sort the CSS code |
+| 7 Nov 2025       | Backend    | - |
+| 6 Nov 2025       | Frontend   | - `GetProductsByCluster.js`<br>- `Product.js`: Call `getProductsByCluster()`<br>- Sort CSS for product table and send email page<br>- Add `score` attribute on product table<br>- Navigate from notification button to send email page<br>- Carry cluster data and `product_id`<br>- Call `getProductsById()` |
+| 6 Nov 2025       | Backend    | - `getProductsByCluster()`<br>- `getProductsById()` |
+| 4 Nov 2025       | Frontend   | - Add `benefits`, `score` attribute on the table<br>- Integrate product match API |
+| 4 Nov 2025       | Backend    | - `conductProductMatch()`<br>- Add `cluster` and `score` attributes in product table |
+| 3 Nov 2025       | Frontend   | - `ScatterPlot.js`<br>- `Radar.js`<br>- Edited `Table.css`<br>- `Product.js`<br>- `ProductTable.js` |
+| 3 Nov 2025       | Backend    | - `getIncomeAndLoanByCluster()`<br>- `generateProductDataset()`<br>- `getProducts()` |
+| 2 Nov 2025       | Frontend   | - `Pie.js` |
+| 2 Nov 2025       | Backend    | - `getClustersAmounts()` |
+| 1 Nov 2025       | Frontend   | - Show different cluster assignments by clusters<br>- Record toggled data and pass to Result page<br>- Show toggled data on cluster assignments<br>- Add charts to the overall |
+| 1 Nov 2025       | Backend    | - Database order issue after inserting cluster data |
+| 31 Oct 2025      | Frontend   | - Sorted components<br>- `Result.js`: Done layout<br>- Switch clusters<br>- `ClusterButton.js`<br>- `ClusterInsight.js`<br>- `Assignment.js`<br>- `AssignmentTable.js`: Fetch clustered data |
+| 31 Oct 2025      | Backend    | - Added `cluster` attribute to database<br>- Separate fetch functions into `FetchData.py`<br>- `FetchData.py`: `fetchCustomersByCluster()`<br>- `KMeansClustering.py`: `insertClusterResults(dataframe)` |
+| 30 Oct 2025      | Frontend   | - Managed `Table.css` style<br>- `Table.js`: Added function to count toggled data and activate/inactivate Run Clustering button |
+| 30 Oct 2025      | Backend    | -  |
+| 29 Oct 2025      | Frontend   | - Studied frontend/backend contract<br>- Separated APIs: `home()`, `generateDataset()`, `getCustomers()`, `conductClustering()`<br>- Call APIs: `generateDataset()`, `getCustomers()`<br>- Select Page / Select Introduction / Return Home button<br>- Run clustering layout only<br>- Display data |
+| 29 Oct 2025      | Backend    | -  |
+| 28 Oct 2025      | Frontend   | - Restructured file system: Home, Components, Select |
+| 28 Oct 2025      | Backend    | -  |
+| 27 Oct 2025      | Frontend   | - `Home.js`, `Home.css`, `Select.js`: Finished Home Page |
+| 27 Oct 2025      | Backend    | -  |
+| 28 Sep 2025      | Frontend   | - Updated UI/UX<br>- Uploaded UI/UX images and prototype video to GitHub |
+| 28 Sep 2025      | Backend    | -  |
+| 27 Sep 2025      | Frontend   | - Learnt React: `App.js`, `index.js`, component functions<br>- Completed UI/UX design and prototype in Figma |
+| 27 Sep 2025      | Backend    | -  |
+| 25 Sep 2025      | Backend    | - `generateRandomString()`: moved from `main.py` to `DataGenerator`<br>- `pickFirstName()`: done<br>- `pickLastName()`: done<br>- `executeDataGeneration()`: generate multiple datasets at once<br>- `KMeansClustering()`: applied K-Means to dataset |
+| 14 Aug 2025      | Backend    | - `createSqlFile()`: create `.sql` file<br>- `createTable(tableName, file_path)`: create query content<br>- `executeSqlFile(file_path)`: execute `.sql` file |
+| 12 Aug 2025      | Backend / Frontend / Database | - Clarified work stack<br>- Backend: Python, Flask, RESTful API<br>- Frontend: JavaScript with React<br>- Database: PostgreSQL<br>- Setup: Backend queries at `http://localhost:5000/api/customers`<br>- Frontend: `npm start` at `http://localhost:3000`<br>- Database: wrote SQL query script |
 
 ## API Documentation
 ### Generate Dataset
@@ -439,3 +482,51 @@
   - 500 Internal Server Error
 - cURL:
 <pre>curl -X GET http://localhost:5000selectProductById/<int:product_id></pre>
+
+## Project Design
+### Work Flow & Wireframe
+<table>
+  <tr>
+    <th>Work Flow</th>
+    <th>Wireframe</th>
+    <th>UIUX</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Miro</b></td>
+    <td align="center"><b>Miro</b></td>
+    <td align="center"><b>Figma</b></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github.com/samanthawhee/Customer-Segmentation/blob/master/Images/Work%20Flow.jpg" width="300"/>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github.com/samanthawhee/Customer-Segmentation/blob/master/Images/Wireframe.jpg" width="300"/>
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github.com/samanthawhee/Customer-Segmentation/blob/master/readme/UIUX-1.png" width="500"/>
+      <img src="https://github.com/samanthawhee/Customer-Segmentation/blob/master/readme/UIUX-2.png" width="500"/>
+    </td>
+  </tr>
+</table>
+
+### Prototype: FIgma
+![Prototype.gif](readme/Prototype.gif)
+
+## Appendixes
+### Dataset Generation
+![Dataset_Generation.gif](readme/Dataset_Generation.gif)
+### K-Means Clustering
+![K_Means_Clustering1.jpg](readme/K_Means_Clustering1.jpg)
+### Home Page Demo
+![Home_Page_Demo.gif](readme/Home_Page_Demo.gif)
+### Select & Result(partial) Page Demo 
+![Select_Result_301025.gif](./readme/Select_Result_301025.gif)
+### Result Page Demo : Cluster insights and cluster assignments
+![Result_31102025.gif](./readme/Result_31102025.gif)
+### Result Page Demo : Overall and cluster assignments
+![Result_Overall_Assignments_01112025.gif](./readme/Result_Overall_Assignments_01112025.gif)
+### Result Page Demo : Overall and recommended products
+![Result_04112025.gif](./readme/Result_04112025.gif)
+### Send Email Demo : Selected cluster and product info, the email form
+![Send_Email_06112025.gif](./readme/Send_Email_06112025.gif)
