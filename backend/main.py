@@ -11,7 +11,11 @@ import traceback
 import os
 from flask_sqlalchemy import SQLAlchemy
 
-load_dotenv()
+ENV = os.environ.get("ENV", "development") 
+if ENV == "production":
+    load_dotenv(".env.production")
+else:
+    load_dotenv(".env.local")
 
 app = Flask(__name__)
 CORS(app, origins=["https://www.samanthawhee.com"])
