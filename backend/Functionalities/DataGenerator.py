@@ -29,10 +29,10 @@ class DataGenerator:
 
     @staticmethod
     def createSqlFile():
-        folder_path = "/root/project/customer-segmentation/database"
+        folder_path = os.environ.get("DATA_PATH", "/root/project/customer-segmentation/database")
         os.makedirs(folder_path, exist_ok=True)   
     
-        file_path = os.path.join(folder_path, "randomDataSet.sql")
+        file_path = os.path.join(folder_path, "dataset.sql")
         
         open(file_path, "w").close() 
         print(f"File created at: {file_path}")
@@ -59,7 +59,7 @@ class DataGenerator:
 
     @staticmethod
     def createFirstNameList():
-        folder_path = "/root/project/customer-segmentation/backend/"
+        folder_path = os.environ.get("DATA_PATH", "/root/project/customer-segmentation/backend/")
         file_path = os.path.join(folder_path, "first_names.txt")
 
         if not os.path.exists(file_path):
@@ -72,7 +72,7 @@ class DataGenerator:
 
     @staticmethod
     def createLastNameList():
-        folder_path = "/root/project/customer-segmentation/backend/"
+        folder_path = os.environ.get("DATA_PATH", "/root/project/customer-segmentation/backend/")
         file_path = os.path.join(folder_path, "last_names.txt")
 
         if not os.path.exists(file_path):

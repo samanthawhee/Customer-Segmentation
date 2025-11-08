@@ -58,7 +58,7 @@ class ProductGenerator:
 
     @staticmethod
     def createSqlFile():
-        folder_path = "/root/project/customer-segmentation/database"
+        folder_path = os.environ.get("DATA_PATH", "/root/project/customer-segmentation/database")
         os.makedirs(folder_path, exist_ok=True)   
     
         file_path = os.path.join(folder_path, "productData.sql")
