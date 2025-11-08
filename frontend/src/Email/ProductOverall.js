@@ -10,7 +10,7 @@ function ProductOverall({ Product }) {
 
     return (
         <div className="ProductOverall">
-            <h1>Selected Cluster</h1>
+            <h1>Selected Product</h1>
             <div className="selectedProduct">
                 <table>
                     <thead>
