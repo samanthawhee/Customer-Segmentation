@@ -7,7 +7,7 @@ import Final from "./Final/Final";
 
 function App() {
     return (
-        <Router>
+        <Router basename="/customer_segmentation">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Select" element={<Select />} />
