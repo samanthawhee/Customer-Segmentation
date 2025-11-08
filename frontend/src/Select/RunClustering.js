@@ -10,7 +10,7 @@ function RunClustering({ enabled, selectedId }) {
     const handleClick  = async () => {
         setLoading(true);
         try {
-            const response = await fetch("http://localhost:5000/conductClustering", { method: "POST" });
+            const response = await fetch(`${process.env.REACT_APP_API_URL}/conductClustering`, { method: "POST" });
             const data = await response.json();
             navigate("/Result", { state: {data, selectedId}});
 

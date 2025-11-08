@@ -1,6 +1,6 @@
 export const generateProduct = async () => {
     try {
-        await fetch("http://localhost:5000/generateProductDataset", { method: "POST" });
+        await fetch(`${process.env.REACT_APP_API_URL}/generateProductDataset`, { method: "POST" });
     } catch (err) {
         throw err;
     }

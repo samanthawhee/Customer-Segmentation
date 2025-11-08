@@ -1,6 +1,6 @@
 export const selectProductById = async (productId) => {
     try {
-        const res = await fetch(`http://localhost:5000/selectProductById/${productId}`, {
+        const res = await fetch(`${process.env.REACT_APP_API_URL}/selectProductById/${productId}`, {
             method: "GET",
         });
 

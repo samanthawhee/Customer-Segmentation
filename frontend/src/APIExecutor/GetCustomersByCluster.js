@@ -1,6 +1,6 @@
 export const getCustomersByCluster = async () => {
     try {
-        const res = await fetch("http://localhost:5000/getCustomersByCluster", { method: "GET" });
+        const res = await fetch(`${process.env.REACT_APP_API_URL}/getCustomersByCluster`, { method: "GET" });
         const data = await res.json();
 
         return data;

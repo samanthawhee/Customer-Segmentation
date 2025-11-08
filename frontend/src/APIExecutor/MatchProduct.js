@@ -1,6 +1,6 @@
 export const matchProduct = async () => {
     try {
-        await fetch("http://localhost:5000/conductProductMatch", { method: "POST" });
+        await fetch(`${process.env.REACT_APP_API_URL}/conductProductMatch`, { method: "POST" });
     } catch (err) {
         throw err;
     }

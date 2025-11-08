@@ -1,6 +1,6 @@
 export const getProductsByCluster = async () => {
     try {
-        const res = await fetch("http://localhost:5000/getProductsByCluster", { method: "GET" });
+        const res = await fetch(`${process.env.REACT_APP_API_URL}/getProductsByCluster`, { method: "GET" });
         const data = await res.json();
 
         if (data && typeof data === "object" && !Array.isArray(data)) {
