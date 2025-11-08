@@ -8,11 +8,15 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 from flask import request
 import traceback
+import os
+from flask_sqlalchemy import SQLAlchemy
 
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://www.samanthawhee.com"])
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL")
+db = SQLAlchemy(app)
 
 @app.route("/", methods=["GET"])
 def home():
