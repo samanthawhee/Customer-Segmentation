@@ -7,7 +7,7 @@ import os
 class ProductGenerator:
 
     @staticmethod
-    def executeProductDataGeneration(num_records=350):
+    def executeProductDataGeneration(num_records=1):
         filePath = ProductGenerator.createSqlFile()
         products = "products"
         ProductGenerator.writeCreateProductsCommand(products, filePath)

@@ -6,7 +6,7 @@ import psycopg2
 class DataGenerator:
     
     @staticmethod
-    def executeDataGeneration(num_records=500):
+    def executeDataGeneration(num_records=1):
         filePath = DataGenerator.createSqlFile()
         DataGenerator.writeCreateCustomersCommand("customers", filePath)
         
