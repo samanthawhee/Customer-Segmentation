@@ -17,12 +17,10 @@ class KMeansClustering:
     
     @staticmethod
     def getDataSet():
-        password = os.environ.get("DB_PASSWORD")
 
-        engine = create_engine(
-            f"postgresql+psycopg2://samantha:{password}@localhost:5432/customer_segmentation"
-        )
+        DATABASE_URL = os.getenv("DATABASE_URL")
 
+        engine = create_engine(DATABASE_URL)
         return pd.read_sql("SELECT * FROM customers;", engine)
 
     @staticmethod
