@@ -6,9 +6,9 @@ function PageTracker() {
 
     useEffect(() => {
         if (window.gtag) {
-            const path = location.pathname === '/' ? '/customer_segmentation/' : `/customer_segmentation${location.pathname}`;
+            const fullPath = `/customer_segmentation${location.pathname}`;
             window.gtag('config', 'G-M4H01127S6', {
-                page_path: path,
+                page_path: fullPath,
             });
         }
     }, [location]);
@@ -17,4 +17,5 @@ function PageTracker() {
 }
 
 export default PageTracker;
+
 
