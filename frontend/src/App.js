@@ -13,9 +13,9 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Select" element={<Select />} />
-                <Route path="/Result" element={<Result />}/>
-                <Route path="/SendEmail" element={<SendEmail />}/>
-                <Route path="/Final" element={<Final />}/>
+                <Route path="/Result" element={<Result />} />
+                <Route path="/SendEmail" element={<SendEmail />} />
+                <Route path="/Final" element={<Final />} />
             </Routes>
         </Router>
     );
