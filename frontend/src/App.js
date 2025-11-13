@@ -4,10 +4,12 @@ import Select from "./Select/Select";
 import Result from "./Result/Result";
 import SendEmail from "./Email/SendEmail";
 import Final from "./Final/Final";
+import PageTracker from "./GoogleAnalytics/PageTracker";
 
 function App() {
     return (
         <Router basename="/customer_segmentation">
+            <PageTracker />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Select" element={<Select />} />
