@@ -18,7 +18,7 @@ else:
     load_dotenv(".env.local")
 
 app = Flask(__name__)
-CORS(app, origins=["https://www.samanthawhee.com"])
+CORS(app, origins=["http://localhost:3000", "https://www.samanthawhee.com"])
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL")
 db = SQLAlchemy(app)
 
@@ -121,6 +121,15 @@ def selectProductById(product_id):
     try:
         products = FetchData.selectProductById(product_id)
         return jsonify(products)
+    except Exception as e:
+        traceback.print_exc() 
+        return jsonify({"error": str(e)}), 500
+    
+@app.route("/dropTable/<string:tableName>", methods=["POST"])
+def dropTable(tableName):
+    try:
+        FetchData.dropTable(tableName) 
+        return jsonify({"status": "success", "table": tableName})
     except Exception as e:
         traceback.print_exc() 
         return jsonify({"error": str(e)}), 500

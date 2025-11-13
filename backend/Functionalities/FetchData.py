@@ -1,5 +1,6 @@
 import os
 import psycopg2 
+from psycopg2 import sql
 
 class FetchData: 
     @staticmethod
@@ -25,12 +26,14 @@ class FetchData:
                 conn.commit()
                 cur.close()
                 conn.close()
+
             elif params is not None and fetch:
                 cur.execute(query, params)
                 result = cur.fetchall()
                 cur.close()
                 conn.close()
                 return result
+            
             else:   
                 cur.execute(query, params)
                 conn.commit()
@@ -39,7 +42,6 @@ class FetchData:
 
         except Exception as e:
             raise e
-
         
     @staticmethod
     def fetchAllCustomers():
@@ -274,6 +276,16 @@ class FetchData:
                 "score": r[19],
                 "channels": r[20]
             } for r in rows]
+
+        except Exception as e:
+            raise e
+        
+    @staticmethod
+    def dropTable(tableName):
+        try:
+            query = sql.SQL("DROP TABLE IF EXISTS {}").format(sql.Identifier(tableName))
+
+            FetchData.queryDatabase(query, params=None, fetch=False)
 
         except Exception as e:
             raise e

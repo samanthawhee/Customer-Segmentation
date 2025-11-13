@@ -3,12 +3,13 @@ import ProductTable from "./ProductTable";
 import {useEffect, useState} from "react";
 import { getProductsByCluster } from "../APIExecutor/GetProductsByCluster";
 
-function Product ( {ClusterData, SelectedCluster} ) {
+function Product ( {ClusterData, SelectedCluster, matchDone} ) {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
+        if (!matchDone) return;
         const fetchData = async () => {
             try {
                 const data = await getProductsByCluster();
@@ -21,7 +22,7 @@ function Product ( {ClusterData, SelectedCluster} ) {
             }
         };
         fetchData();
-    }, [SelectedCluster]);
+    }, [SelectedCluster, matchDone]);
 
     if (error) return <h1>Error: {error}</h1>;
 

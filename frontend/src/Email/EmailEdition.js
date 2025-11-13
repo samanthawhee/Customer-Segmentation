@@ -2,36 +2,39 @@ import './EmailEdition.css'
 import '../Components/ActionButton.css'
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { dropTable } from "../APIExecutor/DropTable";
 
 function EmailEdition () {
     const form = useRef();
     const [status, setStatus] = useState("");
     const navigate = useNavigate();
 
-    const sendEmail = (e) => {
+    const sendEmail = async (e) => { // <-- async added
         e.preventDefault();
 
-        emailjs
-            .sendForm(
+        try {
+            const result = await emailjs.sendForm(
                 "samanthawhee",
                 "customer_segmentation",
                 form.current,
                 "pMxSihy3OHx2E_pOC"
-            )
-            .then(
-                (result) => {
-                    console.log(result.text);
-                    setStatus("Email sent successfully! Redirecting to the final page...");
-                    setTimeout(() => {
-                        navigate("/Final");
-                    }, 500);
-                },
-                (error) => {
-                    console.log(error.text);
-                    setStatus("Oops! The email couldn't be sent. Please contact technical support.");
-                }
             );
+
+            console.log(result.text);
+            setStatus("Email sent successfully! Cleaning up database and redirecting...");
+
+            await dropTable("customers");
+            await dropTable("products");
+
+            setTimeout(() => {
+                navigate("/Final");
+            }, 200);
+
+        } catch (error) {
+            console.log(error.text || error.message);
+            setStatus("Oops! The email couldn't be sent. Please contact technical support.");
+        }
     };
 
     return (

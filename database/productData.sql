@@ -29,3498 +29,1998 @@
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5623, 'Savings Account_5623', 'Savings Account', '{"min_age": 20, "max_age": 65, "min_income": 23242.88, "max_income": 72443.97, "credit_score_required": 719}',
-        20, 65, 23242.88, 72443.97, 719,
-        11.42, 74.31, 'High', 'Various benefits depending on the product.', 26,
-        FALSE, 5107.31, 'Inactive', '2023-03-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4454, 'Credit Card_4454', 'Credit Card', '{"min_age": 23, "max_age": 75, "min_income": 32145.37, "max_income": 95256.36, "credit_score_required": 764}',
+        23, 75, 32145.37, 95256.36, 764,
+        14.58, 256.53, 'Low', 'Various benefits depending on the product.', 23,
+        FALSE, 8209.11, 'Inactive', '2023-01-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2495, 'Loan_2495', 'Loan', '{"min_age": 20, "max_age": 72, "min_income": 35910.68, "max_income": 64991.44, "credit_score_required": 683}',
-        20, 72, 35910.68, 64991.44, 683,
-        2.4, 91.07, 'Low', 'Various benefits depending on the product.', 40,
-        TRUE, 7593.24, 'Active', '2021-06-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8737, 'Savings Account_8737', 'Savings Account', '{"min_age": 20, "max_age": 75, "min_income": 46807.74, "max_income": 93049.55, "credit_score_required": 623}',
+        20, 75, 46807.74, 93049.55, 623,
+        5.78, 132.34, 'Medium', 'Various benefits depending on the product.', 28,
+        TRUE, 6645.74, 'Active', '2022-02-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5369, 'Investment_5369', 'Investment', '{"min_age": 21, "max_age": 72, "min_income": 49522.25, "max_income": 52190.42, "credit_score_required": 682}',
-        21, 72, 49522.25, 52190.42, 682,
-        10.67, 73.07, 'High', 'Various benefits depending on the product.', 6,
-        TRUE, 5130.7, 'Active', '2023-01-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4749, 'Credit Card_4749', 'Credit Card', '{"min_age": 20, "max_age": 66, "min_income": 27102.88, "max_income": 80655.75, "credit_score_required": 678}',
+        20, 66, 27102.88, 80655.75, 678,
+        12.37, 93.67, 'High', 'Various benefits depending on the product.', 24,
+        TRUE, 383.34, 'Active', '2022-02-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7289, 'Loan_7289', 'Loan', '{"min_age": 19, "max_age": 69, "min_income": 47394.0, "max_income": 137346.87, "credit_score_required": 767}',
-        19, 69, 47394.0, 137346.87, 767,
-        8.67, 333.69, 'Low', 'Various benefits depending on the product.', 10,
-        FALSE, 8189.68, 'Inactive', '2020-04-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2503, 'Loan_2503', 'Loan', '{"min_age": 23, "max_age": 72, "min_income": 20757.97, "max_income": 60736.78, "credit_score_required": 684}',
+        23, 72, 20757.97, 60736.78, 684,
+        2.75, 2.46, 'Medium', 'Various benefits depending on the product.', 54,
+        TRUE, 3143.45, 'Active', '2022-04-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2939, 'Loan_2939', 'Loan', '{"min_age": 21, "max_age": 72, "min_income": 22555.08, "max_income": 148026.17, "credit_score_required": 729}',
-        21, 72, 22555.08, 148026.17, 729,
-        1.66, 27.99, 'High', 'Various benefits depending on the product.', 56,
-        FALSE, 3440.5, 'Active', '2023-06-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2608, 'Credit Card_2608', 'Credit Card', '{"min_age": 22, "max_age": 75, "min_income": 22802.05, "max_income": 67464.16, "credit_score_required": 601}',
+        22, 75, 22802.05, 67464.16, 601,
+        4.7, 331.85, 'Medium', 'Various benefits depending on the product.', 50,
+        FALSE, 9191.75, 'Inactive', '2023-07-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4269, 'Credit Card_4269', 'Credit Card', '{"min_age": 23, "max_age": 65, "min_income": 27323.06, "max_income": 104038.25, "credit_score_required": 678}',
-        23, 65, 27323.06, 104038.25, 678,
-        14.03, 408.19, 'Medium', 'Various benefits depending on the product.', 50,
-        TRUE, 6604.85, 'Active', '2023-01-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3820, 'Credit Card_3820', 'Credit Card', '{"min_age": 19, "max_age": 64, "min_income": 42042.44, "max_income": 128324.57, "credit_score_required": 655}',
+        19, 64, 42042.44, 128324.57, 655,
+        14.53, 2.46, 'Low', 'Various benefits depending on the product.', 14,
+        TRUE, 2910.18, 'Active', '2023-11-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1239, 'Investment_1239', 'Investment', '{"min_age": 21, "max_age": 62, "min_income": 39066.05, "max_income": 92186.32, "credit_score_required": 677}',
-        21, 62, 39066.05, 92186.32, 677,
-        13.47, 445.98, 'Medium', 'Various benefits depending on the product.', 23,
-        TRUE, 975.09, 'Inactive', '2021-05-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7989, 'Savings Account_7989', 'Savings Account', '{"min_age": 20, "max_age": 62, "min_income": 32308.94, "max_income": 55372.79, "credit_score_required": 638}',
+        20, 62, 32308.94, 55372.79, 638,
+        10.55, 24.4, 'High', 'Various benefits depending on the product.', 35,
+        FALSE, 6724.66, 'Inactive', '2020-06-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8213, 'Loan_8213', 'Loan', '{"min_age": 20, "max_age": 68, "min_income": 42588.88, "max_income": 60802.64, "credit_score_required": 764}',
-        20, 68, 42588.88, 60802.64, 764,
-        9.11, 223.54, 'High', 'Various benefits depending on the product.', 35,
-        TRUE, 6775.22, 'Inactive', '2022-12-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6953, 'Credit Card_6953', 'Credit Card', '{"min_age": 25, "max_age": 66, "min_income": 36871.65, "max_income": 104624.3, "credit_score_required": 619}',
+        25, 66, 36871.65, 104624.3, 619,
+        10.35, 239.11, 'Medium', 'Various benefits depending on the product.', 55,
+        FALSE, 3304.19, 'Inactive', '2022-11-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8540, 'Loan_8540', 'Loan', '{"min_age": 25, "max_age": 72, "min_income": 43707.57, "max_income": 197922.53, "credit_score_required": 603}',
-        25, 72, 43707.57, 197922.53, 603,
-        13.47, 401.8, 'Medium', 'Various benefits depending on the product.', 18,
-        TRUE, 921.15, 'Inactive', '2020-10-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3287, 'Credit Card_3287', 'Credit Card', '{"min_age": 22, "max_age": 67, "min_income": 41193.31, "max_income": 151513.2, "credit_score_required": 620}',
+        22, 67, 41193.31, 151513.2, 620,
+        11.79, 434.18, 'High', 'Various benefits depending on the product.', 14,
+        FALSE, 929.73, 'Active', '2021-08-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5235, 'Loan_5235', 'Loan', '{"min_age": 24, "max_age": 72, "min_income": 39881.95, "max_income": 112797.72, "credit_score_required": 632}',
-        24, 72, 39881.95, 112797.72, 632,
-        6.57, 336.68, 'Medium', 'Various benefits depending on the product.', 11,
-        TRUE, 39.39, 'Active', '2021-11-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2245, 'Credit Card_2245', 'Credit Card', '{"min_age": 21, "max_age": 72, "min_income": 35475.69, "max_income": 111793.57, "credit_score_required": 682}',
+        21, 72, 35475.69, 111793.57, 682,
+        12.22, 386.43, 'Medium', 'Various benefits depending on the product.', 40,
+        TRUE, 5469.64, 'Active', '2020-05-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8673, 'Investment_8673', 'Investment', '{"min_age": 22, "max_age": 60, "min_income": 27131.85, "max_income": 79584.25, "credit_score_required": 749}',
-        22, 60, 27131.85, 79584.25, 749,
-        13.43, 183.89, 'Low', 'Various benefits depending on the product.', 8,
-        TRUE, 189.31, 'Active', '2023-12-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6809, 'Credit Card_6809', 'Credit Card', '{"min_age": 19, "max_age": 65, "min_income": 29348.29, "max_income": 64527.57, "credit_score_required": 779}',
+        19, 65, 29348.29, 64527.57, 779,
+        7.89, 416.54, 'Medium', 'Various benefits depending on the product.', 11,
+        FALSE, 3283.58, 'Inactive', '2022-10-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1848, 'Investment_1848', 'Investment', '{"min_age": 24, "max_age": 66, "min_income": 40736.33, "max_income": 193619.98, "credit_score_required": 749}',
-        24, 66, 40736.33, 193619.98, 749,
-        4.75, 313.43, 'Low', 'Various benefits depending on the product.', 59,
-        FALSE, 6190.65, 'Active', '2022-12-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3431, 'Investment_3431', 'Investment', '{"min_age": 21, "max_age": 74, "min_income": 36408.3, "max_income": 174029.48, "credit_score_required": 684}',
+        21, 74, 36408.3, 174029.48, 684,
+        8.87, 60.09, 'Low', 'Various benefits depending on the product.', 44,
+        TRUE, 4086.22, 'Inactive', '2020-01-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6111, 'Investment_6111', 'Investment', '{"min_age": 24, "max_age": 69, "min_income": 45058.58, "max_income": 111036.05, "credit_score_required": 777}',
-        24, 69, 45058.58, 111036.05, 777,
-        8.0, 92.08, 'High', 'Various benefits depending on the product.', 48,
-        FALSE, 6553.09, 'Active', '2020-03-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3895, 'Loan_3895', 'Loan', '{"min_age": 18, "max_age": 72, "min_income": 27565.16, "max_income": 100361.59, "credit_score_required": 683}',
+        18, 72, 27565.16, 100361.59, 683,
+        2.55, 270.51, 'Medium', 'Various benefits depending on the product.', 55,
+        FALSE, 2179.51, 'Active', '2022-05-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9834, 'Investment_9834', 'Investment', '{"min_age": 23, "max_age": 68, "min_income": 25141.74, "max_income": 79815.79, "credit_score_required": 661}',
-        23, 68, 25141.74, 79815.79, 661,
-        3.71, 384.38, 'High', 'Various benefits depending on the product.', 14,
-        TRUE, 93.9, 'Active', '2020-01-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8930, 'Investment_8930', 'Investment', '{"min_age": 25, "max_age": 63, "min_income": 33950.42, "max_income": 74516.53, "credit_score_required": 608}',
+        25, 63, 33950.42, 74516.53, 608,
+        5.24, 182.01, 'Medium', 'Various benefits depending on the product.', 16,
+        TRUE, 4287.24, 'Inactive', '2022-04-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6509, 'Loan_6509', 'Loan', '{"min_age": 24, "max_age": 70, "min_income": 21063.81, "max_income": 172223.64, "credit_score_required": 779}',
-        24, 70, 21063.81, 172223.64, 779,
-        7.68, 445.15, 'Low', 'Various benefits depending on the product.', 8,
-        TRUE, 2177.94, 'Inactive', '2023-01-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8766, 'Savings Account_8766', 'Savings Account', '{"min_age": 25, "max_age": 71, "min_income": 34368.32, "max_income": 62338.83, "credit_score_required": 615}',
+        25, 71, 34368.32, 62338.83, 615,
+        11.39, 22.31, 'Medium', 'Various benefits depending on the product.', 8,
+        FALSE, 7949.28, 'Active', '2023-10-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2280, 'Loan_2280', 'Loan', '{"min_age": 21, "max_age": 65, "min_income": 38231.14, "max_income": 113499.9, "credit_score_required": 725}',
-        21, 65, 38231.14, 113499.9, 725,
-        6.62, 454.47, 'High', 'Various benefits depending on the product.', 6,
-        TRUE, 3841.76, 'Inactive', '2020-12-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5850, 'Savings Account_5850', 'Savings Account', '{"min_age": 20, "max_age": 63, "min_income": 30613.32, "max_income": 143962.48, "credit_score_required": 630}',
+        20, 63, 30613.32, 143962.48, 630,
+        9.59, 381.2, 'Medium', 'Various benefits depending on the product.', 17,
+        TRUE, 9467.47, 'Active', '2023-12-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7153, 'Loan_7153', 'Loan', '{"min_age": 21, "max_age": 63, "min_income": 24428.69, "max_income": 192462.54, "credit_score_required": 677}',
-        21, 63, 24428.69, 192462.54, 677,
-        3.78, 318.25, 'Medium', 'Various benefits depending on the product.', 42,
-        TRUE, 3307.79, 'Inactive', '2023-10-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4117, 'Savings Account_4117', 'Savings Account', '{"min_age": 23, "max_age": 62, "min_income": 39184.98, "max_income": 146115.77, "credit_score_required": 770}',
+        23, 62, 39184.98, 146115.77, 770,
+        13.55, 105.48, 'Low', 'Various benefits depending on the product.', 19,
+        TRUE, 801.49, 'Inactive', '2023-07-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3562, 'Savings Account_3562', 'Savings Account', '{"min_age": 23, "max_age": 75, "min_income": 26525.51, "max_income": 125743.1, "credit_score_required": 691}',
-        23, 75, 26525.51, 125743.1, 691,
-        9.09, 403.64, 'Medium', 'Various benefits depending on the product.', 55,
-        TRUE, 9242.39, 'Active', '2023-08-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5141, 'Savings Account_5141', 'Savings Account', '{"min_age": 18, "max_age": 70, "min_income": 40495.12, "max_income": 196952.79, "credit_score_required": 793}',
+        18, 70, 40495.12, 196952.79, 793,
+        9.48, 379.34, 'High', 'Various benefits depending on the product.', 32,
+        FALSE, 2953.2, 'Inactive', '2020-02-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3580, 'Investment_3580', 'Investment', '{"min_age": 23, "max_age": 75, "min_income": 29062.05, "max_income": 150001.24, "credit_score_required": 745}',
-        23, 75, 29062.05, 150001.24, 745,
-        7.33, 196.36, 'Medium', 'Various benefits depending on the product.', 10,
-        FALSE, 1037.13, 'Active', '2020-09-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4019, 'Investment_4019', 'Investment', '{"min_age": 23, "max_age": 65, "min_income": 35279.58, "max_income": 76051.77, "credit_score_required": 614}',
+        23, 65, 35279.58, 76051.77, 614,
+        3.22, 321.34, 'High', 'Various benefits depending on the product.', 46,
+        TRUE, 9625.92, 'Active', '2023-02-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5655, 'Investment_5655', 'Investment', '{"min_age": 19, "max_age": 63, "min_income": 38294.7, "max_income": 76619.11, "credit_score_required": 672}',
-        19, 63, 38294.7, 76619.11, 672,
-        10.72, 428.12, 'Medium', 'Various benefits depending on the product.', 31,
-        TRUE, 8297.5, 'Inactive', '2020-09-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3335, 'Credit Card_3335', 'Credit Card', '{"min_age": 23, "max_age": 67, "min_income": 35494.91, "max_income": 69736.87, "credit_score_required": 768}',
+        23, 67, 35494.91, 69736.87, 768,
+        4.05, 224.88, 'Medium', 'Various benefits depending on the product.', 34,
+        TRUE, 5993.78, 'Inactive', '2021-06-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7090, 'Savings Account_7090', 'Savings Account', '{"min_age": 24, "max_age": 61, "min_income": 27219.2, "max_income": 112426.35, "credit_score_required": 693}',
-        24, 61, 27219.2, 112426.35, 693,
-        9.45, 459.46, 'High', 'Various benefits depending on the product.', 48,
-        FALSE, 96.45, 'Active', '2021-09-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3978, 'Loan_3978', 'Loan', '{"min_age": 21, "max_age": 71, "min_income": 28346.27, "max_income": 95405.3, "credit_score_required": 631}',
+        21, 71, 28346.27, 95405.3, 631,
+        8.98, 315.64, 'Low', 'Various benefits depending on the product.', 9,
+        FALSE, 6927.04, 'Inactive', '2020-02-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7273, 'Loan_7273', 'Loan', '{"min_age": 25, "max_age": 75, "min_income": 29671.14, "max_income": 166545.78, "credit_score_required": 738}',
-        25, 75, 29671.14, 166545.78, 738,
-        13.33, 337.89, 'Medium', 'Various benefits depending on the product.', 23,
-        FALSE, 7552.11, 'Inactive', '2020-02-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4122, 'Savings Account_4122', 'Savings Account', '{"min_age": 20, "max_age": 68, "min_income": 27417.33, "max_income": 131018.68, "credit_score_required": 693}',
+        20, 68, 27417.33, 131018.68, 693,
+        5.05, 472.61, 'Low', 'Various benefits depending on the product.', 9,
+        FALSE, 4524.48, 'Inactive', '2022-01-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4176, 'Loan_4176', 'Loan', '{"min_age": 20, "max_age": 66, "min_income": 30708.57, "max_income": 143204.09, "credit_score_required": 724}',
-        20, 66, 30708.57, 143204.09, 724,
-        12.52, 434.16, 'Low', 'Various benefits depending on the product.', 37,
-        FALSE, 7249.77, 'Inactive', '2021-06-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2155, 'Investment_2155', 'Investment', '{"min_age": 25, "max_age": 61, "min_income": 29282.29, "max_income": 166105.79, "credit_score_required": 645}',
+        25, 61, 29282.29, 166105.79, 645,
+        2.08, 473.17, 'High', 'Various benefits depending on the product.', 23,
+        FALSE, 628.66, 'Active', '2023-01-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5569, 'Savings Account_5569', 'Savings Account', '{"min_age": 22, "max_age": 67, "min_income": 21184.65, "max_income": 64643.27, "credit_score_required": 667}',
-        22, 67, 21184.65, 64643.27, 667,
-        14.02, 69.13, 'Medium', 'Various benefits depending on the product.', 10,
-        TRUE, 5544.84, 'Active', '2021-12-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4593, 'Loan_4593', 'Loan', '{"min_age": 22, "max_age": 73, "min_income": 32821.57, "max_income": 193731.4, "credit_score_required": 640}',
+        22, 73, 32821.57, 193731.4, 640,
+        7.4, 85.32, 'Medium', 'Various benefits depending on the product.', 8,
+        TRUE, 3694.44, 'Active', '2022-01-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3535, 'Credit Card_3535', 'Credit Card', '{"min_age": 24, "max_age": 68, "min_income": 29970.59, "max_income": 180698.99, "credit_score_required": 758}',
-        24, 68, 29970.59, 180698.99, 758,
-        8.57, 287.14, 'Low', 'Various benefits depending on the product.', 29,
-        TRUE, 78.36, 'Inactive', '2022-07-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6632, 'Credit Card_6632', 'Credit Card', '{"min_age": 24, "max_age": 69, "min_income": 22956.33, "max_income": 96156.58, "credit_score_required": 616}',
+        24, 69, 22956.33, 96156.58, 616,
+        12.08, 194.67, 'Medium', 'Various benefits depending on the product.', 50,
+        TRUE, 8807.11, 'Active', '2020-06-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8054, 'Savings Account_8054', 'Savings Account', '{"min_age": 20, "max_age": 62, "min_income": 42895.32, "max_income": 185737.69, "credit_score_required": 779}',
-        20, 62, 42895.32, 185737.69, 779,
-        2.03, 250.46, 'Medium', 'Various benefits depending on the product.', 33,
-        TRUE, 1878.16, 'Inactive', '2022-12-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1658, 'Investment_1658', 'Investment', '{"min_age": 19, "max_age": 62, "min_income": 44218.76, "max_income": 167084.33, "credit_score_required": 619}',
+        19, 62, 44218.76, 167084.33, 619,
+        8.35, 103.5, 'Low', 'Various benefits depending on the product.', 13,
+        FALSE, 9271.99, 'Active', '2022-05-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1496, 'Credit Card_1496', 'Credit Card', '{"min_age": 18, "max_age": 61, "min_income": 23831.28, "max_income": 101853.47, "credit_score_required": 773}',
-        18, 61, 23831.28, 101853.47, 773,
-        9.19, 333.54, 'High', 'Various benefits depending on the product.', 47,
-        TRUE, 2874.88, 'Inactive', '2022-04-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1812, 'Credit Card_1812', 'Credit Card', '{"min_age": 23, "max_age": 62, "min_income": 40612.62, "max_income": 112411.5, "credit_score_required": 684}',
+        23, 62, 40612.62, 112411.5, 684,
+        9.29, 166.92, 'Low', 'Various benefits depending on the product.', 51,
+        TRUE, 984.76, 'Inactive', '2020-01-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2635, 'Savings Account_2635', 'Savings Account', '{"min_age": 21, "max_age": 65, "min_income": 34576.95, "max_income": 120890.47, "credit_score_required": 776}',
-        21, 65, 34576.95, 120890.47, 776,
-        10.89, 374.3, 'Low', 'Various benefits depending on the product.', 29,
-        FALSE, 9165.93, 'Active', '2021-09-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4988, 'Loan_4988', 'Loan', '{"min_age": 24, "max_age": 62, "min_income": 27318.47, "max_income": 191743.3, "credit_score_required": 605}',
+        24, 62, 27318.47, 191743.3, 605,
+        4.31, 361.46, 'Low', 'Various benefits depending on the product.', 25,
+        TRUE, 7118.26, 'Inactive', '2023-09-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3665, 'Credit Card_3665', 'Credit Card', '{"min_age": 18, "max_age": 69, "min_income": 43819.16, "max_income": 53174.24, "credit_score_required": 789}',
-        18, 69, 43819.16, 53174.24, 789,
-        1.51, 126.86, 'Low', 'Various benefits depending on the product.', 37,
-        FALSE, 8634.31, 'Active', '2021-09-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2786, 'Loan_2786', 'Loan', '{"min_age": 22, "max_age": 66, "min_income": 48930.53, "max_income": 156826.8, "credit_score_required": 678}',
+        22, 66, 48930.53, 156826.8, 678,
+        7.39, 303.46, 'High', 'Various benefits depending on the product.', 28,
+        FALSE, 1785.64, 'Inactive', '2021-11-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9285, 'Investment_9285', 'Investment', '{"min_age": 25, "max_age": 60, "min_income": 37676.51, "max_income": 107409.83, "credit_score_required": 601}',
-        25, 60, 37676.51, 107409.83, 601,
-        2.7, 253.0, 'Low', 'Various benefits depending on the product.', 17,
-        TRUE, 9014.96, 'Inactive', '2021-04-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8950, 'Savings Account_8950', 'Savings Account', '{"min_age": 21, "max_age": 72, "min_income": 35238.11, "max_income": 98062.04, "credit_score_required": 735}',
+        21, 72, 35238.11, 98062.04, 735,
+        8.98, 259.2, 'Low', 'Various benefits depending on the product.', 15,
+        TRUE, 6893.59, 'Active', '2020-08-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3369, 'Credit Card_3369', 'Credit Card', '{"min_age": 22, "max_age": 71, "min_income": 40016.05, "max_income": 191276.37, "credit_score_required": 717}',
-        22, 71, 40016.05, 191276.37, 717,
-        12.25, 293.17, 'High', 'Various benefits depending on the product.', 34,
-        FALSE, 6912.76, 'Active', '2020-08-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5899, 'Loan_5899', 'Loan', '{"min_age": 20, "max_age": 66, "min_income": 25644.95, "max_income": 144905.19, "credit_score_required": 638}',
+        20, 66, 25644.95, 144905.19, 638,
+        8.4, 153.47, 'High', 'Various benefits depending on the product.', 26,
+        TRUE, 5424.32, 'Active', '2020-03-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2609, 'Investment_2609', 'Investment', '{"min_age": 18, "max_age": 68, "min_income": 36391.81, "max_income": 125523.3, "credit_score_required": 753}',
-        18, 68, 36391.81, 125523.3, 753,
-        8.88, 207.13, 'High', 'Various benefits depending on the product.', 20,
-        TRUE, 6358.13, 'Inactive', '2023-04-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3972, 'Investment_3972', 'Investment', '{"min_age": 24, "max_age": 73, "min_income": 31624.69, "max_income": 101656.43, "credit_score_required": 742}',
+        24, 73, 31624.69, 101656.43, 742,
+        7.8, 95.72, 'Medium', 'Various benefits depending on the product.', 33,
+        TRUE, 8703.55, 'Inactive', '2023-02-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8500, 'Investment_8500', 'Investment', '{"min_age": 19, "max_age": 68, "min_income": 45404.11, "max_income": 57366.99, "credit_score_required": 662}',
-        19, 68, 45404.11, 57366.99, 662,
-        12.2, 394.26, 'High', 'Various benefits depending on the product.', 44,
-        FALSE, 7511.98, 'Inactive', '2023-03-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3357, 'Savings Account_3357', 'Savings Account', '{"min_age": 25, "max_age": 61, "min_income": 35906.09, "max_income": 86969.69, "credit_score_required": 614}',
+        25, 61, 35906.09, 86969.69, 614,
+        13.72, 191.77, 'High', 'Various benefits depending on the product.', 52,
+        FALSE, 8512.45, 'Active', '2023-01-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3769, 'Loan_3769', 'Loan', '{"min_age": 19, "max_age": 69, "min_income": 49157.13, "max_income": 171819.39, "credit_score_required": 780}',
-        19, 69, 49157.13, 171819.39, 780,
-        13.58, 209.8, 'High', 'Various benefits depending on the product.', 21,
-        TRUE, 9092.23, 'Inactive', '2021-05-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3888, 'Savings Account_3888', 'Savings Account', '{"min_age": 22, "max_age": 64, "min_income": 42473.62, "max_income": 64615.53, "credit_score_required": 697}',
+        22, 64, 42473.62, 64615.53, 697,
+        4.98, 434.36, 'High', 'Various benefits depending on the product.', 23,
+        TRUE, 6785.08, 'Inactive', '2020-11-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2452, 'Credit Card_2452', 'Credit Card', '{"min_age": 19, "max_age": 71, "min_income": 43439.38, "max_income": 128454.36, "credit_score_required": 763}',
-        19, 71, 43439.38, 128454.36, 763,
-        8.95, 229.64, 'Low', 'Various benefits depending on the product.', 35,
-        TRUE, 1424.02, 'Inactive', '2020-11-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8464, 'Credit Card_8464', 'Credit Card', '{"min_age": 25, "max_age": 69, "min_income": 46303.93, "max_income": 134440.03, "credit_score_required": 622}',
+        25, 69, 46303.93, 134440.03, 622,
+        12.83, 247.22, 'Medium', 'Various benefits depending on the product.', 31,
+        TRUE, 6553.62, 'Inactive', '2021-12-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4207, 'Credit Card_4207', 'Credit Card', '{"min_age": 20, "max_age": 73, "min_income": 47062.49, "max_income": 154900.88, "credit_score_required": 669}',
-        20, 73, 47062.49, 154900.88, 669,
-        1.5, 218.77, 'Low', 'Various benefits depending on the product.', 47,
-        TRUE, 7983.18, 'Inactive', '2020-09-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6404, 'Credit Card_6404', 'Credit Card', '{"min_age": 24, "max_age": 60, "min_income": 22869.99, "max_income": 123911.42, "credit_score_required": 735}',
+        24, 60, 22869.99, 123911.42, 735,
+        8.09, 5.78, 'High', 'Various benefits depending on the product.', 20,
+        TRUE, 9331.57, 'Active', '2021-03-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4248, 'Savings Account_4248', 'Savings Account', '{"min_age": 23, "max_age": 68, "min_income": 48389.57, "max_income": 156112.83, "credit_score_required": 660}',
-        23, 68, 48389.57, 156112.83, 660,
-        14.13, 5.33, 'High', 'Various benefits depending on the product.', 58,
-        FALSE, 3049.24, 'Inactive', '2020-01-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2050, 'Loan_2050', 'Loan', '{"min_age": 18, "max_age": 66, "min_income": 41122.28, "max_income": 137697.46, "credit_score_required": 608}',
+        18, 66, 41122.28, 137697.46, 608,
+        2.92, 64.34, 'Low', 'Various benefits depending on the product.', 12,
+        FALSE, 2067.27, 'Active', '2021-09-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4972, 'Loan_4972', 'Loan', '{"min_age": 19, "max_age": 60, "min_income": 33469.67, "max_income": 54281.97, "credit_score_required": 629}',
-        19, 60, 33469.67, 54281.97, 629,
-        6.79, 188.49, 'Low', 'Various benefits depending on the product.', 10,
-        TRUE, 7517.51, 'Active', '2022-02-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9926, 'Savings Account_9926', 'Savings Account', '{"min_age": 23, "max_age": 68, "min_income": 35444.6, "max_income": 183591.41, "credit_score_required": 663}',
+        23, 68, 35444.6, 183591.41, 663,
+        8.91, 158.48, 'Low', 'Various benefits depending on the product.', 22,
+        TRUE, 6183.26, 'Inactive', '2022-02-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4509, 'Savings Account_4509', 'Savings Account', '{"min_age": 19, "max_age": 64, "min_income": 45186.35, "max_income": 71458.66, "credit_score_required": 665}',
-        19, 64, 45186.35, 71458.66, 665,
-        5.32, 376.06, 'High', 'Various benefits depending on the product.', 47,
-        TRUE, 1094.27, 'Active', '2023-09-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3019, 'Savings Account_3019', 'Savings Account', '{"min_age": 19, "max_age": 66, "min_income": 42995.37, "max_income": 54012.36, "credit_score_required": 763}',
+        19, 66, 42995.37, 54012.36, 763,
+        7.19, 68.59, 'Low', 'Various benefits depending on the product.', 20,
+        FALSE, 8350.39, 'Inactive', '2020-12-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4114, 'Loan_4114', 'Loan', '{"min_age": 18, "max_age": 60, "min_income": 40697.07, "max_income": 86855.8, "credit_score_required": 797}',
-        18, 60, 40697.07, 86855.8, 797,
-        2.65, 62.86, 'High', 'Various benefits depending on the product.', 54,
-        TRUE, 3252.09, 'Active', '2021-03-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4532, 'Credit Card_4532', 'Credit Card', '{"min_age": 23, "max_age": 66, "min_income": 21858.85, "max_income": 69880.62, "credit_score_required": 708}',
+        23, 66, 21858.85, 69880.62, 708,
+        6.04, 398.97, 'High', 'Various benefits depending on the product.', 12,
+        FALSE, 9402.08, 'Active', '2023-04-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6286, 'Loan_6286', 'Loan', '{"min_age": 24, "max_age": 75, "min_income": 23974.06, "max_income": 158011.19, "credit_score_required": 703}',
-        24, 75, 23974.06, 158011.19, 703,
-        2.92, 276.81, 'High', 'Various benefits depending on the product.', 24,
-        TRUE, 1521.13, 'Inactive', '2020-04-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2270, 'Credit Card_2270', 'Credit Card', '{"min_age": 22, "max_age": 69, "min_income": 47720.21, "max_income": 145257.34, "credit_score_required": 610}',
+        22, 69, 47720.21, 145257.34, 610,
+        2.25, 251.01, 'High', 'Various benefits depending on the product.', 37,
+        TRUE, 8306.7, 'Inactive', '2023-12-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6694, 'Investment_6694', 'Investment', '{"min_age": 24, "max_age": 67, "min_income": 23902.57, "max_income": 134576.64, "credit_score_required": 608}',
-        24, 67, 23902.57, 134576.64, 608,
-        13.38, 5.88, 'Low', 'Various benefits depending on the product.', 18,
-        FALSE, 4554.91, 'Active', '2022-06-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5706, 'Loan_5706', 'Loan', '{"min_age": 19, "max_age": 72, "min_income": 43271.59, "max_income": 103189.37, "credit_score_required": 725}',
+        19, 72, 43271.59, 103189.37, 725,
+        14.9, 398.84, 'Low', 'Various benefits depending on the product.', 37,
+        FALSE, 7919.39, 'Inactive', '2021-06-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1247, 'Savings Account_1247', 'Savings Account', '{"min_age": 24, "max_age": 75, "min_income": 36806.75, "max_income": 58737.08, "credit_score_required": 690}',
-        24, 75, 36806.75, 58737.08, 690,
-        3.29, 172.17, 'High', 'Various benefits depending on the product.', 31,
-        FALSE, 1415.84, 'Inactive', '2021-04-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8770, 'Loan_8770', 'Loan', '{"min_age": 19, "max_age": 63, "min_income": 21686.38, "max_income": 167784.04, "credit_score_required": 667}',
+        19, 63, 21686.38, 167784.04, 667,
+        4.34, 425.42, 'Medium', 'Various benefits depending on the product.', 22,
+        TRUE, 6894.32, 'Inactive', '2022-09-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9883, 'Investment_9883', 'Investment', '{"min_age": 18, "max_age": 61, "min_income": 48124.06, "max_income": 93862.32, "credit_score_required": 702}',
-        18, 61, 48124.06, 93862.32, 702,
-        7.08, 48.37, 'Medium', 'Various benefits depending on the product.', 47,
-        FALSE, 3097.11, 'Inactive', '2023-09-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7050, 'Savings Account_7050', 'Savings Account', '{"min_age": 25, "max_age": 69, "min_income": 26827.76, "max_income": 89750.97, "credit_score_required": 783}',
+        25, 69, 26827.76, 89750.97, 783,
+        10.32, 384.65, 'Low', 'Various benefits depending on the product.', 16,
+        TRUE, 3977.1, 'Active', '2023-10-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7816, 'Credit Card_7816', 'Credit Card', '{"min_age": 20, "max_age": 65, "min_income": 41624.48, "max_income": 92785.64, "credit_score_required": 800}',
-        20, 65, 41624.48, 92785.64, 800,
-        9.21, 222.6, 'High', 'Various benefits depending on the product.', 60,
-        FALSE, 8540.26, 'Inactive', '2023-06-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3385, 'Investment_3385', 'Investment', '{"min_age": 21, "max_age": 68, "min_income": 22395.42, "max_income": 165812.55, "credit_score_required": 618}',
+        21, 68, 22395.42, 165812.55, 618,
+        8.16, 47.33, 'Medium', 'Various benefits depending on the product.', 25,
+        TRUE, 709.07, 'Inactive', '2021-11-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4132, 'Investment_4132', 'Investment', '{"min_age": 18, "max_age": 69, "min_income": 31105.58, "max_income": 73032.43, "credit_score_required": 685}',
-        18, 69, 31105.58, 73032.43, 685,
-        11.18, 341.05, 'Medium', 'Various benefits depending on the product.', 58,
-        TRUE, 4271.59, 'Inactive', '2021-07-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7171, 'Savings Account_7171', 'Savings Account', '{"min_age": 20, "max_age": 68, "min_income": 45773.82, "max_income": 161091.22, "credit_score_required": 637}',
+        20, 68, 45773.82, 161091.22, 637,
+        10.38, 103.19, 'Low', 'Various benefits depending on the product.', 19,
+        FALSE, 964.87, 'Inactive', '2023-11-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6519, 'Investment_6519', 'Investment', '{"min_age": 22, "max_age": 60, "min_income": 21380.96, "max_income": 194365.9, "credit_score_required": 669}',
-        22, 60, 21380.96, 194365.9, 669,
-        5.36, 49.1, 'Low', 'Various benefits depending on the product.', 55,
-        FALSE, 8212.34, 'Inactive', '2020-01-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1850, 'Credit Card_1850', 'Credit Card', '{"min_age": 18, "max_age": 65, "min_income": 28913.13, "max_income": 177100.71, "credit_score_required": 743}',
+        18, 65, 28913.13, 177100.71, 743,
+        7.91, 139.0, 'Medium', 'Various benefits depending on the product.', 36,
+        FALSE, 5150.93, 'Active', '2021-08-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7085, 'Investment_7085', 'Investment', '{"min_age": 19, "max_age": 67, "min_income": 45203.78, "max_income": 177756.18, "credit_score_required": 743}',
-        19, 67, 45203.78, 177756.18, 743,
-        6.81, 445.58, 'High', 'Various benefits depending on the product.', 43,
-        FALSE, 2337.35, 'Active', '2023-09-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2421, 'Savings Account_2421', 'Savings Account', '{"min_age": 18, "max_age": 60, "min_income": 21929.98, "max_income": 127688.78, "credit_score_required": 632}',
+        18, 60, 21929.98, 127688.78, 632,
+        11.19, 253.85, 'High', 'Various benefits depending on the product.', 59,
+        FALSE, 9063.72, 'Active', '2021-06-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7305, 'Savings Account_7305', 'Savings Account', '{"min_age": 20, "max_age": 66, "min_income": 25549.81, "max_income": 178669.99, "credit_score_required": 656}',
-        20, 66, 25549.81, 178669.99, 656,
-        7.0, 467.15, 'Low', 'Various benefits depending on the product.', 59,
-        TRUE, 962.65, 'Active', '2020-04-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6119, 'Credit Card_6119', 'Credit Card', '{"min_age": 23, "max_age": 66, "min_income": 37237.18, "max_income": 69820.76, "credit_score_required": 618}',
+        23, 66, 37237.18, 69820.76, 618,
+        2.42, 239.15, 'Low', 'Various benefits depending on the product.', 9,
+        TRUE, 9080.97, 'Inactive', '2020-07-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3569, 'Credit Card_3569', 'Credit Card', '{"min_age": 21, "max_age": 66, "min_income": 22221.2, "max_income": 129267.62, "credit_score_required": 683}',
-        21, 66, 22221.2, 129267.62, 683,
-        8.42, 404.68, 'High', 'Various benefits depending on the product.', 20,
-        TRUE, 9493.52, 'Active', '2021-06-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8780, 'Credit Card_8780', 'Credit Card', '{"min_age": 19, "max_age": 73, "min_income": 26159.77, "max_income": 183673.15, "credit_score_required": 747}',
+        19, 73, 26159.77, 183673.15, 747,
+        6.87, 91.02, 'Medium', 'Various benefits depending on the product.', 50,
+        TRUE, 670.98, 'Inactive', '2021-01-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1121, 'Loan_1121', 'Loan', '{"min_age": 18, "max_age": 71, "min_income": 25192.04, "max_income": 188651.8, "credit_score_required": 753}',
-        18, 71, 25192.04, 188651.8, 753,
-        11.33, 101.57, 'Low', 'Various benefits depending on the product.', 26,
-        FALSE, 5330.39, 'Inactive', '2022-03-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5715, 'Investment_5715', 'Investment', '{"min_age": 20, "max_age": 64, "min_income": 43406.34, "max_income": 167199.98, "credit_score_required": 721}',
+        20, 64, 43406.34, 167199.98, 721,
+        11.94, 185.9, 'Medium', 'Various benefits depending on the product.', 33,
+        TRUE, 8887.95, 'Active', '2022-12-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8010, 'Loan_8010', 'Loan', '{"min_age": 23, "max_age": 67, "min_income": 48113.22, "max_income": 183690.9, "credit_score_required": 672}',
-        23, 67, 48113.22, 183690.9, 672,
-        11.92, 341.37, 'Low', 'Various benefits depending on the product.', 44,
-        TRUE, 4904.11, 'Active', '2022-10-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1113, 'Investment_1113', 'Investment', '{"min_age": 19, "max_age": 62, "min_income": 32803.21, "max_income": 154226.83, "credit_score_required": 629}',
+        19, 62, 32803.21, 154226.83, 629,
+        1.98, 114.2, 'High', 'Various benefits depending on the product.', 43,
+        TRUE, 1023.41, 'Inactive', '2020-07-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7618, 'Investment_7618', 'Investment', '{"min_age": 18, "max_age": 63, "min_income": 38207.85, "max_income": 61977.57, "credit_score_required": 772}',
-        18, 63, 38207.85, 61977.57, 772,
-        9.23, 397.28, 'High', 'Various benefits depending on the product.', 47,
-        TRUE, 8039.81, 'Active', '2022-02-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2683, 'Loan_2683', 'Loan', '{"min_age": 25, "max_age": 67, "min_income": 27573.56, "max_income": 107471.11, "credit_score_required": 616}',
+        25, 67, 27573.56, 107471.11, 616,
+        4.86, 275.31, 'Low', 'Various benefits depending on the product.', 52,
+        TRUE, 9049.02, 'Inactive', '2023-09-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2575, 'Credit Card_2575', 'Credit Card', '{"min_age": 20, "max_age": 60, "min_income": 28465.63, "max_income": 141304.87, "credit_score_required": 774}',
-        20, 60, 28465.63, 141304.87, 774,
-        8.28, 276.96, 'Medium', 'Various benefits depending on the product.', 49,
-        FALSE, 8765.58, 'Inactive', '2021-02-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9403, 'Loan_9403', 'Loan', '{"min_age": 21, "max_age": 67, "min_income": 32251.84, "max_income": 91291.8, "credit_score_required": 745}',
+        21, 67, 32251.84, 91291.8, 745,
+        3.94, 137.99, 'Low', 'Various benefits depending on the product.', 24,
+        TRUE, 6280.21, 'Active', '2020-09-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6987, 'Loan_6987', 'Loan', '{"min_age": 24, "max_age": 66, "min_income": 21063.38, "max_income": 103613.12, "credit_score_required": 658}',
-        24, 66, 21063.38, 103613.12, 658,
-        10.99, 138.61, 'High', 'Various benefits depending on the product.', 53,
-        TRUE, 9913.81, 'Inactive', '2021-12-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6309, 'Credit Card_6309', 'Credit Card', '{"min_age": 23, "max_age": 69, "min_income": 26606.96, "max_income": 190584.96, "credit_score_required": 757}',
+        23, 69, 26606.96, 190584.96, 757,
+        2.49, 256.77, 'Low', 'Various benefits depending on the product.', 22,
+        FALSE, 1965.76, 'Inactive', '2022-09-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9524, 'Loan_9524', 'Loan', '{"min_age": 21, "max_age": 62, "min_income": 23838.53, "max_income": 139660.71, "credit_score_required": 724}',
-        21, 62, 23838.53, 139660.71, 724,
-        2.87, 95.53, 'Low', 'Various benefits depending on the product.', 52,
-        FALSE, 4774.44, 'Active', '2022-02-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8470, 'Savings Account_8470', 'Savings Account', '{"min_age": 19, "max_age": 66, "min_income": 40484.14, "max_income": 183483.59, "credit_score_required": 795}',
+        19, 66, 40484.14, 183483.59, 795,
+        2.29, 213.68, 'Medium', 'Various benefits depending on the product.', 23,
+        FALSE, 383.25, 'Active', '2023-07-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8863, 'Credit Card_8863', 'Credit Card', '{"min_age": 18, "max_age": 74, "min_income": 49545.98, "max_income": 139123.68, "credit_score_required": 748}',
-        18, 74, 49545.98, 139123.68, 748,
-        5.19, 23.93, 'Low', 'Various benefits depending on the product.', 12,
-        FALSE, 9345.63, 'Active', '2023-11-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9931, 'Savings Account_9931', 'Savings Account', '{"min_age": 25, "max_age": 72, "min_income": 32687.31, "max_income": 100239.95, "credit_score_required": 800}',
+        25, 72, 32687.31, 100239.95, 800,
+        13.02, 80.56, 'High', 'Various benefits depending on the product.', 50,
+        FALSE, 771.87, 'Inactive', '2021-05-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7771, 'Savings Account_7771', 'Savings Account', '{"min_age": 25, "max_age": 69, "min_income": 38235.36, "max_income": 89894.74, "credit_score_required": 757}',
-        25, 69, 38235.36, 89894.74, 757,
-        2.67, 115.41, 'Low', 'Various benefits depending on the product.', 24,
-        TRUE, 3268.34, 'Inactive', '2021-11-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9093, 'Credit Card_9093', 'Credit Card', '{"min_age": 24, "max_age": 70, "min_income": 49967.3, "max_income": 147541.35, "credit_score_required": 604}',
+        24, 70, 49967.3, 147541.35, 604,
+        11.99, 79.89, 'Low', 'Various benefits depending on the product.', 9,
+        TRUE, 223.58, 'Inactive', '2020-08-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4860, 'Credit Card_4860', 'Credit Card', '{"min_age": 22, "max_age": 72, "min_income": 37630.59, "max_income": 61493.67, "credit_score_required": 615}',
-        22, 72, 37630.59, 61493.67, 615,
-        12.1, 132.93, 'Low', 'Various benefits depending on the product.', 16,
-        TRUE, 3925.31, 'Inactive', '2021-09-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6493, 'Loan_6493', 'Loan', '{"min_age": 25, "max_age": 66, "min_income": 40461.49, "max_income": 71626.0, "credit_score_required": 676}',
+        25, 66, 40461.49, 71626.0, 676,
+        1.64, 83.98, 'Low', 'Various benefits depending on the product.', 43,
+        FALSE, 5264.03, 'Active', '2022-03-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9289, 'Loan_9289', 'Loan', '{"min_age": 23, "max_age": 62, "min_income": 31973.77, "max_income": 153388.87, "credit_score_required": 711}',
-        23, 62, 31973.77, 153388.87, 711,
-        1.81, 161.52, 'High', 'Various benefits depending on the product.', 15,
-        TRUE, 1137.74, 'Active', '2020-05-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9235, 'Investment_9235', 'Investment', '{"min_age": 22, "max_age": 74, "min_income": 49288.88, "max_income": 102980.19, "credit_score_required": 663}',
+        22, 74, 49288.88, 102980.19, 663,
+        10.2, 43.08, 'High', 'Various benefits depending on the product.', 30,
+        FALSE, 4493.81, 'Active', '2023-08-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2691, 'Credit Card_2691', 'Credit Card', '{"min_age": 25, "max_age": 66, "min_income": 40729.36, "max_income": 134724.29, "credit_score_required": 760}',
-        25, 66, 40729.36, 134724.29, 760,
-        8.54, 192.67, 'High', 'Various benefits depending on the product.', 25,
-        FALSE, 4398.09, 'Active', '2020-02-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8154, 'Savings Account_8154', 'Savings Account', '{"min_age": 20, "max_age": 67, "min_income": 38178.01, "max_income": 75921.77, "credit_score_required": 767}',
+        20, 67, 38178.01, 75921.77, 767,
+        12.93, 403.84, 'Medium', 'Various benefits depending on the product.', 47,
+        TRUE, 3060.91, 'Inactive', '2020-03-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6619, 'Savings Account_6619', 'Savings Account', '{"min_age": 23, "max_age": 70, "min_income": 26998.7, "max_income": 77975.76, "credit_score_required": 768}',
-        23, 70, 26998.7, 77975.76, 768,
-        12.44, 465.63, 'High', 'Various benefits depending on the product.', 38,
-        TRUE, 9869.53, 'Inactive', '2021-04-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1635, 'Investment_1635', 'Investment', '{"min_age": 21, "max_age": 72, "min_income": 40309.66, "max_income": 75868.09, "credit_score_required": 715}',
+        21, 72, 40309.66, 75868.09, 715,
+        8.8, 146.49, 'High', 'Various benefits depending on the product.', 19,
+        FALSE, 8285.47, 'Inactive', '2021-09-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6229, 'Loan_6229', 'Loan', '{"min_age": 22, "max_age": 63, "min_income": 44525.54, "max_income": 179279.91, "credit_score_required": 641}',
-        22, 63, 44525.54, 179279.91, 641,
-        7.07, 309.9, 'Medium', 'Various benefits depending on the product.', 19,
-        TRUE, 8946.15, 'Inactive', '2022-07-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6664, 'Credit Card_6664', 'Credit Card', '{"min_age": 21, "max_age": 68, "min_income": 22910.86, "max_income": 104576.4, "credit_score_required": 621}',
+        21, 68, 22910.86, 104576.4, 621,
+        12.98, 261.91, 'High', 'Various benefits depending on the product.', 54,
+        TRUE, 6975.06, 'Inactive', '2021-01-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4384, 'Investment_4384', 'Investment', '{"min_age": 25, "max_age": 68, "min_income": 30787.82, "max_income": 105270.8, "credit_score_required": 614}',
-        25, 68, 30787.82, 105270.8, 614,
-        8.82, 273.78, 'Low', 'Various benefits depending on the product.', 40,
-        FALSE, 6935.73, 'Active', '2023-12-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8732, 'Savings Account_8732', 'Savings Account', '{"min_age": 24, "max_age": 71, "min_income": 35200.65, "max_income": 91645.06, "credit_score_required": 646}',
+        24, 71, 35200.65, 91645.06, 646,
+        7.72, 280.07, 'Medium', 'Various benefits depending on the product.', 45,
+        TRUE, 1718.43, 'Active', '2021-10-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2442, 'Savings Account_2442', 'Savings Account', '{"min_age": 18, "max_age": 60, "min_income": 41565.56, "max_income": 184260.61, "credit_score_required": 728}',
-        18, 60, 41565.56, 184260.61, 728,
-        5.41, 467.51, 'Medium', 'Various benefits depending on the product.', 40,
-        FALSE, 8768.05, 'Active', '2021-02-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6068, 'Loan_6068', 'Loan', '{"min_age": 20, "max_age": 63, "min_income": 20735.21, "max_income": 143302.55, "credit_score_required": 793}',
+        20, 63, 20735.21, 143302.55, 793,
+        3.12, 290.8, 'High', 'Various benefits depending on the product.', 21,
+        TRUE, 240.16, 'Inactive', '2022-05-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4243, 'Savings Account_4243', 'Savings Account', '{"min_age": 21, "max_age": 68, "min_income": 30148.14, "max_income": 56197.25, "credit_score_required": 649}',
-        21, 68, 30148.14, 56197.25, 649,
-        7.51, 121.17, 'Low', 'Various benefits depending on the product.', 60,
-        FALSE, 5704.57, 'Active', '2022-11-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8811, 'Credit Card_8811', 'Credit Card', '{"min_age": 19, "max_age": 75, "min_income": 26487.31, "max_income": 164740.74, "credit_score_required": 764}',
+        19, 75, 26487.31, 164740.74, 764,
+        14.74, 440.19, 'Medium', 'Various benefits depending on the product.', 58,
+        TRUE, 2748.99, 'Active', '2020-08-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6703, 'Loan_6703', 'Loan', '{"min_age": 19, "max_age": 75, "min_income": 29335.43, "max_income": 164226.13, "credit_score_required": 601}',
-        19, 75, 29335.43, 164226.13, 601,
-        11.72, 6.33, 'High', 'Various benefits depending on the product.', 21,
-        TRUE, 6820.32, 'Inactive', '2021-03-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6665, 'Investment_6665', 'Investment', '{"min_age": 25, "max_age": 65, "min_income": 21349.27, "max_income": 64054.09, "credit_score_required": 624}',
+        25, 65, 21349.27, 64054.09, 624,
+        9.8, 15.38, 'Low', 'Various benefits depending on the product.', 41,
+        FALSE, 2629.51, 'Active', '2022-08-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9841, 'Savings Account_9841', 'Savings Account', '{"min_age": 25, "max_age": 62, "min_income": 21929.55, "max_income": 74547.75, "credit_score_required": 720}',
-        25, 62, 21929.55, 74547.75, 720,
-        10.35, 19.61, 'High', 'Various benefits depending on the product.', 22,
-        FALSE, 2510.41, 'Active', '2020-08-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2276, 'Investment_2276', 'Investment', '{"min_age": 21, "max_age": 67, "min_income": 37254.97, "max_income": 136027.19, "credit_score_required": 617}',
+        21, 67, 37254.97, 136027.19, 617,
+        11.77, 184.53, 'Low', 'Various benefits depending on the product.', 9,
+        TRUE, 240.31, 'Inactive', '2021-09-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6114, 'Savings Account_6114', 'Savings Account', '{"min_age": 25, "max_age": 66, "min_income": 45689.97, "max_income": 148156.19, "credit_score_required": 666}',
-        25, 66, 45689.97, 148156.19, 666,
-        12.44, 199.88, 'Medium', 'Various benefits depending on the product.', 39,
-        TRUE, 4557.44, 'Inactive', '2022-12-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3762, 'Investment_3762', 'Investment', '{"min_age": 22, "max_age": 63, "min_income": 49986.62, "max_income": 140637.82, "credit_score_required": 733}',
+        22, 63, 49986.62, 140637.82, 733,
+        7.14, 382.61, 'Medium', 'Various benefits depending on the product.', 22,
+        TRUE, 7182.78, 'Active', '2023-12-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6185, 'Loan_6185', 'Loan', '{"min_age": 18, "max_age": 65, "min_income": 20971.08, "max_income": 66678.24, "credit_score_required": 646}',
-        18, 65, 20971.08, 66678.24, 646,
-        7.44, 199.77, 'Low', 'Various benefits depending on the product.', 25,
-        FALSE, 2720.2, 'Inactive', '2022-06-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8049, 'Investment_8049', 'Investment', '{"min_age": 18, "max_age": 64, "min_income": 33456.52, "max_income": 173255.64, "credit_score_required": 670}',
+        18, 64, 33456.52, 173255.64, 670,
+        7.73, 248.73, 'High', 'Various benefits depending on the product.', 12,
+        TRUE, 8245.3, 'Inactive', '2020-12-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2566, 'Investment_2566', 'Investment', '{"min_age": 22, "max_age": 71, "min_income": 43865.53, "max_income": 100211.99, "credit_score_required": 707}',
-        22, 71, 43865.53, 100211.99, 707,
-        11.76, 228.44, 'Low', 'Various benefits depending on the product.', 8,
-        TRUE, 9623.03, 'Active', '2023-12-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2401, 'Investment_2401', 'Investment', '{"min_age": 20, "max_age": 67, "min_income": 39077.07, "max_income": 93788.9, "credit_score_required": 632}',
+        20, 67, 39077.07, 93788.9, 632,
+        14.99, 44.29, 'Medium', 'Various benefits depending on the product.', 36,
+        FALSE, 6313.42, 'Inactive', '2021-02-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8653, 'Loan_8653', 'Loan', '{"min_age": 18, "max_age": 65, "min_income": 30373.11, "max_income": 87504.53, "credit_score_required": 623}',
-        18, 65, 30373.11, 87504.53, 623,
-        13.49, 377.66, 'High', 'Various benefits depending on the product.', 16,
-        FALSE, 4788.01, 'Active', '2022-03-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8121, 'Investment_8121', 'Investment', '{"min_age": 20, "max_age": 64, "min_income": 46551.35, "max_income": 156916.84, "credit_score_required": 601}',
+        20, 64, 46551.35, 156916.84, 601,
+        11.46, 473.91, 'Medium', 'Various benefits depending on the product.', 22,
+        FALSE, 2161.03, 'Active', '2020-03-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9582, 'Investment_9582', 'Investment', '{"min_age": 25, "max_age": 66, "min_income": 25022.56, "max_income": 62053.16, "credit_score_required": 744}',
-        25, 66, 25022.56, 62053.16, 744,
-        2.95, 409.51, 'Medium', 'Various benefits depending on the product.', 39,
-        TRUE, 5189.88, 'Active', '2021-11-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8940, 'Investment_8940', 'Investment', '{"min_age": 21, "max_age": 63, "min_income": 33264.35, "max_income": 161422.77, "credit_score_required": 743}',
+        21, 63, 33264.35, 161422.77, 743,
+        9.74, 36.4, 'High', 'Various benefits depending on the product.', 54,
+        TRUE, 255.25, 'Active', '2021-05-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1769, 'Loan_1769', 'Loan', '{"min_age": 20, "max_age": 72, "min_income": 29851.19, "max_income": 92043.41, "credit_score_required": 702}',
-        20, 72, 29851.19, 92043.41, 702,
-        4.24, 241.53, 'Low', 'Various benefits depending on the product.', 42,
-        FALSE, 2018.09, 'Active', '2022-06-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3761, 'Savings Account_3761', 'Savings Account', '{"min_age": 18, "max_age": 68, "min_income": 23507.04, "max_income": 163135.02, "credit_score_required": 696}',
+        18, 68, 23507.04, 163135.02, 696,
+        12.67, 427.32, 'Medium', 'Various benefits depending on the product.', 47,
+        FALSE, 522.91, 'Inactive', '2021-08-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1866, 'Investment_1866', 'Investment', '{"min_age": 21, "max_age": 69, "min_income": 43171.56, "max_income": 97613.54, "credit_score_required": 757}',
-        21, 69, 43171.56, 97613.54, 757,
-        1.8, 147.25, 'Medium', 'Various benefits depending on the product.', 26,
-        FALSE, 5427.99, 'Inactive', '2021-01-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7928, 'Credit Card_7928', 'Credit Card', '{"min_age": 25, "max_age": 60, "min_income": 20464.28, "max_income": 191782.18, "credit_score_required": 769}',
+        25, 60, 20464.28, 191782.18, 769,
+        4.08, 410.65, 'Medium', 'Various benefits depending on the product.', 44,
+        TRUE, 1932.48, 'Active', '2020-12-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8470, 'Credit Card_8470', 'Credit Card', '{"min_age": 19, "max_age": 70, "min_income": 35228.81, "max_income": 178469.87, "credit_score_required": 657}',
-        19, 70, 35228.81, 178469.87, 657,
-        8.96, 183.61, 'High', 'Various benefits depending on the product.', 26,
-        FALSE, 6772.42, 'Active', '2022-06-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4948, 'Loan_4948', 'Loan', '{"min_age": 19, "max_age": 64, "min_income": 44136.92, "max_income": 149021.99, "credit_score_required": 603}',
+        19, 64, 44136.92, 149021.99, 603,
+        5.51, 380.32, 'Low', 'Various benefits depending on the product.', 15,
+        TRUE, 4715.77, 'Inactive', '2022-12-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3007, 'Credit Card_3007', 'Credit Card', '{"min_age": 22, "max_age": 72, "min_income": 35368.6, "max_income": 129859.05, "credit_score_required": 660}',
-        22, 72, 35368.6, 129859.05, 660,
-        9.32, 287.51, 'Low', 'Various benefits depending on the product.', 11,
-        FALSE, 4756.87, 'Active', '2021-12-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6231, 'Credit Card_6231', 'Credit Card', '{"min_age": 20, "max_age": 60, "min_income": 48083.3, "max_income": 67003.9, "credit_score_required": 646}',
+        20, 60, 48083.3, 67003.9, 646,
+        9.18, 427.03, 'Medium', 'Various benefits depending on the product.', 56,
+        TRUE, 8267.82, 'Inactive', '2021-02-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8484, 'Loan_8484', 'Loan', '{"min_age": 23, "max_age": 65, "min_income": 29090.73, "max_income": 61051.28, "credit_score_required": 681}',
-        23, 65, 29090.73, 61051.28, 681,
-        13.71, 459.04, 'Medium', 'Various benefits depending on the product.', 33,
-        FALSE, 1627.46, 'Inactive', '2023-08-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9299, 'Credit Card_9299', 'Credit Card', '{"min_age": 20, "max_age": 68, "min_income": 34929.02, "max_income": 143317.54, "credit_score_required": 779}',
+        20, 68, 34929.02, 143317.54, 779,
+        14.59, 108.54, 'Low', 'Various benefits depending on the product.', 45,
+        TRUE, 6575.01, 'Inactive', '2023-11-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8709, 'Credit Card_8709', 'Credit Card', '{"min_age": 18, "max_age": 64, "min_income": 48734.99, "max_income": 181475.4, "credit_score_required": 749}',
-        18, 64, 48734.99, 181475.4, 749,
-        1.61, 411.55, 'High', 'Various benefits depending on the product.', 21,
-        FALSE, 677.24, 'Inactive', '2020-05-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7393, 'Credit Card_7393', 'Credit Card', '{"min_age": 18, "max_age": 69, "min_income": 25819.07, "max_income": 88786.89, "credit_score_required": 671}',
+        18, 69, 25819.07, 88786.89, 671,
+        9.25, 179.75, 'High', 'Various benefits depending on the product.', 13,
+        TRUE, 3204.11, 'Active', '2022-02-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9611, 'Savings Account_9611', 'Savings Account', '{"min_age": 20, "max_age": 65, "min_income": 41207.05, "max_income": 121797.53, "credit_score_required": 678}',
-        20, 65, 41207.05, 121797.53, 678,
-        4.4, 84.92, 'Low', 'Various benefits depending on the product.', 17,
-        FALSE, 4113.92, 'Active', '2020-10-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4405, 'Savings Account_4405', 'Savings Account', '{"min_age": 20, "max_age": 66, "min_income": 26555.01, "max_income": 65091.05, "credit_score_required": 755}',
+        20, 66, 26555.01, 65091.05, 755,
+        10.1, 100.19, 'Low', 'Various benefits depending on the product.', 40,
+        FALSE, 4756.1, 'Inactive', '2023-06-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1985, 'Savings Account_1985', 'Savings Account', '{"min_age": 19, "max_age": 68, "min_income": 40801.07, "max_income": 168989.66, "credit_score_required": 777}',
-        19, 68, 40801.07, 168989.66, 777,
-        3.45, 249.87, 'Medium', 'Various benefits depending on the product.', 50,
-        FALSE, 114.85, 'Inactive', '2022-06-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7798, 'Loan_7798', 'Loan', '{"min_age": 23, "max_age": 60, "min_income": 47138.34, "max_income": 92386.77, "credit_score_required": 671}',
+        23, 60, 47138.34, 92386.77, 671,
+        13.0, 197.44, 'Low', 'Various benefits depending on the product.', 14,
+        TRUE, 6397.43, 'Inactive', '2022-05-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5371, 'Savings Account_5371', 'Savings Account', '{"min_age": 19, "max_age": 73, "min_income": 44226.06, "max_income": 75631.1, "credit_score_required": 642}',
-        19, 73, 44226.06, 75631.1, 642,
-        2.59, 360.8, 'High', 'Various benefits depending on the product.', 60,
-        TRUE, 6649.42, 'Active', '2023-05-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3032, 'Investment_3032', 'Investment', '{"min_age": 23, "max_age": 69, "min_income": 23109.9, "max_income": 97873.77, "credit_score_required": 795}',
+        23, 69, 23109.9, 97873.77, 795,
+        10.42, 404.55, 'Medium', 'Various benefits depending on the product.', 13,
+        TRUE, 3153.39, 'Inactive', '2022-01-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8152, 'Investment_8152', 'Investment', '{"min_age": 25, "max_age": 73, "min_income": 41879.88, "max_income": 53648.75, "credit_score_required": 798}',
-        25, 73, 41879.88, 53648.75, 798,
-        10.49, 468.56, 'Low', 'Various benefits depending on the product.', 51,
-        TRUE, 1790.42, 'Active', '2021-11-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7111, 'Savings Account_7111', 'Savings Account', '{"min_age": 23, "max_age": 65, "min_income": 45801.01, "max_income": 119672.76, "credit_score_required": 692}',
+        23, 65, 45801.01, 119672.76, 692,
+        4.71, 47.62, 'Medium', 'Various benefits depending on the product.', 15,
+        TRUE, 4571.46, 'Inactive', '2022-11-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4868, 'Investment_4868', 'Investment', '{"min_age": 24, "max_age": 65, "min_income": 40939.46, "max_income": 160591.16, "credit_score_required": 738}',
-        24, 65, 40939.46, 160591.16, 738,
-        1.93, 337.35, 'Low', 'Various benefits depending on the product.', 23,
-        TRUE, 8917.51, 'Active', '2022-04-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2345, 'Investment_2345', 'Investment', '{"min_age": 18, "max_age": 66, "min_income": 26392.53, "max_income": 106399.99, "credit_score_required": 764}',
+        18, 66, 26392.53, 106399.99, 764,
+        11.94, 323.8, 'High', 'Various benefits depending on the product.', 42,
+        FALSE, 2760.9, 'Inactive', '2021-04-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7102, 'Credit Card_7102', 'Credit Card', '{"min_age": 19, "max_age": 75, "min_income": 24238.7, "max_income": 63700.8, "credit_score_required": 725}',
-        19, 75, 24238.7, 63700.8, 725,
-        2.93, 399.58, 'Low', 'Various benefits depending on the product.', 19,
-        FALSE, 6023.27, 'Inactive', '2023-04-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7169, 'Loan_7169', 'Loan', '{"min_age": 22, "max_age": 67, "min_income": 46637.27, "max_income": 68508.35, "credit_score_required": 618}',
+        22, 67, 46637.27, 68508.35, 618,
+        9.53, 132.84, 'High', 'Various benefits depending on the product.', 51,
+        FALSE, 1588.0, 'Active', '2022-11-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8915, 'Loan_8915', 'Loan', '{"min_age": 19, "max_age": 66, "min_income": 42840.13, "max_income": 60744.06, "credit_score_required": 794}',
-        19, 66, 42840.13, 60744.06, 794,
-        12.21, 369.19, 'High', 'Various benefits depending on the product.', 46,
-        TRUE, 7135.35, 'Inactive', '2023-02-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2584, 'Credit Card_2584', 'Credit Card', '{"min_age": 19, "max_age": 62, "min_income": 48433.19, "max_income": 117948.84, "credit_score_required": 745}',
+        19, 62, 48433.19, 117948.84, 745,
+        4.1, 244.81, 'Medium', 'Various benefits depending on the product.', 36,
+        TRUE, 6139.55, 'Active', '2023-04-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6092, 'Credit Card_6092', 'Credit Card', '{"min_age": 21, "max_age": 74, "min_income": 29575.95, "max_income": 178208.57, "credit_score_required": 693}',
-        21, 74, 29575.95, 178208.57, 693,
-        7.95, 386.63, 'Low', 'Various benefits depending on the product.', 18,
-        TRUE, 3064.64, 'Active', '2021-04-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9186, 'Credit Card_9186', 'Credit Card', '{"min_age": 24, "max_age": 71, "min_income": 34634.54, "max_income": 161774.22, "credit_score_required": 681}',
+        24, 71, 34634.54, 161774.22, 681,
+        14.12, 108.57, 'High', 'Various benefits depending on the product.', 58,
+        FALSE, 8455.28, 'Active', '2022-12-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9227, 'Credit Card_9227', 'Credit Card', '{"min_age": 18, "max_age": 67, "min_income": 41794.59, "max_income": 196482.34, "credit_score_required": 668}',
-        18, 67, 41794.59, 196482.34, 668,
-        4.82, 180.11, 'Low', 'Various benefits depending on the product.', 32,
-        TRUE, 2535.81, 'Inactive', '2020-10-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7659, 'Savings Account_7659', 'Savings Account', '{"min_age": 23, "max_age": 62, "min_income": 46438.27, "max_income": 141222.89, "credit_score_required": 728}',
+        23, 62, 46438.27, 141222.89, 728,
+        14.9, 262.45, 'High', 'Various benefits depending on the product.', 58,
+        FALSE, 6036.85, 'Active', '2020-03-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4460, 'Investment_4460', 'Investment', '{"min_age": 20, "max_age": 60, "min_income": 43726.61, "max_income": 148767.56, "credit_score_required": 741}',
-        20, 60, 43726.61, 148767.56, 741,
-        12.03, 182.16, 'Medium', 'Various benefits depending on the product.', 22,
-        TRUE, 6791.31, 'Inactive', '2021-05-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8406, 'Loan_8406', 'Loan', '{"min_age": 24, "max_age": 63, "min_income": 46541.28, "max_income": 128537.93, "credit_score_required": 658}',
+        24, 63, 46541.28, 128537.93, 658,
+        4.53, 21.65, 'Low', 'Various benefits depending on the product.', 6,
+        FALSE, 4948.8, 'Active', '2022-03-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7853, 'Investment_7853', 'Investment', '{"min_age": 21, "max_age": 66, "min_income": 49729.32, "max_income": 139914.27, "credit_score_required": 763}',
-        21, 66, 49729.32, 139914.27, 763,
-        9.68, 89.18, 'High', 'Various benefits depending on the product.', 25,
-        FALSE, 681.15, 'Inactive', '2021-07-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6836, 'Loan_6836', 'Loan', '{"min_age": 25, "max_age": 73, "min_income": 32932.25, "max_income": 102985.18, "credit_score_required": 791}',
+        25, 73, 32932.25, 102985.18, 791,
+        14.61, 51.72, 'Medium', 'Various benefits depending on the product.', 19,
+        FALSE, 2645.9, 'Inactive', '2020-01-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3330, 'Credit Card_3330', 'Credit Card', '{"min_age": 21, "max_age": 61, "min_income": 20419.84, "max_income": 51594.18, "credit_score_required": 797}',
-        21, 61, 20419.84, 51594.18, 797,
-        11.73, 275.7, 'Medium', 'Various benefits depending on the product.', 43,
-        FALSE, 2347.74, 'Active', '2020-02-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4776, 'Loan_4776', 'Loan', '{"min_age": 21, "max_age": 70, "min_income": 27729.23, "max_income": 167559.01, "credit_score_required": 655}',
+        21, 70, 27729.23, 167559.01, 655,
+        11.57, 445.42, 'Medium', 'Various benefits depending on the product.', 18,
+        TRUE, 9251.82, 'Inactive', '2020-02-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4731, 'Savings Account_4731', 'Savings Account', '{"min_age": 22, "max_age": 68, "min_income": 46441.11, "max_income": 110608.21, "credit_score_required": 626}',
-        22, 68, 46441.11, 110608.21, 626,
-        3.11, 261.0, 'High', 'Various benefits depending on the product.', 46,
-        TRUE, 1913.2, 'Active', '2020-02-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6328, 'Credit Card_6328', 'Credit Card', '{"min_age": 19, "max_age": 70, "min_income": 37576.47, "max_income": 91603.73, "credit_score_required": 719}',
+        19, 70, 37576.47, 91603.73, 719,
+        10.84, 315.32, 'Low', 'Various benefits depending on the product.', 32,
+        TRUE, 3401.13, 'Active', '2021-02-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1210, 'Investment_1210', 'Investment', '{"min_age": 20, "max_age": 63, "min_income": 44168.13, "max_income": 184768.79, "credit_score_required": 740}',
-        20, 63, 44168.13, 184768.79, 740,
-        14.38, 310.07, 'High', 'Various benefits depending on the product.', 34,
-        TRUE, 5920.44, 'Active', '2023-10-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3173, 'Credit Card_3173', 'Credit Card', '{"min_age": 22, "max_age": 64, "min_income": 47099.22, "max_income": 93772.45, "credit_score_required": 616}',
+        22, 64, 47099.22, 93772.45, 616,
+        10.34, 415.11, 'High', 'Various benefits depending on the product.', 15,
+        TRUE, 1462.38, 'Active', '2023-08-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2266, 'Investment_2266', 'Investment', '{"min_age": 18, "max_age": 75, "min_income": 27227.55, "max_income": 133363.15, "credit_score_required": 712}',
-        18, 75, 27227.55, 133363.15, 712,
-        5.03, 362.13, 'Medium', 'Various benefits depending on the product.', 27,
-        FALSE, 8015.46, 'Active', '2020-04-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2091, 'Credit Card_2091', 'Credit Card', '{"min_age": 25, "max_age": 64, "min_income": 47722.15, "max_income": 129034.35, "credit_score_required": 601}',
+        25, 64, 47722.15, 129034.35, 601,
+        9.37, 324.04, 'High', 'Various benefits depending on the product.', 51,
+        TRUE, 6951.86, 'Inactive', '2023-09-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4761, 'Credit Card_4761', 'Credit Card', '{"min_age": 22, "max_age": 67, "min_income": 43301.9, "max_income": 76696.78, "credit_score_required": 735}',
-        22, 67, 43301.9, 76696.78, 735,
-        11.14, 489.64, 'Low', 'Various benefits depending on the product.', 18,
-        FALSE, 2139.65, 'Inactive', '2020-09-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5822, 'Credit Card_5822', 'Credit Card', '{"min_age": 20, "max_age": 69, "min_income": 41488.61, "max_income": 108958.4, "credit_score_required": 790}',
+        20, 69, 41488.61, 108958.4, 790,
+        2.11, 324.84, 'High', 'Various benefits depending on the product.', 15,
+        TRUE, 4151.85, 'Active', '2020-03-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4593, 'Credit Card_4593', 'Credit Card', '{"min_age": 25, "max_age": 66, "min_income": 37450.23, "max_income": 199055.61, "credit_score_required": 793}',
-        25, 66, 37450.23, 199055.61, 793,
-        1.52, 159.43, 'Medium', 'Various benefits depending on the product.', 58,
-        FALSE, 6517.66, 'Inactive', '2021-02-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9488, 'Credit Card_9488', 'Credit Card', '{"min_age": 24, "max_age": 70, "min_income": 20468.7, "max_income": 82251.65, "credit_score_required": 738}',
+        24, 70, 20468.7, 82251.65, 738,
+        5.68, 456.71, 'Low', 'Various benefits depending on the product.', 42,
+        TRUE, 2393.82, 'Active', '2021-12-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8582, 'Savings Account_8582', 'Savings Account', '{"min_age": 22, "max_age": 67, "min_income": 37995.62, "max_income": 158639.78, "credit_score_required": 663}',
-        22, 67, 37995.62, 158639.78, 663,
-        14.08, 307.7, 'Medium', 'Various benefits depending on the product.', 38,
-        TRUE, 8861.62, 'Inactive', '2022-05-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7394, 'Loan_7394', 'Loan', '{"min_age": 20, "max_age": 75, "min_income": 23103.91, "max_income": 69797.91, "credit_score_required": 763}',
+        20, 75, 23103.91, 69797.91, 763,
+        11.47, 16.62, 'Low', 'Various benefits depending on the product.', 17,
+        TRUE, 1715.02, 'Inactive', '2022-11-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3224, 'Credit Card_3224', 'Credit Card', '{"min_age": 21, "max_age": 62, "min_income": 37957.98, "max_income": 195675.56, "credit_score_required": 754}',
-        21, 62, 37957.98, 195675.56, 754,
-        7.34, 342.0, 'Medium', 'Various benefits depending on the product.', 21,
-        TRUE, 5631.72, 'Inactive', '2020-02-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9172, 'Loan_9172', 'Loan', '{"min_age": 18, "max_age": 72, "min_income": 38491.63, "max_income": 165322.76, "credit_score_required": 672}',
+        18, 72, 38491.63, 165322.76, 672,
+        4.23, 294.34, 'Low', 'Various benefits depending on the product.', 35,
+        FALSE, 5360.02, 'Active', '2020-08-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6002, 'Loan_6002', 'Loan', '{"min_age": 25, "max_age": 68, "min_income": 39920.01, "max_income": 185783.48, "credit_score_required": 642}',
-        25, 68, 39920.01, 185783.48, 642,
-        2.54, 187.37, 'Medium', 'Various benefits depending on the product.', 29,
-        FALSE, 976.25, 'Active', '2020-01-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9194, 'Credit Card_9194', 'Credit Card', '{"min_age": 25, "max_age": 65, "min_income": 27103.5, "max_income": 81149.01, "credit_score_required": 784}',
+        25, 65, 27103.5, 81149.01, 784,
+        14.83, 422.97, 'Medium', 'Various benefits depending on the product.', 32,
+        FALSE, 4981.13, 'Active', '2023-12-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1333, 'Credit Card_1333', 'Credit Card', '{"min_age": 24, "max_age": 64, "min_income": 46151.95, "max_income": 151380.61, "credit_score_required": 670}',
-        24, 64, 46151.95, 151380.61, 670,
-        14.38, 71.74, 'Medium', 'Various benefits depending on the product.', 14,
-        FALSE, 749.4, 'Active', '2020-03-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4846, 'Credit Card_4846', 'Credit Card', '{"min_age": 25, "max_age": 72, "min_income": 26630.37, "max_income": 131406.65, "credit_score_required": 788}',
+        25, 72, 26630.37, 131406.65, 788,
+        10.72, 347.2, 'High', 'Various benefits depending on the product.', 56,
+        FALSE, 901.42, 'Active', '2021-10-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8574, 'Credit Card_8574', 'Credit Card', '{"min_age": 23, "max_age": 66, "min_income": 47136.05, "max_income": 73056.35, "credit_score_required": 724}',
-        23, 66, 47136.05, 73056.35, 724,
-        10.97, 339.33, 'High', 'Various benefits depending on the product.', 6,
-        FALSE, 485.49, 'Active', '2021-08-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6560, 'Credit Card_6560', 'Credit Card', '{"min_age": 18, "max_age": 66, "min_income": 49039.28, "max_income": 103362.98, "credit_score_required": 798}',
+        18, 66, 49039.28, 103362.98, 798,
+        10.64, 227.08, 'Low', 'Various benefits depending on the product.', 51,
+        TRUE, 1673.35, 'Inactive', '2021-09-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1890, 'Investment_1890', 'Investment', '{"min_age": 24, "max_age": 73, "min_income": 42912.19, "max_income": 120330.88, "credit_score_required": 754}',
-        24, 73, 42912.19, 120330.88, 754,
-        6.38, 50.63, 'Low', 'Various benefits depending on the product.', 12,
-        TRUE, 7168.74, 'Inactive', '2023-02-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3499, 'Savings Account_3499', 'Savings Account', '{"min_age": 25, "max_age": 64, "min_income": 35710.67, "max_income": 89113.01, "credit_score_required": 727}',
+        25, 64, 35710.67, 89113.01, 727,
+        7.9, 379.38, 'Medium', 'Various benefits depending on the product.', 38,
+        TRUE, 8237.23, 'Inactive', '2023-10-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3284, 'Savings Account_3284', 'Savings Account', '{"min_age": 19, "max_age": 70, "min_income": 23811.7, "max_income": 125750.22, "credit_score_required": 659}',
-        19, 70, 23811.7, 125750.22, 659,
-        9.07, 462.16, 'Low', 'Various benefits depending on the product.', 49,
-        FALSE, 6679.43, 'Inactive', '2023-07-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9365, 'Investment_9365', 'Investment', '{"min_age": 19, "max_age": 63, "min_income": 39500.12, "max_income": 180226.18, "credit_score_required": 786}',
+        19, 63, 39500.12, 180226.18, 786,
+        9.49, 484.54, 'Medium', 'Various benefits depending on the product.', 8,
+        TRUE, 4294.24, 'Active', '2021-07-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2200, 'Loan_2200', 'Loan', '{"min_age": 22, "max_age": 74, "min_income": 28405.36, "max_income": 104959.14, "credit_score_required": 654}',
-        22, 74, 28405.36, 104959.14, 654,
-        10.77, 355.45, 'High', 'Various benefits depending on the product.', 18,
-        FALSE, 283.85, 'Inactive', '2023-08-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1013, 'Investment_1013', 'Investment', '{"min_age": 21, "max_age": 67, "min_income": 33733.17, "max_income": 90839.33, "credit_score_required": 605}',
+        21, 67, 33733.17, 90839.33, 605,
+        8.86, 437.86, 'Medium', 'Various benefits depending on the product.', 20,
+        TRUE, 1512.09, 'Inactive', '2021-02-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8346, 'Loan_8346', 'Loan', '{"min_age": 22, "max_age": 73, "min_income": 22030.84, "max_income": 71388.54, "credit_score_required": 741}',
-        22, 73, 22030.84, 71388.54, 741,
-        13.1, 492.28, 'Low', 'Various benefits depending on the product.', 23,
-        FALSE, 4213.53, 'Inactive', '2020-06-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7532, 'Investment_7532', 'Investment', '{"min_age": 23, "max_age": 65, "min_income": 31551.47, "max_income": 192112.91, "credit_score_required": 798}',
+        23, 65, 31551.47, 192112.91, 798,
+        7.85, 443.8, 'High', 'Various benefits depending on the product.', 52,
+        TRUE, 8565.65, 'Inactive', '2020-09-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7726, 'Savings Account_7726', 'Savings Account', '{"min_age": 19, "max_age": 60, "min_income": 43622.37, "max_income": 183281.6, "credit_score_required": 637}',
-        19, 60, 43622.37, 183281.6, 637,
-        6.46, 394.04, 'Low', 'Various benefits depending on the product.', 48,
-        TRUE, 2373.54, 'Active', '2020-10-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6311, 'Credit Card_6311', 'Credit Card', '{"min_age": 24, "max_age": 70, "min_income": 22238.88, "max_income": 165436.54, "credit_score_required": 693}',
+        24, 70, 22238.88, 165436.54, 693,
+        1.59, 252.68, 'High', 'Various benefits depending on the product.', 31,
+        FALSE, 2865.42, 'Active', '2021-05-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9502, 'Savings Account_9502', 'Savings Account', '{"min_age": 20, "max_age": 60, "min_income": 23836.82, "max_income": 126663.91, "credit_score_required": 757}',
-        20, 60, 23836.82, 126663.91, 757,
-        5.58, 124.12, 'Low', 'Various benefits depending on the product.', 46,
-        TRUE, 7609.04, 'Inactive', '2022-03-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3475, 'Loan_3475', 'Loan', '{"min_age": 25, "max_age": 61, "min_income": 23635.18, "max_income": 172321.98, "credit_score_required": 783}',
+        25, 61, 23635.18, 172321.98, 783,
+        6.18, 329.09, 'High', 'Various benefits depending on the product.', 27,
+        FALSE, 836.57, 'Inactive', '2022-12-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9305, 'Savings Account_9305', 'Savings Account', '{"min_age": 20, "max_age": 69, "min_income": 32396.76, "max_income": 192929.59, "credit_score_required": 669}',
-        20, 69, 32396.76, 192929.59, 669,
-        11.22, 18.93, 'High', 'Various benefits depending on the product.', 42,
-        FALSE, 5396.14, 'Inactive', '2021-04-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9567, 'Loan_9567', 'Loan', '{"min_age": 19, "max_age": 67, "min_income": 27894.06, "max_income": 65127.86, "credit_score_required": 628}',
+        19, 67, 27894.06, 65127.86, 628,
+        14.1, 335.25, 'Medium', 'Various benefits depending on the product.', 9,
+        TRUE, 1140.06, 'Active', '2021-01-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8178, 'Loan_8178', 'Loan', '{"min_age": 21, "max_age": 75, "min_income": 43265.99, "max_income": 62644.87, "credit_score_required": 760}',
-        21, 75, 43265.99, 62644.87, 760,
-        11.85, 348.18, 'Low', 'Various benefits depending on the product.', 57,
-        FALSE, 7271.29, 'Active', '2020-01-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9177, 'Savings Account_9177', 'Savings Account', '{"min_age": 22, "max_age": 66, "min_income": 46164.37, "max_income": 130940.41, "credit_score_required": 778}',
+        22, 66, 46164.37, 130940.41, 778,
+        6.79, 46.9, 'High', 'Various benefits depending on the product.', 59,
+        FALSE, 8685.36, 'Active', '2021-02-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1036, 'Investment_1036', 'Investment', '{"min_age": 22, "max_age": 64, "min_income": 35248.56, "max_income": 178425.88, "credit_score_required": 768}',
-        22, 64, 35248.56, 178425.88, 768,
-        2.13, 24.46, 'Low', 'Various benefits depending on the product.', 15,
-        TRUE, 2633.07, 'Inactive', '2020-07-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8443, 'Credit Card_8443', 'Credit Card', '{"min_age": 22, "max_age": 74, "min_income": 45231.59, "max_income": 117659.69, "credit_score_required": 642}',
+        22, 74, 45231.59, 117659.69, 642,
+        11.35, 226.06, 'Low', 'Various benefits depending on the product.', 40,
+        FALSE, 2618.84, 'Inactive', '2020-08-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4172, 'Credit Card_4172', 'Credit Card', '{"min_age": 19, "max_age": 71, "min_income": 23565.16, "max_income": 92168.41, "credit_score_required": 733}',
-        19, 71, 23565.16, 92168.41, 733,
-        2.45, 115.89, 'Medium', 'Various benefits depending on the product.', 22,
-        FALSE, 8492.06, 'Inactive', '2023-03-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9506, 'Savings Account_9506', 'Savings Account', '{"min_age": 22, "max_age": 67, "min_income": 31020.22, "max_income": 57938.42, "credit_score_required": 703}',
+        22, 67, 31020.22, 57938.42, 703,
+        10.68, 277.42, 'Medium', 'Various benefits depending on the product.', 47,
+        TRUE, 370.71, 'Inactive', '2021-06-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1066, 'Credit Card_1066', 'Credit Card', '{"min_age": 21, "max_age": 69, "min_income": 37700.61, "max_income": 89232.07, "credit_score_required": 612}',
-        21, 69, 37700.61, 89232.07, 612,
-        4.51, 255.22, 'Low', 'Various benefits depending on the product.', 52,
-        FALSE, 5672.25, 'Inactive', '2020-01-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8786, 'Loan_8786', 'Loan', '{"min_age": 25, "max_age": 67, "min_income": 42877.48, "max_income": 129626.98, "credit_score_required": 605}',
+        25, 67, 42877.48, 129626.98, 605,
+        9.95, 266.64, 'High', 'Various benefits depending on the product.', 34,
+        TRUE, 5938.99, 'Inactive', '2023-01-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8147, 'Savings Account_8147', 'Savings Account', '{"min_age": 22, "max_age": 72, "min_income": 24381.78, "max_income": 63969.21, "credit_score_required": 738}',
-        22, 72, 24381.78, 63969.21, 738,
-        10.42, 322.74, 'Medium', 'Various benefits depending on the product.', 19,
-        FALSE, 6414.35, 'Inactive', '2020-05-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3321, 'Investment_3321', 'Investment', '{"min_age": 24, "max_age": 70, "min_income": 35645.32, "max_income": 79579.86, "credit_score_required": 700}',
+        24, 70, 35645.32, 79579.86, 700,
+        10.35, 486.03, 'Low', 'Various benefits depending on the product.', 13,
+        FALSE, 3685.15, 'Inactive', '2022-02-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8192, 'Loan_8192', 'Loan', '{"min_age": 21, "max_age": 70, "min_income": 24788.87, "max_income": 79236.42, "credit_score_required": 710}',
-        21, 70, 24788.87, 79236.42, 710,
-        13.04, 404.29, 'Medium', 'Various benefits depending on the product.', 30,
-        FALSE, 8260.79, 'Inactive', '2023-09-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3090, 'Savings Account_3090', 'Savings Account', '{"min_age": 25, "max_age": 69, "min_income": 46932.79, "max_income": 167583.46, "credit_score_required": 609}',
+        25, 69, 46932.79, 167583.46, 609,
+        7.45, 131.34, 'High', 'Various benefits depending on the product.', 35,
+        FALSE, 7965.38, 'Active', '2023-08-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8084, 'Investment_8084', 'Investment', '{"min_age": 22, "max_age": 64, "min_income": 38377.47, "max_income": 121325.73, "credit_score_required": 622}',
-        22, 64, 38377.47, 121325.73, 622,
-        4.54, 4.36, 'Low', 'Various benefits depending on the product.', 11,
-        FALSE, 3245.2, 'Active', '2021-08-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8997, 'Savings Account_8997', 'Savings Account', '{"min_age": 20, "max_age": 62, "min_income": 29615.38, "max_income": 186591.8, "credit_score_required": 776}',
+        20, 62, 29615.38, 186591.8, 776,
+        7.29, 349.33, 'Low', 'Various benefits depending on the product.', 6,
+        FALSE, 7314.19, 'Active', '2021-01-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4961, 'Investment_4961', 'Investment', '{"min_age": 24, "max_age": 66, "min_income": 44395.81, "max_income": 199916.6, "credit_score_required": 617}',
-        24, 66, 44395.81, 199916.6, 617,
-        5.93, 170.29, 'Low', 'Various benefits depending on the product.', 23,
-        TRUE, 1208.22, 'Active', '2022-04-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7235, 'Savings Account_7235', 'Savings Account', '{"min_age": 21, "max_age": 74, "min_income": 26424.95, "max_income": 81419.2, "credit_score_required": 690}',
+        21, 74, 26424.95, 81419.2, 690,
+        12.32, 156.13, 'Low', 'Various benefits depending on the product.', 59,
+        TRUE, 9903.37, 'Active', '2023-12-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1252, 'Loan_1252', 'Loan', '{"min_age": 20, "max_age": 63, "min_income": 44713.8, "max_income": 81545.7, "credit_score_required": 765}',
-        20, 63, 44713.8, 81545.7, 765,
-        12.21, 143.69, 'High', 'Various benefits depending on the product.', 53,
-        FALSE, 2816.11, 'Inactive', '2021-02-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3482, 'Loan_3482', 'Loan', '{"min_age": 24, "max_age": 72, "min_income": 20085.2, "max_income": 100373.57, "credit_score_required": 784}',
+        24, 72, 20085.2, 100373.57, 784,
+        12.74, 412.81, 'Low', 'Various benefits depending on the product.', 29,
+        TRUE, 2578.61, 'Active', '2022-01-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1850, 'Credit Card_1850', 'Credit Card', '{"min_age": 20, "max_age": 72, "min_income": 34629.5, "max_income": 166724.59, "credit_score_required": 758}',
-        20, 72, 34629.5, 166724.59, 758,
-        3.43, 31.65, 'High', 'Various benefits depending on the product.', 45,
-        FALSE, 5044.43, 'Active', '2022-09-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8932, 'Credit Card_8932', 'Credit Card', '{"min_age": 23, "max_age": 60, "min_income": 28624.35, "max_income": 172623.66, "credit_score_required": 735}',
+        23, 60, 28624.35, 172623.66, 735,
+        2.64, 206.64, 'Low', 'Various benefits depending on the product.', 57,
+        FALSE, 9705.08, 'Inactive', '2022-09-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6017, 'Savings Account_6017', 'Savings Account', '{"min_age": 23, "max_age": 65, "min_income": 30771.16, "max_income": 89845.95, "credit_score_required": 728}',
-        23, 65, 30771.16, 89845.95, 728,
-        8.27, 101.86, 'Low', 'Various benefits depending on the product.', 37,
-        FALSE, 5625.5, 'Active', '2022-12-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8088, 'Loan_8088', 'Loan', '{"min_age": 25, "max_age": 65, "min_income": 27669.99, "max_income": 101190.35, "credit_score_required": 750}',
+        25, 65, 27669.99, 101190.35, 750,
+        9.94, 404.06, 'High', 'Various benefits depending on the product.', 52,
+        TRUE, 2084.9, 'Active', '2020-07-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5802, 'Investment_5802', 'Investment', '{"min_age": 22, "max_age": 61, "min_income": 25769.83, "max_income": 150270.91, "credit_score_required": 758}',
-        22, 61, 25769.83, 150270.91, 758,
-        7.14, 38.14, 'Medium', 'Various benefits depending on the product.', 39,
-        TRUE, 3249.54, 'Inactive', '2022-11-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1694, 'Investment_1694', 'Investment', '{"min_age": 25, "max_age": 64, "min_income": 23984.01, "max_income": 166918.5, "credit_score_required": 600}',
+        25, 64, 23984.01, 166918.5, 600,
+        4.59, 203.11, 'Medium', 'Various benefits depending on the product.', 36,
+        TRUE, 3612.95, 'Active', '2022-06-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2771, 'Savings Account_2771', 'Savings Account', '{"min_age": 23, "max_age": 60, "min_income": 34969.44, "max_income": 64113.67, "credit_score_required": 800}',
-        23, 60, 34969.44, 64113.67, 800,
-        14.21, 96.34, 'Low', 'Various benefits depending on the product.', 60,
-        TRUE, 7406.61, 'Inactive', '2021-02-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6861, 'Credit Card_6861', 'Credit Card', '{"min_age": 25, "max_age": 73, "min_income": 46198.44, "max_income": 161094.8, "credit_score_required": 632}',
+        25, 73, 46198.44, 161094.8, 632,
+        11.37, 458.5, 'Medium', 'Various benefits depending on the product.', 28,
+        TRUE, 5133.79, 'Inactive', '2022-02-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3354, 'Investment_3354', 'Investment', '{"min_age": 22, "max_age": 60, "min_income": 21029.98, "max_income": 75279.05, "credit_score_required": 701}',
-        22, 60, 21029.98, 75279.05, 701,
-        5.0, 218.66, 'High', 'Various benefits depending on the product.', 43,
-        TRUE, 1359.41, 'Inactive', '2023-12-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5452, 'Investment_5452', 'Investment', '{"min_age": 25, "max_age": 61, "min_income": 25853.72, "max_income": 177775.05, "credit_score_required": 689}',
+        25, 61, 25853.72, 177775.05, 689,
+        12.78, 68.77, 'Low', 'Various benefits depending on the product.', 32,
+        FALSE, 8780.43, 'Active', '2020-07-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2150, 'Investment_2150', 'Investment', '{"min_age": 23, "max_age": 65, "min_income": 31148.4, "max_income": 70500.55, "credit_score_required": 696}',
-        23, 65, 31148.4, 70500.55, 696,
-        4.78, 448.7, 'Medium', 'Various benefits depending on the product.', 17,
-        FALSE, 4268.6, 'Active', '2022-04-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4607, 'Credit Card_4607', 'Credit Card', '{"min_age": 22, "max_age": 67, "min_income": 27085.01, "max_income": 82559.32, "credit_score_required": 662}',
+        22, 67, 27085.01, 82559.32, 662,
+        3.62, 294.98, 'Low', 'Various benefits depending on the product.', 21,
+        TRUE, 2510.36, 'Active', '2022-03-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6577, 'Credit Card_6577', 'Credit Card', '{"min_age": 23, "max_age": 74, "min_income": 48367.22, "max_income": 112264.15, "credit_score_required": 715}',
-        23, 74, 48367.22, 112264.15, 715,
-        10.53, 30.61, 'Low', 'Various benefits depending on the product.', 29,
-        FALSE, 4086.76, 'Inactive', '2022-05-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9998, 'Credit Card_9998', 'Credit Card', '{"min_age": 20, "max_age": 61, "min_income": 21160.35, "max_income": 51184.1, "credit_score_required": 787}',
+        20, 61, 21160.35, 51184.1, 787,
+        4.64, 476.37, 'High', 'Various benefits depending on the product.', 18,
+        FALSE, 2045.69, 'Active', '2020-07-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1477, 'Savings Account_1477', 'Savings Account', '{"min_age": 23, "max_age": 62, "min_income": 40271.55, "max_income": 84540.09, "credit_score_required": 750}',
-        23, 62, 40271.55, 84540.09, 750,
-        12.24, 11.52, 'High', 'Various benefits depending on the product.', 40,
-        FALSE, 7872.5, 'Active', '2021-11-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3333, 'Savings Account_3333', 'Savings Account', '{"min_age": 23, "max_age": 61, "min_income": 46974.35, "max_income": 157928.93, "credit_score_required": 671}',
+        23, 61, 46974.35, 157928.93, 671,
+        12.78, 242.86, 'Low', 'Various benefits depending on the product.', 51,
+        TRUE, 1268.81, 'Active', '2020-11-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3524, 'Investment_3524', 'Investment', '{"min_age": 25, "max_age": 65, "min_income": 22189.86, "max_income": 132204.51, "credit_score_required": 742}',
-        25, 65, 22189.86, 132204.51, 742,
-        3.28, 374.72, 'High', 'Various benefits depending on the product.', 23,
-        TRUE, 9526.6, 'Inactive', '2023-07-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1478, 'Investment_1478', 'Investment', '{"min_age": 25, "max_age": 63, "min_income": 34756.75, "max_income": 76003.97, "credit_score_required": 604}',
+        25, 63, 34756.75, 76003.97, 604,
+        9.78, 439.34, 'Low', 'Various benefits depending on the product.', 59,
+        TRUE, 3807.8, 'Active', '2023-09-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7496, 'Loan_7496', 'Loan', '{"min_age": 22, "max_age": 71, "min_income": 38557.19, "max_income": 185451.51, "credit_score_required": 774}',
-        22, 71, 38557.19, 185451.51, 774,
-        4.85, 367.59, 'Medium', 'Various benefits depending on the product.', 10,
-        TRUE, 4159.96, 'Active', '2023-02-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1188, 'Savings Account_1188', 'Savings Account', '{"min_age": 18, "max_age": 73, "min_income": 34606.5, "max_income": 87990.44, "credit_score_required": 746}',
+        18, 73, 34606.5, 87990.44, 746,
+        13.64, 56.64, 'Low', 'Various benefits depending on the product.', 17,
+        TRUE, 8360.62, 'Active', '2022-06-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5101, 'Savings Account_5101', 'Savings Account', '{"min_age": 20, "max_age": 64, "min_income": 40680.98, "max_income": 155882.19, "credit_score_required": 709}',
-        20, 64, 40680.98, 155882.19, 709,
-        12.24, 368.32, 'High', 'Various benefits depending on the product.', 19,
-        FALSE, 9277.26, 'Active', '2023-03-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9843, 'Loan_9843', 'Loan', '{"min_age": 21, "max_age": 74, "min_income": 23212.37, "max_income": 55429.52, "credit_score_required": 760}',
+        21, 74, 23212.37, 55429.52, 760,
+        4.86, 241.17, 'Medium', 'Various benefits depending on the product.', 57,
+        TRUE, 1611.89, 'Active', '2020-09-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3065, 'Investment_3065', 'Investment', '{"min_age": 18, "max_age": 67, "min_income": 21545.52, "max_income": 65095.76, "credit_score_required": 687}',
-        18, 67, 21545.52, 65095.76, 687,
-        5.17, 257.81, 'Medium', 'Various benefits depending on the product.', 38,
-        FALSE, 9818.85, 'Inactive', '2022-09-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6625, 'Credit Card_6625', 'Credit Card', '{"min_age": 25, "max_age": 71, "min_income": 41076.83, "max_income": 136746.78, "credit_score_required": 618}',
+        25, 71, 41076.83, 136746.78, 618,
+        2.23, 289.05, 'High', 'Various benefits depending on the product.', 51,
+        TRUE, 1953.98, 'Active', '2020-02-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4108, 'Investment_4108', 'Investment', '{"min_age": 25, "max_age": 73, "min_income": 24020.04, "max_income": 195655.77, "credit_score_required": 636}',
-        25, 73, 24020.04, 195655.77, 636,
-        7.54, 329.02, 'Medium', 'Various benefits depending on the product.', 39,
-        FALSE, 5042.89, 'Inactive', '2023-02-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1369, 'Savings Account_1369', 'Savings Account', '{"min_age": 25, "max_age": 64, "min_income": 27490.74, "max_income": 103086.38, "credit_score_required": 746}',
+        25, 64, 27490.74, 103086.38, 746,
+        13.64, 219.2, 'Medium', 'Various benefits depending on the product.', 40,
+        FALSE, 5873.86, 'Active', '2020-12-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4237, 'Investment_4237', 'Investment', '{"min_age": 18, "max_age": 60, "min_income": 44573.06, "max_income": 166576.23, "credit_score_required": 751}',
-        18, 60, 44573.06, 166576.23, 751,
-        2.82, 403.94, 'Low', 'Various benefits depending on the product.', 44,
-        TRUE, 4900.92, 'Inactive', '2021-05-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3436, 'Investment_3436', 'Investment', '{"min_age": 19, "max_age": 60, "min_income": 39293.01, "max_income": 167712.43, "credit_score_required": 725}',
+        19, 60, 39293.01, 167712.43, 725,
+        2.03, 468.73, 'High', 'Various benefits depending on the product.', 23,
+        FALSE, 4286.3, 'Inactive', '2023-01-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2809, 'Savings Account_2809', 'Savings Account', '{"min_age": 19, "max_age": 62, "min_income": 48556.29, "max_income": 175469.33, "credit_score_required": 643}',
-        19, 62, 48556.29, 175469.33, 643,
-        8.19, 441.39, 'Low', 'Various benefits depending on the product.', 42,
-        FALSE, 4764.04, 'Inactive', '2023-07-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3680, 'Investment_3680', 'Investment', '{"min_age": 22, "max_age": 64, "min_income": 20635.6, "max_income": 166700.67, "credit_score_required": 604}',
+        22, 64, 20635.6, 166700.67, 604,
+        9.13, 331.12, 'High', 'Various benefits depending on the product.', 57,
+        TRUE, 4309.1, 'Inactive', '2021-10-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2635, 'Loan_2635', 'Loan', '{"min_age": 23, "max_age": 68, "min_income": 27606.08, "max_income": 171261.31, "credit_score_required": 779}',
-        23, 68, 27606.08, 171261.31, 779,
-        11.59, 13.06, 'Low', 'Various benefits depending on the product.', 40,
-        TRUE, 8187.74, 'Inactive', '2023-05-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2230, 'Credit Card_2230', 'Credit Card', '{"min_age": 21, "max_age": 74, "min_income": 38691.95, "max_income": 117654.09, "credit_score_required": 650}',
+        21, 74, 38691.95, 117654.09, 650,
+        13.92, 398.29, 'High', 'Various benefits depending on the product.', 11,
+        FALSE, 3128.38, 'Inactive', '2021-10-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7882, 'Credit Card_7882', 'Credit Card', '{"min_age": 19, "max_age": 64, "min_income": 26145.18, "max_income": 80256.94, "credit_score_required": 679}',
-        19, 64, 26145.18, 80256.94, 679,
-        6.9, 427.2, 'Low', 'Various benefits depending on the product.', 32,
-        TRUE, 6887.18, 'Active', '2020-09-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7732, 'Savings Account_7732', 'Savings Account', '{"min_age": 23, "max_age": 72, "min_income": 46807.6, "max_income": 104497.78, "credit_score_required": 621}',
+        23, 72, 46807.6, 104497.78, 621,
+        6.03, 134.76, 'Medium', 'Various benefits depending on the product.', 24,
+        FALSE, 7717.14, 'Inactive', '2023-12-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5084, 'Savings Account_5084', 'Savings Account', '{"min_age": 22, "max_age": 74, "min_income": 26190.4, "max_income": 188367.9, "credit_score_required": 687}',
-        22, 74, 26190.4, 188367.9, 687,
-        4.11, 123.58, 'Medium', 'Various benefits depending on the product.', 22,
-        FALSE, 4641.49, 'Active', '2022-01-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5204, 'Investment_5204', 'Investment', '{"min_age": 22, "max_age": 65, "min_income": 40010.29, "max_income": 114404.95, "credit_score_required": 725}',
+        22, 65, 40010.29, 114404.95, 725,
+        1.7, 183.07, 'High', 'Various benefits depending on the product.', 22,
+        FALSE, 4843.89, 'Active', '2023-04-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6360, 'Investment_6360', 'Investment', '{"min_age": 22, "max_age": 62, "min_income": 28688.2, "max_income": 130445.48, "credit_score_required": 698}',
-        22, 62, 28688.2, 130445.48, 698,
-        6.77, 297.4, 'Medium', 'Various benefits depending on the product.', 38,
-        FALSE, 6827.98, 'Active', '2020-11-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2290, 'Savings Account_2290', 'Savings Account', '{"min_age": 20, "max_age": 71, "min_income": 33978.14, "max_income": 79744.01, "credit_score_required": 617}',
+        20, 71, 33978.14, 79744.01, 617,
+        4.04, 443.37, 'High', 'Various benefits depending on the product.', 55,
+        FALSE, 993.42, 'Inactive', '2023-06-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7792, 'Loan_7792', 'Loan', '{"min_age": 22, "max_age": 64, "min_income": 22920.34, "max_income": 69892.81, "credit_score_required": 697}',
-        22, 64, 22920.34, 69892.81, 697,
-        9.98, 448.42, 'Medium', 'Various benefits depending on the product.', 60,
-        TRUE, 4670.8, 'Inactive', '2023-11-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5103, 'Savings Account_5103', 'Savings Account', '{"min_age": 22, "max_age": 66, "min_income": 24002.03, "max_income": 135791.75, "credit_score_required": 607}',
+        22, 66, 24002.03, 135791.75, 607,
+        9.97, 249.52, 'Medium', 'Various benefits depending on the product.', 29,
+        TRUE, 4681.19, 'Inactive', '2023-10-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4826, 'Credit Card_4826', 'Credit Card', '{"min_age": 20, "max_age": 64, "min_income": 24302.27, "max_income": 166173.32, "credit_score_required": 763}',
-        20, 64, 24302.27, 166173.32, 763,
-        10.37, 453.68, 'High', 'Various benefits depending on the product.', 57,
-        TRUE, 4292.6, 'Active', '2021-10-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9090, 'Loan_9090', 'Loan', '{"min_age": 24, "max_age": 62, "min_income": 41097.83, "max_income": 171326.96, "credit_score_required": 723}',
+        24, 62, 41097.83, 171326.96, 723,
+        3.02, 263.6, 'High', 'Various benefits depending on the product.', 10,
+        FALSE, 5893.68, 'Inactive', '2022-12-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5072, 'Investment_5072', 'Investment', '{"min_age": 19, "max_age": 64, "min_income": 47723.01, "max_income": 58789.7, "credit_score_required": 774}',
-        19, 64, 47723.01, 58789.7, 774,
-        2.89, 178.17, 'Medium', 'Various benefits depending on the product.', 18,
-        FALSE, 9470.75, 'Inactive', '2020-03-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1162, 'Investment_1162', 'Investment', '{"min_age": 23, "max_age": 70, "min_income": 29600.53, "max_income": 55450.29, "credit_score_required": 751}',
+        23, 70, 29600.53, 55450.29, 751,
+        10.39, 401.36, 'High', 'Various benefits depending on the product.', 9,
+        TRUE, 1076.07, 'Inactive', '2022-10-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9566, 'Investment_9566', 'Investment', '{"min_age": 23, "max_age": 68, "min_income": 44804.55, "max_income": 125554.69, "credit_score_required": 695}',
-        23, 68, 44804.55, 125554.69, 695,
-        2.15, 420.69, 'High', 'Various benefits depending on the product.', 17,
-        FALSE, 2658.38, 'Active', '2021-06-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7907, 'Loan_7907', 'Loan', '{"min_age": 24, "max_age": 63, "min_income": 31012.38, "max_income": 139444.87, "credit_score_required": 732}',
+        24, 63, 31012.38, 139444.87, 732,
+        14.5, 290.73, 'Medium', 'Various benefits depending on the product.', 33,
+        TRUE, 9967.57, 'Inactive', '2021-11-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9173, 'Savings Account_9173', 'Savings Account', '{"min_age": 21, "max_age": 70, "min_income": 37768.61, "max_income": 50823.37, "credit_score_required": 752}',
-        21, 70, 37768.61, 50823.37, 752,
-        4.91, 477.02, 'High', 'Various benefits depending on the product.', 42,
-        FALSE, 7536.8, 'Inactive', '2022-07-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6334, 'Loan_6334', 'Loan', '{"min_age": 24, "max_age": 67, "min_income": 32504.47, "max_income": 59132.9, "credit_score_required": 689}',
+        24, 67, 32504.47, 59132.9, 689,
+        4.39, 480.51, 'Low', 'Various benefits depending on the product.', 48,
+        FALSE, 5986.9, 'Inactive', '2022-07-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1529, 'Credit Card_1529', 'Credit Card', '{"min_age": 24, "max_age": 74, "min_income": 21242.09, "max_income": 134121.66, "credit_score_required": 616}',
-        24, 74, 21242.09, 134121.66, 616,
-        13.9, 344.5, 'Low', 'Various benefits depending on the product.', 51,
-        TRUE, 8029.12, 'Inactive', '2020-05-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1483, 'Credit Card_1483', 'Credit Card', '{"min_age": 24, "max_age": 71, "min_income": 42054.32, "max_income": 104880.61, "credit_score_required": 791}',
+        24, 71, 42054.32, 104880.61, 791,
+        6.63, 391.45, 'Medium', 'Various benefits depending on the product.', 49,
+        TRUE, 1928.11, 'Active', '2022-12-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6297, 'Savings Account_6297', 'Savings Account', '{"min_age": 22, "max_age": 68, "min_income": 24652.0, "max_income": 131712.23, "credit_score_required": 626}',
-        22, 68, 24652.0, 131712.23, 626,
-        8.37, 85.76, 'High', 'Various benefits depending on the product.', 10,
-        FALSE, 4467.7, 'Active', '2020-09-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6848, 'Investment_6848', 'Investment', '{"min_age": 20, "max_age": 63, "min_income": 24912.92, "max_income": 111925.01, "credit_score_required": 658}',
+        20, 63, 24912.92, 111925.01, 658,
+        3.96, 491.52, 'Low', 'Various benefits depending on the product.', 12,
+        TRUE, 7844.27, 'Active', '2020-06-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1924, 'Investment_1924', 'Investment', '{"min_age": 18, "max_age": 63, "min_income": 37713.76, "max_income": 128891.18, "credit_score_required": 632}',
-        18, 63, 37713.76, 128891.18, 632,
-        11.24, 419.81, 'Medium', 'Various benefits depending on the product.', 57,
-        TRUE, 9380.61, 'Inactive', '2023-03-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3874, 'Credit Card_3874', 'Credit Card', '{"min_age": 24, "max_age": 62, "min_income": 35299.08, "max_income": 111995.54, "credit_score_required": 721}',
+        24, 62, 35299.08, 111995.54, 721,
+        8.1, 93.52, 'Low', 'Various benefits depending on the product.', 51,
+        TRUE, 9395.36, 'Active', '2021-12-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7724, 'Loan_7724', 'Loan', '{"min_age": 20, "max_age": 67, "min_income": 23910.03, "max_income": 137390.81, "credit_score_required": 753}',
-        20, 67, 23910.03, 137390.81, 753,
-        4.83, 253.73, 'Low', 'Various benefits depending on the product.', 9,
-        TRUE, 545.37, 'Active', '2022-04-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5289, 'Credit Card_5289', 'Credit Card', '{"min_age": 21, "max_age": 62, "min_income": 32396.1, "max_income": 116592.45, "credit_score_required": 626}',
+        21, 62, 32396.1, 116592.45, 626,
+        3.93, 353.8, 'Medium', 'Various benefits depending on the product.', 55,
+        TRUE, 4847.09, 'Inactive', '2021-11-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4664, 'Loan_4664', 'Loan', '{"min_age": 20, "max_age": 70, "min_income": 20979.4, "max_income": 61262.91, "credit_score_required": 645}',
-        20, 70, 20979.4, 61262.91, 645,
-        4.75, 149.89, 'Medium', 'Various benefits depending on the product.', 14,
-        TRUE, 4129.09, 'Active', '2020-01-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7540, 'Loan_7540', 'Loan', '{"min_age": 20, "max_age": 70, "min_income": 47950.43, "max_income": 141071.0, "credit_score_required": 674}',
+        20, 70, 47950.43, 141071.0, 674,
+        14.27, 282.51, 'Low', 'Various benefits depending on the product.', 12,
+        FALSE, 3928.93, 'Inactive', '2020-07-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1623, 'Investment_1623', 'Investment', '{"min_age": 25, "max_age": 65, "min_income": 22927.61, "max_income": 125188.27, "credit_score_required": 620}',
-        25, 65, 22927.61, 125188.27, 620,
-        14.02, 4.96, 'Low', 'Various benefits depending on the product.', 7,
-        TRUE, 9092.83, 'Inactive', '2022-07-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7886, 'Investment_7886', 'Investment', '{"min_age": 21, "max_age": 64, "min_income": 23309.97, "max_income": 97200.4, "credit_score_required": 701}',
+        21, 64, 23309.97, 97200.4, 701,
+        10.22, 303.88, 'Low', 'Various benefits depending on the product.', 37,
+        FALSE, 1823.71, 'Active', '2021-10-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2148, 'Investment_2148', 'Investment', '{"min_age": 22, "max_age": 63, "min_income": 31653.25, "max_income": 115780.97, "credit_score_required": 644}',
-        22, 63, 31653.25, 115780.97, 644,
-        6.1, 21.5, 'High', 'Various benefits depending on the product.', 43,
-        FALSE, 4443.13, 'Active', '2020-03-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3745, 'Investment_3745', 'Investment', '{"min_age": 25, "max_age": 63, "min_income": 30422.61, "max_income": 127530.27, "credit_score_required": 720}',
+        25, 63, 30422.61, 127530.27, 720,
+        1.66, 204.34, 'High', 'Various benefits depending on the product.', 37,
+        FALSE, 6635.72, 'Active', '2021-04-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2260, 'Credit Card_2260', 'Credit Card', '{"min_age": 24, "max_age": 73, "min_income": 29661.22, "max_income": 173013.81, "credit_score_required": 686}',
-        24, 73, 29661.22, 173013.81, 686,
-        13.34, 256.66, 'Medium', 'Various benefits depending on the product.', 24,
-        TRUE, 9363.13, 'Inactive', '2021-11-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8128, 'Investment_8128', 'Investment', '{"min_age": 25, "max_age": 62, "min_income": 43621.35, "max_income": 165526.25, "credit_score_required": 690}',
+        25, 62, 43621.35, 165526.25, 690,
+        7.39, 22.31, 'Medium', 'Various benefits depending on the product.', 30,
+        FALSE, 8073.5, 'Active', '2022-04-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9053, 'Investment_9053', 'Investment', '{"min_age": 18, "max_age": 75, "min_income": 37437.22, "max_income": 83038.29, "credit_score_required": 694}',
-        18, 75, 37437.22, 83038.29, 694,
-        2.59, 22.5, 'Medium', 'Various benefits depending on the product.', 56,
-        FALSE, 7301.14, 'Inactive', '2022-02-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4684, 'Savings Account_4684', 'Savings Account', '{"min_age": 24, "max_age": 75, "min_income": 48206.04, "max_income": 173950.49, "credit_score_required": 777}',
+        24, 75, 48206.04, 173950.49, 777,
+        3.43, 133.53, 'Medium', 'Various benefits depending on the product.', 20,
+        TRUE, 9779.51, 'Active', '2021-04-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9967, 'Savings Account_9967', 'Savings Account', '{"min_age": 18, "max_age": 75, "min_income": 48370.76, "max_income": 115800.83, "credit_score_required": 637}',
-        18, 75, 48370.76, 115800.83, 637,
-        6.76, 479.93, 'Medium', 'Various benefits depending on the product.', 52,
-        FALSE, 3249.21, 'Inactive', '2022-08-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5758, 'Investment_5758', 'Investment', '{"min_age": 18, "max_age": 61, "min_income": 33589.15, "max_income": 69862.88, "credit_score_required": 728}',
+        18, 61, 33589.15, 69862.88, 728,
+        7.28, 426.12, 'Medium', 'Various benefits depending on the product.', 49,
+        FALSE, 9518.89, 'Active', '2020-07-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3532, 'Credit Card_3532', 'Credit Card', '{"min_age": 18, "max_age": 75, "min_income": 20317.71, "max_income": 179324.91, "credit_score_required": 670}',
-        18, 75, 20317.71, 179324.91, 670,
-        14.65, 288.61, 'Medium', 'Various benefits depending on the product.', 35,
-        TRUE, 6423.33, 'Active', '2020-11-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7998, 'Loan_7998', 'Loan', '{"min_age": 22, "max_age": 63, "min_income": 49332.37, "max_income": 133909.71, "credit_score_required": 669}',
+        22, 63, 49332.37, 133909.71, 669,
+        2.15, 231.74, 'Medium', 'Various benefits depending on the product.', 13,
+        TRUE, 408.78, 'Active', '2022-06-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3088, 'Savings Account_3088', 'Savings Account', '{"min_age": 22, "max_age": 64, "min_income": 34106.51, "max_income": 120169.85, "credit_score_required": 771}',
-        22, 64, 34106.51, 120169.85, 771,
-        8.62, 269.76, 'High', 'Various benefits depending on the product.', 23,
-        FALSE, 2863.2, 'Inactive', '2020-07-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5702, 'Investment_5702', 'Investment', '{"min_age": 24, "max_age": 72, "min_income": 48390.34, "max_income": 112704.44, "credit_score_required": 792}',
+        24, 72, 48390.34, 112704.44, 792,
+        14.95, 460.57, 'High', 'Various benefits depending on the product.', 35,
+        TRUE, 6717.54, 'Inactive', '2022-01-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8598, 'Investment_8598', 'Investment', '{"min_age": 19, "max_age": 71, "min_income": 44030.36, "max_income": 106364.58, "credit_score_required": 707}',
-        19, 71, 44030.36, 106364.58, 707,
-        7.37, 20.14, 'Low', 'Various benefits depending on the product.', 31,
-        TRUE, 6142.85, 'Active', '2020-08-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3889, 'Savings Account_3889', 'Savings Account', '{"min_age": 24, "max_age": 65, "min_income": 35012.03, "max_income": 150842.35, "credit_score_required": 630}',
+        24, 65, 35012.03, 150842.35, 630,
+        2.53, 398.13, 'Low', 'Various benefits depending on the product.', 20,
+        FALSE, 5434.11, 'Inactive', '2022-08-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4793, 'Credit Card_4793', 'Credit Card', '{"min_age": 20, "max_age": 70, "min_income": 31659.14, "max_income": 107731.65, "credit_score_required": 616}',
-        20, 70, 31659.14, 107731.65, 616,
-        13.1, 243.1, 'Low', 'Various benefits depending on the product.', 31,
-        FALSE, 1888.78, 'Inactive', '2023-02-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4111, 'Investment_4111', 'Investment', '{"min_age": 20, "max_age": 75, "min_income": 25420.44, "max_income": 120712.56, "credit_score_required": 711}',
+        20, 75, 25420.44, 120712.56, 711,
+        5.38, 486.98, 'Medium', 'Various benefits depending on the product.', 16,
+        TRUE, 2088.55, 'Active', '2023-01-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1222, 'Investment_1222', 'Investment', '{"min_age": 25, "max_age": 68, "min_income": 44630.38, "max_income": 121093.67, "credit_score_required": 624}',
-        25, 68, 44630.38, 121093.67, 624,
-        10.31, 216.47, 'High', 'Various benefits depending on the product.', 53,
-        TRUE, 5498.7, 'Active', '2022-09-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9912, 'Loan_9912', 'Loan', '{"min_age": 21, "max_age": 65, "min_income": 25753.88, "max_income": 79319.67, "credit_score_required": 709}',
+        21, 65, 25753.88, 79319.67, 709,
+        11.0, 201.25, 'Low', 'Various benefits depending on the product.', 6,
+        TRUE, 8834.09, 'Inactive', '2022-02-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1721, 'Investment_1721', 'Investment', '{"min_age": 18, "max_age": 71, "min_income": 38498.79, "max_income": 105408.81, "credit_score_required": 656}',
-        18, 71, 38498.79, 105408.81, 656,
-        4.29, 226.12, 'Low', 'Various benefits depending on the product.', 48,
-        TRUE, 9976.47, 'Inactive', '2023-07-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8296, 'Loan_8296', 'Loan', '{"min_age": 20, "max_age": 68, "min_income": 36627.45, "max_income": 84718.39, "credit_score_required": 775}',
+        20, 68, 36627.45, 84718.39, 775,
+        2.63, 55.39, 'Low', 'Various benefits depending on the product.', 8,
+        TRUE, 6006.85, 'Active', '2022-09-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6822, 'Credit Card_6822', 'Credit Card', '{"min_age": 19, "max_age": 69, "min_income": 47600.76, "max_income": 162156.48, "credit_score_required": 712}',
-        19, 69, 47600.76, 162156.48, 712,
-        10.8, 493.22, 'Low', 'Various benefits depending on the product.', 16,
-        FALSE, 1316.69, 'Inactive', '2023-05-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8864, 'Investment_8864', 'Investment', '{"min_age": 20, "max_age": 74, "min_income": 32640.73, "max_income": 140981.93, "credit_score_required": 755}',
+        20, 74, 32640.73, 140981.93, 755,
+        6.43, 161.71, 'Low', 'Various benefits depending on the product.', 18,
+        FALSE, 4592.36, 'Inactive', '2022-12-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7443, 'Loan_7443', 'Loan', '{"min_age": 22, "max_age": 60, "min_income": 46774.06, "max_income": 97271.34, "credit_score_required": 761}',
-        22, 60, 46774.06, 97271.34, 761,
-        13.92, 13.37, 'Medium', 'Various benefits depending on the product.', 42,
-        TRUE, 5293.21, 'Active', '2023-11-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2933, 'Savings Account_2933', 'Savings Account', '{"min_age": 22, "max_age": 69, "min_income": 40575.73, "max_income": 122138.78, "credit_score_required": 675}',
+        22, 69, 40575.73, 122138.78, 675,
+        9.98, 265.58, 'Medium', 'Various benefits depending on the product.', 59,
+        TRUE, 9709.7, 'Inactive', '2020-01-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2243, 'Savings Account_2243', 'Savings Account', '{"min_age": 22, "max_age": 72, "min_income": 45947.61, "max_income": 177261.1, "credit_score_required": 767}',
-        22, 72, 45947.61, 177261.1, 767,
-        8.56, 236.76, 'Low', 'Various benefits depending on the product.', 48,
-        FALSE, 932.78, 'Active', '2023-07-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3516, 'Investment_3516', 'Investment', '{"min_age": 19, "max_age": 62, "min_income": 49556.6, "max_income": 71666.41, "credit_score_required": 635}',
+        19, 62, 49556.6, 71666.41, 635,
+        13.22, 114.35, 'Low', 'Various benefits depending on the product.', 44,
+        TRUE, 1114.53, 'Inactive', '2020-05-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5219, 'Savings Account_5219', 'Savings Account', '{"min_age": 19, "max_age": 72, "min_income": 22074.57, "max_income": 103913.08, "credit_score_required": 790}',
-        19, 72, 22074.57, 103913.08, 790,
-        11.12, 224.55, 'Low', 'Various benefits depending on the product.', 25,
-        FALSE, 6198.9, 'Active', '2023-05-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1618, 'Credit Card_1618', 'Credit Card', '{"min_age": 20, "max_age": 70, "min_income": 49706.64, "max_income": 58337.03, "credit_score_required": 682}',
+        20, 70, 49706.64, 58337.03, 682,
+        9.88, 473.79, 'High', 'Various benefits depending on the product.', 14,
+        TRUE, 7679.7, 'Active', '2020-02-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1439, 'Investment_1439', 'Investment', '{"min_age": 18, "max_age": 70, "min_income": 35732.38, "max_income": 69633.8, "credit_score_required": 602}',
-        18, 70, 35732.38, 69633.8, 602,
-        8.72, 394.41, 'High', 'Various benefits depending on the product.', 57,
-        FALSE, 6009.86, 'Inactive', '2020-08-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4094, 'Credit Card_4094', 'Credit Card', '{"min_age": 21, "max_age": 67, "min_income": 23475.55, "max_income": 179884.82, "credit_score_required": 659}',
+        21, 67, 23475.55, 179884.82, 659,
+        2.05, 243.74, 'High', 'Various benefits depending on the product.', 39,
+        TRUE, 9259.39, 'Inactive', '2021-11-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7338, 'Savings Account_7338', 'Savings Account', '{"min_age": 25, "max_age": 60, "min_income": 26143.81, "max_income": 50706.96, "credit_score_required": 623}',
-        25, 60, 26143.81, 50706.96, 623,
-        1.63, 26.03, 'Low', 'Various benefits depending on the product.', 40,
-        FALSE, 9516.12, 'Inactive', '2021-09-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3014, 'Investment_3014', 'Investment', '{"min_age": 19, "max_age": 64, "min_income": 25109.66, "max_income": 187462.29, "credit_score_required": 687}',
+        19, 64, 25109.66, 187462.29, 687,
+        1.88, 239.07, 'Medium', 'Various benefits depending on the product.', 35,
+        TRUE, 6715.19, 'Active', '2021-10-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4955, 'Savings Account_4955', 'Savings Account', '{"min_age": 24, "max_age": 75, "min_income": 26616.43, "max_income": 152705.46, "credit_score_required": 797}',
-        24, 75, 26616.43, 152705.46, 797,
-        4.59, 266.98, 'Low', 'Various benefits depending on the product.', 49,
-        TRUE, 8136.97, 'Inactive', '2022-03-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2138, 'Savings Account_2138', 'Savings Account', '{"min_age": 23, "max_age": 71, "min_income": 21232.48, "max_income": 124331.83, "credit_score_required": 677}',
+        23, 71, 21232.48, 124331.83, 677,
+        10.23, 175.41, 'Medium', 'Various benefits depending on the product.', 12,
+        TRUE, 5945.17, 'Inactive', '2020-04-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7038, 'Investment_7038', 'Investment', '{"min_age": 22, "max_age": 70, "min_income": 24894.93, "max_income": 165428.98, "credit_score_required": 676}',
-        22, 70, 24894.93, 165428.98, 676,
-        8.3, 428.84, 'Medium', 'Various benefits depending on the product.', 42,
-        FALSE, 580.17, 'Inactive', '2023-05-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2680, 'Investment_2680', 'Investment', '{"min_age": 25, "max_age": 65, "min_income": 42100.03, "max_income": 93215.26, "credit_score_required": 609}',
+        25, 65, 42100.03, 93215.26, 609,
+        9.58, 225.62, 'Low', 'Various benefits depending on the product.', 30,
+        FALSE, 8067.71, 'Inactive', '2020-09-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3508, 'Savings Account_3508', 'Savings Account', '{"min_age": 23, "max_age": 68, "min_income": 22238.89, "max_income": 108919.61, "credit_score_required": 731}',
-        23, 68, 22238.89, 108919.61, 731,
-        8.02, 392.54, 'Low', 'Various benefits depending on the product.', 43,
-        TRUE, 9945.04, 'Active', '2022-01-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7090, 'Savings Account_7090', 'Savings Account', '{"min_age": 21, "max_age": 62, "min_income": 20704.82, "max_income": 64360.19, "credit_score_required": 611}',
+        21, 62, 20704.82, 64360.19, 611,
+        7.44, 250.93, 'High', 'Various benefits depending on the product.', 25,
+        TRUE, 8230.32, 'Active', '2023-08-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6027, 'Investment_6027', 'Investment', '{"min_age": 20, "max_age": 74, "min_income": 33505.75, "max_income": 107959.97, "credit_score_required": 616}',
-        20, 74, 33505.75, 107959.97, 616,
-        11.91, 100.27, 'High', 'Various benefits depending on the product.', 26,
-        FALSE, 1715.36, 'Inactive', '2023-01-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5137, 'Savings Account_5137', 'Savings Account', '{"min_age": 21, "max_age": 73, "min_income": 28427.97, "max_income": 85559.94, "credit_score_required": 611}',
+        21, 73, 28427.97, 85559.94, 611,
+        2.49, 163.59, 'Medium', 'Various benefits depending on the product.', 25,
+        FALSE, 8528.17, 'Inactive', '2022-03-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5291, 'Credit Card_5291', 'Credit Card', '{"min_age": 24, "max_age": 61, "min_income": 26495.13, "max_income": 52103.32, "credit_score_required": 656}',
-        24, 61, 26495.13, 52103.32, 656,
-        8.6, 33.68, 'Low', 'Various benefits depending on the product.', 29,
-        FALSE, 1761.83, 'Active', '2023-06-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7917, 'Savings Account_7917', 'Savings Account', '{"min_age": 24, "max_age": 61, "min_income": 36666.38, "max_income": 86393.33, "credit_score_required": 616}',
+        24, 61, 36666.38, 86393.33, 616,
+        2.12, 59.3, 'Low', 'Various benefits depending on the product.', 25,
+        TRUE, 4461.9, 'Active', '2022-06-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7489, 'Credit Card_7489', 'Credit Card', '{"min_age": 19, "max_age": 70, "min_income": 44052.78, "max_income": 132327.82, "credit_score_required": 679}',
-        19, 70, 44052.78, 132327.82, 679,
-        2.67, 286.77, 'Low', 'Various benefits depending on the product.', 52,
-        TRUE, 9184.04, 'Inactive', '2022-10-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5050, 'Credit Card_5050', 'Credit Card', '{"min_age": 24, "max_age": 68, "min_income": 49423.24, "max_income": 78437.0, "credit_score_required": 742}',
+        24, 68, 49423.24, 78437.0, 742,
+        8.88, 191.33, 'Medium', 'Various benefits depending on the product.', 40,
+        TRUE, 3733.3, 'Inactive', '2021-08-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1173, 'Investment_1173', 'Investment', '{"min_age": 24, "max_age": 67, "min_income": 30816.25, "max_income": 51280.12, "credit_score_required": 750}',
-        24, 67, 30816.25, 51280.12, 750,
-        4.42, 156.79, 'Medium', 'Various benefits depending on the product.', 48,
-        TRUE, 1434.86, 'Inactive', '2020-07-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9125, 'Loan_9125', 'Loan', '{"min_age": 23, "max_age": 65, "min_income": 36239.6, "max_income": 152424.86, "credit_score_required": 777}',
+        23, 65, 36239.6, 152424.86, 777,
+        7.76, 195.74, 'High', 'Various benefits depending on the product.', 57,
+        FALSE, 4804.92, 'Active', '2022-11-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8856, 'Loan_8856', 'Loan', '{"min_age": 25, "max_age": 73, "min_income": 24742.36, "max_income": 125075.41, "credit_score_required": 655}',
-        25, 73, 24742.36, 125075.41, 655,
-        2.8, 37.59, 'High', 'Various benefits depending on the product.', 13,
-        FALSE, 6379.57, 'Active', '2021-10-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4516, 'Investment_4516', 'Investment', '{"min_age": 25, "max_age": 73, "min_income": 42576.32, "max_income": 97348.04, "credit_score_required": 682}',
+        25, 73, 42576.32, 97348.04, 682,
+        11.88, 431.66, 'High', 'Various benefits depending on the product.', 27,
+        FALSE, 8884.59, 'Active', '2021-05-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8472, 'Credit Card_8472', 'Credit Card', '{"min_age": 24, "max_age": 65, "min_income": 46848.18, "max_income": 133961.62, "credit_score_required": 657}',
-        24, 65, 46848.18, 133961.62, 657,
-        14.34, 134.06, 'Medium', 'Various benefits depending on the product.', 12,
-        TRUE, 5789.95, 'Active', '2021-11-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6041, 'Loan_6041', 'Loan', '{"min_age": 19, "max_age": 70, "min_income": 34306.69, "max_income": 123019.39, "credit_score_required": 793}',
+        19, 70, 34306.69, 123019.39, 793,
+        10.75, 463.02, 'Low', 'Various benefits depending on the product.', 38,
+        TRUE, 5654.08, 'Inactive', '2020-03-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2191, 'Credit Card_2191', 'Credit Card', '{"min_age": 22, "max_age": 61, "min_income": 43036.57, "max_income": 113051.53, "credit_score_required": 703}',
-        22, 61, 43036.57, 113051.53, 703,
-        6.99, 429.0, 'Low', 'Various benefits depending on the product.', 20,
-        TRUE, 3003.52, 'Active', '2020-12-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (6843, 'Loan_6843', 'Loan', '{"min_age": 18, "max_age": 68, "min_income": 22878.94, "max_income": 194458.53, "credit_score_required": 768}',
+        18, 68, 22878.94, 194458.53, 768,
+        9.25, 124.52, 'Low', 'Various benefits depending on the product.', 45,
+        FALSE, 7920.29, 'Active', '2022-05-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7575, 'Savings Account_7575', 'Savings Account', '{"min_age": 23, "max_age": 67, "min_income": 21912.67, "max_income": 147065.26, "credit_score_required": 608}',
-        23, 67, 21912.67, 147065.26, 608,
-        6.61, 336.77, 'Low', 'Various benefits depending on the product.', 50,
-        TRUE, 5348.26, 'Inactive', '2021-05-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5939, 'Investment_5939', 'Investment', '{"min_age": 21, "max_age": 69, "min_income": 22349.44, "max_income": 97486.79, "credit_score_required": 635}',
+        21, 69, 22349.44, 97486.79, 635,
+        8.22, 44.91, 'Low', 'Various benefits depending on the product.', 42,
+        TRUE, 4734.22, 'Active', '2022-01-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1750, 'Loan_1750', 'Loan', '{"min_age": 19, "max_age": 62, "min_income": 25496.15, "max_income": 94374.02, "credit_score_required": 687}',
-        19, 62, 25496.15, 94374.02, 687,
-        4.92, 97.5, 'Medium', 'Various benefits depending on the product.', 33,
-        TRUE, 3154.04, 'Active', '2023-09-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5624, 'Loan_5624', 'Loan', '{"min_age": 20, "max_age": 66, "min_income": 28724.15, "max_income": 64149.59, "credit_score_required": 685}',
+        20, 66, 28724.15, 64149.59, 685,
+        3.96, 318.89, 'High', 'Various benefits depending on the product.', 16,
+        FALSE, 4207.02, 'Active', '2021-08-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8477, 'Savings Account_8477', 'Savings Account', '{"min_age": 24, "max_age": 68, "min_income": 42334.34, "max_income": 140468.79, "credit_score_required": 773}',
-        24, 68, 42334.34, 140468.79, 773,
-        5.36, 226.25, 'Low', 'Various benefits depending on the product.', 57,
-        FALSE, 7163.86, 'Inactive', '2020-12-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7662, 'Savings Account_7662', 'Savings Account', '{"min_age": 22, "max_age": 61, "min_income": 43030.73, "max_income": 101409.14, "credit_score_required": 782}',
+        22, 61, 43030.73, 101409.14, 782,
+        7.7, 100.0, 'Low', 'Various benefits depending on the product.', 39,
+        FALSE, 8910.14, 'Inactive', '2021-10-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1671, 'Loan_1671', 'Loan', '{"min_age": 18, "max_age": 65, "min_income": 31589.18, "max_income": 179206.29, "credit_score_required": 732}',
-        18, 65, 31589.18, 179206.29, 732,
-        3.52, 421.79, 'Low', 'Various benefits depending on the product.', 35,
-        TRUE, 2138.43, 'Inactive', '2023-03-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5327, 'Credit Card_5327', 'Credit Card', '{"min_age": 24, "max_age": 64, "min_income": 41108.36, "max_income": 186916.46, "credit_score_required": 622}',
+        24, 64, 41108.36, 186916.46, 622,
+        11.05, 270.75, 'High', 'Various benefits depending on the product.', 38,
+        TRUE, 7429.05, 'Inactive', '2022-11-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3899, 'Credit Card_3899', 'Credit Card', '{"min_age": 19, "max_age": 69, "min_income": 28611.27, "max_income": 72405.48, "credit_score_required": 682}',
-        19, 69, 28611.27, 72405.48, 682,
-        10.82, 18.28, 'Medium', 'Various benefits depending on the product.', 42,
-        TRUE, 3913.73, 'Active', '2020-08-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8209, 'Credit Card_8209', 'Credit Card', '{"min_age": 22, "max_age": 60, "min_income": 35474.48, "max_income": 107957.86, "credit_score_required": 691}',
+        22, 60, 35474.48, 107957.86, 691,
+        5.68, 89.72, 'High', 'Various benefits depending on the product.', 49,
+        FALSE, 372.63, 'Inactive', '2020-11-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2366, 'Loan_2366', 'Loan', '{"min_age": 24, "max_age": 63, "min_income": 44227.12, "max_income": 105622.41, "credit_score_required": 678}',
-        24, 63, 44227.12, 105622.41, 678,
-        7.5, 81.05, 'Medium', 'Various benefits depending on the product.', 37,
-        TRUE, 2354.87, 'Active', '2023-09-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2737, 'Credit Card_2737', 'Credit Card', '{"min_age": 19, "max_age": 69, "min_income": 35546.84, "max_income": 72426.29, "credit_score_required": 766}',
+        19, 69, 35546.84, 72426.29, 766,
+        4.96, 153.65, 'Low', 'Various benefits depending on the product.', 30,
+        TRUE, 5020.16, 'Active', '2021-11-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4958, 'Credit Card_4958', 'Credit Card', '{"min_age": 23, "max_age": 62, "min_income": 20000.55, "max_income": 95561.76, "credit_score_required": 757}',
-        23, 62, 20000.55, 95561.76, 757,
-        14.58, 101.16, 'Medium', 'Various benefits depending on the product.', 27,
-        TRUE, 5043.87, 'Active', '2023-09-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7585, 'Loan_7585', 'Loan', '{"min_age": 18, "max_age": 66, "min_income": 40268.88, "max_income": 141105.45, "credit_score_required": 614}',
+        18, 66, 40268.88, 141105.45, 614,
+        11.0, 54.5, 'Medium', 'Various benefits depending on the product.', 30,
+        FALSE, 5212.2, 'Inactive', '2021-09-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3178, 'Loan_3178', 'Loan', '{"min_age": 18, "max_age": 69, "min_income": 29365.48, "max_income": 65581.6, "credit_score_required": 769}',
-        18, 69, 29365.48, 65581.6, 769,
-        10.22, 229.43, 'Medium', 'Various benefits depending on the product.', 41,
-        FALSE, 7796.4, 'Active', '2023-02-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1273, 'Investment_1273', 'Investment', '{"min_age": 25, "max_age": 71, "min_income": 25632.81, "max_income": 148374.8, "credit_score_required": 681}',
+        25, 71, 25632.81, 148374.8, 681,
+        5.61, 20.99, 'Low', 'Various benefits depending on the product.', 42,
+        TRUE, 2217.01, 'Inactive', '2021-12-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7150, 'Loan_7150', 'Loan', '{"min_age": 18, "max_age": 66, "min_income": 29629.02, "max_income": 87213.4, "credit_score_required": 744}',
-        18, 66, 29629.02, 87213.4, 744,
-        14.55, 471.35, 'Medium', 'Various benefits depending on the product.', 13,
-        TRUE, 9101.58, 'Active', '2022-02-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1703, 'Loan_1703', 'Loan', '{"min_age": 25, "max_age": 70, "min_income": 24838.15, "max_income": 128791.16, "credit_score_required": 635}',
+        25, 70, 24838.15, 128791.16, 635,
+        14.66, 34.15, 'Low', 'Various benefits depending on the product.', 12,
+        TRUE, 7842.31, 'Inactive', '2022-12-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8979, 'Investment_8979', 'Investment', '{"min_age": 19, "max_age": 69, "min_income": 34904.33, "max_income": 140919.51, "credit_score_required": 671}',
-        19, 69, 34904.33, 140919.51, 671,
-        5.86, 350.92, 'Low', 'Various benefits depending on the product.', 46,
-        FALSE, 5295.72, 'Active', '2023-03-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1270, 'Loan_1270', 'Loan', '{"min_age": 24, "max_age": 66, "min_income": 25048.08, "max_income": 192733.0, "credit_score_required": 697}',
+        24, 66, 25048.08, 192733.0, 697,
+        11.79, 467.06, 'High', 'Various benefits depending on the product.', 54,
+        FALSE, 1818.7, 'Inactive', '2021-03-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2450, 'Credit Card_2450', 'Credit Card', '{"min_age": 22, "max_age": 67, "min_income": 37114.05, "max_income": 90857.49, "credit_score_required": 752}',
-        22, 67, 37114.05, 90857.49, 752,
-        13.18, 360.71, 'Medium', 'Various benefits depending on the product.', 50,
-        TRUE, 751.09, 'Inactive', '2021-09-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5307, 'Savings Account_5307', 'Savings Account', '{"min_age": 25, "max_age": 67, "min_income": 33280.14, "max_income": 174912.07, "credit_score_required": 684}',
+        25, 67, 33280.14, 174912.07, 684,
+        10.38, 411.71, 'Medium', 'Various benefits depending on the product.', 51,
+        FALSE, 3573.07, 'Active', '2023-03-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8991, 'Loan_8991', 'Loan', '{"min_age": 23, "max_age": 71, "min_income": 35601.85, "max_income": 97339.08, "credit_score_required": 769}',
-        23, 71, 35601.85, 97339.08, 769,
-        5.65, 473.55, 'Low', 'Various benefits depending on the product.', 21,
-        TRUE, 7029.23, 'Active', '2021-12-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (2964, 'Loan_2964', 'Loan', '{"min_age": 24, "max_age": 72, "min_income": 31385.17, "max_income": 191712.65, "credit_score_required": 727}',
+        24, 72, 31385.17, 191712.65, 727,
+        6.88, 410.99, 'High', 'Various benefits depending on the product.', 32,
+        FALSE, 4758.39, 'Inactive', '2022-04-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7087, 'Investment_7087', 'Investment', '{"min_age": 20, "max_age": 66, "min_income": 48864.77, "max_income": 82455.87, "credit_score_required": 674}',
-        20, 66, 48864.77, 82455.87, 674,
-        1.97, 70.42, 'Medium', 'Various benefits depending on the product.', 58,
-        FALSE, 6366.8, 'Active', '2023-05-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4189, 'Savings Account_4189', 'Savings Account', '{"min_age": 25, "max_age": 70, "min_income": 23514.55, "max_income": 79090.61, "credit_score_required": 677}',
+        25, 70, 23514.55, 79090.61, 677,
+        13.71, 270.29, 'Low', 'Various benefits depending on the product.', 15,
+        TRUE, 4478.44, 'Inactive', '2020-04-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8387, 'Savings Account_8387', 'Savings Account', '{"min_age": 20, "max_age": 64, "min_income": 43767.55, "max_income": 180188.59, "credit_score_required": 776}',
-        20, 64, 43767.55, 180188.59, 776,
-        12.39, 34.82, 'Medium', 'Various benefits depending on the product.', 27,
-        FALSE, 1827.62, 'Inactive', '2020-11-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1108, 'Investment_1108', 'Investment', '{"min_age": 19, "max_age": 60, "min_income": 46648.9, "max_income": 152587.29, "credit_score_required": 682}',
+        19, 60, 46648.9, 152587.29, 682,
+        12.86, 144.18, 'Low', 'Various benefits depending on the product.', 14,
+        FALSE, 8645.6, 'Active', '2022-02-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6733, 'Savings Account_6733', 'Savings Account', '{"min_age": 18, "max_age": 74, "min_income": 30891.87, "max_income": 87206.24, "credit_score_required": 683}',
-        18, 74, 30891.87, 87206.24, 683,
-        10.5, 422.49, 'High', 'Various benefits depending on the product.', 29,
-        TRUE, 19.46, 'Active', '2021-05-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1647, 'Credit Card_1647', 'Credit Card', '{"min_age": 19, "max_age": 74, "min_income": 32181.99, "max_income": 180269.07, "credit_score_required": 745}',
+        19, 74, 32181.99, 180269.07, 745,
+        2.11, 418.36, 'High', 'Various benefits depending on the product.', 41,
+        FALSE, 2003.62, 'Active', '2023-03-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7107, 'Investment_7107', 'Investment', '{"min_age": 19, "max_age": 66, "min_income": 34445.39, "max_income": 196471.99, "credit_score_required": 625}',
-        19, 66, 34445.39, 196471.99, 625,
-        8.23, 64.45, 'High', 'Various benefits depending on the product.', 16,
-        TRUE, 8012.66, 'Active', '2021-02-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7806, 'Investment_7806', 'Investment', '{"min_age": 18, "max_age": 64, "min_income": 31784.37, "max_income": 118685.64, "credit_score_required": 733}',
+        18, 64, 31784.37, 118685.64, 733,
+        9.9, 335.1, 'Medium', 'Various benefits depending on the product.', 17,
+        TRUE, 4269.26, 'Active', '2022-09-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7289, 'Credit Card_7289', 'Credit Card', '{"min_age": 19, "max_age": 74, "min_income": 36455.85, "max_income": 123829.36, "credit_score_required": 643}',
-        19, 74, 36455.85, 123829.36, 643,
-        2.98, 217.55, 'Low', 'Various benefits depending on the product.', 45,
-        FALSE, 598.44, 'Inactive', '2023-12-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9346, 'Credit Card_9346', 'Credit Card', '{"min_age": 20, "max_age": 62, "min_income": 34112.35, "max_income": 128060.56, "credit_score_required": 718}',
+        20, 62, 34112.35, 128060.56, 718,
+        14.7, 281.0, 'Medium', 'Various benefits depending on the product.', 34,
+        TRUE, 4421.0, 'Inactive', '2023-10-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9568, 'Credit Card_9568', 'Credit Card', '{"min_age": 24, "max_age": 75, "min_income": 23734.04, "max_income": 97620.54, "credit_score_required": 726}',
-        24, 75, 23734.04, 97620.54, 726,
-        6.6, 224.86, 'High', 'Various benefits depending on the product.', 14,
-        TRUE, 7304.16, 'Inactive', '2022-10-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8595, 'Loan_8595', 'Loan', '{"min_age": 25, "max_age": 65, "min_income": 45585.67, "max_income": 58980.52, "credit_score_required": 734}',
+        25, 65, 45585.67, 58980.52, 734,
+        9.45, 186.98, 'High', 'Various benefits depending on the product.', 11,
+        FALSE, 9573.58, 'Inactive', '2021-09-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8732, 'Investment_8732', 'Investment', '{"min_age": 18, "max_age": 67, "min_income": 38588.93, "max_income": 195803.58, "credit_score_required": 644}',
-        18, 67, 38588.93, 195803.58, 644,
-        14.12, 218.19, 'High', 'Various benefits depending on the product.', 45,
-        TRUE, 3132.79, 'Inactive', '2022-06-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (3230, 'Investment_3230', 'Investment', '{"min_age": 22, "max_age": 75, "min_income": 41123.42, "max_income": 84981.18, "credit_score_required": 796}',
+        22, 75, 41123.42, 84981.18, 796,
+        2.01, 391.39, 'Low', 'Various benefits depending on the product.', 32,
+        FALSE, 3197.27, 'Active', '2023-01-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2820, 'Savings Account_2820', 'Savings Account', '{"min_age": 18, "max_age": 65, "min_income": 29328.16, "max_income": 117015.18, "credit_score_required": 699}',
-        18, 65, 29328.16, 117015.18, 699,
-        9.71, 384.1, 'Low', 'Various benefits depending on the product.', 37,
-        TRUE, 2815.62, 'Inactive', '2022-04-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4530, 'Investment_4530', 'Investment', '{"min_age": 23, "max_age": 63, "min_income": 34161.8, "max_income": 197823.12, "credit_score_required": 748}',
+        23, 63, 34161.8, 197823.12, 748,
+        6.59, 321.82, 'High', 'Various benefits depending on the product.', 45,
+        FALSE, 9454.08, 'Active', '2023-03-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9122, 'Savings Account_9122', 'Savings Account', '{"min_age": 22, "max_age": 72, "min_income": 42353.77, "max_income": 197830.68, "credit_score_required": 749}',
-        22, 72, 42353.77, 197830.68, 749,
-        7.13, 248.05, 'Low', 'Various benefits depending on the product.', 29,
-        FALSE, 8411.39, 'Inactive', '2022-07-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8300, 'Loan_8300', 'Loan', '{"min_age": 18, "max_age": 65, "min_income": 40367.39, "max_income": 146190.04, "credit_score_required": 707}',
+        18, 65, 40367.39, 146190.04, 707,
+        10.51, 162.58, 'High', 'Various benefits depending on the product.', 56,
+        FALSE, 7479.38, 'Inactive', '2021-06-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3997, 'Savings Account_3997', 'Savings Account', '{"min_age": 23, "max_age": 75, "min_income": 22189.2, "max_income": 95448.55, "credit_score_required": 749}',
-        23, 75, 22189.2, 95448.55, 749,
-        12.41, 251.07, 'High', 'Various benefits depending on the product.', 51,
-        FALSE, 833.31, 'Active', '2020-08-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (7389, 'Savings Account_7389', 'Savings Account', '{"min_age": 24, "max_age": 71, "min_income": 31583.23, "max_income": 137011.86, "credit_score_required": 770}',
+        24, 71, 31583.23, 137011.86, 770,
+        2.36, 105.81, 'Medium', 'Various benefits depending on the product.', 50,
+        TRUE, 8196.42, 'Active', '2022-10-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6073, 'Investment_6073', 'Investment', '{"min_age": 25, "max_age": 75, "min_income": 46064.72, "max_income": 173953.28, "credit_score_required": 797}',
-        25, 75, 46064.72, 173953.28, 797,
-        2.15, 262.24, 'Medium', 'Various benefits depending on the product.', 53,
-        TRUE, 5844.99, 'Inactive', '2023-11-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (8317, 'Savings Account_8317', 'Savings Account', '{"min_age": 19, "max_age": 74, "min_income": 30323.7, "max_income": 72964.05, "credit_score_required": 749}',
+        19, 74, 30323.7, 72964.05, 749,
+        14.74, 79.48, 'Low', 'Various benefits depending on the product.', 26,
+        TRUE, 6629.56, 'Inactive', '2023-09-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9176, 'Loan_9176', 'Loan', '{"min_age": 19, "max_age": 73, "min_income": 21768.81, "max_income": 56002.06, "credit_score_required": 631}',
-        19, 73, 21768.81, 56002.06, 631,
-        9.27, 314.81, 'Medium', 'Various benefits depending on the product.', 46,
-        TRUE, 6543.6, 'Active', '2020-06-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (4841, 'Investment_4841', 'Investment', '{"min_age": 23, "max_age": 66, "min_income": 26984.54, "max_income": 181640.64, "credit_score_required": 701}',
+        23, 66, 26984.54, 181640.64, 701,
+        5.33, 257.88, 'Low', 'Various benefits depending on the product.', 29,
+        TRUE, 8050.08, 'Active', '2023-05-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9221, 'Loan_9221', 'Loan', '{"min_age": 19, "max_age": 68, "min_income": 31404.34, "max_income": 53783.29, "credit_score_required": 731}',
-        19, 68, 31404.34, 53783.29, 731,
-        5.63, 89.88, 'High', 'Various benefits depending on the product.', 23,
-        TRUE, 7887.06, 'Active', '2022-05-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (5967, 'Loan_5967', 'Loan', '{"min_age": 18, "max_age": 65, "min_income": 22822.48, "max_income": 55334.23, "credit_score_required": 660}',
+        18, 65, 22822.48, 55334.23, 660,
+        3.5, 209.37, 'Low', 'Various benefits depending on the product.', 42,
+        TRUE, 4133.71, 'Active', '2021-10-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5647, 'Savings Account_5647', 'Savings Account', '{"min_age": 21, "max_age": 62, "min_income": 47550.31, "max_income": 51523.58, "credit_score_required": 688}',
-        21, 62, 47550.31, 51523.58, 688,
-        10.16, 36.93, 'Low', 'Various benefits depending on the product.', 14,
-        FALSE, 6234.66, 'Active', '2022-12-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (9511, 'Credit Card_9511', 'Credit Card', '{"min_age": 23, "max_age": 73, "min_income": 42373.97, "max_income": 104541.31, "credit_score_required": 787}',
+        23, 73, 42373.97, 104541.31, 787,
+        7.56, 177.0, 'High', 'Various benefits depending on the product.', 53,
+        TRUE, 9871.29, 'Active', '2021-07-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         
         INSERT INTO products 
         (product_id, product_name, product_type, eligibility_criteria,
         min_age, max_age, min_income, max_income, credit_score_required,
         interest_rate, annual_fees, risk_level, benefits, term_length,
         renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1268, 'Savings Account_1268', 'Savings Account', '{"min_age": 23, "max_age": 74, "min_income": 47760.11, "max_income": 77869.15, "credit_score_required": 664}',
-        23, 74, 47760.11, 77869.15, 664,
-        11.89, 212.87, 'High', 'Various benefits depending on the product.', 23,
-        TRUE, 1388.83, 'Active', '2020-02-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3544, 'Loan_3544', 'Loan', '{"min_age": 18, "max_age": 68, "min_income": 33516.28, "max_income": 99142.72, "credit_score_required": 729}',
-        18, 68, 33516.28, 99142.72, 729,
-        6.6, 309.29, 'Low', 'Various benefits depending on the product.', 55,
-        FALSE, 8252.75, 'Active', '2023-04-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4975, 'Credit Card_4975', 'Credit Card', '{"min_age": 21, "max_age": 73, "min_income": 30382.64, "max_income": 89364.31, "credit_score_required": 694}',
-        21, 73, 30382.64, 89364.31, 694,
-        4.71, 385.28, 'Medium', 'Various benefits depending on the product.', 27,
-        TRUE, 3349.37, 'Active', '2020-01-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9017, 'Savings Account_9017', 'Savings Account', '{"min_age": 25, "max_age": 75, "min_income": 25510.16, "max_income": 132668.55, "credit_score_required": 675}',
-        25, 75, 25510.16, 132668.55, 675,
-        11.84, 300.27, 'High', 'Various benefits depending on the product.', 8,
-        FALSE, 2625.64, 'Active', '2023-06-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5366, 'Loan_5366', 'Loan', '{"min_age": 19, "max_age": 62, "min_income": 25056.49, "max_income": 130903.95, "credit_score_required": 716}',
-        19, 62, 25056.49, 130903.95, 716,
-        4.87, 54.67, 'Medium', 'Various benefits depending on the product.', 45,
-        FALSE, 6653.86, 'Inactive', '2022-09-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6138, 'Loan_6138', 'Loan', '{"min_age": 19, "max_age": 71, "min_income": 37736.04, "max_income": 69449.81, "credit_score_required": 639}',
-        19, 71, 37736.04, 69449.81, 639,
-        4.65, 51.91, 'Medium', 'Various benefits depending on the product.', 29,
-        TRUE, 627.72, 'Inactive', '2022-08-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4075, 'Loan_4075', 'Loan', '{"min_age": 19, "max_age": 69, "min_income": 31817.36, "max_income": 197146.62, "credit_score_required": 659}',
-        19, 69, 31817.36, 197146.62, 659,
-        3.24, 462.68, 'High', 'Various benefits depending on the product.', 37,
-        FALSE, 5737.87, 'Inactive', '2022-08-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5961, 'Credit Card_5961', 'Credit Card', '{"min_age": 24, "max_age": 71, "min_income": 41231.07, "max_income": 159847.56, "credit_score_required": 697}',
-        24, 71, 41231.07, 159847.56, 697,
-        14.75, 274.58, 'Low', 'Various benefits depending on the product.', 45,
-        TRUE, 2767.43, 'Inactive', '2021-10-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1056, 'Savings Account_1056', 'Savings Account', '{"min_age": 24, "max_age": 75, "min_income": 44474.32, "max_income": 134906.18, "credit_score_required": 775}',
-        24, 75, 44474.32, 134906.18, 775,
-        3.78, 347.76, 'High', 'Various benefits depending on the product.', 20,
-        TRUE, 6569.92, 'Inactive', '2023-12-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9350, 'Savings Account_9350', 'Savings Account', '{"min_age": 22, "max_age": 62, "min_income": 32965.42, "max_income": 150735.6, "credit_score_required": 794}',
-        22, 62, 32965.42, 150735.6, 794,
-        13.64, 411.91, 'High', 'Various benefits depending on the product.', 46,
-        TRUE, 904.85, 'Active', '2020-12-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7653, 'Credit Card_7653', 'Credit Card', '{"min_age": 21, "max_age": 65, "min_income": 44030.96, "max_income": 87844.11, "credit_score_required": 670}',
-        21, 65, 44030.96, 87844.11, 670,
-        6.99, 144.43, 'Medium', 'Various benefits depending on the product.', 58,
-        TRUE, 8429.56, 'Active', '2021-09-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4606, 'Investment_4606', 'Investment', '{"min_age": 22, "max_age": 67, "min_income": 32007.86, "max_income": 54689.84, "credit_score_required": 649}',
-        22, 67, 32007.86, 54689.84, 649,
-        11.15, 460.93, 'Medium', 'Various benefits depending on the product.', 12,
-        TRUE, 5439.31, 'Inactive', '2023-02-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7036, 'Loan_7036', 'Loan', '{"min_age": 19, "max_age": 70, "min_income": 20106.62, "max_income": 125147.33, "credit_score_required": 662}',
-        19, 70, 20106.62, 125147.33, 662,
-        3.83, 123.29, 'Medium', 'Various benefits depending on the product.', 45,
-        FALSE, 9229.72, 'Active', '2022-04-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8081, 'Credit Card_8081', 'Credit Card', '{"min_age": 19, "max_age": 64, "min_income": 26726.17, "max_income": 133547.59, "credit_score_required": 689}',
-        19, 64, 26726.17, 133547.59, 689,
-        13.13, 419.62, 'Low', 'Various benefits depending on the product.', 54,
-        FALSE, 3503.17, 'Active', '2022-07-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5521, 'Investment_5521', 'Investment', '{"min_age": 23, "max_age": 71, "min_income": 47962.78, "max_income": 172339.13, "credit_score_required": 627}',
-        23, 71, 47962.78, 172339.13, 627,
-        9.8, 127.11, 'Medium', 'Various benefits depending on the product.', 17,
-        FALSE, 4179.35, 'Active', '2023-06-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7077, 'Credit Card_7077', 'Credit Card', '{"min_age": 21, "max_age": 61, "min_income": 42975.19, "max_income": 123211.3, "credit_score_required": 777}',
-        21, 61, 42975.19, 123211.3, 777,
-        11.28, 339.92, 'Low', 'Various benefits depending on the product.', 34,
-        TRUE, 7252.49, 'Inactive', '2021-01-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9309, 'Credit Card_9309', 'Credit Card', '{"min_age": 19, "max_age": 68, "min_income": 33950.98, "max_income": 80668.39, "credit_score_required": 612}',
-        19, 68, 33950.98, 80668.39, 612,
-        3.73, 3.19, 'High', 'Various benefits depending on the product.', 36,
-        TRUE, 7160.01, 'Active', '2020-10-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3777, 'Loan_3777', 'Loan', '{"min_age": 18, "max_age": 66, "min_income": 24951.84, "max_income": 54607.07, "credit_score_required": 723}',
-        18, 66, 24951.84, 54607.07, 723,
-        1.84, 98.72, 'Low', 'Various benefits depending on the product.', 19,
-        FALSE, 3381.2, 'Active', '2022-12-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8863, 'Credit Card_8863', 'Credit Card', '{"min_age": 22, "max_age": 72, "min_income": 38880.31, "max_income": 117949.14, "credit_score_required": 680}',
-        22, 72, 38880.31, 117949.14, 680,
-        11.83, 119.09, 'Medium', 'Various benefits depending on the product.', 7,
-        TRUE, 3641.47, 'Inactive', '2021-10-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2810, 'Credit Card_2810', 'Credit Card', '{"min_age": 23, "max_age": 63, "min_income": 34011.39, "max_income": 56194.16, "credit_score_required": 780}',
-        23, 63, 34011.39, 56194.16, 780,
-        8.1, 257.84, 'High', 'Various benefits depending on the product.', 42,
-        TRUE, 7291.3, 'Active', '2023-04-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4084, 'Credit Card_4084', 'Credit Card', '{"min_age": 18, "max_age": 64, "min_income": 49479.54, "max_income": 143126.61, "credit_score_required": 683}',
-        18, 64, 49479.54, 143126.61, 683,
-        5.96, 34.51, 'High', 'Various benefits depending on the product.', 46,
-        FALSE, 4670.46, 'Active', '2022-02-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8877, 'Investment_8877', 'Investment', '{"min_age": 24, "max_age": 63, "min_income": 43950.16, "max_income": 122633.05, "credit_score_required": 624}',
-        24, 63, 43950.16, 122633.05, 624,
-        11.05, 326.26, 'Low', 'Various benefits depending on the product.', 36,
-        TRUE, 2741.42, 'Inactive', '2022-01-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4399, 'Savings Account_4399', 'Savings Account', '{"min_age": 24, "max_age": 73, "min_income": 29196.34, "max_income": 79022.05, "credit_score_required": 655}',
-        24, 73, 29196.34, 79022.05, 655,
-        6.55, 356.35, 'Medium', 'Various benefits depending on the product.', 56,
-        FALSE, 3855.68, 'Inactive', '2022-08-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7107, 'Savings Account_7107', 'Savings Account', '{"min_age": 18, "max_age": 68, "min_income": 28309.93, "max_income": 84572.75, "credit_score_required": 636}',
-        18, 68, 28309.93, 84572.75, 636,
-        14.76, 235.13, 'Low', 'Various benefits depending on the product.', 18,
-        FALSE, 4208.23, 'Active', '2020-03-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3168, 'Loan_3168', 'Loan', '{"min_age": 23, "max_age": 65, "min_income": 37896.23, "max_income": 192714.08, "credit_score_required": 654}',
-        23, 65, 37896.23, 192714.08, 654,
-        3.07, 294.14, 'High', 'Various benefits depending on the product.', 32,
-        FALSE, 1327.12, 'Active', '2022-02-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5638, 'Savings Account_5638', 'Savings Account', '{"min_age": 23, "max_age": 65, "min_income": 20330.13, "max_income": 125505.94, "credit_score_required": 641}',
-        23, 65, 20330.13, 125505.94, 641,
-        11.39, 52.33, 'Low', 'Various benefits depending on the product.', 57,
-        TRUE, 749.74, 'Inactive', '2023-12-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6479, 'Credit Card_6479', 'Credit Card', '{"min_age": 20, "max_age": 61, "min_income": 37827.23, "max_income": 82319.98, "credit_score_required": 793}',
-        20, 61, 37827.23, 82319.98, 793,
-        12.85, 251.73, 'High', 'Various benefits depending on the product.', 45,
-        FALSE, 112.47, 'Active', '2021-06-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9058, 'Loan_9058', 'Loan', '{"min_age": 22, "max_age": 65, "min_income": 28990.02, "max_income": 96766.91, "credit_score_required": 758}',
-        22, 65, 28990.02, 96766.91, 758,
-        13.08, 152.97, 'Medium', 'Various benefits depending on the product.', 32,
-        TRUE, 3903.97, 'Active', '2020-09-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8918, 'Savings Account_8918', 'Savings Account', '{"min_age": 20, "max_age": 61, "min_income": 46282.22, "max_income": 148580.73, "credit_score_required": 757}',
-        20, 61, 46282.22, 148580.73, 757,
-        2.26, 250.1, 'High', 'Various benefits depending on the product.', 49,
-        FALSE, 2904.46, 'Active', '2020-01-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9281, 'Savings Account_9281', 'Savings Account', '{"min_age": 22, "max_age": 73, "min_income": 25545.67, "max_income": 173018.12, "credit_score_required": 796}',
-        22, 73, 25545.67, 173018.12, 796,
-        2.61, 439.29, 'Medium', 'Various benefits depending on the product.', 57,
-        TRUE, 8609.36, 'Inactive', '2021-07-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2572, 'Investment_2572', 'Investment', '{"min_age": 20, "max_age": 74, "min_income": 42180.79, "max_income": 104322.78, "credit_score_required": 688}',
-        20, 74, 42180.79, 104322.78, 688,
-        12.01, 423.01, 'Medium', 'Various benefits depending on the product.', 54,
-        FALSE, 9518.5, 'Active', '2020-08-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1788, 'Investment_1788', 'Investment', '{"min_age": 19, "max_age": 61, "min_income": 21022.58, "max_income": 194592.57, "credit_score_required": 790}',
-        19, 61, 21022.58, 194592.57, 790,
-        2.44, 160.64, 'High', 'Various benefits depending on the product.', 17,
-        TRUE, 8583.54, 'Active', '2020-12-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9899, 'Savings Account_9899', 'Savings Account', '{"min_age": 22, "max_age": 64, "min_income": 38097.21, "max_income": 123654.62, "credit_score_required": 716}',
-        22, 64, 38097.21, 123654.62, 716,
-        13.49, 231.51, 'Low', 'Various benefits depending on the product.', 43,
-        FALSE, 1249.84, 'Active', '2020-09-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2264, 'Credit Card_2264', 'Credit Card', '{"min_age": 23, "max_age": 72, "min_income": 38022.34, "max_income": 98304.88, "credit_score_required": 628}',
-        23, 72, 38022.34, 98304.88, 628,
-        12.12, 356.82, 'Low', 'Various benefits depending on the product.', 30,
-        TRUE, 9647.27, 'Inactive', '2020-05-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5541, 'Investment_5541', 'Investment', '{"min_age": 18, "max_age": 75, "min_income": 49693.56, "max_income": 175964.41, "credit_score_required": 630}',
-        18, 75, 49693.56, 175964.41, 630,
-        3.8, 159.82, 'Low', 'Various benefits depending on the product.', 60,
-        TRUE, 8033.73, 'Inactive', '2021-09-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3335, 'Investment_3335', 'Investment', '{"min_age": 19, "max_age": 71, "min_income": 27119.65, "max_income": 165317.65, "credit_score_required": 764}',
-        19, 71, 27119.65, 165317.65, 764,
-        13.58, 171.48, 'Low', 'Various benefits depending on the product.', 47,
-        FALSE, 3308.99, 'Inactive', '2021-12-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6545, 'Loan_6545', 'Loan', '{"min_age": 21, "max_age": 70, "min_income": 40335.26, "max_income": 198637.63, "credit_score_required": 768}',
-        21, 70, 40335.26, 198637.63, 768,
-        8.22, 395.37, 'Low', 'Various benefits depending on the product.', 8,
-        FALSE, 3582.66, 'Active', '2021-05-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2723, 'Savings Account_2723', 'Savings Account', '{"min_age": 23, "max_age": 72, "min_income": 37028.8, "max_income": 67101.81, "credit_score_required": 669}',
-        23, 72, 37028.8, 67101.81, 669,
-        11.82, 437.1, 'Medium', 'Various benefits depending on the product.', 17,
-        TRUE, 7445.62, 'Active', '2020-03-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8152, 'Loan_8152', 'Loan', '{"min_age": 24, "max_age": 61, "min_income": 46287.14, "max_income": 159364.73, "credit_score_required": 719}',
-        24, 61, 46287.14, 159364.73, 719,
-        10.29, 416.77, 'Medium', 'Various benefits depending on the product.', 49,
-        FALSE, 3464.12, 'Inactive', '2022-01-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7406, 'Loan_7406', 'Loan', '{"min_age": 18, "max_age": 63, "min_income": 22628.7, "max_income": 184484.04, "credit_score_required": 705}',
-        18, 63, 22628.7, 184484.04, 705,
-        5.69, 481.98, 'High', 'Various benefits depending on the product.', 40,
-        TRUE, 2254.28, 'Active', '2020-08-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3124, 'Credit Card_3124', 'Credit Card', '{"min_age": 23, "max_age": 67, "min_income": 34832.95, "max_income": 80245.66, "credit_score_required": 753}',
-        23, 67, 34832.95, 80245.66, 753,
-        7.86, 200.16, 'High', 'Various benefits depending on the product.', 49,
-        FALSE, 1399.62, 'Inactive', '2022-10-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7914, 'Credit Card_7914', 'Credit Card', '{"min_age": 24, "max_age": 69, "min_income": 43360.29, "max_income": 64303.96, "credit_score_required": 754}',
-        24, 69, 43360.29, 64303.96, 754,
-        3.19, 342.27, 'Medium', 'Various benefits depending on the product.', 19,
-        FALSE, 2060.91, 'Active', '2021-02-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6298, 'Credit Card_6298', 'Credit Card', '{"min_age": 20, "max_age": 64, "min_income": 44273.36, "max_income": 137692.5, "credit_score_required": 713}',
-        20, 64, 44273.36, 137692.5, 713,
-        14.64, 380.33, 'Low', 'Various benefits depending on the product.', 15,
-        FALSE, 6931.77, 'Active', '2021-01-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6866, 'Credit Card_6866', 'Credit Card', '{"min_age": 23, "max_age": 64, "min_income": 38166.83, "max_income": 194171.61, "credit_score_required": 786}',
-        23, 64, 38166.83, 194171.61, 786,
-        10.71, 187.17, 'Low', 'Various benefits depending on the product.', 18,
-        TRUE, 3421.66, 'Inactive', '2023-01-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8142, 'Loan_8142', 'Loan', '{"min_age": 24, "max_age": 67, "min_income": 42439.71, "max_income": 95852.66, "credit_score_required": 624}',
-        24, 67, 42439.71, 95852.66, 624,
-        9.82, 166.85, 'Low', 'Various benefits depending on the product.', 24,
-        TRUE, 7468.57, 'Active', '2022-02-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5052, 'Investment_5052', 'Investment', '{"min_age": 23, "max_age": 61, "min_income": 42831.75, "max_income": 75872.7, "credit_score_required": 684}',
-        23, 61, 42831.75, 75872.7, 684,
-        1.87, 246.05, 'Medium', 'Various benefits depending on the product.', 37,
-        FALSE, 3689.52, 'Inactive', '2020-07-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2777, 'Investment_2777', 'Investment', '{"min_age": 23, "max_age": 61, "min_income": 33269.06, "max_income": 69373.41, "credit_score_required": 673}',
-        23, 61, 33269.06, 69373.41, 673,
-        8.61, 28.73, 'Medium', 'Various benefits depending on the product.', 32,
-        TRUE, 7608.68, 'Inactive', '2020-01-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1394, 'Investment_1394', 'Investment', '{"min_age": 23, "max_age": 69, "min_income": 33302.34, "max_income": 71511.86, "credit_score_required": 640}',
-        23, 69, 33302.34, 71511.86, 640,
-        10.44, 46.73, 'Low', 'Various benefits depending on the product.', 52,
-        TRUE, 9167.8, 'Active', '2021-04-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7122, 'Loan_7122', 'Loan', '{"min_age": 23, "max_age": 70, "min_income": 43737.86, "max_income": 94760.02, "credit_score_required": 643}',
-        23, 70, 43737.86, 94760.02, 643,
-        9.69, 189.88, 'Medium', 'Various benefits depending on the product.', 33,
-        TRUE, 4498.26, 'Inactive', '2022-08-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7945, 'Credit Card_7945', 'Credit Card', '{"min_age": 25, "max_age": 60, "min_income": 24374.99, "max_income": 88690.88, "credit_score_required": 623}',
-        25, 60, 24374.99, 88690.88, 623,
-        2.86, 61.63, 'Medium', 'Various benefits depending on the product.', 28,
-        FALSE, 3723.58, 'Active', '2022-03-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5698, 'Loan_5698', 'Loan', '{"min_age": 20, "max_age": 62, "min_income": 41572.42, "max_income": 89360.2, "credit_score_required": 662}',
-        20, 62, 41572.42, 89360.2, 662,
-        14.8, 497.87, 'High', 'Various benefits depending on the product.', 28,
-        FALSE, 67.78, 'Inactive', '2022-04-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3188, 'Investment_3188', 'Investment', '{"min_age": 20, "max_age": 74, "min_income": 26049.37, "max_income": 119629.14, "credit_score_required": 601}',
-        20, 74, 26049.37, 119629.14, 601,
-        14.49, 175.46, 'Medium', 'Various benefits depending on the product.', 35,
-        FALSE, 5558.68, 'Inactive', '2020-10-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3635, 'Credit Card_3635', 'Credit Card', '{"min_age": 21, "max_age": 62, "min_income": 38724.14, "max_income": 54660.65, "credit_score_required": 683}',
-        21, 62, 38724.14, 54660.65, 683,
-        14.67, 266.36, 'High', 'Various benefits depending on the product.', 22,
-        TRUE, 4366.36, 'Active', '2022-11-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9296, 'Credit Card_9296', 'Credit Card', '{"min_age": 24, "max_age": 69, "min_income": 44576.34, "max_income": 141045.04, "credit_score_required": 755}',
-        24, 69, 44576.34, 141045.04, 755,
-        9.45, 196.71, 'High', 'Various benefits depending on the product.', 49,
-        FALSE, 6938.18, 'Active', '2023-05-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2630, 'Loan_2630', 'Loan', '{"min_age": 22, "max_age": 66, "min_income": 30418.78, "max_income": 102044.27, "credit_score_required": 607}',
-        22, 66, 30418.78, 102044.27, 607,
-        11.43, 107.55, 'High', 'Various benefits depending on the product.', 43,
-        TRUE, 9637.3, 'Inactive', '2022-10-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3585, 'Credit Card_3585', 'Credit Card', '{"min_age": 25, "max_age": 70, "min_income": 29459.54, "max_income": 121805.65, "credit_score_required": 724}',
-        25, 70, 29459.54, 121805.65, 724,
-        6.36, 494.11, 'Medium', 'Various benefits depending on the product.', 39,
-        FALSE, 1312.12, 'Active', '2020-08-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1950, 'Investment_1950', 'Investment', '{"min_age": 21, "max_age": 60, "min_income": 29374.95, "max_income": 70069.54, "credit_score_required": 632}',
-        21, 60, 29374.95, 70069.54, 632,
-        13.77, 194.08, 'Low', 'Various benefits depending on the product.', 8,
-        TRUE, 9770.74, 'Active', '2021-04-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1145, 'Savings Account_1145', 'Savings Account', '{"min_age": 20, "max_age": 69, "min_income": 40006.13, "max_income": 131836.23, "credit_score_required": 714}',
-        20, 69, 40006.13, 131836.23, 714,
-        6.51, 255.81, 'High', 'Various benefits depending on the product.', 34,
-        TRUE, 1901.46, 'Inactive', '2020-01-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7926, 'Credit Card_7926', 'Credit Card', '{"min_age": 22, "max_age": 62, "min_income": 40809.33, "max_income": 50258.85, "credit_score_required": 768}',
-        22, 62, 40809.33, 50258.85, 768,
-        4.58, 360.02, 'Medium', 'Various benefits depending on the product.', 21,
-        FALSE, 4645.11, 'Inactive', '2022-08-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3658, 'Credit Card_3658', 'Credit Card', '{"min_age": 24, "max_age": 68, "min_income": 47198.51, "max_income": 136135.7, "credit_score_required": 702}',
-        24, 68, 47198.51, 136135.7, 702,
-        4.37, 382.97, 'Medium', 'Various benefits depending on the product.', 59,
-        FALSE, 3641.59, 'Inactive', '2021-09-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6493, 'Loan_6493', 'Loan', '{"min_age": 19, "max_age": 70, "min_income": 44400.86, "max_income": 171842.1, "credit_score_required": 773}',
-        19, 70, 44400.86, 171842.1, 773,
-        14.89, 159.5, 'High', 'Various benefits depending on the product.', 60,
-        TRUE, 4307.92, 'Inactive', '2023-05-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9934, 'Loan_9934', 'Loan', '{"min_age": 25, "max_age": 71, "min_income": 21550.53, "max_income": 56618.73, "credit_score_required": 692}',
-        25, 71, 21550.53, 56618.73, 692,
-        14.88, 238.29, 'Medium', 'Various benefits depending on the product.', 53,
-        FALSE, 8949.01, 'Active', '2023-01-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2910, 'Loan_2910', 'Loan', '{"min_age": 24, "max_age": 65, "min_income": 27326.44, "max_income": 124738.56, "credit_score_required": 720}',
-        24, 65, 27326.44, 124738.56, 720,
-        7.69, 403.2, 'Low', 'Various benefits depending on the product.', 58,
-        TRUE, 288.93, 'Inactive', '2023-08-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8398, 'Loan_8398', 'Loan', '{"min_age": 23, "max_age": 70, "min_income": 31079.67, "max_income": 61806.43, "credit_score_required": 757}',
-        23, 70, 31079.67, 61806.43, 757,
-        12.31, 109.99, 'Low', 'Various benefits depending on the product.', 52,
-        FALSE, 9454.03, 'Inactive', '2020-12-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7455, 'Loan_7455', 'Loan', '{"min_age": 23, "max_age": 66, "min_income": 29940.06, "max_income": 172594.02, "credit_score_required": 764}',
-        23, 66, 29940.06, 172594.02, 764,
-        14.05, 232.08, 'Low', 'Various benefits depending on the product.', 20,
-        FALSE, 7259.08, 'Inactive', '2021-04-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3277, 'Investment_3277', 'Investment', '{"min_age": 21, "max_age": 69, "min_income": 34221.74, "max_income": 106519.48, "credit_score_required": 795}',
-        21, 69, 34221.74, 106519.48, 795,
-        6.24, 252.05, 'High', 'Various benefits depending on the product.', 7,
-        FALSE, 9791.94, 'Inactive', '2020-11-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9500, 'Loan_9500', 'Loan', '{"min_age": 24, "max_age": 62, "min_income": 41594.11, "max_income": 57382.61, "credit_score_required": 622}',
-        24, 62, 41594.11, 57382.61, 622,
-        6.55, 151.75, 'Medium', 'Various benefits depending on the product.', 8,
-        TRUE, 7427.97, 'Inactive', '2020-12-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1660, 'Loan_1660', 'Loan', '{"min_age": 20, "max_age": 69, "min_income": 41768.44, "max_income": 150037.03, "credit_score_required": 750}',
-        20, 69, 41768.44, 150037.03, 750,
-        13.06, 448.86, 'Medium', 'Various benefits depending on the product.', 29,
-        TRUE, 8029.86, 'Active', '2020-03-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2944, 'Savings Account_2944', 'Savings Account', '{"min_age": 21, "max_age": 68, "min_income": 22633.86, "max_income": 66069.88, "credit_score_required": 666}',
-        21, 68, 22633.86, 66069.88, 666,
-        5.78, 162.11, 'Low', 'Various benefits depending on the product.', 42,
-        FALSE, 1865.98, 'Inactive', '2023-01-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7611, 'Loan_7611', 'Loan', '{"min_age": 20, "max_age": 67, "min_income": 23725.34, "max_income": 136873.87, "credit_score_required": 710}',
-        20, 67, 23725.34, 136873.87, 710,
-        8.98, 238.44, 'Low', 'Various benefits depending on the product.', 52,
-        FALSE, 7411.24, 'Inactive', '2022-06-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4248, 'Investment_4248', 'Investment', '{"min_age": 23, "max_age": 61, "min_income": 35327.06, "max_income": 105791.09, "credit_score_required": 747}',
-        23, 61, 35327.06, 105791.09, 747,
-        3.31, 49.58, 'Low', 'Various benefits depending on the product.', 34,
-        TRUE, 7027.9, 'Active', '2021-08-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7753, 'Investment_7753', 'Investment', '{"min_age": 25, "max_age": 72, "min_income": 30800.46, "max_income": 95112.24, "credit_score_required": 668}',
-        25, 72, 30800.46, 95112.24, 668,
-        6.8, 16.0, 'Medium', 'Various benefits depending on the product.', 56,
-        TRUE, 5271.65, 'Active', '2021-06-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2861, 'Savings Account_2861', 'Savings Account', '{"min_age": 24, "max_age": 63, "min_income": 35869.2, "max_income": 143414.36, "credit_score_required": 724}',
-        24, 63, 35869.2, 143414.36, 724,
-        10.21, 65.18, 'Low', 'Various benefits depending on the product.', 17,
-        FALSE, 332.2, 'Active', '2023-08-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7860, 'Credit Card_7860', 'Credit Card', '{"min_age": 22, "max_age": 61, "min_income": 40628.6, "max_income": 125114.98, "credit_score_required": 640}',
-        22, 61, 40628.6, 125114.98, 640,
-        1.56, 187.0, 'Medium', 'Various benefits depending on the product.', 35,
-        TRUE, 2367.56, 'Inactive', '2023-05-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8454, 'Investment_8454', 'Investment', '{"min_age": 20, "max_age": 75, "min_income": 32449.65, "max_income": 191526.55, "credit_score_required": 675}',
-        20, 75, 32449.65, 191526.55, 675,
-        7.59, 424.12, 'Low', 'Various benefits depending on the product.', 34,
-        FALSE, 2420.13, 'Active', '2022-04-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3918, 'Credit Card_3918', 'Credit Card', '{"min_age": 23, "max_age": 73, "min_income": 33244.0, "max_income": 132671.66, "credit_score_required": 733}',
-        23, 73, 33244.0, 132671.66, 733,
-        12.03, 255.02, 'High', 'Various benefits depending on the product.', 24,
-        FALSE, 1002.56, 'Inactive', '2021-07-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9966, 'Credit Card_9966', 'Credit Card', '{"min_age": 18, "max_age": 60, "min_income": 36046.36, "max_income": 191919.29, "credit_score_required": 788}',
-        18, 60, 36046.36, 191919.29, 788,
-        8.75, 20.79, 'Low', 'Various benefits depending on the product.', 20,
-        FALSE, 77.28, 'Active', '2020-05-05', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6974, 'Loan_6974', 'Loan', '{"min_age": 25, "max_age": 75, "min_income": 48369.54, "max_income": 64258.61, "credit_score_required": 689}',
-        25, 75, 48369.54, 64258.61, 689,
-        3.58, 140.05, 'High', 'Various benefits depending on the product.', 39,
-        TRUE, 4191.54, 'Active', '2023-10-08', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8192, 'Investment_8192', 'Investment', '{"min_age": 21, "max_age": 61, "min_income": 39275.67, "max_income": 72434.48, "credit_score_required": 607}',
-        21, 61, 39275.67, 72434.48, 607,
-        6.72, 6.31, 'Low', 'Various benefits depending on the product.', 45,
-        FALSE, 440.54, 'Active', '2022-11-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2056, 'Savings Account_2056', 'Savings Account', '{"min_age": 25, "max_age": 74, "min_income": 45290.35, "max_income": 133173.95, "credit_score_required": 616}',
-        25, 74, 45290.35, 133173.95, 616,
-        5.22, 110.7, 'Medium', 'Various benefits depending on the product.', 41,
-        TRUE, 4001.16, 'Inactive', '2022-02-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6741, 'Savings Account_6741', 'Savings Account', '{"min_age": 19, "max_age": 65, "min_income": 26686.37, "max_income": 156661.8, "credit_score_required": 613}',
-        19, 65, 26686.37, 156661.8, 613,
-        11.35, 336.67, 'Low', 'Various benefits depending on the product.', 44,
-        TRUE, 5792.61, 'Active', '2022-09-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2882, 'Savings Account_2882', 'Savings Account', '{"min_age": 18, "max_age": 71, "min_income": 36152.56, "max_income": 113172.23, "credit_score_required": 681}',
-        18, 71, 36152.56, 113172.23, 681,
-        1.62, 472.35, 'Low', 'Various benefits depending on the product.', 32,
-        TRUE, 4667.72, 'Active', '2020-01-25', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1216, 'Credit Card_1216', 'Credit Card', '{"min_age": 24, "max_age": 74, "min_income": 32681.56, "max_income": 192595.15, "credit_score_required": 643}',
-        24, 74, 32681.56, 192595.15, 643,
-        7.92, 444.8, 'Medium', 'Various benefits depending on the product.', 11,
-        TRUE, 7744.89, 'Active', '2020-05-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9579, 'Investment_9579', 'Investment', '{"min_age": 22, "max_age": 64, "min_income": 45282.26, "max_income": 183623.2, "credit_score_required": 602}',
-        22, 64, 45282.26, 183623.2, 602,
-        2.2, 102.5, 'Low', 'Various benefits depending on the product.', 45,
-        FALSE, 4639.65, 'Inactive', '2020-06-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9524, 'Credit Card_9524', 'Credit Card', '{"min_age": 19, "max_age": 65, "min_income": 45338.2, "max_income": 136164.43, "credit_score_required": 721}',
-        19, 65, 45338.2, 136164.43, 721,
-        14.05, 312.19, 'Medium', 'Various benefits depending on the product.', 22,
-        FALSE, 165.77, 'Active', '2022-04-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7028, 'Savings Account_7028', 'Savings Account', '{"min_age": 19, "max_age": 64, "min_income": 28063.96, "max_income": 151736.32, "credit_score_required": 738}',
-        19, 64, 28063.96, 151736.32, 738,
-        6.27, 15.85, 'High', 'Various benefits depending on the product.', 44,
-        FALSE, 8692.98, 'Active', '2023-09-02', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9364, 'Investment_9364', 'Investment', '{"min_age": 20, "max_age": 69, "min_income": 34894.97, "max_income": 193211.9, "credit_score_required": 753}',
-        20, 69, 34894.97, 193211.9, 753,
-        7.6, 65.8, 'Low', 'Various benefits depending on the product.', 30,
-        TRUE, 4715.14, 'Inactive', '2021-10-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8747, 'Investment_8747', 'Investment', '{"min_age": 22, "max_age": 74, "min_income": 45333.59, "max_income": 104064.21, "credit_score_required": 763}',
-        22, 74, 45333.59, 104064.21, 763,
-        14.43, 27.53, 'Low', 'Various benefits depending on the product.', 58,
-        TRUE, 1767.45, 'Inactive', '2023-07-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7525, 'Investment_7525', 'Investment', '{"min_age": 22, "max_age": 63, "min_income": 36526.35, "max_income": 152632.74, "credit_score_required": 755}',
-        22, 63, 36526.35, 152632.74, 755,
-        14.92, 324.55, 'Medium', 'Various benefits depending on the product.', 44,
-        TRUE, 8113.37, 'Active', '2022-04-20', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9139, 'Savings Account_9139', 'Savings Account', '{"min_age": 20, "max_age": 65, "min_income": 39747.71, "max_income": 139260.78, "credit_score_required": 672}',
-        20, 65, 39747.71, 139260.78, 672,
-        8.93, 301.72, 'High', 'Various benefits depending on the product.', 29,
-        TRUE, 7081.04, 'Inactive', '2021-07-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9401, 'Credit Card_9401', 'Credit Card', '{"min_age": 19, "max_age": 74, "min_income": 41651.73, "max_income": 152975.17, "credit_score_required": 769}',
-        19, 74, 41651.73, 152975.17, 769,
-        2.47, 419.89, 'Low', 'Various benefits depending on the product.', 52,
-        TRUE, 5653.34, 'Inactive', '2021-06-10', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8425, 'Credit Card_8425', 'Credit Card', '{"min_age": 23, "max_age": 70, "min_income": 37009.42, "max_income": 94701.71, "credit_score_required": 770}',
-        23, 70, 37009.42, 94701.71, 770,
-        5.56, 314.59, 'Low', 'Various benefits depending on the product.', 31,
-        TRUE, 7114.65, 'Active', '2021-08-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3059, 'Savings Account_3059', 'Savings Account', '{"min_age": 21, "max_age": 69, "min_income": 29599.23, "max_income": 131033.35, "credit_score_required": 792}',
-        21, 69, 29599.23, 131033.35, 792,
-        9.7, 135.61, 'Low', 'Various benefits depending on the product.', 32,
-        TRUE, 4639.74, 'Active', '2022-10-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8942, 'Loan_8942', 'Loan', '{"min_age": 24, "max_age": 70, "min_income": 35042.09, "max_income": 130698.59, "credit_score_required": 627}',
-        24, 70, 35042.09, 130698.59, 627,
-        4.58, 47.63, 'Low', 'Various benefits depending on the product.', 55,
-        TRUE, 4978.94, 'Inactive', '2022-12-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1855, 'Savings Account_1855', 'Savings Account', '{"min_age": 22, "max_age": 75, "min_income": 34780.21, "max_income": 167149.9, "credit_score_required": 787}',
-        22, 75, 34780.21, 167149.9, 787,
-        5.96, 55.92, 'High', 'Various benefits depending on the product.', 7,
-        TRUE, 9443.55, 'Active', '2022-10-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8258, 'Savings Account_8258', 'Savings Account', '{"min_age": 22, "max_age": 68, "min_income": 28405.12, "max_income": 85279.59, "credit_score_required": 610}',
-        22, 68, 28405.12, 85279.59, 610,
-        6.65, 382.91, 'Low', 'Various benefits depending on the product.', 34,
-        TRUE, 6087.9, 'Inactive', '2023-06-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8847, 'Savings Account_8847', 'Savings Account', '{"min_age": 23, "max_age": 65, "min_income": 36975.39, "max_income": 144960.24, "credit_score_required": 768}',
-        23, 65, 36975.39, 144960.24, 768,
-        10.85, 31.18, 'High', 'Various benefits depending on the product.', 19,
-        FALSE, 4953.84, 'Inactive', '2023-06-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6305, 'Credit Card_6305', 'Credit Card', '{"min_age": 23, "max_age": 75, "min_income": 41646.36, "max_income": 188071.74, "credit_score_required": 666}',
-        23, 75, 41646.36, 188071.74, 666,
-        8.74, 190.93, 'Low', 'Various benefits depending on the product.', 35,
-        FALSE, 5458.15, 'Active', '2020-10-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1007, 'Credit Card_1007', 'Credit Card', '{"min_age": 21, "max_age": 75, "min_income": 23030.06, "max_income": 61467.1, "credit_score_required": 782}',
-        21, 75, 23030.06, 61467.1, 782,
-        11.65, 348.83, 'High', 'Various benefits depending on the product.', 31,
-        TRUE, 4122.29, 'Inactive', '2022-03-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9096, 'Credit Card_9096', 'Credit Card', '{"min_age": 22, "max_age": 67, "min_income": 33212.17, "max_income": 77514.71, "credit_score_required": 695}',
-        22, 67, 33212.17, 77514.71, 695,
-        8.84, 300.73, 'High', 'Various benefits depending on the product.', 59,
-        FALSE, 493.32, 'Active', '2020-12-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6463, 'Investment_6463', 'Investment', '{"min_age": 19, "max_age": 62, "min_income": 27641.97, "max_income": 187025.49, "credit_score_required": 678}',
-        19, 62, 27641.97, 187025.49, 678,
-        5.77, 323.9, 'Medium', 'Various benefits depending on the product.', 9,
-        TRUE, 3786.66, 'Inactive', '2022-03-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7210, 'Credit Card_7210', 'Credit Card', '{"min_age": 24, "max_age": 61, "min_income": 46190.08, "max_income": 124618.7, "credit_score_required": 711}',
-        24, 61, 46190.08, 124618.7, 711,
-        4.61, 134.43, 'Medium', 'Various benefits depending on the product.', 24,
-        TRUE, 2690.82, 'Inactive', '2023-04-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5351, 'Investment_5351', 'Investment', '{"min_age": 19, "max_age": 66, "min_income": 20915.69, "max_income": 80457.77, "credit_score_required": 649}',
-        19, 66, 20915.69, 80457.77, 649,
-        2.8, 327.19, 'High', 'Various benefits depending on the product.', 24,
-        TRUE, 7477.71, 'Active', '2023-09-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7921, 'Investment_7921', 'Investment', '{"min_age": 25, "max_age": 75, "min_income": 20322.45, "max_income": 170419.85, "credit_score_required": 710}',
-        25, 75, 20322.45, 170419.85, 710,
-        11.35, 405.64, 'High', 'Various benefits depending on the product.', 25,
-        FALSE, 3545.33, 'Active', '2021-10-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2581, 'Investment_2581', 'Investment', '{"min_age": 19, "max_age": 71, "min_income": 39776.89, "max_income": 166889.92, "credit_score_required": 681}',
-        19, 71, 39776.89, 166889.92, 681,
-        14.26, 4.17, 'High', 'Various benefits depending on the product.', 9,
-        TRUE, 8777.09, 'Inactive', '2023-04-06', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3866, 'Credit Card_3866', 'Credit Card', '{"min_age": 18, "max_age": 74, "min_income": 48869.57, "max_income": 92900.48, "credit_score_required": 623}',
-        18, 74, 48869.57, 92900.48, 623,
-        9.83, 315.52, 'Medium', 'Various benefits depending on the product.', 35,
-        TRUE, 8637.81, 'Inactive', '2022-03-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5347, 'Loan_5347', 'Loan', '{"min_age": 24, "max_age": 75, "min_income": 22599.45, "max_income": 176152.01, "credit_score_required": 666}',
-        24, 75, 22599.45, 176152.01, 666,
-        6.82, 483.43, 'High', 'Various benefits depending on the product.', 57,
-        FALSE, 4664.77, 'Active', '2022-04-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9650, 'Investment_9650', 'Investment', '{"min_age": 24, "max_age": 65, "min_income": 37981.69, "max_income": 96668.12, "credit_score_required": 784}',
-        24, 65, 37981.69, 96668.12, 784,
-        10.32, 386.77, 'Medium', 'Various benefits depending on the product.', 34,
-        FALSE, 1709.34, 'Inactive', '2022-10-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6397, 'Savings Account_6397', 'Savings Account', '{"min_age": 21, "max_age": 66, "min_income": 21814.79, "max_income": 173998.41, "credit_score_required": 766}',
-        21, 66, 21814.79, 173998.41, 766,
-        10.46, 233.79, 'Medium', 'Various benefits depending on the product.', 39,
-        FALSE, 5322.33, 'Inactive', '2022-08-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7546, 'Investment_7546', 'Investment', '{"min_age": 21, "max_age": 74, "min_income": 31929.24, "max_income": 152063.03, "credit_score_required": 715}',
-        21, 74, 31929.24, 152063.03, 715,
-        4.35, 49.37, 'Medium', 'Various benefits depending on the product.', 7,
-        TRUE, 4214.66, 'Inactive', '2021-09-13', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2474, 'Loan_2474', 'Loan', '{"min_age": 19, "max_age": 74, "min_income": 46074.1, "max_income": 50149.07, "credit_score_required": 779}',
-        19, 74, 46074.1, 50149.07, 779,
-        6.65, 319.73, 'Medium', 'Various benefits depending on the product.', 46,
-        FALSE, 740.33, 'Inactive', '2022-11-14', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4452, 'Savings Account_4452', 'Savings Account', '{"min_age": 22, "max_age": 66, "min_income": 36133.06, "max_income": 144580.9, "credit_score_required": 717}',
-        22, 66, 36133.06, 144580.9, 717,
-        9.85, 274.63, 'High', 'Various benefits depending on the product.', 46,
-        TRUE, 1222.58, 'Inactive', '2020-10-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2400, 'Loan_2400', 'Loan', '{"min_age": 23, "max_age": 65, "min_income": 35043.59, "max_income": 88420.47, "credit_score_required": 634}',
-        23, 65, 35043.59, 88420.47, 634,
-        14.46, 367.11, 'Medium', 'Various benefits depending on the product.', 47,
-        TRUE, 8702.32, 'Active', '2022-08-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1621, 'Savings Account_1621', 'Savings Account', '{"min_age": 22, "max_age": 71, "min_income": 42252.94, "max_income": 72021.58, "credit_score_required": 697}',
-        22, 71, 42252.94, 72021.58, 697,
-        3.3, 66.57, 'Low', 'Various benefits depending on the product.', 8,
-        TRUE, 326.46, 'Active', '2020-12-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7158, 'Savings Account_7158', 'Savings Account', '{"min_age": 24, "max_age": 64, "min_income": 35341.53, "max_income": 136394.78, "credit_score_required": 640}',
-        24, 64, 35341.53, 136394.78, 640,
-        6.98, 499.89, 'Low', 'Various benefits depending on the product.', 50,
-        TRUE, 6706.35, 'Active', '2020-10-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3083, 'Loan_3083', 'Loan', '{"min_age": 20, "max_age": 74, "min_income": 31546.98, "max_income": 70632.17, "credit_score_required": 724}',
-        20, 74, 31546.98, 70632.17, 724,
-        3.18, 289.07, 'Low', 'Various benefits depending on the product.', 51,
-        TRUE, 4342.59, 'Inactive', '2021-10-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3124, 'Loan_3124', 'Loan', '{"min_age": 25, "max_age": 66, "min_income": 40294.04, "max_income": 65693.7, "credit_score_required": 687}',
-        25, 66, 40294.04, 65693.7, 687,
-        7.43, 414.91, 'Low', 'Various benefits depending on the product.', 17,
-        TRUE, 8503.92, 'Inactive', '2023-08-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8215, 'Investment_8215', 'Investment', '{"min_age": 24, "max_age": 68, "min_income": 22382.24, "max_income": 139982.87, "credit_score_required": 729}',
-        24, 68, 22382.24, 139982.87, 729,
-        14.95, 442.6, 'High', 'Various benefits depending on the product.', 55,
-        FALSE, 9114.71, 'Inactive', '2023-12-23', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5777, 'Loan_5777', 'Loan', '{"min_age": 19, "max_age": 70, "min_income": 24058.01, "max_income": 69966.85, "credit_score_required": 800}',
-        19, 70, 24058.01, 69966.85, 800,
-        9.14, 30.07, 'Low', 'Various benefits depending on the product.', 25,
-        FALSE, 2668.46, 'Inactive', '2023-02-03', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1015, 'Credit Card_1015', 'Credit Card', '{"min_age": 23, "max_age": 61, "min_income": 32267.38, "max_income": 58751.68, "credit_score_required": 642}',
-        23, 61, 32267.38, 58751.68, 642,
-        8.64, 462.35, 'High', 'Various benefits depending on the product.', 47,
-        TRUE, 800.58, 'Active', '2020-07-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1281, 'Investment_1281', 'Investment', '{"min_age": 24, "max_age": 60, "min_income": 30262.56, "max_income": 124622.18, "credit_score_required": 768}',
-        24, 60, 30262.56, 124622.18, 768,
-        3.76, 360.93, 'High', 'Various benefits depending on the product.', 33,
-        TRUE, 3969.86, 'Active', '2020-05-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3566, 'Credit Card_3566', 'Credit Card', '{"min_age": 24, "max_age": 73, "min_income": 36628.38, "max_income": 109462.97, "credit_score_required": 736}',
-        24, 73, 36628.38, 109462.97, 736,
-        12.44, 248.56, 'High', 'Various benefits depending on the product.', 41,
-        FALSE, 9228.31, 'Inactive', '2022-08-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (6522, 'Credit Card_6522', 'Credit Card', '{"min_age": 22, "max_age": 62, "min_income": 35128.62, "max_income": 156169.08, "credit_score_required": 683}',
-        22, 62, 35128.62, 156169.08, 683,
-        7.51, 481.14, 'Low', 'Various benefits depending on the product.', 14,
-        FALSE, 1809.66, 'Active', '2021-04-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4223, 'Investment_4223', 'Investment', '{"min_age": 18, "max_age": 63, "min_income": 26902.98, "max_income": 143160.38, "credit_score_required": 745}',
-        18, 63, 26902.98, 143160.38, 745,
-        7.84, 469.84, 'Low', 'Various benefits depending on the product.', 22,
-        FALSE, 4939.06, 'Inactive', '2023-01-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4884, 'Loan_4884', 'Loan', '{"min_age": 23, "max_age": 75, "min_income": 23064.24, "max_income": 141166.43, "credit_score_required": 759}',
-        23, 75, 23064.24, 141166.43, 759,
-        3.31, 5.24, 'Low', 'Various benefits depending on the product.', 35,
-        FALSE, 3854.75, 'Active', '2021-01-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1886, 'Savings Account_1886', 'Savings Account', '{"min_age": 18, "max_age": 65, "min_income": 27762.72, "max_income": 65910.03, "credit_score_required": 626}',
-        18, 65, 27762.72, 65910.03, 626,
-        10.62, 122.23, 'Medium', 'Various benefits depending on the product.', 13,
-        TRUE, 9988.0, 'Inactive', '2023-06-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3501, 'Loan_3501', 'Loan', '{"min_age": 20, "max_age": 75, "min_income": 22261.07, "max_income": 78437.03, "credit_score_required": 689}',
-        20, 75, 22261.07, 78437.03, 689,
-        8.26, 223.58, 'Medium', 'Various benefits depending on the product.', 31,
-        FALSE, 6501.01, 'Inactive', '2022-11-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5895, 'Credit Card_5895', 'Credit Card', '{"min_age": 23, "max_age": 68, "min_income": 39711.34, "max_income": 140337.05, "credit_score_required": 707}',
-        23, 68, 39711.34, 140337.05, 707,
-        10.23, 439.11, 'High', 'Various benefits depending on the product.', 40,
-        FALSE, 4519.55, 'Active', '2020-08-28', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4135, 'Credit Card_4135', 'Credit Card', '{"min_age": 20, "max_age": 60, "min_income": 36854.58, "max_income": 158385.01, "credit_score_required": 645}',
-        20, 60, 36854.58, 158385.01, 645,
-        7.5, 454.04, 'Medium', 'Various benefits depending on the product.', 16,
-        FALSE, 2949.81, 'Inactive', '2021-02-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8464, 'Loan_8464', 'Loan', '{"min_age": 23, "max_age": 60, "min_income": 32964.71, "max_income": 127543.9, "credit_score_required": 779}',
-        23, 60, 32964.71, 127543.9, 779,
-        12.29, 232.5, 'Medium', 'Various benefits depending on the product.', 43,
-        FALSE, 3965.13, 'Inactive', '2020-11-15', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (1421, 'Investment_1421', 'Investment', '{"min_age": 21, "max_age": 68, "min_income": 21665.35, "max_income": 78169.93, "credit_score_required": 797}',
-        21, 68, 21665.35, 78169.93, 797,
-        7.71, 328.45, 'High', 'Various benefits depending on the product.', 51,
-        FALSE, 3636.68, 'Active', '2020-05-09', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9308, 'Savings Account_9308', 'Savings Account', '{"min_age": 23, "max_age": 68, "min_income": 20779.43, "max_income": 131645.37, "credit_score_required": 684}',
-        23, 68, 20779.43, 131645.37, 684,
-        2.87, 204.47, 'Low', 'Various benefits depending on the product.', 19,
-        TRUE, 7443.01, 'Inactive', '2020-07-19', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5876, 'Investment_5876', 'Investment', '{"min_age": 23, "max_age": 61, "min_income": 29163.49, "max_income": 136815.31, "credit_score_required": 712}',
-        23, 61, 29163.49, 136815.31, 712,
-        6.02, 355.04, 'Medium', 'Various benefits depending on the product.', 13,
-        TRUE, 6480.17, 'Inactive', '2020-11-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8101, 'Credit Card_8101', 'Credit Card', '{"min_age": 19, "max_age": 74, "min_income": 31220.56, "max_income": 163048.6, "credit_score_required": 783}',
-        19, 74, 31220.56, 163048.6, 783,
-        10.86, 407.34, 'Low', 'Various benefits depending on the product.', 9,
-        FALSE, 867.78, 'Inactive', '2023-09-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4631, 'Savings Account_4631', 'Savings Account', '{"min_age": 21, "max_age": 69, "min_income": 30637.02, "max_income": 82475.93, "credit_score_required": 673}',
-        21, 69, 30637.02, 82475.93, 673,
-        7.94, 401.37, 'Low', 'Various benefits depending on the product.', 19,
-        TRUE, 2470.95, 'Active', '2023-03-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4184, 'Credit Card_4184', 'Credit Card', '{"min_age": 18, "max_age": 67, "min_income": 44387.11, "max_income": 118714.46, "credit_score_required": 798}',
-        18, 67, 44387.11, 118714.46, 798,
-        13.5, 130.8, 'Medium', 'Various benefits depending on the product.', 33,
-        TRUE, 4893.76, 'Inactive', '2023-09-21', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7625, 'Loan_7625', 'Loan', '{"min_age": 21, "max_age": 75, "min_income": 21697.9, "max_income": 81318.19, "credit_score_required": 601}',
-        21, 75, 21697.9, 81318.19, 601,
-        4.99, 216.87, 'Medium', 'Various benefits depending on the product.', 60,
-        TRUE, 3583.1, 'Inactive', '2022-05-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5885, 'Savings Account_5885', 'Savings Account', '{"min_age": 21, "max_age": 61, "min_income": 21236.11, "max_income": 187543.22, "credit_score_required": 682}',
-        21, 61, 21236.11, 187543.22, 682,
-        1.98, 364.22, 'Medium', 'Various benefits depending on the product.', 22,
-        FALSE, 8765.73, 'Active', '2022-10-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7986, 'Credit Card_7986', 'Credit Card', '{"min_age": 25, "max_age": 70, "min_income": 25875.5, "max_income": 194082.52, "credit_score_required": 772}',
-        25, 70, 25875.5, 194082.52, 772,
-        3.32, 151.93, 'High', 'Various benefits depending on the product.', 22,
-        TRUE, 1799.43, 'Active', '2021-08-22', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8325, 'Loan_8325', 'Loan', '{"min_age": 24, "max_age": 72, "min_income": 39034.46, "max_income": 67713.85, "credit_score_required": 633}',
-        24, 72, 39034.46, 67713.85, 633,
-        6.52, 25.07, 'High', 'Various benefits depending on the product.', 43,
-        FALSE, 4813.11, 'Active', '2020-07-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4989, 'Loan_4989', 'Loan', '{"min_age": 21, "max_age": 60, "min_income": 28622.17, "max_income": 63742.28, "credit_score_required": 675}',
-        21, 60, 28622.17, 63742.28, 675,
-        7.84, 151.39, 'High', 'Various benefits depending on the product.', 42,
-        FALSE, 5374.18, 'Active', '2020-07-24', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (8461, 'Credit Card_8461', 'Credit Card', '{"min_age": 19, "max_age": 60, "min_income": 37502.23, "max_income": 88253.01, "credit_score_required": 715}',
-        19, 60, 37502.23, 88253.01, 715,
-        6.35, 71.39, 'Medium', 'Various benefits depending on the product.', 49,
-        FALSE, 2132.92, 'Active', '2023-05-04', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9914, 'Loan_9914', 'Loan', '{"min_age": 21, "max_age": 70, "min_income": 40300.94, "max_income": 189129.13, "credit_score_required": 642}',
-        21, 70, 40300.94, 189129.13, 642,
-        12.63, 472.45, 'Medium', 'Various benefits depending on the product.', 19,
-        TRUE, 7871.45, 'Active', '2022-12-16', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4164, 'Credit Card_4164', 'Credit Card', '{"min_age": 24, "max_age": 75, "min_income": 32605.58, "max_income": 65055.65, "credit_score_required": 639}',
-        24, 75, 32605.58, 65055.65, 639,
-        3.04, 142.8, 'High', 'Various benefits depending on the product.', 36,
-        TRUE, 1952.21, 'Active', '2020-12-27', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (2600, 'Investment_2600', 'Investment', '{"min_age": 18, "max_age": 75, "min_income": 41142.62, "max_income": 59671.24, "credit_score_required": 780}',
-        18, 75, 41142.62, 59671.24, 780,
-        10.79, 82.89, 'Medium', 'Various benefits depending on the product.', 6,
-        FALSE, 7869.25, 'Inactive', '2023-11-11', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4875, 'Loan_4875', 'Loan', '{"min_age": 19, "max_age": 68, "min_income": 40317.02, "max_income": 188679.02, "credit_score_required": 691}',
-        19, 68, 40317.02, 188679.02, 691,
-        10.68, 391.37, 'Low', 'Various benefits depending on the product.', 8,
-        FALSE, 7584.59, 'Inactive', '2021-08-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (5161, 'Loan_5161', 'Loan', '{"min_age": 20, "max_age": 74, "min_income": 23427.77, "max_income": 185545.63, "credit_score_required": 734}',
-        20, 74, 23427.77, 185545.63, 734,
-        7.69, 499.19, 'High', 'Various benefits depending on the product.', 49,
-        FALSE, 6665.26, 'Active', '2023-03-17', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (4615, 'Savings Account_4615', 'Savings Account', '{"min_age": 22, "max_age": 62, "min_income": 48904.97, "max_income": 77871.05, "credit_score_required": 735}',
-        22, 62, 48904.97, 77871.05, 735,
-        10.85, 4.98, 'High', 'Various benefits depending on the product.', 32,
-        FALSE, 9920.24, 'Active', '2023-04-01', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (9024, 'Investment_9024', 'Investment', '{"min_age": 21, "max_age": 63, "min_income": 31218.55, "max_income": 139086.89, "credit_score_required": 666}',
-        21, 63, 31218.55, 139086.89, 666,
-        8.72, 228.6, 'Low', 'Various benefits depending on the product.', 34,
-        TRUE, 1651.94, 'Active', '2021-07-18', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (7299, 'Loan_7299', 'Loan', '{"min_age": 24, "max_age": 75, "min_income": 39213.32, "max_income": 159810.72, "credit_score_required": 739}',
-        24, 75, 39213.32, 159810.72, 739,
-        5.8, 182.69, 'High', 'Various benefits depending on the product.', 13,
-        FALSE, 5645.13, 'Active', '2022-06-26', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
-        
-        INSERT INTO products 
-        (product_id, product_name, product_type, eligibility_criteria,
-        min_age, max_age, min_income, max_income, credit_score_required,
-        interest_rate, annual_fees, risk_level, benefits, term_length,
-        renewable, reward_points, product_status, launch_date, cluster, score, channels) VALUES
-        (3151, 'Savings Account_3151', 'Savings Account', '{"min_age": 25, "max_age": 68, "min_income": 43454.15, "max_income": 117364.57, "credit_score_required": 696}',
-        25, 68, 43454.15, 117364.57, 696,
-        1.61, 331.28, 'High', 'Various benefits depending on the product.', 40,
-        FALSE, 1146.91, 'Active', '2020-08-07', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
+        (1920, 'Savings Account_1920', 'Savings Account', '{"min_age": 18, "max_age": 72, "min_income": 47538.8, "max_income": 93487.94, "credit_score_required": 759}',
+        18, 72, 47538.8, 93487.94, 759,
+        9.61, 49.76, 'Low', 'Various benefits depending on the product.', 53,
+        FALSE, 8318.24, 'Active', '2020-05-12', NULL, NULL,ARRAY['Online','Branch','Mobile App']);
         

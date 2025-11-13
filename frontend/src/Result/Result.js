@@ -17,11 +17,13 @@ function Result () {
     const selectedId = location.state?.selectedId || [];
     const [selectedCluster, setSelectedCluster] = useState(0);
     const [error, setError] = useState(null);
+    const [matchDone, setMatchDone] = useState(false);
 
     useEffect(() => {
         const fetchData = async () => {
             try{
                 await matchProduct();
+                setMatchDone(true);
             }catch(err){
                 setError(err.message);
             }
@@ -32,16 +34,22 @@ function Result () {
 
     if (error) return <h1>Error: {error}</h1>;
 
-
     return (
         <div className="Result">
             <ResultIntro />
             <Manage hideRunClustering={true} />
             <Overall ClusterData={clusterData}/>
             <ClusterButton setSelectedCluster={setSelectedCluster}/>
-            <ClusterInsight ClusterData={clusterData} SelectedCluster={selectedCluster}/>
-            <Product ClusterData={clusterData} SelectedCluster={selectedCluster}/>
-            <Assignment SelectedCluster={selectedCluster} SelectedId={selectedId}/>
+            <ClusterInsight
+                ClusterData={clusterData}
+                SelectedCluster={selectedCluster}/>
+            <Product
+                ClusterData={clusterData}
+                SelectedCluster={selectedCluster}
+                matchDone={matchDone}/>
+            <Assignment
+                SelectedCluster={selectedCluster}
+                SelectedId={selectedId}/>
             <Copyright />
         </div>
     );
