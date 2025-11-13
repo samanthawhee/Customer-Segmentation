@@ -43,3 +43,32 @@
     grid-row: 20;
 
 }
+
+@media (max-width: 600px) {
+
+    .Final .HomeTitle {
+        grid-column: 3/9;
+    }
+
+    .Final .ThankYou {
+        grid-row: 8;
+    }
+
+    .Final .Comment{
+        grid-column: 1 / 11;
+        grid-row: 10;
+    }
+
+    .Final .HomeIntro {
+        grid-column: 2 / 10;
+        grid-row: 16;
+
+    }
+
+    .Final .Copyright {
+        grid-column: 2 / 10;
+        grid-row: 20;
+
+    }
+
+}

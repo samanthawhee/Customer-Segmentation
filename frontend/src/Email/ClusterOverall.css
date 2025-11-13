@@ -29,3 +29,29 @@
 .ClusterOverall td:last-child {
     border-right: none;
 }
+
+@media (max-width: 600px) {
+
+    .ClusterOverall table {
+        height: 6em;
+    }
+
+    .ClusterOverall th,
+    .ClusterOverall td {
+        border-right: 1px solid #ccc;
+    }
+
+    .ClusterOverall th {
+        font-size: 0.5em;
+    }
+
+    .ClusterOverall td {
+        font-size: 1.3em;
+        font-weight: 500;
+        padding-right: 0.5em;
+    }
+
+    .ClusterInsight td:last-child {
+        padding-right: 0;
+    }
+}

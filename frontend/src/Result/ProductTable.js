@@ -23,7 +23,7 @@ function ProductTable({ Products, ClusterData, SelectedCluster }) {
         <div className="ProductTable">
             <div className="TableHeader">
                 <span>ID</span>
-                <span>Product Name</span>
+                <span className="col-productName">Product Name</span>
                 <span>Product Type</span>
                 <span>Score</span>
                 <span>Risk Level</span>
@@ -36,7 +36,7 @@ function ProductTable({ Products, ClusterData, SelectedCluster }) {
                 {Products.map((p) => (
                     <div key={p.product_id} className="RowBlock color2">
                         <span>{p.product_id}</span>
-                        <span>{p.product_name}</span>
+                        <span className="col-productName">{p.product_name}</span>
                         <span>{p.product_type}</span>
                         <span>{p.score}</span>
                         <span>{p.risk_level}</span>

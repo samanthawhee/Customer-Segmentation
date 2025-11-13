@@ -30,3 +30,24 @@
     background-color: white;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
 }
+
+@media (max-width: 600px) {
+    .Select, .Result, .SendEmail {
+        padding: 1em 1em 0.8em 1em;
+    }
+
+    .SelectTable, .Overall, .ClusterButton,
+    .ClusterInsight, .RecommendedProduct,
+    .Assignment, .ClusterOverall, .ProductOverall,
+    .EmailEdition, .EmailForm {
+        margin-top: 1em;
+        padding: 1em;
+    }
+
+    .SelectTable, .Overall, .ClusterButton,
+    .ClusterInsight, .RecommendedProduct,
+    .Assignment, .ClusterOverall, .ProductOverall,
+    .EmailEdition, .EmailForm h1 {
+        font-size: 50%;
+    }
+}

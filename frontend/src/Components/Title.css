@@ -4,3 +4,10 @@
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  .HomeTitle h1 {
+    font-size: 2em;
+    width: 80%;
+    margin: 0 auto;
+  }
+}

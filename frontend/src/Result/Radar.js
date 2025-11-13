@@ -1,4 +1,5 @@
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import {useEffect, useState} from "react";
 
 const displayNames = {
     age: "Age",
@@ -9,6 +10,14 @@ const displayNames = {
 };
 
 function RadarChartComponent({ ClusterData }) {
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
+
+    useEffect(() => {
+        const handleResize = () => setIsMobile(window.innerWidth <= 600);
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     if (!ClusterData || !ClusterData.cluster) return <h3>Loading...</h3>;
 
     const clusters = ClusterData.cluster;
@@ -75,7 +84,13 @@ function RadarChartComponent({ ClusterData }) {
                         />
                     ))}
                     <Tooltip />
-                    <Legend />
+                    <Legend
+                        iconSize={isMobile ? 6 : 14}
+                        wrapperStyle={{
+                            fontSize: isMobile ? 10 : 14,
+                            marginTop: isMobile ? 25 : 10,
+                        }}
+                    />
                 </RadarChart>
             </ResponsiveContainer>
         </div>

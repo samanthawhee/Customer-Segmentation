@@ -29,3 +29,29 @@
 .ProductOverall td:last-child {
     border-right: none;
 }
+
+@media (max-width: 600px) {
+
+    .ProductOverall table {
+        height: 6em;
+    }
+
+    .ProductOverall th,
+    .ProductOverall td {
+        border-right: 1px solid #ccc;
+    }
+
+    .ProductOverall th {
+        font-size: 0.5em;
+    }
+
+    .ProductOverall td {
+        font-size: 1.3em;
+        font-weight: 500;
+        padding-right: 0.5em;
+    }
+
+    .ProductOverall td:last-child {
+        padding-right: 0;
+    }
+}

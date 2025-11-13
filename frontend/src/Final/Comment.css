@@ -25,3 +25,18 @@
     text-align: center;
     margin-left: 1em;
 }
+
+@media (max-width: 600px) {
+    .Comment input {
+        grid-column: 3 / 18;
+    }
+
+    .Comment button{
+        grid-column: 18;
+    }
+
+    .Comment .EmailStatus {
+        margin-left: 1em;
+    }
+
+}

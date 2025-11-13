@@ -31,16 +31,16 @@ function SelectTable({ customers, rowColours, setRowColours, setSelectedId }) {
     return (
         <div className="SelectTable">
             <div className="TableHeader">
-                <span>ID</span>
-                <span>First Name</span>
-                <span>Last Name</span>
-                <span>Age</span>
-                <span>Occupation</span>
-                <span>City</span>
-                <span>Annual Income</span>
-                <span>Annual Spending</span>
-                <span>Credit Score</span>
-                <span>Loan Balance</span>
+                <span className="col-id">ID</span>
+                <span className="col-fname">First Name</span>
+                <span className="col-lname">Last Name</span>
+                <span className="col-age">Age</span>
+                <span className="col-occupation">Occupation</span>
+                <span className="col-city">City</span>
+                <span className="col-income">Annual Income</span>
+                <span className="col-spending">Annual Spending</span>
+                <span className="col-credit">Credit Score</span>
+                <span className="col-loan">Loan Balance</span>
             </div>
 
             <div className="TableBody">
@@ -53,16 +53,16 @@ function SelectTable({ customers, rowColours, setRowColours, setSelectedId }) {
                                     className={`RowBlock ${rowColours[c.customer_id] ? "color1" : "color2"}`}
                                     onClick={() => handleRowClick(c.customer_id)}
                                 >
-                                    <span>{c.customer_id}</span>
-                                    <span>{c.first_name}</span>
-                                    <span>{c.last_name}</span>
-                                    <span>{c.age}</span>
-                                    <span>{OccupationMap[c.occupation]}</span>
-                                    <span>{CityMap[c.city]}</span>
-                                    <span><span>£</span>{c.annual_income}</span>
-                                    <span><span>£</span>{c.annual_spending}</span>
-                                    <span>{c.credit_score}</span>
-                                    <span><span>£</span>{c.loan_balance}</span>
+                                <span className="col-id">{c.customer_id}</span>
+                                    <span className="col-fname">{c.first_name}</span>
+                                    <span className="col-lname">{c.last_name}</span>
+                                    <span className="col-age">{c.age}</span>
+                                    <span className="col-occupation">{OccupationMap[c.occupation]}</span>
+                                    <span className="col-city">{CityMap[c.city]}</span>
+                                    <span className="col-income"><span>£</span>{c.annual_income}</span>
+                                    <span className="col-spending"><span>£</span>{c.annual_spending}</span>
+                                    <span className="col-credit">{c.credit_score}</span>
+                                    <span className="col-loan"><span>£</span>{c.loan_balance}</span>
                                 </div>
                             </td>
                         </tr>

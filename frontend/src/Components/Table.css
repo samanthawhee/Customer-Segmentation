@@ -84,5 +84,38 @@
     height: auto;
 }
 
+@media (max-width: 600px) {
+
+    .col-occupation,
+    .col-loan,
+    .col-city{
+        display: none;
+    }
+
+    .TableHeader {
+        grid-template-columns: repeat(7, 1fr);
+        align-items: center;
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+
+    .RowBlock {
+        grid-template-columns: repeat(7, 1fr);
+        height: 4em;
+    }
+
+    .ProductTable .col-productName {
+        display: none;
+    }
+
+    .ProductTable .TableHeader {
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    .ProductTable .RowBlock {
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
+
 
 

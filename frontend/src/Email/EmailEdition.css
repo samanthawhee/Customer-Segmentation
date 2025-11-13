@@ -50,3 +50,20 @@
     outline: 0.08em solid #0046F3;
 }
 
+@media (max-width: 600px) {
+    .EmailForm {
+        margin-top: 1em;
+        row-gap: 1em;
+        column-gap: 1em;
+    }
+
+    .EmailForm input, .EmailForm textarea {
+        padding: 0.6em;
+    }
+
+    .EmailForm input::placeholder,
+    .EmailForm textarea::placeholder {
+        font-size: 0.7em;
+    }
+}
+

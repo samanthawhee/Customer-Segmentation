@@ -10,3 +10,20 @@
 .RunClustering {
     padding: 0.5em 0 0 0;
 }
+
+@media (max-width: 600px) {
+    .BackHome, .RunClustering {
+        margin-right: 1em;
+    }
+
+    .BackHome {
+        padding: 0;
+        margin-top: 0.5em;
+    }
+
+    .RunClustering {
+        padding: 0;
+        margin-top: 0.5em;
+    }
+
+}

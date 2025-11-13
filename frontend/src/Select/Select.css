@@ -17,3 +17,13 @@
     grid-row:3;
     grid-column: 3;
 }
+
+@media (max-width: 600px) {
+    .Intro {
+        grid-column: 1 / 5;
+    }
+
+    .Copyright {
+        grid-column: 1 / 6;
+    }
+}

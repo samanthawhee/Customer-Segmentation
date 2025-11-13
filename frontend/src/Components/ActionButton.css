@@ -61,3 +61,21 @@
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
 }
+
+
+@media (max-width: 600px) {
+
+    .ClusterButton button {
+        padding: 0.5em 1.7em;
+        margin: 0 1.2em 0 0;
+    }
+
+    .SendNotification {
+        margin: 0 1em;
+    }
+
+    .Comment button{
+        padding: 0.9em 1em;
+
+    }
+}
