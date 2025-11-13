@@ -85,37 +85,27 @@
 | channels             | TEXT[]            | Array of channels where the product is available  |
 
 ### Work Diary
-|       Dates       | Work Scope | Description |
-|:----------------:|:------------:|-------------|
-| 7 Nov 2025       | Frontend   | - Add `Copyright.js` to each page<br>- Add `Final.js` page<br>- Integrate the EmailJS third-party service<br>- Sort the CSS code |
-| 7 Nov 2025       | Backend    | - |
-| 6 Nov 2025       | Frontend   | - `GetProductsByCluster.js`<br>- `Product.js`: Call `getProductsByCluster()`<br>- Sort CSS for product table and send email page<br>- Add `score` attribute on product table<br>- Navigate from notification button to send email page<br>- Carry cluster data and `product_id`<br>- Call `getProductsById()` |
-| 6 Nov 2025       | Backend    | - `getProductsByCluster()`<br>- `getProductsById()` |
-| 4 Nov 2025       | Frontend   | - Add `benefits`, `score` attribute on the table<br>- Integrate product match API |
-| 4 Nov 2025       | Backend    | - `conductProductMatch()`<br>- Add `cluster` and `score` attributes in product table |
-| 3 Nov 2025       | Frontend   | - `ScatterPlot.js`<br>- `Radar.js`<br>- Edited `Table.css`<br>- `Product.js`<br>- `ProductTable.js` |
-| 3 Nov 2025       | Backend    | - `getIncomeAndLoanByCluster()`<br>- `generateProductDataset()`<br>- `getProducts()` |
-| 2 Nov 2025       | Frontend   | - `Pie.js` |
-| 2 Nov 2025       | Backend    | - `getClustersAmounts()` |
-| 1 Nov 2025       | Frontend   | - Show different cluster assignments by clusters<br>- Record toggled data and pass to Result page<br>- Show toggled data on cluster assignments<br>- Add charts to the overall |
-| 1 Nov 2025       | Backend    | - Database order issue after inserting cluster data |
-| 31 Oct 2025      | Frontend   | - Sorted components<br>- `Result.js`: Done layout<br>- Switch clusters<br>- `ClusterButton.js`<br>- `ClusterInsight.js`<br>- `Assignment.js`<br>- `AssignmentTable.js`: Fetch clustered data |
-| 31 Oct 2025      | Backend    | - Added `cluster` attribute to database<br>- Separate fetch functions into `FetchData.py`<br>- `FetchData.py`: `fetchCustomersByCluster()`<br>- `KMeansClustering.py`: `insertClusterResults(dataframe)` |
-| 30 Oct 2025      | Frontend   | - Managed `Table.css` style<br>- `Table.js`: Added function to count toggled data and activate/inactivate Run Clustering button |
-| 30 Oct 2025      | Backend    | -  |
-| 29 Oct 2025      | Frontend   | - Studied frontend/backend contract<br>- Separated APIs: `home()`, `generateDataset()`, `getCustomers()`, `conductClustering()`<br>- Call APIs: `generateDataset()`, `getCustomers()`<br>- Select Page / Select Introduction / Return Home button<br>- Run clustering layout only<br>- Display data |
-| 29 Oct 2025      | Backend    | -  |
-| 28 Oct 2025      | Frontend   | - Restructured file system: Home, Components, Select |
-| 28 Oct 2025      | Backend    | -  |
-| 27 Oct 2025      | Frontend   | - `Home.js`, `Home.css`, `Select.js`: Finished Home Page |
-| 27 Oct 2025      | Backend    | -  |
-| 28 Sep 2025      | Frontend   | - Updated UI/UX<br>- Uploaded UI/UX images and prototype video to GitHub |
-| 28 Sep 2025      | Backend    | -  |
-| 27 Sep 2025      | Frontend   | - Learnt React: `App.js`, `index.js`, component functions<br>- Completed UI/UX design and prototype in Figma |
-| 27 Sep 2025      | Backend    | -  |
-| 25 Sep 2025      | Backend    | - `generateRandomString()`: moved from `main.py` to `DataGenerator`<br>- `pickFirstName()`: done<br>- `pickLastName()`: done<br>- `executeDataGeneration()`: generate multiple datasets at once<br>- `KMeansClustering()`: applied K-Means to dataset |
-| 14 Aug 2025      | Backend    | - `createSqlFile()`: create `.sql` file<br>- `createTable(tableName, file_path)`: create query content<br>- `executeSqlFile(file_path)`: execute `.sql` file |
-| 12 Aug 2025      | Backend / Frontend / Database | - Clarified work stack<br>- Backend: Python, Flask, RESTful API<br>- Frontend: JavaScript with React<br>- Database: PostgreSQL<br>- Setup: Backend queries at `http://localhost:5000/api/customers`<br>- Frontend: `npm start` at `http://localhost:3000`<br>- Database: wrote SQL query script |
+| Date       | Frontend | Backend |
+|------------|---------|---------|
+| 13 Nov 2025 | - Call `dropTable(tableName)` after sending email<br>- Embed Google Analytics code<br>- Fix the bug that fetching product is ahead of product matching<br>- Portfolio: Make the cover image for the customer segmentation section | - `.env.local`: Add `DATABASE_URL` and `ENV`<br>- `dropTable(tableName)`<br>- Optimise the speed of customer dataset generation |
+| 8 Nov 2025 | - `.env.development`<br>- `.env.production`<br>- Change fetch URL to variable + API route | - `.env.development`<br>- `.env.production`<br>- Change database route for customer, product, and engine generation<br>- Change `DATA_PATH` to local and cloud<br>- Cloud Server: Render<br>- Create new cloud server and database<br>- Set up environment variables (`ENV`, `DATA_PATH`, `DATABASE_URL`) |
+| 7 Nov 2025 | - Add `Copyright.js` to each page<br>- Add `Final.js` page<br>- Integrate the EmailJS third-party service<br>- Sort the CSS code | - |
+| 6 Nov 2025 | - `GetProductsByCluster.js`<br>- `Product.js`: Call `getProductsByCluster()`<br>- Sort CSS for product table and send email page<br>- Add `score` attribute on product table<br>- Navigate from notification button to send email page<br>- Carry cluster data and `product_id`<br>- Call `getProductsById()` | - `getProductsByCluster()`<br>- `getProductsById()` |
+| 4 Nov 2025 | - Add `benefits`, `score` attribute on the table<br>- Integrate product match API | - `conductProductMatch()`<br>- Add `cluster` and `score` attributes in product table |
+| 3 Nov 2025 | - `ScatterPlot.js`<br>- `Radar.js`<br>- Edited `Table.css`<br>- `Product.js`<br>- `ProductTable.js` | - `getIncomeAndLoanByCluster()`<br>- `generateProductDataset()`<br>- `getProducts()` |
+| 2 Nov 2025 | - `Pie.js` | - `getClustersAmounts()` |
+| 1 Nov 2025 | - Show different cluster assignments by clusters<br>- Record toggled data and pass to Result page<br>- Show toggled data on cluster assignments<br>- Add charts to the overall | - Database order issue after inserting cluster data |
+| 31 Oct 2025 | - Sorted components<br>- `Result.js`: Done layout<br>- Switch clusters<br>- `ClusterButton.js`<br>- `ClusterInsight.js`<br>- `Assignment.js`<br>- `AssignmentTable.js`: Fetch clustered data | - Added `cluster` attribute to database<br>- Separate fetch functions into `FetchData.py`<br>- `FetchData.py`: `fetchCustomersByCluster()`<br>- `KMeansClustering.py`: `insertClusterResults(dataframe)` |
+| 30 Oct 2025 | - Managed `Table.css` style<br>- `Table.js`: Added function to count toggled data and activate/inactivate Run Clustering button | - |
+| 29 Oct 2025 | - Studied frontend/backend contract<br>- Separated APIs: `home()`, `generateDataset()`, `getCustomers()`, `conductClustering()`<br>- Call APIs: `generateDataset()`, `getCustomers()`<br>- Select Page / Select Introduction / Return Home button<br>- Run clustering layout only<br>- Display data | - |
+| 28 Oct 2025 | - Restructured file system: Home, Components, Select | - |
+| 27 Oct 2025 | - `Home.js`, `Home.css`, `Select.js`: Finished Home Page | - |
+| 28 Sep 2025 | - Updated UI/UX<br>- Uploaded UI/UX images and prototype video to GitHub | - |
+| 27 Sep 2025 | - Learnt React: `App.js`, `index.js`, component functions<br>- Completed UI/UX design and prototype in Figma | - |
+| 25 Sep 2025 | - | - `generateRandomString()`: moved from `main.py` to `DataGenerator`<br>- `pickFirstName()`: done<br>- `pickLastName()`: done<br>- `executeDataGeneration()`: generate multiple datasets at once<br>- `KMeansClustering()`: applied K-Means to dataset |
+| 14 Aug 2025 | - | - `createSqlFile()`: create `.sql` file<br>- `createTable(tableName, file_path)`: create query content<br>- `executeSqlFile(file_path)`: execute `.sql` file |
+| 12 Aug 2025 | - Frontend: JavaScript with React<br>- Setup: `npm start` at `http://localhost:3000` | - Backend: Python, Flask, RESTful API<br>- Database: PostgreSQL<br>- Setup: Backend queries at `http://localhost:5000/api/customers` |
+
 
 ## API Documentation
 ### Generate Dataset
