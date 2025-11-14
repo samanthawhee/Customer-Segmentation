@@ -67,10 +67,6 @@
 
 @media (max-width: 400px) {
 
-    .ProductOverall th {
-        padding-left: 1.2em;
-    }
-
     .ProductOverall td {
         font-size: 1.1em;
     }

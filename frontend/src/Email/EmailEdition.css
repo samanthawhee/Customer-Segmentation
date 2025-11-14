@@ -67,11 +67,11 @@
     }
 
     .EmailForm button {
-        grid-column: 11/14;
+        grid-column: 10/14;
     }
 
     .EmailStatus {
-        grid-column: 5/10;
+        grid-column: 1/10;
     }
 }
 
