@@ -84,3 +84,12 @@
         margin: 0 2em 0 0;
     }
 }
+
+@media (max-width: 300px) {
+    .SendNotification {
+        font-size:50%;
+        border-radius: 0.5em;
+        margin: 0 1em;
+
+    }
+}

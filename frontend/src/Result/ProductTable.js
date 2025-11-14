@@ -28,7 +28,7 @@ function ProductTable({ Products, ClusterData, SelectedCluster }) {
                 <span>Score</span>
                 <span>Risk Level</span>
                 <span>Term Length</span>
-                <span>Annual Fee</span>
+                <span className="col-annualFee">Annual Fee</span>
                 <span>Manage</span>
             </div>
 
@@ -41,7 +41,7 @@ function ProductTable({ Products, ClusterData, SelectedCluster }) {
                         <span>{p.score}</span>
                         <span>{p.risk_level}</span>
                         <span>{p.term_length}</span>
-                        <span>{p.annual_fees}</span>
+                        <span className="col-annualFee">£{p.annual_fees}</span>
                         <button
                             className="SendNotification"
                             onClick={() => handleClick(p.product_id)}

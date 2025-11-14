@@ -32,7 +32,7 @@
 
 @media (max-width: 600px) {
 
-    .col-productName, .col-minIncome {
+    .col-productName {
         display: none;
     }
 
