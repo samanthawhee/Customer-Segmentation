@@ -1,94 +1,163 @@
 ## Table of Contents
 
-- Project Development
-  - [Project Demo: Local Server](#project-demo-local-server)
-  - [Database Schemes](#database-schemes)
-    - [customers](#customers)
-    - [products](#products)
-  - [Work Diary](#work-diary)
+-  [Experience the Project](#experience-the-project-for-yourself)
+-  [Project Demonstration](#project-demonstration)
+   -  [Web Server](#1-web-server)
+      -  [PC Device](#11-pc-device)
+      -  [Mobile Device](#12-mobile-device)
+   -  [Local Server](#2-local-server)
+      -  [PC Device](#21-pc-device)
+-  [Project Development](#project-development)
+   -  [Database Schemes](#database-schemes)
+   -  [Work Diary](#work-diary)
+-  [API Documentation](#api-documentation)
+   -  [Generate Dataset](#1-generate-dataset)
+   -  [Get Customers](#2-get-customers)
+   - [Conduct Clustering](#3-conduct-clustering)
+   - [Get Customers by Cluster](#4-get-customers-by-cluster)
+   - [Get Clusters Amounts](#5-get-clusters-amounts)
+   - [Get Income And Loan by Cluster](#6-get-income-and-loan-by-cluster)
+   - [Generate Product Dataset](#7-generate-product-dataset)
+   - [Get Products](#8-get-products)
+   - [Conduct Product Match](#9-conduct-product-match)
+   - [Get Products By Cluster](#10-get-products-by-cluster)
+   - [Select Product By Id](#11-select-product-by-id)
+   - [Drop Table](#12-drop-table)
+- [Schedule Documentation](#schedule-documentation)
+   - [Every Hour](#1-every-hour)
+- [Project Design](#project-design)
+   - [Work Flow & Wireframe](#1-work-flow--wireframe)
+   - [Prototype: Figma](#2-prototype-figma)
+- [Appendixes](#appendixes)
+   - [Localhost Demo](#1-localhost-demo)
+      - [Dataset Generation](#11-dataset-generation)
+      - [K-Means Clustering](#12-k-means-clustering)
+      - [Home Page Demo](#13-home-page-demo)
+      - [Select & Result (partial) Page Demo](#14-select--resultpartial-page-demo)
+      - [Result Page Demo: Cluster insights and cluster assignments](#15-result-page-demo-cluster-insights-and-cluster-assignments)
+      - [Result Page Demo: Overall and cluster assignments](#16-result-page-demo-overall-and-cluster-assignments)
+      - [Result Page Demo: Overall and recommended products](#17-result-page-demo-overall-and-recommended-products)
+      - [Send Email Demo: Selected cluster and product info, the email form](#18-send-email-demo-selected-cluster-and-product-info-the-email-form)
 
-- API Documentation
-  - [Generate Dataset](#generate-dataset)
-  - [Get Customers](#get-customers)
-  - [Conduct Clustering](#conduct-clustering)
-  - [Get Customers by Cluster](#get-customers-by-cluster)
-  - [Get Clusters Amounts](#get-clusters-amounts)
-  - [Get Income And Loan by Cluster](#get-income-and-loan-by-cluster)
-  - [Generate Product Dataset](#generate-product-dataset)
-  - [Get Products](#get-products)
-  - [Conduct Product Match](#conduct-product-match)
-  - [Get Products By Cluster](#get-products-by-cluster)
-  - [Select Product By Id](#select-product-by-id)
 
-- Project Design
-  - [Work Flow & Wireframe](#work-flow--wireframe)
-  - [Prototype: Figma](#prototype-figma)
-
-- Appendixes
-  - [Dataset Generation](#dataset-generation)
-  - [K-Means Clustering](#k-means-clustering)
-  - [Home Page Demo](#home-page-demo)
-  - [Select & Result (partial) Page Demo](#select--resultpartial-page-demo)
-  - [Result Page Demo: Cluster insights and cluster assignments](#result-page-demo-cluster-insights-and-cluster-assignments)
-  - [Result Page Demo: Overall and cluster assignments](#result-page-demo-overall-and-cluster-assignments)
-  - [Result Page Demo: Overall and recommended products](#result-page-demo-overall-and-recommended-products)
-  - [Send Email Demo: Selected cluster and product info the email form](#send-email-demo-selected-cluster-and-product-info-the-email-form)
+## Experience the project for yourself!
+🔗 Tap the link and give it a go 👉 **[https://www.samanthawhee.com/customer_segmentation/](https://www.samanthawhee.com/customer_segmentation/)**
 
 
+[![Customer Segmentation](https://raw.githubusercontent.com/samanthawhee/Portfolio/master/image/customer_segmentation.png)](https://www.samanthawhee.com/customer_segmentation/)
 
+## Project Demonstration
 
-## Project Development
-
-### Project Demo: Local Server
+### 1. Web Server
+#### 1.1 PC Device
+![Cloud_Server_Demo_PC_14112025.gif](readme/Cloud_Server_Demo_PC_14112025.gif)
+#### 1.2 Mobile Device
+![Cloud_Server_Demo_Mobile_14112025.gif](readme/Cloud_Server_Demo_Mobile_14112025.gif)
+### 2. Local Server
+#### 2.1 PC Device
 ![Final_demo_07112025.gif](readme/Final_demo_07112025.gif)
 
+## Project Development
 ### Database Schemes
-#### customers
-| Column Name      | Data Type        | Constraints / Description                  |
-|------------------|------------------|--------------------------------------------|
-| id               | SERIAL           | PRIMARY KEY                               |
-| first_name       | TEXT             | NOT NULL                                  |
-| last_name        | TEXT             | NOT NULL                                  |
-| age              | INT              | Non-negative                              |
-| occupation       | INT              | - 0: Student<br>- 1: Salaried Employee<br>- 2: Self-Employed<br>- 3: Business Owner<br>- 4: Retired<br>- 5: Unemployed<br>- 6: Homemaker<br>- 7: Freelancer<br>- 8: Contractor<br>- 9: Government Employee |
-| city             | INT              | - 0: Belfast<br>- 1: Birmingham<br>- 2: Bristol<br>- 3: Cardiff<br>- 4: Edinburgh<br>- 5: Glasgow<br>- 6: Leeds<br>- 7: Leicester<br>- 8: Liverpool<br>- 9: London<br>- 10: Manchester<br>- 11: Newcastle<br>- 12: Nottingham<br>- 13: Sheffield<br>- 14: Southampton |
-| annual_income    | DECIMAL(12,2)    | Non-negative                               |
-| annual_spending  | DECIMAL(12,2)    | Non-negative                               |
-| loan_balance     | DECIMAL(12,2)    | Non-negative                               |
-| credit_score     | INT              | Typically 0–850                           |
-| cluster          | INT              | Cluster assignment (for clustering analysis)  |
+<table>
+  <tr>
+    <th>Table</th>
+    <th>Column Name</th>
+    <th>Data Type</th>
+    <th>Constraints / Description</th>
+  </tr>
 
-#### products
-| Column Name           | Data Type          | Constraints / Description |
-|-----------------------|--------------------|---------------------------|
-| id                   | SERIAL            | PRIMARY KEY               |
-| product_id           | INT               | Unique product identifier |
-| product_name         | VARCHAR(100)      | Name of the product       |
-| product_type         | VARCHAR(50)       | Type/category of the product |
-| eligibility_criteria | JSON              | JSON object containing eligibility rules |
-| min_age              | INT               | Minimum age for eligibility |
-| max_age              | INT               | Maximum age for eligibility |
-| min_income           | DECIMAL(12,2)     | Minimum annual income for eligibility |
-| max_income           | DECIMAL(12,2)     | Maximum annual income for eligibility |
-| credit_score_required | INT              | Minimum required credit score |
-| interest_rate        | DECIMAL(5,2)      | Interest rate |
-| annual_fees          | DECIMAL(10,2)     | Annual fees charged for the product |
-| risk_level           | VARCHAR(10)       | Risk category |
-| benefits             | TEXT              | Text description of product benefits |
-| term_length          | INT               | Term length in months or years |
-| renewable            | BOOLEAN           | TRUE if product can be renewed |
-| reward_points        | DECIMAL(10,2)     | Reward points accrued with the product |
-| product_status       | VARCHAR(20)       | Status of product  |
-| launch_date          | DATE              | Launch date of the product |
-| cluster              | INT[]             | Array of cluster IDs the product belongs to |
-| score                | DECIMAL(5,3)      | Score assigned to the product  |
-| channels             | TEXT[]            | Array of channels where the product is available  |
+  <!-- customers -->
+  <tr>
+    <td rowspan="11">customers</td>
+    <td>id</td>
+    <td>SERIAL</td>
+    <td>PRIMARY KEY</td>
+  </tr>
+  <tr><td>first_name</td><td>TEXT</td><td>NOT NULL</td></tr>
+  <tr><td>last_name</td><td>TEXT</td><td>NOT NULL</td></tr>
+  <tr><td>age</td><td>INT</td><td>Non-negative</td></tr>
+  <tr>
+    <td>occupation</td>
+    <td>INT</td>
+    <td>
+      - 0: Student<br>
+      - 1: Salaried Employee<br>
+      - 2: Self-Employed<br>
+      - 3: Business Owner<br>
+      - 4: Retired<br>
+      - 5: Unemployed<br>
+      - 6: Homemaker<br>
+      - 7: Freelancer<br>
+      - 8: Contractor<br>
+      - 9: Government Employee
+    </td>
+  </tr>
+  <tr>
+    <td>city</td>
+    <td>INT</td>
+    <td>
+      - 0: Belfast<br>
+      - 1: Birmingham<br>
+      - 2: Bristol<br>
+      - 3: Cardiff<br>
+      - 4: Edinburgh<br>
+      - 5: Glasgow<br>
+      - 6: Leeds<br>
+      - 7: Leicester<br>
+      - 8: Liverpool<br>
+      - 9: London<br>
+      - 10: Manchester<br>
+      - 11: Newcastle<br>
+      - 12: Nottingham<br>
+      - 13: Sheffield<br>
+      - 14: Southampton
+    </td>
+  </tr>
+  <tr><td>annual_income</td><td>DECIMAL(12,2)</td><td>Non-negative</td></tr>
+  <tr><td>annual_spending</td><td>DECIMAL(12,2)</td><td>Non-negative</td></tr>
+  <tr><td>loan_balance</td><td>DECIMAL(12,2)</td><td>Non-negative</td></tr>
+  <tr><td>credit_score</td><td>INT</td><td>Typically 0–850</td></tr>
+  <tr><td>cluster</td><td>INT</td><td>Cluster assignment</td></tr>
+
+  <!-- products -->
+  <tr>
+    <td rowspan="22">products</td>
+    <td>id</td>
+    <td>SERIAL</td>
+    <td>PRIMARY KEY</td>
+  </tr>
+  <tr><td>product_id</td><td>INT</td><td>Unique product identifier</td></tr>
+  <tr><td>product_name</td><td>VARCHAR(100)</td><td>Name of the product</td></tr>
+  <tr><td>product_type</td><td>VARCHAR(50)</td><td>Type/category of the product</td></tr>
+  <tr><td>eligibility_criteria</td><td>JSON</td><td>Eligibility rules</td></tr>
+  <tr><td>min_age</td><td>INT</td><td>Minimum age</td></tr>
+  <tr><td>max_age</td><td>INT</td><td>Maximum age</td></tr>
+  <tr><td>min_income</td><td>DECIMAL(12,2)</td><td>Minimum income</td></tr>
+  <tr><td>max_income</td><td>DECIMAL(12,2)</td><td>Maximum income</td></tr>
+  <tr><td>credit_score_required</td><td>INT</td><td>Minimum credit score</td></tr>
+  <tr><td>interest_rate</td><td>DECIMAL(5,2)</td><td>Interest rate</td></tr>
+  <tr><td>annual_fees</td><td>DECIMAL(10,2)</td><td>Annual fees</td></tr>
+  <tr><td>risk_level</td><td>VARCHAR(10)</td><td>Risk category</td></tr>
+  <tr><td>benefits</td><td>TEXT</td><td>Description</td></tr>
+  <tr><td>term_length</td><td>INT</td><td>Term in months/years</td></tr>
+  <tr><td>renewable</td><td>BOOLEAN</td><td>TRUE if renewable</td></tr>
+  <tr><td>reward_points</td><td>DECIMAL(10,2)</td><td>Reward points</td></tr>
+  <tr><td>product_status</td><td>VARCHAR(20)</td><td>Status of product</td></tr>
+  <tr><td>launch_date</td><td>DATE</td><td>Launch date</td></tr>
+  <tr><td>cluster</td><td>INT[]</td><td>Cluster IDs</td></tr>
+  <tr><td>score</td><td>DECIMAL(5,3)</td><td>Product score</td></tr>
+  <tr><td>channels</td><td>TEXT[]</td><td>Array of channels where the product is available</td></tr>
+</table>
+
+
 
 ### Work Diary
 | Date       | Frontend | Backend |
 |------------|---------|---------|
+| 14 Nov 2025 |- Adjust the CSS for the width under 400px and under 600px|- `scheduler.start()` : Drop tables every hour|
 | 13 Nov 2025 | - Call `dropTable(tableName)` after sending email<br>- Embed Google Analytics code<br>- Fix the bug that fetching product is ahead of product matching<br>- Portfolio: Make the cover image for the customer segmentation section | - `.env.local`: Add `DATABASE_URL` and `ENV`<br>- `dropTable(tableName)`<br>- Optimise the speed of customer dataset generation |
-| 8 Nov 2025 | - `.env.development`<br>- `.env.production`<br>- Change fetch URL to variable + API route | - `.env.development`<br>- `.env.production`<br>- Change database route for customer, product, and engine generation<br>- Change `DATA_PATH` to local and cloud<br>- Cloud Server: Render<br>- Create new cloud server and database<br>- Set up environment variables (`ENV`, `DATA_PATH`, `DATABASE_URL`) |
+| 8 Nov 2025 | - `.env.development`<br>- `.env.production`<br>- Change fetch URL to variable + API route | - `.env.development`<br>- `.env.production`<br>- Change database route for customer, product, and engine generation<br>- Change `DATA_PATH` to local and cloud<br>- **Cloud Server: Render**<br>&nbsp;&nbsp;- Create new cloud server and database<br>&nbsp;&nbsp;- Set up environment variables (`ENV`, `DATA_PATH`, `DATABASE_URL`) |
 | 7 Nov 2025 | - Add `Copyright.js` to each page<br>- Add `Final.js` page<br>- Integrate the EmailJS third-party service<br>- Sort the CSS code | - |
 | 6 Nov 2025 | - `GetProductsByCluster.js`<br>- `Product.js`: Call `getProductsByCluster()`<br>- Sort CSS for product table and send email page<br>- Add `score` attribute on product table<br>- Navigate from notification button to send email page<br>- Carry cluster data and `product_id`<br>- Call `getProductsById()` | - `getProductsByCluster()`<br>- `getProductsById()` |
 | 4 Nov 2025 | - Add `benefits`, `score` attribute on the table<br>- Integrate product match API | - `conductProductMatch()`<br>- Add `cluster` and `score` attributes in product table |
@@ -108,7 +177,7 @@
 
 
 ## API Documentation
-### Generate Dataset
+### 1. Generate Dataset
 - URL: /generateDataset
 - Method: POST
 - Description: Generates a new customer dataset in the database.
@@ -124,7 +193,7 @@
 <pre>curl -X POST http://localhost:5000/generateDataset</pre>
 ![API_getCustomers](readme/API_getCustomers.png)
 
-### Get Customers
+### 2. Get Customers
 - URL: /getCustomers
 - Method: GET
 - Description: Returns all customer data.
@@ -161,7 +230,7 @@
 - cURL:
 <pre>curl -X GET http://localhost:5000/getCustomers</pre>
 
-### Conduct Clustering
+### 3. Conduct Clustering
 - URL: /conductClustering
 - Method: POST
 - Description: Performs K-Means clustering on the customer dataset and returns the cluster summary.
@@ -201,7 +270,7 @@
 <pre>curl -X POST http://localhost:5000/conductClustering</pre>
 ![APi_conductClustering2](readme/K_Means_Clustering2.png)
 
-### Get Customers by Cluster
+### 4. Get Customers by Cluster
 - URL: /getCustomersByCluster
 - Method: GET
 - Description: Returns all customer data sorted by cluster.
@@ -243,7 +312,7 @@
 <pre>curl -X GET http://localhost:5000/getCustomersByCluster</pre>
 ![GetCustomerByCluster.png](readme/GetCustomerByCluster.png)
 
-### Get Clusters Amounts
+### 5. Get Clusters Amounts
 - URL: /getClustersAmounts
 - Method: GET
 - Description: Returns customer amounts for each cluster.
@@ -262,7 +331,7 @@
 <pre>curl -X GET http://localhost:5000/getClustersAmounts</pre>
 ![getClustersAmounts_API.png](readme/getClustersAmounts_API.png)
 
-### Get Income And Loan by Cluster
+### 6. Get Income And Loan by Cluster
 - URL: /getIncomeAndLoanByCluster
 - Method: GET
 - Description: Returns income and loan balabce by cluster.
@@ -289,7 +358,7 @@
 <pre>curl -X GET http://localhost:5000/getIncomeAndLoanByCluster</pre>
 ![getIncomeAndLoanByClusters_API.png](readme/getIncomeAndLoanByClusters_API.png)
 
-### Generate Product Dataset
+### 7. Generate Product Dataset
 - URL: /generateProductDataset
 - Method: POST
 - Description: Geterate the product dataset.
@@ -306,7 +375,7 @@
 <pre>curl -X POST http://localhost:5000/generateProductDataset</pre>
 ![generateProductDataset_API.png](readme/generateProductDataset_API.png)
 
-### Get Products
+### 8. Get Products
 - URL: /getProducts
 - Method: GET
 - Description: Return product data.
@@ -353,7 +422,7 @@
 <pre>curl -X GET http://localhost:5000/getProducts</pre>
 ![getProducts_API.png](readme/getProducts_API.png)
 
-### Conduct Product Match
+### 9. Conduct Product Match
 - URL: /conductProductMatch
 - Method: POST
 - Description: Match sutiable product options.
@@ -368,8 +437,9 @@
   - 500 Internal Server Error
 - cURL:
 <pre>curl -X POST http://localhost:5000/conductProductMatch</pre>
+![matchProduct_API.png](readme/matchProduct_API.png)
 
-### Get Products By Cluster
+### 10. Get Products By Cluster
 - URL: /getProductsByCluster
 - Method: GET
 - Description: Return products sorted by cluster.
@@ -421,7 +491,7 @@
 - cURL:
 <pre>curl -X GET http://localhost:5000/getProductsByCluster</pre>
 
-### Select Product By Id
+### 11. Select Product By Id
 - URL: /selectProductById/<int:product_id>
 - Method: GET
 - Description: Return products filtered by the product_id.
@@ -471,10 +541,33 @@
   - 200 OK 
   - 500 Internal Server Error
 - cURL:
-<pre>curl -X GET http://localhost:5000selectProductById/<int:product_id></pre>
+<pre>curl -X GET http://localhost:5000/selectProductById/<int:product_id></pre>
+
+### 12. Drop Table
+- URL: /dropTable/<string:tableName>
+- Method: POST
+- Description: Drop a table by the table name.
+- Request Parameters: tableName
+- Response Example:
+
+<pre>{
+  "status": "success",
+  "table": "ptorducts"
+}</pre>  
+- HTTP Status Codes:
+  - 200 OK 
+  - 500 Internal Server Error
+- cURL:
+<pre>curl -X POST http://localhost:5000/dropTable/<string:tableName></pre>
+![dropTable_API.png](readme/dropTable_API.png)
+
+## Schedule Documentation
+### 1. Every hour
+- /dropTable/customers
+- /dropTable/products
 
 ## Project Design
-### Work Flow & Wireframe
+### 1. Work Flow & Wireframe
 <table>
   <tr>
     <th>Work Flow</th>
@@ -500,23 +593,24 @@
   </tr>
 </table>
 
-### Prototype: FIgma
+### 2. Prototype: Figma
 ![Prototype.gif](readme/Prototype.gif)
 
 ## Appendixes
-### Dataset Generation
+### 1. Localhost Demo
+#### 1.1 Dataset Generation
 ![Dataset_Generation.gif](readme/Dataset_Generation.gif)
-### K-Means Clustering
+#### 1.2 K-Means Clustering
 ![K_Means_Clustering1.jpg](readme/K_Means_Clustering1.jpg)
-### Home Page Demo
+#### 1.3 Home Page Demo
 ![Home_Page_Demo.gif](readme/Home_Page_Demo.gif)
-### Select & Result(partial) Page Demo 
+#### 1.4 Select & Result(partial) Page Demo 
 ![Select_Result_301025.gif](./readme/Select_Result_301025.gif)
-### Result Page Demo : Cluster insights and cluster assignments
+#### 1.5 Result Page Demo : Cluster insights and cluster assignments
 ![Result_31102025.gif](./readme/Result_31102025.gif)
-### Result Page Demo : Overall and cluster assignments
+#### 1.6 Result Page Demo : Overall and cluster assignments
 ![Result_Overall_Assignments_01112025.gif](./readme/Result_Overall_Assignments_01112025.gif)
-### Result Page Demo : Overall and recommended products
+#### 1.7 Result Page Demo : Overall and recommended products
 ![Result_04112025.gif](./readme/Result_04112025.gif)
-### Send Email Demo : Selected cluster and product info, the email form
+#### 1.8 Send Email Demo : Selected cluster and product info, the email form
 ![Send_Email_06112025.gif](./readme/Send_Email_06112025.gif)
