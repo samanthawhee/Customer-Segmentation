@@ -25,3 +25,9 @@
     0%, 80%, 100% { transform: translateY(0); }
     40% { transform: translateY(-4px); }
 }
+
+@media (max-width: 600px) {
+    .SelectLoading h1 {
+        font-size: 80%;
+    }
+}

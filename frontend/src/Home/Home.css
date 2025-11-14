@@ -53,6 +53,28 @@
 
   .Home .StartButton {
     grid-row: 11;
+    grid-column: 1 / 4;
+  }
+
+  .Home .HomeIntro {
+    grid-row: 14;
+    grid-column: 1 / 4;
+  }
+
+  .Home .Copyright {
+    grid-column: 1 / 4;
+  }
+}
+
+@media (max-width: 400px) {
+  .Home .HomeTitle {
+    grid-row: 8;
+    grid-column: 1 / 4;
+  }
+
+  .Home .StartButton {
+    grid-row: 11;
+    grid-column: 1 / 4;
   }
 
   .Home .HomeIntro {

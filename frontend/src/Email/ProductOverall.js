@@ -7,6 +7,7 @@ function ProductOverall({ Product }) {
             </div>
         );
     }
+    console.log(Product);
 
     return (
         <div className="ProductOverall">
@@ -16,24 +17,24 @@ function ProductOverall({ Product }) {
                     <thead>
                     <tr>
                         <th>Product ID</th>
-                        <th>Product Name</th>
+                        <th className="col-productName">Product Name</th>
                         <th>Product Type</th>
-                        <th>Product Min Age</th>
-                        <th>Product Max Age</th>
-                        <th>Most Common Occupation</th>
-                        <th>Most Common City</th>
+                        <th>Min Age</th>
+                        <th>Max Age</th>
+                        <th className="col-minIncome">Min Income</th>
+                        <th className="last-visible">Max Income</th>
                     </tr>
                     </thead>
 
                     <tbody>
                     <tr>
                         <td>{Product.product_id}</td>
-                        <td>{Product.product_name}</td>
+                        <td className="col-productName">{Product.product_name}</td>
                         <td>{Product.product_type}</td>
                         <td>{Product.min_age}</td>
                         <td>{Product.max_age}</td>
-                        <td>£{Product.min_age}</td>
-                        <td>£{Product.max_age}</td>
+                        <td className="col-minIncome">£{Product.min_income}</td>
+                        <td className="last-visible">£{Product.max_income}</td>
                     </tr>
                     </tbody>
                 </table>

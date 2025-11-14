@@ -32,6 +32,10 @@
 
 @media (max-width: 600px) {
 
+    .col-productName, .col-minIncome {
+        display: none;
+    }
+
     .ProductOverall table {
         height: 6em;
     }
@@ -54,4 +58,21 @@
     .ProductOverall td:last-child {
         padding-right: 0;
     }
+
+    .ProductOverall th.last-visible,
+    .ProductOverall td.last-visible {
+        border-right: none;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .ProductOverall th {
+        padding-left: 1.2em;
+    }
+
+    .ProductOverall td {
+        font-size: 1.1em;
+    }
+
 }

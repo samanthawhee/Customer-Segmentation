@@ -65,5 +65,13 @@
     .EmailForm textarea::placeholder {
         font-size: 0.7em;
     }
+
+    .EmailForm button {
+        grid-column: 11/14;
+    }
+
+    .EmailStatus {
+        grid-column: 5/10;
+    }
 }
 

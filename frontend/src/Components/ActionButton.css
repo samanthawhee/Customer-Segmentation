@@ -79,3 +79,9 @@
 
     }
 }
+
+@media (max-width: 400px) {
+    .ClusterButton button {
+        margin: 0 2em 0 0;
+    }
+}
